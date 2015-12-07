@@ -1,0 +1,558 @@
+// --------------------------
+// DESERT EAGLE 
+// --------------------------
+
+"weapon_deagle.Single"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"	    "1.0"
+    "pitch"			"100,105"
+	"soundlevel"  	"SNDLVL_94dB "
+	"rndwave"
+	{
+		"wave"	        "weapons/deagle/deagle_tp.wav"	
+	}	
+	"soundentry_version" 	"2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{		
+			"import_stack" "INS_distance_weapon_start"
+			"import_stack" "INS_limit_start3"			
+			"play_distant_version_1"
+			{
+				"entry_name" "Weapon_M45.SingleDistant"
+			}
+		}		
+		"update_stack"
+		{
+			"import_stack" "INS_update_weapon"
+			"mixer"
+			{
+				"mixgroup" "ThirdWeapons"
+			}
+			"volume_distance_xfade"
+			{
+				"input_map_min" "0.0"
+				"input_map_max" "1.0"
+			}
+			"volume_accumulate"
+			{
+				"input3" "0.7"
+			}
+
+		}
+	}
+}
+"Weapon_deagle.SingleLocal"
+{
+	"channel"	    "CHAN_WEAPON"
+	"volume"	    "1.0"
+    "pitch"			"100,105"
+    "soundlevel"	"SNDLVL_GUNFIRE"
+	"wave"		    "weapons/deagle/deagle_FP.wav"	
+}
+
+// --------------------------
+// SIG P226
+// --------------------------
+
+"weapon_p226.Single"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"	    "1.0"
+    "pitch"			"100,105"
+	"soundlevel"  	"SNDLVL_94dB "
+	"rndwave"
+	{
+		"wave"	        "weapons/p226/p226_tp.wav"	
+	}	
+	"soundentry_version" 	"2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{		
+			"import_stack" "INS_distance_weapon_start"
+			"import_stack" "INS_limit_start3"			
+			"play_distant_version_1"
+			{
+				"entry_name" "Weapon_M9.SingleDistant"
+			}
+		}		
+		"update_stack"
+		{
+			"import_stack" "INS_update_weapon"
+			"mixer"
+			{
+				"mixgroup" "ThirdWeapons"
+			}
+			"volume_distance_xfade"
+			{
+				"input_map_min" "0.0"
+				"input_map_max" "1.0"
+			}
+			"volume_accumulate"
+			{
+				"input3" "0.7"
+			}
+
+		}
+	}
+}
+"Weapon_p226.SingleLocal"
+{
+	"channel"	    "CHAN_WEAPON"
+	"volume"	    "1.0"
+    "pitch"			"100,105"
+    "soundlevel"	"SNDLVL_GUNFIRE"
+	"wave"		    "weapons/p226/p226_FP.wav"	
+}
+
+// --------------------------
+// TT-33
+// --------------------------
+
+"weapon_tokarev.Single"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"	    "1.0"
+    "pitch"			"100,105"
+	"soundlevel"  	"SNDLVL_94dB "
+	"rndwave"
+	{
+		"wave"	        "weapons/tokarev/tokarev_tp.wav"	
+	}	
+	"soundentry_version" 	"2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{		
+			"import_stack" "INS_distance_weapon_start"
+			"import_stack" "INS_limit_start3"			
+			"play_distant_version_1"
+			{
+				"entry_name" "Weapon_M9.SingleDistant"
+			}
+		}		
+		"update_stack"
+		{
+			"import_stack" "INS_update_weapon"
+			"mixer"
+			{
+				"mixgroup" "ThirdWeapons"
+			}
+			"volume_distance_xfade"
+			{
+				"input_map_min" "0.0"
+				"input_map_max" "1.0"
+			}
+			"volume_accumulate"
+			{
+				"input3" "0.7"
+			}
+
+		}
+	}
+}
+"Weapon_tokarev.SingleLocal"
+{
+	"channel"	    "CHAN_WEAPON"
+	"volume"	    "1.0"
+    "pitch"			"100,105"
+    "soundlevel"	"SNDLVL_GUNFIRE"
+	"wave"		    "weapons/tokarev/tokarev_FP.wav"	
+}
+
+// --------------------------
+// M4 CARBINE
+// --------------------------
+
+"weapon_m4carbine.Single"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"	    "1.0"
+    "pitch"			"100,105"
+	"soundlevel"  	"SNDLVL_94dB "
+	"rndwave"
+	{
+		"wave"	        "weapons/m4carbine/m4_tp.wav"	
+	}	
+	"soundentry_version" 	"2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{		
+			"import_stack" "INS_distance_weapon_start"
+			"import_stack" "INS_limit_start3"			
+			"play_distant_version_1"
+			{
+				"entry_name" "Weapon_m4a1.SingleDistant"
+			}
+		}		
+		"update_stack"
+		{
+			"import_stack" "INS_update_weapon"
+			"mixer"
+			{
+				"mixgroup" "ThirdWeapons"
+			}
+			"volume_distance_xfade"
+			{
+				"input_map_min" "0.0"
+				"input_map_max" "1.0"
+			}
+			"volume_accumulate"
+			{
+				"input3" "0.7"
+			}
+
+		}
+	}
+}
+"Weapon_m4carbine.SingleLocal"
+{
+	"channel"	    "CHAN_WEAPON"
+	"volume"	    "1.0"
+    "pitch"			"100,105"
+    "soundlevel"	"SNDLVL_GUNFIRE"
+	"wave"		    "weapons/m4carbine/m4_FP.wav"	
+}
+// --------------------------
+// M27 IAR
+// --------------------------
+"weapon_iar.Single"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"	    "1.0"
+    "pitch"			"100,105"
+	"soundlevel"  	"SNDLVL_94dB "
+	"rndwave"
+	{
+		"wave"	        "weapons/iar/iar_tp.wav"	
+	}	
+	"soundentry_version" 	"2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{		
+			"import_stack" "INS_distance_weapon_start"
+			"import_stack" "INS_limit_start3"			
+			"play_distant_version_1"
+			{
+				"entry_name" "Weapon_m4a1.SingleDistant"
+			}
+		}		
+		"update_stack"
+		{
+			"import_stack" "INS_update_weapon"
+			"mixer"
+			{
+				"mixgroup" "ThirdWeapons"
+			}
+			"volume_distance_xfade"
+			{
+				"input_map_min" "0.0"
+				"input_map_max" "1.0"
+			}
+			"volume_accumulate"
+			{
+				"input3" "0.7"
+			}
+
+		}
+	}
+}
+"Weapon_iar.SingleLocal"
+{
+	"channel"	    "CHAN_WEAPON"
+	"volume"	    "1.0"
+    "pitch"			"100,105"
+    "soundlevel"	"SNDLVL_GUNFIRE"
+	"wave"		    "weapons/iar/iar_FP.wav"	
+}
+
+// --------------------------
+// ZASTAVA
+// --------------------------
+
+"Weapon_zastava.Single"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"	    "1.0"
+    "pitch"			"100,105"
+	"soundlevel"  	"SNDLVL_94dB "
+	"rndwave"
+	{
+	"wave"		    ")weapons/zastava/zastava_TP.wav"	
+	}
+	
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "INS_distance_weapon_start"
+			"import_stack" "INS_limit_start3"
+			
+			"play_distant_version_1"
+			{
+				"entry_name" "Weapon_zastava.SingleDistant"
+			}
+		}
+		
+		"update_stack"
+		{
+			"import_stack" "INS_update_weapon"
+			"mixer"
+			{
+				"mixgroup" "ThirdWeapons"
+			}
+			"volume_distance_xfade"
+			{
+				"input_map_min" "0.0"
+				"input_map_max" "1.0"
+			}
+			                        "volume_accumulate"
+                        {
+                               "input3" "0.7"
+                        }
+
+		}
+	}
+
+}
+
+"Weapon_zastava.SingleDistant"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+    "pitch"			"100,105"
+	"soundlevel"  	"SNDLVL_110dB"
+	"wave"			")weapons/sks/sks_dist.wav"
+	
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			"import_stack" "INS_limit_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "ins_update_weapon"
+			"mixer"
+			{
+				"mixgroup" "DistWeapons"
+			}
+		}
+	}
+}
+
+"Weapon_zastava.SingleLocal"
+{
+	"channel"	    "CHAN_WEAPON"
+	"volume"	    "1.0"
+    "pitch"			"100,105"
+    "soundlevel"	"SNDLVL_GUNFIRE"
+	"wave"	"weapons/zastava/zastava_fp.wav"
+}
+
+"Weapon_zastava.SingleSilenced"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"	    "1.0"
+    "pitch"			"100,105"
+	"soundlevel"  	"SNDLVL_90dB"
+	"rndwave"
+	{
+	"wave"	        ")weapons/zastava/zastava_suppressed_tp.wav"	
+	}
+	
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "INS_distance_weapon_start"
+			"import_stack" "INS_limit_start"
+			
+			"play_distant_version_1"
+			{
+				"entry_name" "Weapon_zastava.SingleSilencedDistant"
+			}
+		}
+		
+		"update_stack"
+		{
+			"import_stack" "INS_update_weapon"
+			"mixer"
+			{
+				"mixgroup" "ThirdWeapons"
+			}
+		"volume_xfade_start_dist"
+		{
+			"input2" "100"
+		}	
+		"volume_xfade_end_dist"
+		{
+			"input2" "1200"
+		}	
+
+			"volume_distance_xfade"
+			{
+				"input_map_min" "0.0"
+				"input_map_max" "1.0"
+			}
+			                        "volume_accumulate"
+                        {
+                               "input3" "0.7"
+                        }
+
+		}
+	}
+
+}
+
+"Weapon_zastava.SingleSilencedDistant"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.0"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"  	"SNDLVL_94dB"
+	"wave"			"weapons/universal/null.wav"
+	
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			"import_stack" "INS_limit_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "INS_update_weapon"
+			"mixer"
+			{
+				"mixgroup" "DistWeapons"
+			}
+}
+} 
+}
+
+"Weapon_zastava.SingleSilencedLocal"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"1.0"
+    "pitch"			"100,105"
+    "soundlevel"	"SNDLVL_GUNFIRE"
+	"wave"			"weapons/zastava/zastava_suppressed_fp.wav"	
+}
+
+// ZASTAVA HANDLING
+
+"Weapon_zastava.Magrelease"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"0.2"
+    "pitch"			"PITCH_NORM"
+	"wave"			"weapons/zastava/handling/zastava_magrelease.wav" 
+}
+
+"Weapon_zastava.Magin"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"0.2"
+    "pitch"			"PITCH_NORM"
+	"wave"			"weapons/zastava/handling/zastava_magin.wav" 
+}
+
+"Weapon_zastava.Magout"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"0.2"
+    "pitch"			"PITCH_NORM"
+	"wave"			"weapons/zastava/handling/zastava_magout.wav" 
+}
+
+"Weapon_zastava.Boltback"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"0.3"
+    "pitch"			"PITCH_NORM"
+	"wave"			"weapons/zastava/handling/zastava_boltback.wav" 
+}
+
+"Weapon_zastava.Boltrelease"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"0.3"
+    "pitch"			"PITCH_NORM"
+	"wave"			"weapons/zastava/handling/zastava_boltrelease.wav"  
+}
+
+"Weapon_zastava.Empty"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"0.2"
+    "pitch"			"PITCH_NORM"
+	"wave"			"weapons/zastava/handling/zastava_empty.wav"  
+}
+
+// --------------------------
+// FAL (old) 
+// --------------------------
+
+"weapon_FAL.Single"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"	    "1.0"
+    "pitch"			"100,105"
+	"soundlevel"  	"SNDLVL_94dB "
+	"rndwave"
+	{
+		"wave"	        "weapons/fal/fal_tp.wav"	
+	}	
+	"soundentry_version" 	"2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{		
+			"import_stack" "INS_distance_weapon_start"
+			"import_stack" "INS_limit_start3"			
+			"play_distant_version_1"
+			{
+				"entry_name" "Weapon_FnFAL.SingleDistant"
+			}
+		}		
+		"update_stack"
+		{
+			"import_stack" "INS_update_weapon"
+			"mixer"
+			{
+				"mixgroup" "ThirdWeapons"
+			}
+			"volume_distance_xfade"
+			{
+				"input_map_min" "0.0"
+				"input_map_max" "1.0"
+			}
+			"volume_accumulate"
+			{
+				"input3" "0.7"
+			}
+
+		}
+	}
+}
+"Weapon_FAL.SingleLocal"
+{
+	"channel"	    "CHAN_WEAPON"
+	"volume"	    "1.0"
+    "pitch"			"100,105"
+    "soundlevel"	"SNDLVL_GUNFIRE"
+	"wave"		    "weapons/fal/fal_fp.wav"	
+}

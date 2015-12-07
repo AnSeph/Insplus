@@ -1,0 +1,21 @@
+"VertexLitGeneric"
+{
+	"$basetexture"			"models\weapons\1911\deagleinsplus\weapon_deagle_dm"
+	"$bumpmap" 			"models\weapons\1911\deagleinsplus\weapon_deagle_nm"
+      	"$color"				"[1.1 1.1 1.1]"
+
+	"$phong"                        "1"
+	"$phongalbedotint"              "1"
+	"$phongtint"                    "[.9 .9 0.9]"
+
+	"$phongboost"                   "1"
+	"$phongexponent"                "30"
+	"$phongfresnelranges"           "[3 3 10]"
+	"$phongexponenttexture" 			"models\weapons\1911\deagle\deagle_s"
+
+	"$envmap"                       "env_cubemap"
+	"$normalmapalphaenvmapmask"		"1"
+	"$envmaptint"                   "[0.055 0.055 0.055]"
+
+}
+

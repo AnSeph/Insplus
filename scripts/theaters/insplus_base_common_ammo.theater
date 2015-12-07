@@ -1,0 +1,1858 @@
+"theater"
+{	
+	"ammo"
+	{
+    	// don't use this
+		"default" // set for AKM values as baseline
+		{
+			"flags"						"AMMO_USE_MAGAZINES"
+      		"carry"						"12"
+			"magsize"					"30"
+     		"tracer_type"				"none"
+			"PhysicsImpulse"
+			{
+				"50"					"200"
+				"2000"		  			"150"
+			}
+			"PenetrationDamage"
+			{
+				"0"					  "1.00"
+				"200"				  "0.70"
+				"400"				  "0.50"
+			}
+			"Damage"					
+			{
+				"50"				  	"100"
+				"8000"					"60"
+			}
+			"PenetrationPower"
+			{
+				"50"					"200"
+				"8000"					"135"
+			}
+			"DamageHitgroups"
+			{
+				"HITGROUP_HEAD"       "1.00" 
+				"HITGROUP_CHEST"      "1.00"
+				"HITGROUP_STOMACH"    "1.00"
+				"HITGROUP_LEFTARM"    "1.00"
+				"HITGROUP_RIGHTARM"   "1.00"
+				"HITGROUP_LEFTLEG"    "1.00"
+				"HITGROUP_RIGHTLEG"   "1.00"
+			}
+		}
+
+		"no_carry" // dummy ammo type for weapons that have no backup ammo (at4)
+		{
+			"carry"						"0"
+		}
+		
+		//========================================
+		// ROCKETS
+		//========================================
+		"rocket_rpg7"
+		{
+			"carry"						"1"
+		}
+		
+		//========================================
+		// GRENADES
+		//========================================
+		"grenade_m67"
+		{
+			"carry"						"3"
+		}
+    	"grenade_f1"
+		{
+			"carry"						"3"
+		}
+		"grenade_m18"
+		{
+			"carry"						"3"
+		}
+		"grenade_m84"
+		{
+			"carry"						"3"
+		}
+		"grenade_c4"
+		{
+			"carry"						"1"
+		}
+		"grenade_m203_he"
+		{
+			"carry"						"3"
+		}
+		"grenade_gp25_he"
+		{
+			"carry"						"3"
+		}
+		"grenade_m203_smoke"
+		{
+			"carry"						"3"
+		}
+		"grenade_gp25_smoke"
+		{
+			"carry"						"3"
+		}
+		"grenade_anm14"
+		{
+			"carry"						"3"
+		}
+		"grenade_molotov"
+		{
+			"carry"						"3"
+		}
+		"grenade_flares"
+		{
+			"carry"						"2"
+		}
+			
+    	//========================================
+		// Bullets
+		//========================================
+		"9x19" // FMJ 115gr 381m/s  570J
+		{
+			"import"    "default"
+			"SuppressionIncrement"		"20"
+			"brass_model" 				"models/weapons/shells/9x19.mdl"
+			"Damage"					
+			{
+				"50"      "60"
+				"8000"    "40"
+			}
+			"PenetrationPower"
+			{
+				"50"					"200"
+				"8000"					"100"
+			}
+			"DamageHitgroups"
+			{
+				"HITGROUP_HEAD"       "1.00"
+				"HITGROUP_CHEST"      "1.20"
+				"HITGROUP_STOMACH"    "1.20"
+				"HITGROUP_LEFTARM"    "1.00"
+				"HITGROUP_RIGHTARM"   "1.00"
+				"HITGROUP_LEFTLEG"    "1.00"
+				"HITGROUP_RIGHTLEG"   "1.00"
+			}
+		}
+		"9x19_hp"
+		{
+			"import"    "9x19"
+			"DamageHitgroups"
+			{
+				"HITGROUP_HEAD"       "1.00"
+				"HITGROUP_CHEST"      "1.00"
+				"HITGROUP_STOMACH"    "1.00"
+				"HITGROUP_LEFTARM"    "2"
+				"HITGROUP_RIGHTARM"   "2"
+				"HITGROUP_LEFTLEG"    "2"
+				"HITGROUP_RIGHTLEG"   "2"
+			}
+			"PenetrationPower"
+			{
+				"50"					"150"
+				"8000"					"75"
+			}
+		}
+		"9x19_ap"
+		{
+			"import"    "9x19"
+			"DamageHitgroups"
+			{
+				"HITGROUP_HEAD"       "1.00"
+				"HITGROUP_CHEST"      "1.5"
+				"HITGROUP_STOMACH"    "1.5"
+				"HITGROUP_LEFTARM"    "1"
+				"HITGROUP_RIGHTARM"   "1"
+				"HITGROUP_LEFTLEG"    "1"
+				"HITGROUP_RIGHTLEG"	  "1"
+			}
+			"PenetrationPower"
+			{
+				"50"					"500"
+				"8000"					"150"
+			}
+		}
+		"9x19_tracer"
+		{
+			"import"					"9x19"
+			"SuppressionIncrement"		"25"
+			"tracer_frequency"			"4"
+			"tracer_type"				"whiz_with_line"
+			"tracer_lowammo"			"5"
+		}
+		
+		"38special" // 158gr 290m/s 420J
+		{
+			"import"				"9x19"
+			"flags_clear"			"AMMO_USE_MAGAZINES"
+			"SuppressionIncrement"	"15"
+			"magsize"				"6"
+			"carry"					"48"
+
+			"Damage"
+			{
+				"50"					"60"
+				"8000"					"30"
+			}
+			"PenetrationPower"
+			{
+				"50"					"125"
+				"8000"					"75"
+			}
+		}
+
+		"38special_hp"
+		{
+			"import"				"38special"
+			"flags_clear"			"AMMO_USE_MAGAZINES"
+
+			"DamageHitgroups"
+			{
+				"HITGROUP_HEAD"				"1.00"
+				"HITGROUP_CHEST"			"1.00"
+				"HITGROUP_STOMACH"			"1.00"
+				"HITGROUP_LEFTARM"			"2.00"
+				"HITGROUP_RIGHTARM"			"2.00"
+				"HITGROUP_LEFTLEG"			"2.00"
+				"HITGROUP_RIGHTLEG"			"2.00"
+			}
+			"PenetrationPower"
+			{
+				"50"					"100"
+				"8000"					"50"
+			}
+		}
+
+		"38special_ap"
+		{
+			"import"				"38special"
+			"flags_clear"			"AMMO_USE_MAGAZINES"
+
+			"DamageHitgroups"
+			{
+				"HITGROUP_HEAD"				"1.00"
+				"HITGROUP_CHEST"			"1.50"
+				"HITGROUP_STOMACH"			"1.50"
+				"HITGROUP_LEFTARM"			"1.00"
+				"HITGROUP_RIGHTARM"			"1.00"
+				"HITGROUP_LEFTLEG"			"0.80"
+				"HITGROUP_RIGHTLEG"			"0.80"
+			}
+			"PenetrationPower"
+			{
+				"50"					"350"
+				"8000"					"150"
+			}
+		}
+    
+		"45acp" // FMJ (US Army Ball) 230gr 250m/s  477J
+		{
+			"import"    "default"
+			"SuppressionIncrement"		"20"
+			"brass_model" 				"models/weapons/shells/45apc.mdl"
+			"Damage"					
+			{
+				"50"      	"76"
+				"8000"    	"30"
+			}
+			"PenetrationPower"
+			{
+				"50"      			"175" 
+				"8000"    			"80" 
+			}
+			"DamageHitgroups"
+			{
+				"HITGROUP_HEAD"       "1.00"
+				"HITGROUP_CHEST"      "1.00"
+				"HITGROUP_STOMACH"    "1.00"
+				"HITGROUP_LEFTARM"    "1.2"
+				"HITGROUP_RIGHTARM"   "1.2"
+				"HITGROUP_LEFTLEG"    "1.00"
+				"HITGROUP_RIGHTLEG"   "1.00"
+			}
+		}
+		"45acp_pistol" // FMJ (US Army Ball) 230gr 250m/s  477J
+		{
+			"import"    "45acp"
+			"magsize"	"7"
+		}
+		"45acp_hp"
+		{
+			"import"    "45acp"
+			"DamageHitgroups"
+			{
+				"HITGROUP_HEAD"       "1.00"
+				"HITGROUP_CHEST"      "1.00"
+				"HITGROUP_STOMACH"    "1.00"
+				"HITGROUP_LEFTARM"    "2.00"
+				"HITGROUP_RIGHTARM"   "2.00"
+				"HITGROUP_LEFTLEG"    "2.00"
+				"HITGROUP_RIGHTLEG"   "2.00"
+			}
+			"PenetrationPower"
+			{
+				"50"					"100"
+				"8000"					"75"
+			}
+		}
+		"45acp_hp_pistol"
+		{
+			"import"    "45acp_hp"
+			"magsize"	"7"
+		}
+		"45acp_ap"
+		{
+			"import"    "45acp"
+			"DamageHitgroups"
+			{
+				"HITGROUP_HEAD"       "1.00"
+				"HITGROUP_CHEST"      "1.50"
+				"HITGROUP_STOMACH"    "1.30"
+				"HITGROUP_LEFTARM"    "0.80"
+				"HITGROUP_RIGHTARM"   "0.80"
+				"HITGROUP_LEFTLEG"    "1.00"
+				"HITGROUP_RIGHTLEG"	  "1.00"
+			}
+			"PenetrationPower"
+			{
+				"50"					"500"
+				"8000"					"150"
+			}
+		}	
+		"45acp_ap_pistol"
+		{
+			"import"    "45acp_ap"
+			"magsize"	"7"		
+		}
+		"45acp_tracer"
+		{
+			"import"			"45acp"
+			"SuppressionIncrement"		"35"
+			"tracer_frequency"	"4"
+			"tracer_type"		"whiz_with_line"
+			"tracer_lowammo"	"5"
+		}
+    
+		"545x39" // FMJ (US Army Ball) 230gr 250m/s  477J
+		{
+			"import"    "default"
+			"SuppressionIncrement"		"50"
+			"brass_model"				"models/weapons/shells/545x39.mdl"
+			"Damage"					
+			{
+				"50"      "110"
+				"2700"    "120"  // Drop off begins at 60m
+				"12000"   "85"
+			}
+			"DamageHitgroups"
+			{
+				"HITGROUP_HEAD"       "1.00" 
+				"HITGROUP_CHEST"      "1.00"
+				"HITGROUP_STOMACH"    "1.00"
+				"HITGROUP_LEFTARM"    "1.00"
+				"HITGROUP_RIGHTARM"   "1.00"
+				"HITGROUP_LEFTLEG"    "1.00"
+				"HITGROUP_RIGHTLEG"   "1.00"
+			}
+			"PenetrationPower"
+			{
+				"50"					"650"
+				"8000"					"190"
+			}
+		}
+		"545x39_hp"
+		{
+			"import"    "545x39"
+			"DamageHitgroups"
+			{
+				"HITGROUP_HEAD"       "1.00" 
+				"HITGROUP_CHEST"      "1.00"
+				"HITGROUP_STOMACH"    "1.00"
+				"HITGROUP_LEFTARM"    "2.00"
+				"HITGROUP_RIGHTARM"   "2.00"
+				"HITGROUP_LEFTLEG"    "2.00"
+				"HITGROUP_RIGHTLEG"   "2.00"
+			}
+			"PenetrationPower"
+			{
+				"50"      			"175" 
+				"8000"   		 	"80" 
+			}
+		}
+		"545x39_ap"
+		{
+			"import"    "545x39"
+			"DamageHitgroups"
+			{
+				"HITGROUP_HEAD"       "1.00"
+				"HITGROUP_CHEST"      "1.75"
+				"HITGROUP_STOMACH"    "1.75"
+				"HITGROUP_LEFTARM"    "0.90"
+				"HITGROUP_RIGHTARM"   "0.90"
+				"HITGROUP_LEFTLEG"    "0.50"
+				"HITGROUP_RIGHTLEG"   "0.50"
+			}
+			"PenetrationPower"
+			{
+				"50"					"1200"
+				"8000"					"700"
+			}
+		}
+		"545x39_tracer" // 122gr  730.3m/s 2,108J 
+		{
+			"import"   				"545x39"
+			"SuppressionIncrement"		"75"
+			"tracer_frequency"		"4"
+			"tracer_type"			"whiz_with_line"
+			"tracer_lowammo"		"5"
+		}
+		
+		"545x39_car" // FMJ (US Army Ball) 230gr 250m/s  477J
+		{
+			"import"    "default"
+			"SuppressionIncrement"		"50"
+			"brass_model"				"models/weapons/shells/545x39.mdl"
+			"Damage"					
+			{
+				"50"      	"110"
+				"450"		"110" // Light drop off up to 20m
+				"10000"   	"80"
+			}
+			"DamageHitgroups"
+			{
+				"HITGROUP_HEAD"       "1.00" 
+				"HITGROUP_CHEST"      "1.00"
+				"HITGROUP_STOMACH"    "1.00"
+				"HITGROUP_LEFTARM"    "1.00"
+				"HITGROUP_RIGHTARM"   "1.00"
+				"HITGROUP_LEFTLEG"    "1.00"
+				"HITGROUP_RIGHTLEG"   "1.00"
+			}
+			"PenetrationPower"
+			{
+				"50"					"650"
+				"8000"					"190"
+			}
+		}
+		"545x39_car_hp"
+		{
+			"import"    "545x39_car"
+			"DamageHitgroups"
+			{
+				"HITGROUP_HEAD"       "1.00" 
+				"HITGROUP_CHEST"      "1.00"
+				"HITGROUP_STOMACH"    "1.00"
+				"HITGROUP_LEFTARM"    "2.00"
+				"HITGROUP_RIGHTARM"   "2.00"
+				"HITGROUP_LEFTLEG"    "2.00"
+				"HITGROUP_RIGHTLEG"   "2.00"
+			}
+			"PenetrationPower"
+			{
+				"50"      			"175" 
+				"8000"   		 	"90" 
+			}
+		}
+		"545x39_car_ap"
+		{
+			"import"    "545x39_car"
+			"DamageHitgroups"
+			{
+				"HITGROUP_HEAD"       "1.00"
+				"HITGROUP_CHEST"      "1.75"
+				"HITGROUP_STOMACH"    "1.75"
+				"HITGROUP_LEFTARM"    "0.90"
+				"HITGROUP_RIGHTARM"   "0.90"
+				"HITGROUP_LEFTLEG"    "0.50"
+				"HITGROUP_RIGHTLEG"   "0.50"
+			}
+			"PenetrationPower"
+			{
+				"50"					"1200"
+				"8000"					"700"
+			}
+		}
+		"545x39_car_tracer" // 122gr  730.3m/s 2,108J 
+		{
+			"import"   				"545x39_car"
+			"SuppressionIncrement"		"75"
+			"tracer_frequency"		"4"
+			"tracer_type"			"whiz_with_line"
+			"tracer_lowammo"		"5"
+		}
+    
+    
+		"556x45" // (currently assuming 855 not 855a) rough approx: 62gr 940m/s 1,767J 
+		{
+			"import"    "default"
+			"SuppressionIncrement"		"50"
+			"brass_model"				"models/weapons/shells/556x45.mdl"
+			"Damage"					
+			{
+				"50"      "120" // bullets fragment at under 60m dealing more damage. (truly more like 150m but compromise for gameplay)
+				"2700"    "110" 
+				"12000"   "80" 
+			}
+			"DamageHitgroups"
+			{
+				"HITGROUP_HEAD"       "1.00" 
+				"HITGROUP_CHEST"      "1.00"
+				"HITGROUP_STOMACH"    "1.00"
+				"HITGROUP_LEFTARM"    "1.00"
+				"HITGROUP_RIGHTARM"   "1.00"
+				"HITGROUP_LEFTLEG"    "1.00"
+				"HITGROUP_RIGHTLEG"   "1.00"
+			}
+			"PenetrationPower" // Maybe offer or imply Mk318 rounds which are like combined HP and AP at high cost?
+			{
+				"50"      "600" //NATO Ball (M855) can penetrate up to 3 mm (about 1/8 in) of steel at 600 meters
+				"10000"   "175" 
+			}
+		}
+		"556x45_hp"
+		{
+			"import"    "556x45"
+			"DamageHitgroups"
+			{
+				"HITGROUP_HEAD"       "1.00"
+				"HITGROUP_CHEST"      "1.00"
+				"HITGROUP_STOMACH"    "1.00"
+				"HITGROUP_LEFTARM"    "2.00"
+				"HITGROUP_RIGHTARM"   "2.00"
+				"HITGROUP_LEFTLEG"    "2.00"
+				"HITGROUP_RIGHTLEG"   "2.00"
+			}
+			"PenetrationPower"
+			{
+				"50"      "400" 
+				"12000"   "150" 
+			}
+		}
+		"556x45_ap"
+		{
+			"import"    "556x45"
+			"DamageHitgroups"
+			{
+				"HITGROUP_HEAD"       "1.00"
+				"HITGROUP_CHEST"      "1.75"
+				"HITGROUP_STOMACH"    "1.75"
+				"HITGROUP_LEFTARM"    "0.85"
+				"HITGROUP_RIGHTARM"   "0.85"
+				"HITGROUP_LEFTLEG"    "0.75"
+				"HITGROUP_RIGHTLEG"   "0.75"
+			}
+			"PenetrationPower"
+			{
+				"50"      "1200" //M995 can penetrate up to 12 mm (nearly 1/2 in) of RHA steel at 100 meters.
+				"12000"   "600" 
+			}
+		}
+		"556x45_tracer" // 122gr  730.3m/s 2,108J 
+		{
+			"import"   				"556x45"
+			"SuppressionIncrement"		"75"
+			"tracer_frequency"		"3"
+			"tracer_type"			"whiz_with_line"
+			"tracer_lowammo"		"5"
+		}
+		
+		"556x45_car" // 20" vs 14" barrel: 866m/s vs 922m/s
+		{
+			"import"    "default"
+			"brass_model"				"models/weapons/shells/556x45.mdl"
+			"SuppressionIncrement"		"50"
+			"Damage"					
+			{
+				"50"      	"120" // bullets fragment at under 20m dealing more damage. (truly more like 50m but compromise for gameplay)
+				"850"		"110"
+				"12000"   	"75" 
+			}
+			"DamageHitgroups"
+			{
+				"HITGROUP_HEAD"       "1.00" 
+				"HITGROUP_CHEST"      "1.10"
+				"HITGROUP_STOMACH"    "1.10"
+				"HITGROUP_LEFTARM"    "1.00"
+				"HITGROUP_RIGHTARM"   "1.00"
+				"HITGROUP_LEFTLEG"    "1.00"
+				"HITGROUP_RIGHTLEG"   "1.00"
+			}
+			"PenetrationPower" // Maybe offer or imply Mk318 rounds which are like combined HP and AP at high cost?
+			{
+				"50"      "600" //NATO Ball (M855) can penetrate up to 3 mm (about 1/8 in) of steel at 600 meters
+				"10000"   "175" 
+			}
+		}
+		"556x45_car_hp"
+		{
+			"import"    "556x45_car"
+			"DamageHitgroups"
+			{
+				"HITGROUP_HEAD"       "1.00"
+				"HITGROUP_CHEST"      "1.00"
+				"HITGROUP_STOMACH"    "1.00"
+				"HITGROUP_LEFTARM"    "2.00"
+				"HITGROUP_RIGHTARM"   "2.00"
+				"HITGROUP_LEFTLEG"    "2.00"
+				"HITGROUP_RIGHTLEG"   "2.00"
+			}
+			"PenetrationPower"
+			{
+				"50"      "400" 
+				"12000"   "150" 
+			}
+		}
+		"556x45_car_ap"
+		{
+			"import"    "556x45_car"
+			"DamageHitgroups"
+			{
+				"HITGROUP_HEAD"       "1.00"
+				"HITGROUP_CHEST"      "1.75"
+				"HITGROUP_STOMACH"    "1.75"
+				"HITGROUP_LEFTARM"    "0.85"
+				"HITGROUP_RIGHTARM"   "0.85"
+				"HITGROUP_LEFTLEG"    "0.75"
+				"HITGROUP_RIGHTLEG"   "0.75"
+			}
+			"PenetrationPower"
+			{
+				"50"      "1200" //M995 can penetrate up to 12 mm (nearly 1/2 in) of RHA steel at 100 meters.
+				"12000"   "600" 
+			}
+		}
+		"556x45_car_tracer" // 122gr  730.3m/s 2,108J 
+		{
+			"import"   					"556x45_car"
+			"SuppressionIncrement"		"75"
+			"tracer_frequency"			"4"
+			"tracer_type"				"whiz_with_line"
+			"tracer_lowammo"			"5"
+		}
+		
+		"556x45_cqb" // 20" vs 14" barrel: 866m/s vs 922m/s
+		{
+			"import"    "default"
+			"brass_model"				"models/weapons/shells/556x45.mdl"
+			"SuppressionIncrement"		"50"
+			"Damage"					
+			{
+				"50"      	"130" // bullets fragment at under 20m dealing more damage. (truly more like 50m but compromise for gameplay)
+				"450"		"110"
+				"10000"   	"70" 
+			}
+			"DamageHitgroups"
+			{
+				"HITGROUP_HEAD"       "1.00" 
+				"HITGROUP_CHEST"      "1.10"
+				"HITGROUP_STOMACH"    "1.10"
+				"HITGROUP_LEFTARM"    "1.00"
+				"HITGROUP_RIGHTARM"   "1.00"
+				"HITGROUP_LEFTLEG"    "1.00"
+				"HITGROUP_RIGHTLEG"   "1.00"
+			}
+			"PenetrationPower" // Maybe offer or imply Mk318 rounds which are like combined HP and AP at high cost?
+			{
+				"50"      "600" //NATO Ball (M855) can penetrate up to 3 mm (about 1/8 in) of steel at 600 meters
+				"10000"   "175" 
+			}
+		}
+		"556x45_cqb_hp"
+		{
+			"import"    "556x45_cqb"
+			"DamageHitgroups"
+			{
+				"HITGROUP_HEAD"       "1.00"
+				"HITGROUP_CHEST"      "1.00"
+				"HITGROUP_STOMACH"    "1.00"
+				"HITGROUP_LEFTARM"    "2.00"
+				"HITGROUP_RIGHTARM"   "2.00"
+				"HITGROUP_LEFTLEG"    "2.00"
+				"HITGROUP_RIGHTLEG"   "2.00"
+			}
+			"PenetrationPower"
+			{
+				"50"      "400" 
+				"12000"   "150" 
+			}
+		}
+		"556x45_cqb_ap"
+		{
+			"import"    "556x45_cqb"
+			"DamageHitgroups"
+			{
+				"HITGROUP_HEAD"       "1.00"
+				"HITGROUP_CHEST"      "1.75"
+				"HITGROUP_STOMACH"    "1.75"
+				"HITGROUP_LEFTARM"    "0.85"
+				"HITGROUP_RIGHTARM"   "0.85"
+				"HITGROUP_LEFTLEG"    "0.75"
+				"HITGROUP_RIGHTLEG"   "0.75"
+			}
+			"PenetrationPower"
+			{
+				"50"      "1200" //M995 can penetrate up to 12 mm (nearly 1/2 in) of RHA steel at 100 meters.
+				"12000"   "600" 
+			}
+		}
+		"556x45_cqb_tracer" // 122gr  730.3m/s 2,108J 
+		{
+			"import"   					"556x45_car"
+			"SuppressionIncrement"		"75"
+			"tracer_frequency"			"4"
+			"tracer_type"				"whiz_with_line"
+			"tracer_lowammo"			"5"
+		}
+    
+		"762x39" // 122gr  730.3m/s 2,108J 
+		{
+			"import"    "default"
+			"SuppressionIncrement"		"50"
+			"brass_model" "models/weapons/shells/762x39.mdl"
+			
+			"PenetrationDamage"
+			{
+				"0"					  "1.00"
+				"200"				  "0.80"
+				"400"				  "0.70"
+				"800"				  "0.60"
+			}
+			
+			"Damage"					
+			{
+				"50"      "100"
+				"2700"    "115"
+				"12000"   "80" 
+			}
+			"DamageHitgroups"
+			{
+				"HITGROUP_HEAD"       "1.00"
+				"HITGROUP_CHEST"      "1.00"
+				"HITGROUP_STOMACH"    "1.00"
+				"HITGROUP_LEFTARM"    "1.00"
+				"HITGROUP_RIGHTARM"   "1.00"
+				"HITGROUP_LEFTLEG"    "1.00"
+				"HITGROUP_RIGHTLEG"   "1.00"
+			}
+			"PenetrationPower"
+			{
+				"50"      "1000" 
+				"12000"   "150" 
+			}
+		}
+		"762x39_hp"
+		{
+			"import"    "762x39"
+			"DamageHitgroups"
+			{
+				"HITGROUP_HEAD"       "1.00"
+				"HITGROUP_CHEST"      "1.00"
+				"HITGROUP_STOMACH"    "1.00"
+				"HITGROUP_LEFTARM"    "2.00"
+				"HITGROUP_RIGHTARM"   "2.00"
+				"HITGROUP_LEFTLEG"    "2.00"
+				"HITGROUP_RIGHTLEG"   "2.00"
+			}
+			"PenetrationPower"
+			{
+				"50"      "250" 
+				"12000"   "50" 
+			}
+		}
+		"762x39_ap"
+		{
+			"import"    "762x39"
+			"DamageHitgroups"
+			{
+				"HITGROUP_HEAD"       "1.00"
+				"HITGROUP_CHEST"      "2.75"
+				"HITGROUP_STOMACH"    "2.00"
+				"HITGROUP_LEFTARM"    "1"
+				"HITGROUP_RIGHTARM"   "1"
+				"HITGROUP_LEFTLEG"    "0.75"
+				"HITGROUP_RIGHTLEG"   "0.75"
+			}
+			"PenetrationPower"
+			{
+				"50"      "1700" 
+				"12000"   "600" 
+			}
+		}
+		"762x39_tracer" // 122gr  730.3m/s 2,108J 
+		{
+			"import"   				"762x39"
+			"SuppressionIncrement"		"75"
+			"tracer_frequency"		"4"
+			"tracer_type"			"whiz_with_line"
+			"tracer_lowammo"		"5"
+		}
+    
+		"762x33" // 110gr 606.5m/s  1,311 J
+		{
+			"import"    "default"
+			"SuppressionIncrement"		"50"
+			"brass_model"				"models/weapons/shells/762x33.mdl"
+			"PenetrationPower"
+			{
+				"50"      	"450"
+				"12000"   	"10"
+			}
+			"Damage"					
+			{
+				"50"      	"100"
+				"12000"   	"80" 
+			}
+			"DamageHitgroups"
+			{
+				"HITGROUP_HEAD"       "1.00" 
+				"HITGROUP_CHEST"      "1.00"
+				"HITGROUP_STOMACH"    "1.00"
+				"HITGROUP_LEFTARM"    "1.00"
+				"HITGROUP_RIGHTARM"   "1.00"
+				"HITGROUP_LEFTLEG"    "1.00"
+				"HITGROUP_RIGHTLEG"   "1.00"
+			}
+		}
+		"762x33_hp"
+		{
+			"import"    "762x33"
+			"DamageHitgroups"
+			{
+				"HITGROUP_HEAD"       "1.00"
+				"HITGROUP_CHEST"      "1.00"
+				"HITGROUP_STOMACH"    "1.00"
+				"HITGROUP_LEFTARM"    "2.20"
+				"HITGROUP_RIGHTARM"   "2.20"
+				"HITGROUP_LEFTLEG"    "2.20"
+				"HITGROUP_RIGHTLEG"   "2.20"
+			}
+			"PenetrationPower"
+			{
+				"50"      	"225" 
+				"12000"   	"5" 
+			}
+		}
+		"762x33_ap"
+		{
+			"import"    "762x33"
+			"DamageHitgroups"
+			{
+				"HITGROUP_HEAD"       "1.00"
+				"HITGROUP_CHEST"      "2.00"
+				"HITGROUP_STOMACH"    "2.00"
+				"HITGROUP_LEFTARM"    "1.00"
+				"HITGROUP_RIGHTARM"   "1.00"
+				"HITGROUP_LEFTLEG"    "0.60"
+				"HITGROUP_RIGHTLEG"   "0.60"
+			}
+			"PenetrationPower"
+			{
+				"50"      	"800" 
+				"12000"   	"100" 
+			}
+		}
+		"762x33_tracer"
+		{
+			"import"			"762x33"
+			"SuppressionIncrement"		"75"
+			"tracer_frequency"	"3"
+			"tracer_type"		"whiz_with_line"
+			"tracer_lowammo"	"5"
+		}
+		
+		"762x51" // 147gr 833 m/s 3,304J
+		{
+			"import"    "default"
+			"SuppressionIncrement"		"75"
+			"brass_model"				"models/weapons/shells/762x51.mdl"
+			"Damage"					
+			{
+				"50"        "110"
+				"2700"		"135"
+				"18000"     "95" 
+			}
+			"PenetrationDamage"
+			{
+				"0"					  "1.00"
+				"200"				  "0.90"
+				"400"				  "0.80"
+				"800"				  "0.70"
+			}
+			"DamageHitgroups"
+			{
+				"HITGROUP_HEAD"       "1.00"
+				"HITGROUP_CHEST"      "1.0"
+				"HITGROUP_STOMACH"    "1.0"
+				"HITGROUP_LEFTARM"    "1.0"
+				"HITGROUP_RIGHTARM"   "1.00"
+				"HITGROUP_LEFTLEG"    "1.00"
+				"HITGROUP_RIGHTLEG"   "1.00"
+			}
+			"PenetrationPower"
+			{
+				"50"					"1100"
+				"15000"					"150"
+			}
+		}
+		
+		"762x51_tracer"
+		{
+			"import"				"762x51"
+			"SuppressionIncrement"	"100"		
+			"tracer_frequency"		"4"
+			"tracer_type"			"whiz_with_line"
+			"tracer_lowammo"		"5"		
+		}
+		
+		"762x51_hp"
+		{
+			"import"	"762x51"
+
+			"DamageHitgroups"
+			{
+				"HITGROUP_HEAD"       "1.00"
+				"HITGROUP_CHEST"      "1.00"
+				"HITGROUP_STOMACH"    "1.00"
+				"HITGROUP_LEFTARM"    "2.00"
+				"HITGROUP_RIGHTARM"   "2.00"
+				"HITGROUP_LEFTLEG"    "2.00"
+				"HITGROUP_RIGHTLEG"   "2.00"
+			}
+			"PenetrationPower"
+			{
+				"50"					"400"
+				"12000"					"50"
+			}
+		}
+		
+		"762x51_ap"
+		{
+			"import"    "762x51"
+			"DamageHitgroups"
+			{
+				"HITGROUP_HEAD"       "1.00"
+				"HITGROUP_CHEST"      "2.5"
+				"HITGROUP_STOMACH"    "2.5"
+				"HITGROUP_LEFTARM"    "0.75"
+				"HITGROUP_RIGHTARM"   "0.75"
+				"HITGROUP_LEFTLEG"    "0.5"
+				"HITGROUP_RIGHTLEG"   "0.5"
+			}
+			"PenetrationPower"
+			{
+				"50"      "1800" 
+				"12000"   "600" 
+			}
+		}
+		
+		"762x54"	// 181gr 786m/s  3,614J
+		{
+			"import"				"762x51"
+		}
+		
+		"762x54_ap"
+		{
+			"import"				"762x51_ap"
+		}
+    
+
+		"00buck"
+		{
+			"import"					"default"
+			"SuppressionIncrement"		"75"
+			"bulletcount"				"12"
+			"damageType"				"DMG_BUCKSHOT"
+			"brass_model"				"models/weapons/shells/12guage.mdl"
+			"brass_sound"				"BOUNCE_SHOTSHELL"
+			"Damage"
+			{
+				"800"				"35"
+				"2000"            	"20"
+				"7000"				"5"
+			}	
+			"PenetrationPower"
+			{
+				"1000"						"65" 
+				"8000"						"10" 
+			}			
+			"DamageHitgroups"
+			{
+				"HITGROUP_HEAD"					"1.00"
+				"HITGROUP_CHEST"			  	"1.00"
+				"HITGROUP_STOMACH"				"1.00"
+				"HITGROUP_LEFTARM"				"1.00"
+				"HITGROUP_RIGHTARM"				"1.00"
+				"HITGROUP_LEFTLEG"				"1.00"
+				"HITGROUP_RIGHTLEG"				"1.00"
+			}
+		}
+		"slug"
+		{	
+			"import"					"default"
+			"SuppressionIncrement"		"45"
+			"damageType"				"DMG_BUCKSHOT"
+			"brass_model"				"models/weapons/shells/12guage.mdl"
+			"brass_sound"				"BOUNCE_SHOTSHELL"
+			"Damage"
+			{
+				"800"				"288"
+				"4500"            	"150"
+				"9000"				"40"
+			}				
+			"PenetrationPower"
+			{
+				"1000"						  	"650" 
+				"8000"							"100" 
+			}
+			"DamageHitgroups"
+			{
+				"HITGROUP_HEAD"					"1.00"
+				"HITGROUP_CHEST"			  	"1.00"
+				"HITGROUP_STOMACH"				"1.00"
+				"HITGROUP_LEFTARM"				"1.00"
+				"HITGROUP_RIGHTARM"				"1.00"
+				"HITGROUP_LEFTLEG"				"0.45"
+				"HITGROUP_RIGHTLEG"				"0.45"
+			}
+		}
+		// (shouldn't this be on the weapon? Or a diff theater file?)
+		//========================================
+		// NOT MAGAZINES
+		//========================================
+		//========================================
+		// m40a1
+		//========================================
+		"762x51mm"
+		{
+			"import"					"762x51"
+			"carry"						"120"
+			"flags_clear"				"AMMO_USE_MAGAZINES"
+		}
+		"762x51mm_ap"
+		{
+			"import"					"762x51_ap"
+			"carry"						"120"
+			"flags_clear"				"AMMO_USE_MAGAZINES"
+		}
+		//========================================
+		// mosin
+		//========================================
+		"762x54mm"
+		{
+			"import"					"762x54"
+			"carry"						"120"
+			"flags_clear"				"AMMO_USE_MAGAZINES"
+		}
+		"762x54mm_ap"
+		{
+			"import"					"762x54_ap"
+			"carry"						"120"
+			"flags_clear"				"AMMO_USE_MAGAZINES"
+		}
+		//========================================
+		// shotguns
+		//========================================
+		"buckshot"
+		{
+			"import"				"00buck"
+			"flags_clear"			"AMMO_USE_MAGAZINES"
+			"carry"					"72"
+			
+		}
+		"slugs"
+		{
+			"import"				"slug"
+			"flags_clear"			"AMMO_USE_MAGAZINES"
+			"carry"					"72"
+		}
+		//========================================
+		//  MAGAZINES
+		//========================================
+		//========================================
+		// makarov
+		//========================================
+		"9x18mm"
+		{
+			"import"					"9x19"
+			"carry"						"10"
+			"magsize"					"8"
+		}
+		"9x18mm_hp"
+		{
+			"import"					"9x19_hp"
+			"carry"						"10"
+			"magsize"					"8"
+		}
+		"9x18mm_ap"
+		{
+			"import"					"9x19_ap"
+			"carry"						"10"
+			"magsize"					"8"
+		}
+		
+		"9x18mm_aps"
+		{
+			"import"					"9x19"
+			"carry"						"10"
+			"magsize"					"20"
+		}
+		"9x18mm_hp_aps"
+		{
+			"import"					"9x19_hp"
+			"carry"						"10"
+			"magsize"					"20"
+		}
+		"9x18mm_ap_aps"
+		{
+			"import"					"9x19_ap"
+			"carry"						"10"
+			"magsize"					"20"
+		}
+		//========================================
+		// m9
+		//========================================
+		"9x19mm"
+		{
+			"import"					"9x19"
+			"carry"						"10"
+			"magsize"					"15"
+		}
+		"9x19mm_hp"
+		{
+			"import"					"9x19_hp"
+			"carry"						"10"
+			"magsize"					"15"
+		}
+		"9x19mm_ap"
+		{
+			"import"					"9x19_ap"
+			"carry"						"10"
+			"magsize"					"15"
+		}
+		//========================================
+		// AKM
+		//========================================
+		"762x38_box"
+		{
+			"import"    "762x39"
+		}
+		"762x38_hp_box"
+		{
+			"import"    "762x39_hp"
+		}
+		"762x38_ap_box"
+		{
+			"import"    "762x39_AP"
+		}
+		"762x38_tracer_box"
+		{
+			"import"    "762x39_tracer"
+		}
+		//========================================
+		// FAL
+		//========================================
+		"762x51_box_20rnd"
+		{
+			"import"    "762x51"
+			"magsize"	"20"
+		}
+		"762x51_hp_box_20rnd"
+		{
+			"import"    "762x51_hp"
+			"magsize"	"20"
+		}
+		"762x51_ap_box_20rnd"
+		{
+			"import"    "762x51_ap"
+			"magsize"	"20"
+		}
+		"762x51_tracer_box_20rnd"
+		{
+			"import"    "762x51_tracer"
+			"magsize"	"20"
+		}
+		//========================================
+		// m16a4/m4a1/mk18
+		//========================================
+		"556_stanag"
+		{
+			"import"    "556x45"
+		}
+		"556_hp_stanag"
+		{
+			"import"    "556x45_hp"
+		}
+		"556_ap_stanag"
+		{
+			"import"    "556x45_ap"
+		}
+		"556_tracer_stanag"
+		{
+			"import"	"556x45_tracer"
+		}
+		"556_stanag_m4"
+		{
+			"import"    "556x45_car"
+		}
+		"556_hp_stanag_m4"
+		{
+			"import"    "556x45_car_hp"
+		}
+		"556_ap_stanag_m4"
+		{
+			"import"    "556x45_car_ap"
+		}		
+		"556_tracer_stanag_m4"
+		{
+			"import"	"556x45_car_tracer"
+		}
+		"556_stanag_cqb"
+		{
+			"import"    "556x45_cqb"
+		}
+		"556_hp_stanag_cqb"
+		{
+			"import"    "556x45_cqb_hp"
+		}
+		"556_ap_stanag_cqb"
+		{
+			"import"    "556x45_cqb_ap"
+		}		
+		"556_tracer_stanag_cqb"
+		{
+			"import"	"556x45_cqb_tracer"
+		}
+		//========================================
+		// mp5k
+		//========================================
+		"9x19mm_mp5"
+		{
+			"import"					"9x19"
+			"carry"						"12"
+			"magsize"					"30"
+		}		
+		"9x19mm_hp_mp5"
+		{
+			"import"					"9x19_hp"
+			"carry"						"12"
+			"magsize"					"30"
+		}	
+		"9x19mm_ap_mp5"
+		{
+			"import"					"9x19_ap"
+			"carry"						"12"
+			"magsize"					"30"
+		}
+		"9x19mm_tracer_mp5"
+		{
+			"import"					"9x19_tracer"
+			"carry"						"12"
+			"magsize"					"30"
+		}
+		//========================================
+		// ump45
+		//========================================
+		"45acp_ump"
+		{
+			"import"					"45acp"
+			"carry"						"12"
+			"magsize"					"25"
+		}
+		"45acp_hp_ump"
+		{
+			"import"					"45acp_hp"
+			"carry"						"12"
+			"magsize"					"25"
+		}
+		"45acp_ap_ump"
+		{
+			"import"					"45acp_ap"
+			"carry"						"12"
+			"magsize"					"25"
+		}
+		"45acp_tracer_ump"
+		{
+			"import"					"45acp_tracer"
+			"carry"						"12"
+			"magsize"					"25"
+		}
+		//========================================
+		// m14
+		//========================================
+		"762x51_mag"
+		{
+			"import"	"762x51"
+			"magsize"	"20"
+		}
+		"762x51_mag_ap"
+		{
+			"import"	"762x51_ap"
+			"magsize"	"20"
+		}
+		"762x51_mag_hp"
+		{
+			"import"	"762x51_hp"
+			"magsize"	"20"
+		}
+		//========================================
+		// mini14
+		//========================================
+		"556_box"
+		{
+			"import"					"556x45_car"
+			"carry"						"12"
+			"magsize"					"20"
+		}
+		"556_hp_box"
+		{
+			"import"					"556x45_car_hp"
+			"carry"						"12"
+			"magsize"					"20"
+		}
+		"556_ap_box"
+		{
+			"import"					"556x45_car_ap"
+			"carry"						"12"
+			"magsize"					"20"
+		}
+		"556_tracer_box"
+		{
+			"import"					"556x45_car_tracer"
+			"carry"						"12"
+			"magsize"					"20"
+			"tracer_frequency"			"3"
+		}
+		//========================================
+		// m1a1
+		//========================================
+		"30_carbine"
+		{
+			"import"					"762x33"
+			"carry"						"12"
+			"magsize"					"15"
+		}
+		"30_carbine_hp"
+		{
+			"import"					"762x33_hp"
+			"carry"						"12"
+			"magsize"					"15"
+		}
+		"30_carbine_ap"
+		{
+			"import"					"762x33_ap"
+			"carry"						"12"
+			"magsize"					"15"
+		}
+		"30_carbine_tracer"
+		{
+			"import"					"762x33_tracer"
+			"carry"						"12"
+			"magsize"					"15"
+		}
+		//========================================
+		// sks
+		//========================================
+		"762x38mm_clip"
+		{
+			"import"					"762x39"
+			"carry"						"12"
+			"magsize"					"20"
+		}
+		"762x38mm_hp_clip"
+		{
+			"import"					"762x39_hp"
+			"carry"						"12"
+			"magsize"					"20"
+		}
+		"762x38mm_ap_clip"
+		{
+			"import"					"762x39_ap"
+			"carry"						"12"
+			"magsize"					"20"
+		}
+		"762x38mm_tracer_clip"
+		{
+			"import"					"762x39_tracer"
+			"carry"						"12"
+			"magsize"					"20"
+			"tracer_frequency"			"3"
+		}
+		//========================================
+		// m249
+		//========================================
+		"556_m27"
+		{
+			"import"					"556x45"
+			"carry"						"6"
+			"magsize"					"200"
+			"tracer_frequency"			"4"
+			"tracer_type"				"whiz_with_line"
+			"tracer_lowammo"			"9"
+			"SuppressionIncrement"		"100"
+		}
+		"556_m27_hp"
+		{
+			"import"					"556x45_hp"
+			"carry"						"6"
+			"magsize"					"200"
+			"tracer_frequency"			"4"
+			"tracer_type"				"whiz_with_line"
+			"tracer_lowammo"			"9"
+			"SuppressionIncrement"		"100"
+		}
+		"556_m27_ap"
+		{
+			"import"					"556x45_ap"
+			"carry"						"6"
+			"magsize"					"200"
+			"tracer_frequency"			"4"
+			"tracer_type"				"whiz_with_line"
+			"tracer_lowammo"			"9"
+			"SuppressionIncrement"		"100"
+		}
+		//========================================
+		// RPK
+		//========================================
+		"762x38_drum"
+		{
+			"import"					"762x39"
+			"carry"						"6"
+			"magsize"					"75"
+			"tracer_frequency"			"3"
+			"tracer_type"				"whiz_with_line"
+			"tracer_lowammo"			"7"
+			"SuppressionIncrement"		"100"
+		}
+		"762x38_hp_drum"
+		{
+			"import"					"762x39_hp"
+			"carry"						"6"
+			"magsize"					"75"
+			"tracer_frequency"			"3"
+			"tracer_type"				"whiz_with_line"
+			"tracer_lowammo"			"7"
+			"SuppressionIncrement"		"100"
+		}
+		"762x38_ap_drum"
+		{
+			"import"					"762x39_ap"
+			"carry"						"6"
+			"magsize"					"75"
+			"tracer_frequency"			"3"
+			"tracer_type"				"whiz_with_line"
+			"tracer_lowammo"			"7"
+			"SuppressionIncrement"		"100"
+		}
+		
+		//========================================
+		// Insplus Ammo
+		//========================================
+		
+		"50ae"
+		{
+			"import"    				"default"
+			"SuppressionIncrement"		"65"
+			"brass_model" 				"models/weapons/shells/45apc.mdl"
+			"Damage"					
+			{
+				"50"      	"90"
+				"8000"    	"50"
+			}
+			"PenetrationPower"
+			{
+				"50"      "450" 
+				"8000"    "50" 
+			}
+			"DamageHitgroups"
+			{
+				"HITGROUP_HEAD"					"1.00"
+				"HITGROUP_CHEST"			  	"1.00"
+				"HITGROUP_STOMACH"				"1.00"
+				"HITGROUP_LEFTARM"				"2.00"
+				"HITGROUP_RIGHTARM"				"2.00"
+				"HITGROUP_LEFTLEG"				"2.00"
+				"HITGROUP_RIGHTLEG"				"2.00"
+			}
+		}
+		"357magnum"
+		{
+			"import"    				"default"
+			"SuppressionIncrement"		"65"
+			"brass_model" 				"models/weapons/shells/45apc.mdl"
+			"Damage"					
+			{
+				"50"      	"100"
+				"8000"    	"65"
+			}
+			"PenetrationPower"
+			{
+				"50"      "950" 
+				"8000"    "200" 
+			}
+			"DamageHitgroups"
+			{
+				"HITGROUP_HEAD"					"1.00"
+				"HITGROUP_CHEST"			  	"1.50"
+				"HITGROUP_STOMACH"				"1.50"
+				"HITGROUP_LEFTARM"				"1.00"
+				"HITGROUP_RIGHTARM"				"1.00"
+				"HITGROUP_LEFTLEG"				"1.00"
+				"HITGROUP_RIGHTLEG"				"1.00"
+			}
+		}
+		"357sig"
+		{
+			"import"					"default"
+			"SuppressionIncrement"		"30"
+			"brass_model" 				"models/weapons/shells/45apc.mdl"
+			"Damage"
+			{
+				"50"		"60"
+				"8000"		"40"
+			}
+			"PenetrationPower"
+			{
+				"50"		"300"
+				"8000"		"80"
+			}
+			"DamageHitgroups"
+			{
+				"HITGROUP_HEAD"					"1.00"
+				"HITGROUP_CHEST"			  	"1.35"
+				"HITGROUP_STOMACH"				"1.00"
+				"HITGROUP_LEFTARM"				"1.00"
+				"HITGROUP_RIGHTARM"				"1.00"
+				"HITGROUP_LEFTLEG"				"1.00"
+				"HITGROUP_RIGHTLEG"				"1.00"
+			}
+		}
+		"357sig_hp"
+		{
+			"import"					"357sig"
+			"SuppressionIncrement"		"30"
+			"brass_model" 				"models/weapons/shells/45apc.mdl"
+			"PenetrationPower"
+			{
+				"50"		"100"
+				"8000"		"20"
+			}
+			"DamageHitgroups"
+			{
+				"HITGROUP_HEAD"					"1.00"
+				"HITGROUP_CHEST"			  	"1.00"
+				"HITGROUP_STOMACH"				"1.00"
+				"HITGROUP_LEFTARM"				"2.00"
+				"HITGROUP_RIGHTARM"				"2.00"
+				"HITGROUP_LEFTLEG"				"2.00"
+				"HITGROUP_RIGHTLEG"				"2.00"
+			}
+		}
+		"357sig_ap"
+		{
+			"import"					"357sig"
+			"SuppressionIncrement"		"30"
+			"brass_model" 				"models/weapons/shells/45apc.mdl"
+			"PenetrationPower"
+			{
+				"50"		"550"
+				"8000"		"100"
+			}
+			"DamageHitgroups"
+			{
+				"HITGROUP_HEAD"					"1.00"
+				"HITGROUP_CHEST"			  	"1.75"
+				"HITGROUP_STOMACH"				"1.75"
+				"HITGROUP_LEFTARM"				"1.00"
+				"HITGROUP_RIGHTARM"				"1.00"
+				"HITGROUP_LEFTLEG"				"1.00"
+				"HITGROUP_RIGHTLEG"				"1.00"
+			}
+		}
+		"762x25"
+		{
+			"import"					"default"
+			"SuppressionIncrement"		"40"
+			"brass_model" 				"models/weapons/shells/45apc.mdl"
+			"PenetrationPower"
+			{
+				"50"		"300"
+				"8000"		"75"
+			}
+			"Damage"
+			{
+				"50"		"70"
+				"8000"		"50"
+			}
+			"DamageHitgroups"
+			{
+				"HITGROUP_HEAD"					"1.00"
+				"HITGROUP_CHEST"			  	"1.30"
+				"HITGROUP_STOMACH"				"1.00"
+				"HITGROUP_LEFTARM"				"1.00"
+				"HITGROUP_RIGHTARM"				"1.00"
+				"HITGROUP_LEFTLEG"				"1.00"
+				"HITGROUP_RIGHTLEG"				"1.00"
+			}
+		}
+		"762x25_hp"
+		{
+			"import"				"762x25"
+			"brass_model" 				"models/weapons/shells/45apc.mdl"
+			"PenetrationPower"
+			{
+				"50"		"200"
+				"8000"		"20"
+			}
+			"DamageHitgroups"
+			{
+				"HITGROUP_HEAD"					"1.00"
+				"HITGROUP_CHEST"			  	"1.00"
+				"HITGROUP_STOMACH"				"1.00"
+				"HITGROUP_LEFTARM"				"2.00"
+				"HITGROUP_RIGHTARM"				"2.00"
+				"HITGROUP_LEFTLEG"				"2.00"
+				"HITGROUP_RIGHTLEG"				"2.00"
+			}
+		}
+		"762x25_ap"
+		{
+			"import"				"762x25"
+			"brass_model" 				"models/weapons/shells/45apc.mdl"
+			"PenetrationPower"
+			{
+				"50"		"1200"
+				"8000"		"100"
+			}
+			"DamageHitgroups"
+			{
+				"HITGROUP_HEAD"					"1.00"
+				"HITGROUP_CHEST"			  	"1.75"
+				"HITGROUP_STOMACH"				"1.75"
+				"HITGROUP_LEFTARM"				"1.00"
+				"HITGROUP_RIGHTARM"				"1.00"
+				"HITGROUP_LEFTLEG"				"0.80"
+				"HITGROUP_RIGHTLEG"				"0.80"
+			}
+		}	
+		"792x57"
+		{
+			"import"					"default"
+			"SuppressionIncrement"		"75"
+			"brass_model"				"models/weapons/shells/762x51.mdl"
+			"PenetrationPower"
+			{
+				"50"        "500" 
+				"12000"     "50"  
+			}
+			"PenetrationDamage"
+			{
+				"0"					  "1.00"
+				"200"				  "0.90"
+				"400"				  "0.80"
+				"800"				  "0.70"
+			}
+			"Damage"
+			{
+				"50"		"120"
+				"450"		"150"
+				"12000"		"100"
+			}
+			"DamageHitgroups"
+			{
+				"HITGROUP_HEAD"					"1.00"
+				"HITGROUP_CHEST"			  	"1.00"
+				"HITGROUP_STOMACH"				"1.00"
+				"HITGROUP_LEFTARM"				"1.00"
+				"HITGROUP_RIGHTARM"				"1.00"
+				"HITGROUP_LEFTLEG"				"1.00"
+				"HITGROUP_RIGHTLEG"				"1.00"
+			}
+		}
+		"792x57_ap"
+		{
+			"import"					"792x57"
+			"PenetrationPower"
+			{
+				"50"		"2000"
+				"15000"		"600"
+			}
+			"DamageHitgroups"
+			{
+				"HITGROUP_HEAD"					"1.00"
+				"HITGROUP_CHEST"			  	"3.00"
+				"HITGROUP_STOMACH"				"3.00"
+				"HITGROUP_LEFTARM"				"0.75"
+				"HITGROUP_RIGHTARM"				"0.75"
+				"HITGROUP_LEFTLEG"				"0.50"
+				"HITGROUP_RIGHTLEG"				"0.50"
+			}
+		}
+		
+		//========================================
+		// Insplus Mags
+		//========================================
+		
+		"9x19mm_32rd"
+		{
+			"import"					"9x19"
+			"carry"						"12"
+			"magsize"					"32"
+		}		
+		"9x19mm_hp_32rd"
+		{
+			"import"					"9x19_hp"
+			"carry"						"12"
+			"magsize"					"32"
+		}	
+		"9x19mm_ap_32rd"
+		{
+			"import"					"9x19_ap"
+			"carry"						"12"
+			"magsize"					"32"
+		}
+		"9x19mm_tracer_32rd"
+		{
+			"import"					"9x19_tracer"
+			"carry"						"12"
+			"magsize"					"32"
+		}
+		
+		"9x19mm_34rd"
+		{
+			"import"					"9x19"
+			"carry"						"12"
+			"magsize"					"34"
+		}		
+		"9x19mm_hp_34rd"
+		{
+			"import"					"9x19_hp"
+			"carry"						"12"
+			"magsize"					"34"
+		}	
+		"9x19mm_ap_34rd"
+		{
+			"import"					"9x19_ap"
+			"carry"						"12"
+			"magsize"					"34"
+		}
+		"9x19mm_tracer_34rd"
+		{
+			"import"					"9x19_tracer"
+			"carry"						"12"
+			"magsize"					"34"
+		}
+		
+		"50ActionExpress"
+		{
+			"import"					"50ae"
+			"carry"						"5"
+			"magsize"					"7"
+		}
+		"357magnum_deagle"
+		{
+			"import"					"357magnum"
+			"carry"						"5"
+			"magsize"					"9"
+		}
+		
+		"357_13rnd"
+		{
+			"import"					"357sig"
+			"carry"						"10"
+			"magsize"					"13"
+		}
+		"357_13rnd_hp"
+		{
+			"import"					"357sig_hp"
+			"carry"						"10"
+			"magsize"					"13"
+		}
+		"357_13rnd_ap"
+		{
+			"import"					"357sig_ap"
+			"carry"						"10"
+			"magsize"					"13"
+		}
+		
+		"308_Tokarev"
+		{
+			"import"					"762x25"
+			"carry"						"10"
+			"magsize"					"8"
+		}
+		"308_Tokarev_hp"
+		{
+			"import"					"762x25_hp"
+			"carry"						"10"
+			"magsize"					"8"
+		}
+		"308_Tokarev_ap"
+		{
+			"import"					"762x25_ap"
+			"carry"						"10"
+			"magsize"					"8"
+		}
+		"792_10rnd"
+		{
+			"import"					"792x57"
+			"carry"						"10"
+			"magsize"					"10"
+		}
+		"792_10rnd_ap"
+		{
+			"import"					"792x57_ap"
+			"carry"						"10"
+			"magsize"					"10"
+		}
+		
+		// ========================================
+		// galil
+		// ========================================
+		"556_35box"
+		{
+			"import"				"556x45"
+			"magsize"				"35"
+		}
+		"556_hp_35box"
+		{
+			"import"				"556x45_hp"
+			"magsize"				"35"
+		}
+		"556_ap_35box"
+		{
+			"import"				"556x45_ap"
+			"magsize"				"35"
+		}
+		"556_tracer_35box"
+		{
+			"import"				"556x45_tracer"
+			"magsize"				"35"
+		}
+		
+		// ========================================
+		// galil SAR
+		// ========================================
+		"556_35box_sar"
+		{
+			"import"				"556x45_car"
+			"magsize"				"35"
+		}
+		"556_hp_35box_sar"
+		{
+			"import"				"556x45_car_hp"
+			"magsize"				"35"
+		}
+		"556_ap_35box_sar"
+		{
+			"import"				"556x45_car_ap"
+			"magsize"				"35"
+		}
+		"556_tracer_35box_sar"
+		{
+			"import"				"556x45_car_tracer"
+			"magsize"				"35"
+		}
+	}
+}

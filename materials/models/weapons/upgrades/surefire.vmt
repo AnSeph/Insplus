@@ -1,0 +1,27 @@
+"VertexLitGeneric"
+{
+	"$color"				"[1 1 1]"
+	"$baseTexture" "models\weapons\upgrades\lam_d"
+	"$bumpmap" "models\weapons\upgrades\lam_n"
+	//"$envmap"	"env_cubemap"
+
+	"$normalmapalphaenvmapmask" "1"
+	//"$BasemapAlphaPhongMask" "1"
+	
+	"$envmaptint"		"[0.01 0.01 0.01]"
+	
+	//"$nocull" 		"1"
+	"$phong" 		"1"
+	"$phongexponent" 	"90"
+	"$phongtint"		"[0.3 0.3 0.4]"
+	"$phongboost" "0.25"
+	"$phongfresnelranges" "[0.5 1 4]"
+	"$phongalbedotint" 		"1"
+	//"$halflambert" 		"1"
+	
+		$rimlight               1
+	$rimlightexponent       1500
+	$rimlightboost          0.03	
+}
+
+

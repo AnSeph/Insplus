@@ -1,0 +1,19 @@
+NightVision
+{
+	$fb_texture _rt_FullFrameFB
+	$fbsmall_texture _rt_SmallFB0
+	$noise_texture dev/nightvision_noise
+	
+	$noiseopacity 1.6
+	$bluroffset -0.05
+	
+	$brightness 4.0 [!$POSIX]
+	$brightness 40.0 [$POSIX]
+	
+	$bloomstrength 5.0
+	$bloompower 1.5
+	
+	$flarestrength 0.25
+	
+	$color "[0.6 1.0 0.5]"
+}

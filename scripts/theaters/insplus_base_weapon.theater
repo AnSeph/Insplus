@@ -1,0 +1,292 @@
+"theater"
+{
+	"weapons"
+	{
+		"weapon_base"
+		{
+			"IsBase"					"1"
+			"weapon_cost"				"1"
+			"weapon_weight"				"60"
+			"barrel_length"				"21"
+			
+			"bipod_length"				"26"
+			"bipod_height"				"10"
+			"bipod_yaw_limit"			"45"
+			"bipod_pitch_min"			"-20"
+			"bipod_pitch_max"			"35"
+			
+			"player_restrictions"
+			{
+				"allow_jump_shoot"		"0"
+				"allow_reload_sprint"	"0"
+				"allow_reload_jump"		"0"
+				"allow_reload_crawl"	"0"
+			}
+			
+			"ironsights"
+			{
+				"GestureIronsights"			"delta_iron"
+				"in_time"					"0.25"
+				"out_time"					"0.25"
+			}
+			
+			"sway"
+			{
+				"sway_style"				"lissajous"	// set to "lissajous" for lissajous curve (insmod style), set to "noise" for perlin noise (random)
+				"sway_speed"				"1.00"
+				"SwayRadiusByStamina"
+				{
+					"0"						"1.50"
+					"100"					"1.00"
+				}
+				"SwaySpeedByStamina"
+				{
+					"0"						"1.00"
+					"100"					"1.00"
+				}
+				"sway_radius_stand_frac"		"1.00"
+				"sway_radius_crouch_frac"		"0.80"
+				"sway_radius_prone_frac"		"0.30"
+				"sway_radius_bipod_frac"		"0.20"
+				"sway_radius_ironsight_frac"	"0.75"
+				"sway_radius_lean_frac"			"1.00"
+				"sway_amount_focus_frac"		"0.00"
+				"sway_speed_ironsight_frac"		"0.80"
+				"sway_speed_bipod_frac"			"0.25"
+				"sway_speed_focus_frac"			"0.00"
+				"sway_amount_focus_penalty"		"1.00"
+				"sway_speed_focus_penalty"		"1.00"
+				"sway_screen_ratio"				"1.00"
+				"sway_viewmodel_ratio"			"0.25"
+				"sway_screen_ads_ratio"			"1.00"
+				"sway_viewmodel_ads_ratio"		"1.00"
+				"sway_radius_interp_speed"		"150"
+				
+				"SwayRadiusFracBySpeed"
+				{
+					"0"						"1.00"
+					"75"					"4.00"
+				}
+				"SwaySpeedFracBySpeed"
+				{
+					"0"						"1.00"
+					"100"					"5.00"
+				}
+				"SwayRadiusBySuppression"
+				{
+					"0"						"1.0"
+					"100"					"5.0"
+				}
+				"SwaySpeedBySuppression"
+				{
+					"0"						"1.0"
+					"100"					"0.5"
+				}
+				
+			}
+			"attachments"
+			{
+				// viewmode must match the world model names!!!
+				"attachment_muzzleflash"		"muzzle"
+				"attachment_shellejection"		"shell"
+				"attachment_laserpointer"		"laser"
+			}
+			"freeaim"
+			{
+				"freeaim_distance"				"10.50"
+				"freeaim_distance_bipod"		"10.50"
+				"freeaim_screenratio"			"0.75"
+				"freeaim_screenratio_bipod"		"0.95"
+				
+				"freeaim_ads"					"1"
+				"freeaim_distance_ads"			"6.25"
+				"freeaim_screenratio_ads"		"0.75"
+				
+				"freeaim_frac"					"1.0"
+				"freeaim_frac_ads"				"1.0"
+			}
+			"fov"
+			{
+				"fov_plr_ironsight"			"-25"
+				"fov_plr_focus"				"-12"
+				"fov_wpn_scope"				"0"
+			}
+			"recoil"
+			{
+				"recoil_additional_rest_per_shot"	"2.50"
+				"recoil_rest_max_shots"				"5.00"
+				"recoil_shot_reset_time"			"0.30"
+				"recoil_focus_frac"					"0.95"
+				"recoil_freeaim_frac"				"1.00"
+				"recoil_ironsight_frac"				"0.90"
+				
+				"recoil_return_controller_only"		"1"
+				"recoil_return_frac"				"0.5"
+				"recoil_return_delay"				"0.06"
+				"recoil_return_speed"				"6"
+				"recoil_return_speed_per_shot"		"0.1"
+				
+				"RecoilBaseFracByWeight"
+				{
+					"0"						"1.3"
+				}
+				"RecoilIronSightFracByWeight"
+				{
+					"0"						"1.00"
+				}
+				"RecoilBipodFracByWeight"
+				{
+					"0"						"0.15"
+				}
+				"RecoilLeanFracByWeight"
+				{
+					"60"					"0.80"
+					"640"					"0.80"
+				}
+				"RecoilMoveFracByWeight"
+				{
+					"60"					"1.40"
+					"640"					"1.35"
+				}
+				"RecoilStandFracByWeight"
+				{
+					"0"						"1.00"
+				}
+				"RecoilCrouchFracByWeight"
+				{
+					"0"						"0.75"
+				}
+				"RecoilProneFracByWeight"
+				{
+					"0"						"0.35"
+				}
+				"RecoilLowStaminaFracByWeight"
+				{
+					"60"					"1.30"
+					"640"					"1.25"
+				}
+				"RecoilMaxFracByWeight"
+				{
+					"60"					"6.00"
+					"640"					"6.00"
+				}
+			}
+			
+			"use_hands"				"1"
+			"viewmodel_offsets"
+			{
+				// viewmodel stance offsets
+				// x back, y left, z down
+				"VMOffsetStand"				"0.00 -0.10 0.60"
+				"VMOffsetStandMove"			"0.60 0.80 0.00"
+				"VMOffsetStandSprint"		"-0.07 0.05 0.25"
+				"VMOffsetCrouch"			"1.00 0.40 0.15"
+				"VMOffsetCrouchMove"		"1.00 0.80 0.00"
+				"VMOffsetProne"				"2.00 0.00 2.00"
+				"VMOffsetProneMove"			"-3.00 2.00 0.50"
+				"VMOffsetLeanLeft"			"1.25 1.25 1.25"	// Added on to the other offsets, and ignores spring
+				"VMOffsetLeanRight"			"1.25 -0.50 1.25"	// Added on to the other offsets, and ignores spring
+				"VMOffsetOffScreen"			"2.00 0.00 2.25"
+				
+				"ViewDipHeightOffset"			"64"
+				"ViewDipAngle"					"2.5"
+				"ViewDipAngleSpeed"				"0.1"
+				"ViewLandDipAmt"				"0.02"
+				
+				"ViewBobVert"					"0.9"
+				"ViewBobLat"					"0.9"
+				"ViewBobUp"						"0.5"
+				"ViewBobCycle"					"0.32"
+				
+				"ViewSwayScale"					"3"
+				"ViewSwayIronSightScale"		"0.55"
+				"ViewMaxSway"					"3.25"
+				
+				"ViewOffsetSpringConstant"		"20.5"
+				"ViewOffsetDampConstant"		"0.6"
+				"ViewOffsetViscousConstant"		"6.5"
+			}
+			"kitui_offset"
+			{
+				"position"				"35 0 4"
+				"angle"					"0 90 0"
+			}
+		}
+		"ballistic_base"
+		{
+			"IsBase"					"1"
+			"import"					"weapon_base"
+			"weapon_type"				"ballistic"
+			"player_restrictions"
+			{
+				"allow_sprint"				"1"
+				"allow_lean"				"1"
+				"allow_jump"				"1"
+				"allow_sway"				"1"
+			}
+			"particles"
+			{
+				"particle_muzzle_smoke"			"weapon_muzzle_smoke"
+			}
+			"bullet_whiz"
+			{
+				"BulletWhizHeadDistance"		"200"	// maximum distance between player head and bullet for a whiz to occur (old 800)
+				"BulletWhizSonicDistance"		"1400"	// maximum distance between player and bullet for a sonic whiz to occur (def 288) (984 = 25 meters approx) (old 400)
+				"BulletWhizMaxDot"				"1"
+				"BulletWhizMinDot"				"0"
+				"BulletWhizMaxVolume"			"1"
+				"BulletWhizMinVolume"			"0.5"
+			}
+		}
+		"pistol_base"
+		{
+			"IsBase"					"1"
+			"import"					"ballistic_base"
+			"barrel_length"				"12"
+			"freeaim"
+			{
+				"freeaim_distance_frac"			"0.50"
+			}
+			"sway"
+			{
+				"sway_screen_ads_ratio"			"0.20"
+				"sway_viewmodel_ads_ratio"		"1.00"
+			}
+			"kitui_offset"
+			{
+				"position"				"20 3 2"
+				"angle"					"0 90 0"
+			}
+		}
+		"smg_base"
+		{
+			"IsBase"					"1"
+			"import"					"ballistic_base"
+			"barrel_length"				"12"
+			"freeaim"
+			{
+				"freeaim_distance_frac"			"0.60"
+			}
+		}
+		"weapon_grenade_base"
+		{
+			"IsBase"				"1"
+			"import"				"weapon_base"
+			"barrel_length"				"-1"
+			"weapon_type"				"grenade"
+			"weapon_slot"				"explosive"
+			"act_table"				"grenade"
+			
+			"sounds"
+			{
+				"special1"					"Weapon_M67.SpoonEject"
+			}
+			
+			"freeaim"
+			{
+				"freeaim_distance"			"0"
+				"freeaim_screenratio"			"0"	// if this is 0 and freeaim_distance is set, that will just mean sway gets applied
+			}
+		}
+	}
+}
