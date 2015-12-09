@@ -3575,6 +3575,7 @@
 				"recoil_rest_delay"				"0.14"
 				"recoil_roll_range"				"-1.25 -1.25"
 				"recoil_roll_rest_rate"			"150"
+				"recoil_freeaim_frac"			"0.4"
 				
 				"recoil_additional_rest_per_shot"	"2.5"	// Amount of rest per additional shot (added to rest rate) (default = 2.5)
 				"recoil_shot_reset_time"			"0.5"	// Time delay for resetting the shots fired counter for the above (default = 0.3)
@@ -3619,7 +3620,7 @@
 			"print_desc"					"#weapon_mp40_desc"
 			"view_model"					"models/weapons/v_mp40.mdl"
 			"world_model"					"models/weapons/w_mp40.mdl"
-			"rounds_per_minute"				"510"
+			"rounds_per_minute"				"500"
 			"closed_bolt"					"0"
 			"weapon_slot"					"primary"
 			"act_table"						"smg_magheld"
@@ -3637,7 +3638,7 @@
 			}
 			"freeaim"
 			{
-				"freeaim_distance_frac"			"0.50"
+				"freeaim_ads"			"0"
 			}
 			"fov"
 			{
@@ -3669,13 +3670,14 @@
 			}
 			"recoil"
 			{
-				"recoil_lateral_range"			"-0.15 0.15"
-				"recoil_vertical_range"			"1.175 1.450"
+				"recoil_lateral_range"			"-1.00 1.00"
+				"recoil_vertical_range"			"1.875 2.00"
 				"recoil_aim_punch"				"0.2 0.4"
 				"recoil_rest_rate"				"12"
 				"recoil_rest_delay"				"0.14"
 				"recoil_roll_range"				"-1.45 -1.45"
 				"recoil_roll_rest_rate"			"150"
+				"recoil_freeaim_frac"			"0.4"
 				
 				"recoil_additional_rest_per_shot"	"2.5"	// Amount of rest per additional shot (added to rest rate) (default = 2.5)
 				"recoil_shot_reset_time"		"0.5"	// Time delay for resetting the shots fired counter for the above (default = 0.3)
@@ -3883,6 +3885,7 @@
 				"recoil_rest_delay"				"0.15"
 				"recoil_roll_range"				"-1.50 -1.50"
 				"recoil_roll_rest_rate"			"150"
+				"recoil_freeaim_frac"			"0.4"
 				
 				"recoil_additional_rest_per_shot"	"2.5"	// Amount of rest per additional shot (added to rest rate) (default = 2.5)
 				"recoil_shot_reset_time"			"0.5"	// Time delay for resetting the shots fired counter for the above (default = 0.3)
