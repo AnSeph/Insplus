@@ -1,7 +1,6 @@
 [h1][b][url=http://steamcommunity.com/groups/Insplus]CLICK ME TO JOIN THE OFFICAL STEAM GROUP[/url][/b][/h1] 
 
 [h1][b]Insurgency+ Tactical Rebalance Theater Mod[/b][/h1] 
-This is a custom gameplay modification for Insurgency. It includes various gameplay tweaks and changes to Vanilla Insurgency's classes, weapons, gear, movement, damage model, and more.
 
 [h1][b]If you would like to run this on a local bot game:[/b][/h1]
 You can run this locally however by first opening console and typing "mp_theater_override insplus_default". Then you can load up any map, coop or regular pvp with bots to try it out. 
@@ -41,7 +40,6 @@ Note: modifiers to freeaim radius affect both hipfire and ironsight radius. Decr
 
 [h1][b]Credits:[/b][/h1] 
 - BlackJackal for the HD vest and armor icons 
-- Fallout New Vegas Wiki for the extended magazine icons 
 
 [h1][b]Test Server (add this to your favorites!):[/b][/h1]
 23.250.9.26:27115
