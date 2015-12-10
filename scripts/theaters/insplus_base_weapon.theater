@@ -54,22 +54,22 @@
 				"sway_speed_ironsight_frac"		"0.80"
 				"sway_speed_bipod_frac"			"0.25"
 				"sway_speed_focus_frac"			"0.00"
-				"sway_amount_focus_penalty"		"1.00"
-				"sway_speed_focus_penalty"		"1.00"
+				"sway_amount_focus_penalty"		"0.00"
+				"sway_speed_focus_penalty"		"0.00"
 				"sway_screen_ratio"				"1.00"
-				"sway_viewmodel_ratio"			"0.25"
+				"sway_viewmodel_ratio"			"1.00"
 				"sway_screen_ads_ratio"			"1.00"
 				"sway_viewmodel_ads_ratio"		"1.00"
 				"sway_radius_interp_speed"		"150"
 				
 				"SwayRadiusFracBySpeed"
 				{
-					"0"						"1.00"
+					"0"						"0.50"
 					"75"					"4.00"
 				}
 				"SwaySpeedFracBySpeed"
 				{
-					"0"						"1.00"
+					"0"						"0.50"
 					"100"					"5.00"
 				}
 				"SwayRadiusBySuppression"
@@ -98,7 +98,7 @@
 				"freeaim_screenratio"			"0.75"
 				"freeaim_screenratio_bipod"		"0.95"
 				
-				"freeaim_ads"					"1"
+				"freeaim_ads"					"0"
 				"freeaim_distance_ads"			"6.25"
 				"freeaim_screenratio_ads"		"0.75"
 				
@@ -246,11 +246,6 @@
 			"freeaim"
 			{
 				"freeaim_distance_frac"			"0.50"
-			}
-			"sway"
-			{
-				"sway_screen_ads_ratio"			"0.20"
-				"sway_viewmodel_ads_ratio"		"1.00"
 			}
 			"kitui_offset"
 			{

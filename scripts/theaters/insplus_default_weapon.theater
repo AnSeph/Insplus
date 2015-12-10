@@ -810,11 +810,9 @@
 			"act_table"						"pistol"
 			"weapon_abilities"				"ironsight"
 			"weapon_weight"					"38"
-			"weapon_cost"					"1"
+			"weapon_cost"					"0"
 			"class_restricted"				"0"
 			"barrel_length"					"5"
-			"draw_speed"					"1.20"
-			"holster_speed"					"1.15"
 			
 			"player_restrictions"
 			{
@@ -905,8 +903,6 @@
 			"barrel_length"				"16"
 			"closed_bolt"				"0"
 			"trigger_delay"				"0.04"
-			"draw_speed"				"1.25"
-			"holster_speed"				"1.25"
 			
 			"player_restrictions"
 			{
@@ -1097,8 +1093,6 @@
 			"weapon_cost"					"1"
 			"class_restricted"				"0"
 			"barrel_length"					"5"
-			"draw_speed"					"1.10"
-			"holster_speed"					"1.10"
 			
 			"player_restrictions"
 			{
@@ -1167,7 +1161,7 @@
 			}
 			"ballistics"
 			{
-				"spread"					"0.5 0.5 0.5"
+				"spread"					"0.35 0.35 0.35"
 				"FireModes"					"semi"
 				"bulletcount"				"1"
 				"maxrange"					"6000"
@@ -1206,8 +1200,6 @@
 			"weapon_cost"					"1"
 			"class_restricted"				"0"
 			"barrel_length"					"5"
-			"draw_speed"					"1.20"
-			"holster_speed"					"1.15"
 			
 			"player_restrictions"
 			{
@@ -1276,7 +1268,7 @@
 
 			"ballistics"
 			{
-				"spread"					"0.5 0.5 0.5"
+				"spread"					"0.4 0.4 0.4"
 				"FireModes"					"semi"
 				"bulletcount"				"1"
 				"maxrange"					"6000"
@@ -1407,8 +1399,6 @@
 			"weapon_cost"					"1"
 			"class_restricted"				"0"
 			"barrel_length"					"5"
-			"draw_speed"					"1.10"
-			"holster_speed"					"1.10"
 			
 			"player_restrictions"
 			{
@@ -1477,7 +1467,7 @@
 			}
 			"ballistics"
 			{
-				"spread"					"0.5 0.5 0.5"
+				"spread"					"0.35 0.35 0.35"
 				"FireModes"					"semi"
 				"bulletcount"				"1"
 				"maxrange"					"6000"
@@ -1517,8 +1507,6 @@
 			"class_restricted"	"1"
 			"team_access"		"security, insurgent"
 			"barrel_length"		"20"	
-			"draw_speed"		"1.00"
-			"holster_speed"		"0.90"
 			
 			"player_restrictions"
 			{
@@ -1575,7 +1563,7 @@
 			}
 			"ballistics"
 			{
-				"spread"			"0.4 0.4 0.4"
+				"spread"			"0.2 0.2 0.2"
 				"FireModes"			"semi"
 				"bulletcount"		"1"
 				"maxrange"			"19000"
@@ -1602,7 +1590,7 @@
 			"import"						"pistol_base"
 			"weapon_class"					"pistol"
 			"print_name"					"#weapon_p226"
-			"print_desc"					".357 SIG sidearm manufactured in Germany (0.96kg)"
+			"print_desc"					"9mm sidearm manufactured in Germany (0.96kg)"
 			"view_model"					"models/weapons/v_p226.mdl"
 			"world_model"					"models/weapons/w_p226.mdl"
 			"rounds_per_minute"				"600"
@@ -1666,16 +1654,16 @@
 			}
 			"ballistics"
 			{
-				"spread"					"0.3 0.3 0.3"
+				"spread"					"0.2 0.2 0.2"
 				"FireModes"					"semi"
 				"bulletcount"				"1"
 				"maxrange"					"6000"
 			}
 			"ammo_clip"
 			{
-				"ammo_type"					"357_13rnd"
+				"ammo_type"					"9mm_20rnd"
 				"clip_max"					"10"
-				"clip_max_rounds"			"13"
+				"clip_max_rounds"			"20"
 				"clip_default"				"2"
 			}
 			"attachments"
@@ -1756,7 +1744,7 @@
 			}
 			"ballistics"
 			{
-				"spread"					"0.5 0.5 0.5"
+				"spread"					"0.2 0.2 0.2"
 				"FireModes"					"semi"
 				"bulletcount"				"1"
 				"maxrange"					"6000"
@@ -1774,7 +1762,7 @@
 			}
 			"kitui_offset"
 			{
-				"position"				"12 -3 0"
+				"position"				"10 2 1"
 			}
 			"team_access"	"security, insurgent"
 		}
@@ -1800,9 +1788,8 @@
 			"weapon_cost"					"1"
 			"class_restricted"				"1"
 			"barrel_length"					"40"
-			"draw_speed"					"0.90"
-			"holster_speed"					"0.90"
-			"reload_speed"					"0.90"
+			
+			
 			"ironsights"
 			{
 				"in_time"				"0.40"
@@ -1921,6 +1908,7 @@
 			"weapon_cost"					"2"
 			"class_restricted"				"1"
 			"barrel_length"					"32"
+			
 			"ironsights"
 			{
 				"in_time"				"0.35"
@@ -2031,8 +2019,6 @@
 			"weapon_weight"					"112" // (2.8kg[weapon] + (0.4kg[ammo] * (1+8)[mags]) )*10[kg->hg for int]  +16[encumbrance]
 			"weapon_cost"					"3"
 			"barrel_length"					"30"
-			"reload_speed"					"1.10"
-			"draw_speed"					"1.10"
 			
 			"viewmodel_attachments"
 			{
@@ -2140,10 +2126,10 @@
 			"weapon_slot"					"primary"
 			"act_table"						"shortrifle"
 			"weapon_abilities"				"ironsight"
-			"draw_speed"					"1.05"
 			"weapon_weight"					"115" // (2.8kg[weapon] + (0.4kg[ammo] * (1+8)[mags]) )*10[kg->hg for int]  +16[encumbrance]
 			"weapon_cost"					"3"
 			"barrel_length"					"35"
+			
 			"ironsights"
 			{
 				"in_time"				"0.35"
@@ -2266,12 +2252,10 @@
 			"weapon_slot"					"primary"
 			"act_table"						"shortrifle"
 			"weapon_abilities"				"ironsight"
-			"draw_speed"					"0.80"
-			"holster_speed"					"0.80"
-			"reload_speed"					"0.85"
 			"weapon_weight"					"175" // (2.8kg[weapon] + (0.4kg[ammo] * (1+8)[mags]) )*10[kg->hg for int]  +16[encumbrance]
 			"weapon_cost"					"3"
 			"barrel_length"					"35"
+			
 			"ironsights"
 			{
 				"in_time"				"0.40"
@@ -2387,8 +2371,7 @@
 			"weapon_weight"				"178"	// (2.8kg[weapon] + (0.4kg[ammo] * (1+8)[mags]) )*10[kg->hg for int]  +16[encumbrance]
 			"weapon_cost"				"3"
 			"barrel_length"				"38"
-			"draw_speed"				"0.95"
-			"holster_speed"				"0.95"
+			
 			"ironsights"
 			{
 				"in_time"				"0.40"
@@ -2504,7 +2487,8 @@
 			"weapon_weight"				"178"	// (2.8kg[weapon] + (0.4kg[ammo] * (1+8)[mags]) )*10[kg->hg for int]  +16[encumbrance]
 			"weapon_cost"				"3"
 			"barrel_length"				"35"
-			"reload_speed"				"1.05"
+			
+			
 			"ironsights"
 			{
 				"in_time"				"0.30"
@@ -2621,9 +2605,7 @@
 			"weapon_cost"					"0"
 			"class_restricted"				"1"
 			"barrel_length"					"35"
-			"draw_speed"					"1.00"
-			"holster_speed"					"0.90"
-			"reload_speed"					"0.90"
+
 			"ironsights"
 			{
 				"in_time"				"0.35"
@@ -2722,9 +2704,7 @@
 			"weapon_cost"					"2"
 			"class_restricted"				"1"
 			"barrel_length"					"40"
-			"draw_speed"					"1.02"
-			"holster_speed"					"1.00"
-			"reload_speed"					"1.05"
+
 			"ironsights"
 			{
 				"in_time"				"0.40"
@@ -2769,9 +2749,9 @@
 			}
 			"recoil"
 			{
-				"recoil_lateral_range"			"-1.15 1.15"
-				"recoil_vertical_range"			"2.25 2.85"
-				"recoil_aim_punch"				"0.6 0.7"
+				"recoil_lateral_range"			"-0.40 0.40"
+				"recoil_vertical_range"			"2.30 3.10"
+				"recoil_aim_punch"				"0.3 0.6"
 				"recoil_rest_rate"				"10"
 				"recoil_rest_delay"				"0.12"
 				"recoil_roll_range"				"-1.5 -1.5"
@@ -2825,6 +2805,7 @@
 			"draw_speed"					"0.90"
 			"holster_speed"					"0.90"
 			"reload_speed"					"0.90"
+			
 			"ironsights"
 			{
 				"in_time"				"0.40"
@@ -3127,9 +3108,7 @@
 			"weapon_weight"					"116" // (2.9kg[weapon] + (0.3kg[ammo] * (1+10)[mags]) )*10[kg->hg for int]  +16[encumbrance]
 			"weapon_cost"					"3"
 			"barrel_length"					"35"
-			"draw_speed"					"1.00"
-			"holster_speed"					"1.00"
-			"reload_speed"					"0.90"
+
 			"ironsights"
 			{
 				"in_time"				"0.35"
@@ -3311,9 +3290,6 @@
 			"weapon_weight"					"100" // (2.4kg[weapon] + (0.3kg[ammo] * (1+10)[mags]) )*10[kg->hg for int]  +16[encumbrance]
 			"weapon_cost"					"1"
 			"barrel_length"					"35"
-			"draw_speed"					"1.05"
-			"holster_speed"					"1.05"
-			"reload_speed"					"1.05"
 			
 			"ironsights"
 			{
@@ -3430,9 +3406,7 @@
 			"weapon_weight"					"156" // (3.9kg[weapon] + (0.8kg[ammo] * (1+4)[mags]) )*10[kg->hg for int]  +24[encumbrance]
 			"weapon_cost"					"1"
 			"barrel_length"					"35"
-			"draw_speed"					"1.00"
-			"holster_speed"					"1.00"
-			"reload_speed"					"0.95"
+
 			"ironsights"
 			{
 				"in_time"					"0.40"
@@ -3468,8 +3442,8 @@
 			}
 			"recoil"
 			{
-				"recoil_lateral_range"			"-2.35 2.35"
-				"recoil_vertical_range"			"4.15 5.45"
+				"recoil_lateral_range"			"-1.90 1.90"
+				"recoil_vertical_range"			"4.15 5.15"
 				"recoil_aim_punch"				"0.5 0.8"
 				"recoil_rest_rate"				"14"
 				"recoil_rest_delay"				"0.12"
@@ -3525,9 +3499,7 @@
 			"weapon_weight"					"85" // (2.0kg[weapon] + (0.4kg[ammo] * (1+8)[mags]) )*10[kg->hg for int]  +8[encumbrance]
 			"weapon_cost"					"2"
 			"barrel_length"					"20"
-			"draw_speed"					"1.10"
-			"holster_speed"					"1.10"
-			"reload_speed"					"1.05"
+
 			
 			“player_restrictions”
 			{
@@ -3540,11 +3512,6 @@
 				"fov_wpn_default"			"62"
 				"fov_wpn_ironsight"			"80"
 				"fov_wpn_focus"				"92"
-			}
-			"sway"
-			{
-				"sway_screen_ads_ratio"			"0.20"
-				"sway_viewmodel_ads_ratio"		"0.80"
 			}
 			"sounds"
 			{
@@ -3628,17 +3595,11 @@
 			"weapon_weight"					"160" // (4.0kg[weapon] + (0.4kg[ammo] * (1+8)[mags]) )*10[kg->hg for int]  +8[encumbrance]
 			"weapon_cost"					"1"
 			"barrel_length"					"25"
-			"draw_speed"					"1.00"
-			"holster_speed"					"1.05"
-			"reload_speed"					"1.00"
+
 			
 			"player_restrictions"
 			{
 				“allow_reload_sprint”				"1"
-			}
-			"freeaim"
-			{
-				"freeaim_ads"			"0"
 			}
 			"fov"
 			{
@@ -3670,9 +3631,9 @@
 			}
 			"recoil"
 			{
-				"recoil_lateral_range"			"-1.00 1.00"
-				"recoil_vertical_range"			"1.875 2.00"
-				"recoil_aim_punch"				"0.2 0.4"
+				"recoil_lateral_range"			"-0.20 0.20"
+				"recoil_vertical_range"			"1.575 1.80"
+				"recoil_aim_punch"				"0.2 0.3"
 				"recoil_rest_rate"				"12"
 				"recoil_rest_delay"				"0.14"
 				"recoil_roll_range"				"-1.45 -1.45"
@@ -3690,7 +3651,7 @@
 			}
 			"ballistics"
 			{
-				"spread"					"0.35 0.35 0.35"
+				"spread"					"0.3 0.3 0.3"
 				"FireModes"					"full"
 				"bulletcount"				"1"
 				"maxrange"					"8000"
@@ -3784,7 +3745,7 @@
 			}
 			"ballistics"
 			{
-				"spread"					"0.40 0.40 0.40"
+				"spread"					"0.35 0.35 0.35"
 				"FireModes"					"full"
 				"bulletcount"				"1"
 				"maxrange"					"8000"
@@ -3840,9 +3801,6 @@
 			"weapon_weight"					"105" // (2.5kg[weapon] + (0.7kg[ammo] * (1+4)[mags]) )*10[kg->hg for int]  +8[encumbrance]
 			"weapon_cost"					"2"
 			"barrel_length"					"25"
-			"draw_speed"					"1.05"
-			"holster_speed"					"1.05"
-			"reload_speed"					"1.05"
 			
 			"player_restrictions"
 			{
@@ -3936,8 +3894,7 @@
 			"weapon_weight"					"110" // (3.5kg[weapon] + (0.8kg[ammo] * (1+4)[mags]) )*10[kg->hg for int]  +24[encumbrance]
 			"weapon_cost"					"2"
 			"barrel_length"					"30"
-			"reload_speed"					"1.10"
-			"draw_speed"					"1.10"
+
 			"viewmodel_attachments"
 			{
 				"foregrip"
@@ -4034,9 +3991,6 @@
 			"weapon_abilities"				"ironsight"
 			"weapon_weight"					"105" // (2.5kg[weapon] + (0.3kg[ammo] * (1+10)[mags]) )*10[kg->hg for int]  +24[encumbrance]
 			"barrel_length"					"30"
-			"draw_speed"					"1.15"
-			"holster_speed"					"1.10"
-			"reload_speed"					"1.00"
 			"bolt_speed"					"1.40"
 			"ironsights"
 			{
@@ -4062,7 +4016,7 @@
 			}
 			"sway"
 			{
-				"sway_screen_ads_ratio"			"0.60"
+				"sway_screen_ads_ratio"			"0.25"
 			}
 			"sounds"
 			{
@@ -4142,9 +4096,7 @@
 			"weapon_abilities"				"ironsight"
 			"weapon_weight"					"120" // (3.2kg[weapon] + (0.3kg[ammo] * (1+10)[mags]) )*10[kg->hg for int]  +24[encumbrance]
 			"barrel_length"					"25"
-			"draw_speed"					"1.15"
-			"holster_speed"					"1.15"
-			"reload_speed"					"1.05"
+			
 			"bolt_speed"					"1.40"
 			"ironsights"
 			{
@@ -4162,7 +4114,7 @@
 			}
 			"sway"
 			{
-				"sway_screen_ads_ratio"			"0.15"
+				"sway_screen_ads_ratio"			"0.25"
 			}
 			"viewmodel_attachments"
 			{				
@@ -4306,8 +4258,8 @@
 			}
 			"recoil"
 			{
-				"recoil_lateral_range"			"-2.00 2.00"
-				"recoil_vertical_range"			"1.25 2.80"
+				"recoil_lateral_range"			"-1.75 1.75"
+				"recoil_vertical_range"			"1.25 2.00"
 				"recoil_aim_punch"				"0.5 0.575"
 				"recoil_rest_rate"				"15"
 				"recoil_rest_delay"				".09"
@@ -4320,7 +4272,7 @@
 				"recoil_punch_additive_factor"		"0.92"	// How much of the view punch from the previous shot(s) get added to any additional shot fired. 1 = all, 0 = none, 0.5 = half (default = 1.0)
 				
 				// To make the M249 slightly less unrealistically useless in hipfire
-				"recoil_freeaim_frac"				"0.60"
+				"recoil_freeaim_frac"				"0.70"
 				
 				"RecoilBipodFracByWeight"
 				{
@@ -4387,7 +4339,7 @@
 			"sway"
 			{
 				"sway_screen_ads_ratio"			"1.25"
-				"sway_viewmodel_ads_ratio"		"0.75"
+				"sway_viewmodel_ads_ratio"		"1.00"
 			}
 			"freeaim"
 			{
@@ -4484,7 +4436,7 @@
 			"draw_speed"					"0.90"
 			"holster_speed"					"0.90"
 			"reload_speed"					"1.00"
-			"bolt_speed"					"0.95"
+			
 			"ironsights"
 			{
 				"in_time"				"0.35"
@@ -4585,7 +4537,7 @@
 			"draw_speed"					"0.90"
 			"holster_speed"					"0.90"
 			"reload_speed"					"1.00"
-			"bolt_speed"					"0.95"
+			
 			"ironsights"
 			{
 				"in_time"				"0.35"
