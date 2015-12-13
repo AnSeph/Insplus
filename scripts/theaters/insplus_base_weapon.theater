@@ -57,7 +57,7 @@
 				"sway_amount_focus_penalty"		"0.00"
 				"sway_speed_focus_penalty"		"0.00"
 				"sway_screen_ratio"				"1.00"
-				"sway_viewmodel_ratio"			"1.00"
+				"sway_viewmodel_ratio"			"0.25"
 				"sway_screen_ads_ratio"			"1.00"
 				"sway_viewmodel_ads_ratio"		"1.00"
 				"sway_radius_interp_speed"		"150"
