@@ -128,8 +128,8 @@
 			"DamageHitgroups"
 			{
 				"HITGROUP_HEAD"       "1.00"
-				"HITGROUP_CHEST"      "1.20"
-				"HITGROUP_STOMACH"    "1.20"
+				"HITGROUP_CHEST"      "1.50"
+				"HITGROUP_STOMACH"    "1.50"
 				"HITGROUP_LEFTARM"    "1.00"
 				"HITGROUP_RIGHTARM"   "1.00"
 				"HITGROUP_LEFTLEG"    "1.00"
@@ -267,10 +267,10 @@
 				"HITGROUP_HEAD"       "1.00"
 				"HITGROUP_CHEST"      "1.00"
 				"HITGROUP_STOMACH"    "1.00"
-				"HITGROUP_LEFTARM"    "1.2"
-				"HITGROUP_RIGHTARM"   "1.2"
-				"HITGROUP_LEFTLEG"    "1.00"
-				"HITGROUP_RIGHTLEG"   "1.00"
+				"HITGROUP_LEFTARM"    "1.25"
+				"HITGROUP_RIGHTARM"   "1.25"
+				"HITGROUP_LEFTLEG"    "1.25"
+				"HITGROUP_RIGHTLEG"   "1.25"
 			}
 		}
 		"45acp_pistol" // FMJ (US Army Ball) 230gr 250m/s  477J
@@ -507,7 +507,7 @@
 			}
 			"PenetrationPower" // Maybe offer or imply Mk318 rounds which are like combined HP and AP at high cost?
 			{
-				"50"      "600" //NATO Ball (M855) can penetrate up to 3 mm (about 1/8 in) of steel at 600 meters
+				"50"      "650" //NATO Ball (M855) can penetrate up to 3 mm (about 1/8 in) of steel at 600 meters
 				"10000"   "175" 
 			}
 		}
@@ -536,10 +536,10 @@
 			"DamageHitgroups"
 			{
 				"HITGROUP_HEAD"       "1.00"
-				"HITGROUP_CHEST"      "1.75"
-				"HITGROUP_STOMACH"    "1.75"
-				"HITGROUP_LEFTARM"    "0.85"
-				"HITGROUP_RIGHTARM"   "0.85"
+				"HITGROUP_CHEST"      "2.00"
+				"HITGROUP_STOMACH"    "2.00"
+				"HITGROUP_LEFTARM"    "1.00"
+				"HITGROUP_RIGHTARM"   "1.00"
 				"HITGROUP_LEFTLEG"    "0.75"
 				"HITGROUP_RIGHTLEG"   "0.75"
 			}
@@ -572,8 +572,8 @@
 			"DamageHitgroups"
 			{
 				"HITGROUP_HEAD"       "1.00" 
-				"HITGROUP_CHEST"      "1.10"
-				"HITGROUP_STOMACH"    "1.10"
+				"HITGROUP_CHEST"      "1.00"
+				"HITGROUP_STOMACH"    "1.00"
 				"HITGROUP_LEFTARM"    "1.00"
 				"HITGROUP_RIGHTARM"   "1.00"
 				"HITGROUP_LEFTLEG"    "1.00"
@@ -610,10 +610,10 @@
 			"DamageHitgroups"
 			{
 				"HITGROUP_HEAD"       "1.00"
-				"HITGROUP_CHEST"      "1.75"
-				"HITGROUP_STOMACH"    "1.75"
-				"HITGROUP_LEFTARM"    "0.85"
-				"HITGROUP_RIGHTARM"   "0.85"
+				"HITGROUP_CHEST"      "2.00"
+				"HITGROUP_STOMACH"    "2.00"
+				"HITGROUP_LEFTARM"    "1.00"
+				"HITGROUP_RIGHTARM"   "1.00"
 				"HITGROUP_LEFTLEG"    "0.75"
 				"HITGROUP_RIGHTLEG"   "0.75"
 			}
@@ -646,8 +646,8 @@
 			"DamageHitgroups"
 			{
 				"HITGROUP_HEAD"       "1.00" 
-				"HITGROUP_CHEST"      "1.10"
-				"HITGROUP_STOMACH"    "1.10"
+				"HITGROUP_CHEST"      "1.00"
+				"HITGROUP_STOMACH"    "1.00"
 				"HITGROUP_LEFTARM"    "1.00"
 				"HITGROUP_RIGHTARM"   "1.00"
 				"HITGROUP_LEFTLEG"    "1.00"
@@ -684,17 +684,17 @@
 			"DamageHitgroups"
 			{
 				"HITGROUP_HEAD"       "1.00"
-				"HITGROUP_CHEST"      "1.75"
-				"HITGROUP_STOMACH"    "1.75"
-				"HITGROUP_LEFTARM"    "0.85"
-				"HITGROUP_RIGHTARM"   "0.85"
+				"HITGROUP_CHEST"      "2.00"
+				"HITGROUP_STOMACH"    "2.00"
+				"HITGROUP_LEFTARM"    "1.00"
+				"HITGROUP_RIGHTARM"   "1.00"
 				"HITGROUP_LEFTLEG"    "0.75"
 				"HITGROUP_RIGHTLEG"   "0.75"
 			}
 			"PenetrationPower"
 			{
-				"50"      "1200" //M995 can penetrate up to 12 mm (nearly 1/2 in) of RHA steel at 100 meters.
-				"12000"   "600" 
+				"50"      "1000" //M995 can penetrate up to 12 mm (nearly 1/2 in) of RHA steel at 100 meters.
+				"12000"   "300" 
 			}
 		}
 		"556x45_cqb_tracer" // 122gr  730.3m/s 2,108J 
@@ -731,14 +731,14 @@
 				"HITGROUP_HEAD"       "1.00"
 				"HITGROUP_CHEST"      "1.25"
 				"HITGROUP_STOMACH"    "1.25"
-				"HITGROUP_LEFTARM"    "0.80"
-				"HITGROUP_RIGHTARM"   "0.80"
-				"HITGROUP_LEFTLEG"    "0.80"
-				"HITGROUP_RIGHTLEG"   "0.80"
+				"HITGROUP_LEFTARM"    "1.00"
+				"HITGROUP_RIGHTARM"   "1.00"
+				"HITGROUP_LEFTLEG"    "0.75"
+				"HITGROUP_RIGHTLEG"   "0.75"
 			}
 			"PenetrationPower"
 			{
-				"50"      "1000" 
+				"50"      "750" 
 				"12000"   "150" 
 			}
 		}
@@ -771,12 +771,12 @@
 				"HITGROUP_STOMACH"    "2.00"
 				"HITGROUP_LEFTARM"    "1.00"
 				"HITGROUP_RIGHTARM"   "1.00"
-				"HITGROUP_LEFTLEG"    "0.75"
-				"HITGROUP_RIGHTLEG"   "0.75"
+				"HITGROUP_LEFTLEG"    "0.55"
+				"HITGROUP_RIGHTLEG"   "0.55"
 			}
 			"PenetrationPower"
 			{
-				"50"      "1700" 
+				"50"      "1400" 
 				"12000"   "600" 
 			}
 		}
@@ -892,7 +892,7 @@
 			}
 			"PenetrationPower"
 			{
-				"50"					"1100"
+				"50"					"800"
 				"15000"					"150"
 			}
 		}
@@ -942,7 +942,7 @@
 			}
 			"PenetrationPower"
 			{
-				"50"      "1800" 
+				"50"      "1700" 
 				"12000"   "600" 
 			}
 		}
@@ -1476,7 +1476,7 @@
 				"HITGROUP_RIGHTLEG"				"2.00"
 			}
 		}
-		"357mag"
+		"440Cor"
 		{
 			"import"    				"default"
 			"SuppressionIncrement"		"65"
@@ -1488,18 +1488,18 @@
 			}
 			"PenetrationPower"
 			{
-				"50"      "950" 
+				"50"      "750" 
 				"8000"    "100" 
 			}
 			"DamageHitgroups"
 			{
 				"HITGROUP_HEAD"					"1.00"
-				"HITGROUP_CHEST"			  	"1.00"
-				"HITGROUP_STOMACH"				"1.00"
+				"HITGROUP_CHEST"			  	"1.75"
+				"HITGROUP_STOMACH"				"1.75"
 				"HITGROUP_LEFTARM"				"1.00"
 				"HITGROUP_RIGHTARM"				"1.00"
-				"HITGROUP_LEFTLEG"				"0.80"
-				"HITGROUP_RIGHTLEG"				"0.80"
+				"HITGROUP_LEFTLEG"				"0.75"
+				"HITGROUP_RIGHTLEG"				"0.75"
 			}
 		}
 		"357sig"
@@ -1520,8 +1520,8 @@
 			"DamageHitgroups"
 			{
 				"HITGROUP_HEAD"					"1.00"
-				"HITGROUP_CHEST"			  	"1.35"
-				"HITGROUP_STOMACH"				"1.00"
+				"HITGROUP_CHEST"			  	"1.75"
+				"HITGROUP_STOMACH"				"1.75"
 				"HITGROUP_LEFTARM"				"1.00"
 				"HITGROUP_RIGHTARM"				"1.00"
 				"HITGROUP_LEFTLEG"				"1.00"
@@ -1601,8 +1601,8 @@
 			"brass_model"				"models/weapons/shells/762x51.mdl"
 			"PenetrationPower"
 			{
-				"50"        "500" 
-				"12000"     "50"  
+				"50"        "850" 
+				"12000"     "150"  
 			}
 			"PenetrationDamage"
 			{
@@ -1633,7 +1633,7 @@
 			"import"					"792x57"
 			"PenetrationPower"
 			{
-				"50"		"2000"
+				"50"		"1800"
 				"15000"		"600"
 			}
 			"DamageHitgroups"
@@ -1641,8 +1641,8 @@
 				"HITGROUP_HEAD"					"1.00"
 				"HITGROUP_CHEST"			  	"3.00"
 				"HITGROUP_STOMACH"				"3.00"
-				"HITGROUP_LEFTARM"				"0.75"
-				"HITGROUP_RIGHTARM"				"0.75"
+				"HITGROUP_LEFTARM"				"1.00"
+				"HITGROUP_RIGHTARM"				"1.00"
 				"HITGROUP_LEFTLEG"				"0.50"
 				"HITGROUP_RIGHTLEG"				"0.50"
 			}
@@ -1708,11 +1708,11 @@
 			"carry"						"5"
 			"magsize"					"7"
 		}
-		"357magnum_deagle"
+		"440Corbon"
 		{
-			"import"					"357mag"
+			"import"					"440Cor"
 			"carry"						"5"
-			"magsize"					"9"
+			"magsize"					"7"
 		}
 		
 		"9mm_20rnd"

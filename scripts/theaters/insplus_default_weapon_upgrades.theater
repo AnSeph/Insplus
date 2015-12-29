@@ -3362,13 +3362,13 @@
 		{
 			"import"						"base_ammo_ap"
 			"print_name"					"#weapon_upgrade_ap_deagle"
-			"print_desc"					"Increases magazine size to 9 rounds. Effective against armored targets."
+			"print_desc"					"Effective against armored targets"
 			"upgrade_cost"					"2"
 			"allowed_weapons"
 			{
 				"weapon"					"weapon_deagle"
 			}
-			"ammo_type_override"			"357magnum_deagle"
+			"ammo_type_override"			"440Corbon"
 		}
 		//========================================
 		// ZASTAVA SPECIFIC UPGRADES
@@ -3814,6 +3814,7 @@
 				"weapon"				"weapon_m45"
 				"weapon"				"weapon_makarov"
 				"weapon"				"weapon_m1911"
+				"weapon"				"weapon_tokarev"
 			}
 			
 			"viewmodel_attachments"

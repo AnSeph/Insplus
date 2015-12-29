@@ -1,0 +1,23 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/weapons/TT/Diffuse"
+	"$bumpmap" "models/weapons/TT/Normal"
+	"$nocull" "1"
+
+	"$phong"  				"1"
+	"$phongexponent" 		"60"
+	"$phongboost" 			".8"
+	"$phongfresnelranges" 	"[2 4 6]"
+	"$phongtint" 			"[0.6 0.8 1]"
+	"$phongalbedotint" 		"1"	
+	"$halflambert" 			"1"
+	
+	"$envmap" 					 	"env_cubemap"
+	"$normalmapalphaenvmapmask" 	"1"
+	"$envmaptint"				 	"[0.08 0.09 0.1]"
+	
+	$rimlight               1
+	$rimlightexponent       250
+	$rimlightboost          .01	
+	$rimmask 1
+}

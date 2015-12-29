@@ -42,9 +42,58 @@
 	
 	"player_templates"
 	{
-		//security class templates
+		// Security Weapons
+		// Assault Rifles
+		//	"weapon_m16a4"
+		//	"weapon_mini14"
+		//	"weapon_m4carbine"
+		//	"weapon_m4a1"
+		//	"weapon_galil_sar"
+		//	"weapon_mk18"
+		// Battle Rifles
+		//	"weapon_m14"
+		// Sniper Rifles
+		//	"weapon_m40a1"
+		// Support Weapons
+		//	"weapon_m249"
+		//	"weapon_m27iar"
+		// Shotguns
+		//	"weapon_m590"
+		// SMGs
+		//	"weapon_mp5"
+		//	"weapon_ump45"
+		// Pistols
+		//	"weapon_m9"
+		//	"weapon_m45"
+		//	"weapon_p226"
 		
-		// Marine Classes
+		// Security Explosives
+		// Launchers
+		// 	"weapon_at4"
+		//	"underbarrel_m203_he"
+		//	"underbarrel_m203_smoke"
+		// Heavy Charges
+		//	"weapon_c4_clicker"
+		// Grenades
+		//	"weapon_anm14"
+		//	"weapon_m67"
+		//	"weapon_m18"
+		//	"weapon_m84"
+		
+		// Security Gear
+		// Armor
+		// 	"sec_light_armor"
+		//	"sec_light_armor_cap"
+		// 	"sec_medium_armor"
+		//	"sec_heavy_armor"
+		// Ammo Rigs
+		//	"sec_chest_rig"
+		//	"sec_chest_carrier"
+		// Other
+		//	"sec_nightvision"
+		
+		// Security Class Templates
+		
 		"template_rifleman_security"
 		{	
 			"team"			"security"
@@ -281,7 +330,7 @@
 				{
 					"cap"
 					{
-						"model"			"models/characters/us_cap_light.mdl"
+						"model"					"models/characters/us_cap_light.mdl"
 						"fallback_for_slot"		"armor"
 					}
 				}
@@ -399,7 +448,7 @@
 				{
 					"cap"
 					{
-						"model"			"models/characters/us_cap_light.mdl"
+						"model"					"models/characters/us_cap_light.mdl"
 						"fallback_for_slot"		"armor"
 					}
 				}
@@ -756,9 +805,56 @@
 			}
 		}
 		
-		// insurgent class templates
+		// Insurgent Weapons
+		// Assault Rifles
+		//	"weapon_akm"
+		//	"weapon_ak74"
+		//	"weapon_galil"
+		//	"weapon_aks74u"
+		//	"weapon_m1a1"
+		// Battle Rifles
+		//	"weapon_sks"
+		//	"weapon_fal"
+		// Sniper Rifles
+		//	"weapon_mosin"
+		//	"weapon_zastava"
+		// Support Weapons
+		//	"weapon_rpk"
+		//	"weapon_galil" with "magazine_drum_75rd" upgrade
+		// Shotguns
+		//	"weapon_toz"
+		// SMGs
+		//	"weapon_mp40"
+		//	"weapon_sterling"
+		// Pistols
+		//	"weapon_makarov"
+		//	"weapon_m1911"
+		//	"weapon_tokarev"
+		//	"weapon_deagle"
 		
-		// Militia 
+		// Insurgent Explosives
+		// Launchers
+		//	"weapon_rpg7"
+		// Heavy Charges
+		//	"weapon_c4_ied"
+		// Grenades
+		//	"weapon_molotov"
+		//	"weapon_f1"
+		//	"weapon_m18"
+		//	"weapon_m84"
+		
+		// Insurgent Gear
+		// Armor
+		//	"ins_light_armor"
+		//	"ins_medium_armor"
+		//	"ins_heavy_armor"
+		// Ammo Rigs
+		//	"ins_chest_rig"
+		//	"ins_chest_carrier"
+		// Other
+		//	"ins_nightvision"
+		
+		// Insurgent Class Templates
 		
 		"template_fighter_insurgent"
 		{	
@@ -1207,8 +1303,8 @@
 			{
 				"weapon_upgrade"
 				{
-					"barrel_silencer_ins1"			"-1"
-					"barrel_silencer_pistol"		"-1"
+					"barrel_silencer_ins1"			"-2"
+					"barrel_silencer_pistol"		"-2"
 				}
 				"weapon"
 				{

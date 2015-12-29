@@ -54,7 +54,7 @@
 			"print_desc"			"#gear_light_armor_desc"
 			"gear_slot"				"armor"
 			"gear_cost"				"3"
-			"class_restricted"		"0"
+			"class_restricted"		"1"
 			"gear_weight"			"125" // 25 (2.5kg) + 75 encumbrance
 			
 			"DamageHitgroups"
@@ -73,13 +73,14 @@
 		
 		"sec_medium_armor"
 		{
-			"print_name"	"#gear_medium_armor"
-			"print_desc"	"#gear_medium_armor_desc"
-			"gear_slot"		"armor"
-			"gear_cost"		"2"
-			"gear_weight"	"175" // 50 (5.0kg) + 75 encumbrance
-			"entity" 		"model"
-			"model"			"models/characters/us_helmet_head.mdl"
+			"print_name"		"#gear_medium_armor"
+			"print_desc"		"#gear_medium_armor_desc"
+			"gear_slot"			"armor"
+			"gear_cost"			"2"
+			"class_restricted"	"1"
+			"gear_weight"		"175" // 50 (5.0kg) + 75 encumbrance
+			"entity" 			"model"
+			"model"				"models/characters/us_helmet_head.mdl"
 			
 			"DamageHitgroups"
 			{
@@ -121,13 +122,14 @@
 		
 		"sec_heavy_armor"
 		{
-			"print_name"	"#gear_heavy_armor"
-			"print_desc"	"#gear_heavy_armor_desc"
-			"gear_slot"		"armor"
-			"gear_cost"		"3"
-			"gear_weight"	"225" // 75 (7.5kg) + 250 encumbrance
-			"entity" 		"model"
-			"model"			"models/characters/us_helmet_head.mdl"			
+			"print_name"		"#gear_heavy_armor"
+			"print_desc"		"#gear_heavy_armor_desc"
+			"gear_slot"			"armor"
+			"gear_cost"			"3"
+			"class_restricted"	"1"
+			"gear_weight"		"225" // 75 (7.5kg) + 250 encumbrance
+			"entity" 			"model"
+			"model"				"models/characters/us_helmet_head.mdl"			
 			
 			"DamageHitgroups"
 			{
@@ -173,10 +175,10 @@
 			"print_desc"	"#gear_chest_rig_desc"
 			"gear_slot"		"vest"
 			"gear_cost"		"1"
-			"gear_weight"	"125" // 22 (2.2kg) + 24 encumbrance
+			"gear_weight"	"75" // 22 (2.2kg) + 24 encumbrance
 			"extra_ammo"
 			{
-				"primary"	"3"
+				"primary"	"2"
 				"secondary"	"2"
 				"explosive"	"0"
 			}
@@ -192,10 +194,10 @@
 			"print_desc"	"#gear_chest_rig_desc"
 			"gear_slot"		"vest"
 			"gear_cost"		"1"
-			"gear_weight"	"125" // 22 (2.2kg) + 24 encumbrance
+			"gear_weight"	"75" // 22 (2.2kg) + 24 encumbrance
 			"extra_ammo"
 			{
-				"primary"	"3"
+				"primary"	"2"
 				"secondary"	"2"
 				"explosive"	"0"
 			}

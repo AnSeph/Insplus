@@ -54,14 +54,14 @@
 			
 			"recoil"
 			{
-				"recoil_lateral_frac"		"0.80"
-				"recoil_vertical_frac"		"0.80"
+				"recoil_lateral_frac"		"0.95"
+				"recoil_vertical_frac"		"0.75"
 			}
 			
 			"sway"
 			{
 				"sway_radius_frac"			"0.90"
-				"sway_speed_frac"			"0.90"
+				"sway_speed_frac"			"1.00"
 			}
 		}
 		"base_heavybarrel"
@@ -73,16 +73,16 @@
 			
 			"freeaim"
 			{
-				"freeaim_distance_frac"			"1.10"
+				"freeaim_distance_frac"			"1.20"
 			}
 			"recoil"
 			{
 				"recoil_lateral_frac"		"1.00"
-				"recoil_vertical_frac"		"0.80"
+				"recoil_vertical_frac"		"0.95"
 			}
 			"sway"
 			{
-				"sway_speed"				"0.85"
+				"sway_speed"				"0.80"
 			}
 		}
 		"base_silencer"
@@ -96,7 +96,7 @@
 			
 			"freeaim"
 			{
-				"freeaim_distance_frac"			"1.10"
+				"freeaim_distance_frac"			"1.20"
 			}
 			"sway"
 			{
@@ -136,7 +136,7 @@
 
 			"freeaim"
 			{
-				"freeaim_distance_frac"			"0.50"
+				"freeaim_distance_frac"			"0.45"
 			}
 			"world_attachments"
 			{
@@ -154,7 +154,7 @@
 			
 			"freeaim"
 			{
-				"freeaim_distance_frac"			"0.50"
+				"freeaim_distance_frac"			"0.45"
 			}
 		}
 		"base_bipod"

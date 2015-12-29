@@ -5,10 +5,10 @@
 		"scoring"
 		{
 			"kill"						"10" 
-			"kill_offensive"			"25"
-			"kill_defensive"			"25" 
+			"kill_offensive"			"50"
+			"kill_defensive"			"50" 
 			"kill_headshot_bonus"		"5"	
-			"kill_savior"				"15"	
+			"kill_savior"				"10"	
 			"kill_bonus_domination"		"5"	
 			"kill_bonus_revenge"		"5"	
 			"assist"					"5"	
@@ -32,9 +32,9 @@
 			"frac_back_move"			"0.50"
 			"frac_side_step"			"0.60"
 			"speed_prone"				"40"
-			"speed_crouch_walk"			"30"
+			"speed_crouch_walk"			"40"
 			"speed_crouch_run"			"75"
-			"speed_walk"				"55"
+			"speed_walk"				"75"
 			"speed_run"					"130"
 			"speed_sprint"				"215"
 			"AccelerationByWeight"
@@ -63,7 +63,7 @@
 		}
 		"turning"
 		{
-			"frac_turn_sprint"		"0.45"
+			"frac_turn_sprint"		"0.25"
 			"frac_turn_lean"		"0.95"
 		}
 		"stamina"
@@ -73,10 +73,10 @@
 				"60"				"295"
 				"640"				"165"
 			}
-			"stamina_regain"		"5.00"
-			"stamina_sprint_take"	"4.00" 
-			"stamina_jump_take"		"25"
-			"stamina_dmg_take"		"260"
+			"stamina_regain"		"4.50"
+			"stamina_sprint_take"	"2.50" 
+			"stamina_jump_take"		"20"
+			"stamina_dmg_take"		"295"
 			
 			"land_viewpunch_minvel"		"150"
 			"land_viewpunch_basepitch" 	"0.75"
@@ -163,15 +163,15 @@
 				"HITGROUP_STOMACH"			"1.50"
 				"HITGROUP_LEFTARM"			"1.00"
 				"HITGROUP_RIGHTARM"			"1.00"
-				"HITGROUP_LEFTLEG"			"0.90"
-				"HITGROUP_RIGHTLEG"			"0.90"
+				"HITGROUP_LEFTLEG"			"1.00"
+				"HITGROUP_RIGHTLEG"			"1.00"
 			}
 			"VelocityHitgroups"
 			{
-				"HITGROUP_CHEST"    			"0.25"
+				"HITGROUP_CHEST"    			"0.50"
 				"HITGROUP_STOMACH"    			"0.50"
-				"HITGROUP_LEFTARM"				"0.50"
-				"HITGROUP_RIGHTARM"				"0.50"
+				"HITGROUP_LEFTARM"				"0.75"
+				"HITGROUP_RIGHTARM"				"0.75"
 				"HITGROUP_LEFTLEG"    			"0.15"
 				"HITGROUP_RIGHTLEG"   	 		"0.15"
 			}
