@@ -1,0 +1,23 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\weapons\insplusbrowning1911\M1935_D"
+	"$bumpmap" "models\weapons\insplusbrowning1911\M1935_N"
+	"$phongexponenttexture" "models\weapons\insplusbrowning1911\M1935_G"
+	$normalmapalphaenvmapmask 	"1"
+
+	 $phongtint 			"[.9 .6 .3]"
+
+	$envmap 			env_cubemap
+	$envmaptint 			"[.2 .2 .2  ]"
+
+	$phong 				"1"
+	//$PhongAlbedoTint 		"0"	
+	//$BasemapLuminancePhongMask	"1"
+	
+	//$phongexponent 			"45"
+	$phongboost 			"1"
+	$phongfresnelranges		"[5 9 3]"
+
+	$ambientocclusion 1
+	$ambientocclusiontexture "models\weapons\browning1911\M1935_AO"
+}

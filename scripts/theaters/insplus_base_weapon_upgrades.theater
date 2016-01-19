@@ -43,8 +43,8 @@
 			"IsBase"						"1"
 			"upgrade_cost"					"3"
 			"upgrade_slot"					"underbarrel"
-			"print_name"					"#weapon_upgrade_foregrip"
-			"print_desc"					"#weapon_upgrade_foregrip_desc"
+			"print_name"					"#weapon_upgrade_insplus_foregrip"
+			"print_desc"					"#weapon_upgrade_insplus_foregrip_desc"
 			"weapon_abilities"				"foregrip"
 			
 			"freeaim"
@@ -54,13 +54,13 @@
 			
 			"recoil"
 			{
-				"recoil_lateral_frac"		"0.95"
-				"recoil_vertical_frac"		"0.75"
+				"recoil_lateral_frac"		"1.00"
+				"recoil_vertical_frac"		"0.70"
 			}
 			
 			"sway"
 			{
-				"sway_radius_frac"			"0.90"
+				"sway_radius_frac"			"1.00"
 				"sway_speed_frac"			"1.00"
 			}
 		}
@@ -68,8 +68,9 @@
 		{
 			"upgrade_slot"					"barrel"
 			"upgrade_cost"					"1"
-			"print_name"					"#weapon_upgrade_heavybarrel"
-			"print_desc"					"#weapon_upgrade_heavybarrel_desc"
+			"print_name"					"#weapon_upgrade_insplus_heavybarrel"
+			"print_desc"					"#weapon_upgrade_insplus_heavybarrel_desc"
+			"spread_frac"					"0.75"
 			
 			"freeaim"
 			{
@@ -78,7 +79,7 @@
 			"recoil"
 			{
 				"recoil_lateral_frac"		"1.00"
-				"recoil_vertical_frac"		"0.95"
+				"recoil_vertical_frac"		"0.90"
 			}
 			"sway"
 			{

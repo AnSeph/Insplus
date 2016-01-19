@@ -26,8 +26,6 @@
 			"ironsights"
 			{
 				"GestureIronsights"			"delta_iron"
-				"in_time"					"0.25"
-				"out_time"					"0.25"
 			}
 			
 			"sway"
@@ -75,7 +73,7 @@
 				"SwayRadiusBySuppression"
 				{
 					"0"						"1.0"
-					"100"					"5.0"
+					"100"					"4.0"
 				}
 				"SwaySpeedBySuppression"
 				{
@@ -99,7 +97,7 @@
 				"freeaim_screenratio_bipod"		"0.95"
 				
 				"freeaim_ads"					"0"
-				"freeaim_distance_ads"			"6.25"
+				"freeaim_distance_ads"			"2.00"
 				"freeaim_screenratio_ads"		"0.75"
 				
 				"freeaim_frac"					"1.0"
@@ -107,9 +105,8 @@
 			}
 			"fov"
 			{
-				"fov_plr_ironsight"			"-25"
-				"fov_plr_focus"				"-12"
-				"fov_wpn_scope"				"0"
+				"fov_plr_ironsight"			"0"
+				"fov_plr_focus"				"-20"
 			}
 			"recoil"
 			{
@@ -118,7 +115,7 @@
 				"recoil_shot_reset_time"			"0.30"
 				"recoil_focus_frac"					"1.00"
 				"recoil_freeaim_frac"				"1.00"
-				"recoil_ironsight_frac"				"1.00"
+				"recoil_ironsight_frac"				"0.95"
 				
 				"recoil_return_controller_only"		"1"
 				"recoil_return_frac"				"0.5"
@@ -128,7 +125,7 @@
 				
 				"RecoilBaseFracByWeight"
 				{
-					"0"						"1.25"
+					"0"						"1.10"
 				}
 				"RecoilIronSightFracByWeight"
 				{
@@ -141,12 +138,10 @@
 				"RecoilLeanFracByWeight"
 				{
 					"60"					"0.80"
-					"640"					"0.80"
 				}
 				"RecoilMoveFracByWeight"
 				{
-					"60"					"1.25"
-					"640"					"1.25"
+					"60"					"1.35"
 				}
 				"RecoilStandFracByWeight"
 				{
@@ -162,13 +157,12 @@
 				}
 				"RecoilLowStaminaFracByWeight"
 				{
-					"60"					"1.25"
-					"640"					"1.25"
+					"60"					"1.35"
 				}
 				"RecoilMaxFracByWeight"
 				{
-					"60"					"10.00"
-					"640"					"10.00"
+					"60"					"5.00"
+					"640"					"5.00"
 				}
 			}
 			
@@ -243,6 +237,11 @@
 			"IsBase"					"1"
 			"import"					"ballistic_base"
 			"barrel_length"				"12"
+			"player_restrictions"
+			{
+				"allow_reload_sprint"	"1"
+				"allow_reload_crawl"	"1"
+			}
 			"freeaim"
 			{
 				"freeaim_distance_frac"			"0.50"
@@ -251,6 +250,11 @@
 			{
 				"position"				"20 3 2"
 				"angle"					"0 90 0"
+			}
+			"ironsights"
+			{
+				"in_time"					"0.20"
+				"out_time"					"0.20"
 			}
 		}
 		"smg_base"
@@ -261,6 +265,41 @@
 			"freeaim"
 			{
 				"freeaim_distance_frac"			"0.60"
+			}
+			"ironsights"
+			{
+				"in_time"					"0.25"
+				"out_time"					"0.25"
+			}
+		}
+		"carbine_base"
+		{
+			"IsBase"	"1"
+			"import"	"ballistic_base"
+			"ironsights"
+			{
+				"in_time"					"0.30"
+				"out_time"					"0.30"
+			}
+		}
+		"assault_rifle_base"
+		{
+			"IsBase"	"1"
+			"import"	"ballistic_base"
+			"ironsights"
+			{
+				"in_time"					"0.35"
+				"out_time"					"0.35"
+			}
+		}
+		"battle_rifle_base"
+		{
+			"IsBase"	"1"
+			"import"	"ballistic_base"
+			"ironsights"
+			{
+				"in_time"					"0.40"
+				"out_time"					"0.45"
 			}
 		}
 		"weapon_grenade_base"
@@ -279,7 +318,7 @@
 			
 			"freeaim"
 			{
-				"freeaim_distance"			"0"
+				"freeaim_distance"				"0"
 				"freeaim_screenratio"			"0"	// if this is 0 and freeaim_distance is set, that will just mean sway gets applied
 			}
 		}

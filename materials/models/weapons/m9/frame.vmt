@@ -2,8 +2,8 @@
 {
 	"$baseTexture" "models\weapons\m9\Frame"
 	"$bumpmap" "models\weapons\m9\Frame_Normal"
-    	"$phongwarptexture"  	"models\weapons\m9\Frame_Specular"
-	//"$envmap"	"env_cubemap"
+    "$phongwarptexture"  	"models\weapons\m9\Frame_Specular"
+	"$envmap"	"env_cubemap"
 	
 	"$normalmapalphaenvmapmask" "1"
 	"$BasemapAlphaPhongMask" "1"

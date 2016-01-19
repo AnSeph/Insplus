@@ -66,13 +66,15 @@
 				"allow_jump"				"1"
 				"allow_sway"				"1"
 			}
+			“weapon_requirements”
+			{
+				“firing_ironsights”			"1"
+				“ironsights_stationary”		"1"
+			}
 			"fov"
 			{
-				"fov_plr_ironsight"			"-15"
-				"fov_plr_focus"				"-8"
 				"fov_wpn_default"			"60"
 				"fov_wpn_ironsight"			"48"
-				"fov_wpn_focus"				"55"
 			}
 			"attachments"
 			{
@@ -142,13 +144,15 @@
 				"allow_jump"				"1"
 				"allow_sway"				"1"
 			}
+			“weapon_requirements”
+			{
+				“firing_ironsights”			"1"
+				“ironsights_stationary”		"1"
+			}
 			"fov"
 			{
-				"fov_plr_ironsight"			"-15"
-				"fov_plr_focus"				"-8"
 				"fov_wpn_default"			"60"
 				"fov_wpn_ironsight"			"48"
-				"fov_wpn_focus"				"53"
 			}
 			"attachments"
 			{
@@ -218,11 +222,9 @@
 			}
 			"fov"
 			{
-				"fov_plr_ironsight"			"-10"
-				"fov_plr_focus"				"-5"
 				"fov_wpn_default"			"20"
-				"fov_wpn_ironsight"			"74"
-				"fov_wpn_focus"				"79"
+				"fov_wpn_ironsight"			"64"
+
 			}
 			"ironsights"
 			{
@@ -254,11 +256,8 @@
 			}
 			"fov"
 			{
-				"fov_plr_ironsight"			"-10"
-				"fov_plr_focus"				"-5"
 				"fov_wpn_default"			"20"
-				"fov_wpn_ironsight"			"74"
-				"fov_wpn_focus"				"79"
+				"fov_wpn_ironsight"			"64"
 			}
 		}
 		"weapon_m203_smoke"
@@ -317,11 +316,8 @@
 			}
 			"fov"
 			{
-				"fov_plr_ironsight"			"-10"
-				"fov_plr_focus"				"-5"
 				"fov_wpn_default"			"20"
-				"fov_wpn_ironsight"			"74"
-				"fov_wpn_focus"				"79"
+				"fov_wpn_ironsight"			"64"
 			}
 			"ironsights"
 			{
@@ -353,11 +349,8 @@
 			}
 			"fov"
 			{
-				"fov_plr_ironsight"			"-10"
-				"fov_plr_focus"				"-5"
 				"fov_wpn_default"			"20"
-				"fov_wpn_ironsight"			"74"
-				"fov_wpn_focus"				"79"
+				"fov_wpn_ironsight"			"64"
 			}
 		}
 
@@ -726,7 +719,7 @@
 			}
 			"player_restrictions"
 			{
-				"allow_lean"				"0"
+				"allow_lean"				"1"
 				"allow_sprint"				"1"
 				"allow_jump"				"1"
 				"allow_sway"				"1"
@@ -786,7 +779,7 @@
 			}
 			"player_restrictions"
 			{
-				"allow_lean"				"0"
+				"allow_lean"				"1"
 				"allow_sprint"				"1"
 				"allow_jump"				"1"
 				"allow_sway"				"1"
@@ -814,17 +807,10 @@
 			"class_restricted"				"0"
 			"barrel_length"					"5"
 			
-			"player_restrictions"
-			{
-				“allow_reload_sprint”				"1"
-			}
 			"fov"
 			{
-				"fov_plr_ironsight"			"-10"
-				"fov_plr_focus"				"-10"
-				"fov_wpn_default"			"74"
-				"fov_wpn_ironsight"			"74"
-				"fov_wpn_focus"				"84"
+				"fov_wpn_default"			"84"
+				"fov_wpn_ironsight"			"84"
 			}
 			"viewmodel_offsets"
 			{
@@ -851,7 +837,7 @@
 			}
 			"recoil"
 			{
-				"recoil_lateral_range"				"-2.0 2.0"
+				"recoil_lateral_range"				"-1.25 1.25"
 				"recoil_vertical_range"				"3.00 3.6"
 				"recoil_aim_punch"					"0.65 0.75"
 				"recoil_rest_rate"					"10"
@@ -860,10 +846,15 @@
 				"recoil_roll_rest_rate"				"180"
 				"recoil_shot_reset_time" 			"0.75"	// Time delay for resetting the shots fired counter for the above (default = 0.3)
 				"recoil_punch_additive_factor" 		"0.85"	// How much of the view punch from the previous shot(s) get added to any additional shot fired (default 1.0)
+				
+				"RecoilBaseFracByWeight"
+				{
+					"0"						"1.20"
+				}
 			}
 			"ballistics"
 			{
-				"spread"					"0.5 0.5 0.5"
+				"spread"					"0.4 0.4 0.4"
 				"FireModes"					"semi"
 				"bulletcount"				"1"
 				"maxrange"					"6000"
@@ -885,6 +876,94 @@
 			}
 			"team_access"	"security"
 		}
+		
+		"weapon_bhp"
+		{
+			"import"						"pistol_base"
+			"weapon_class"					"pistol"
+			"print_name"					"#weapon_bhp"
+			"print_desc"					"#weapon_bhp_desc"
+			"view_model"					"models/weapons/v_bhp.mdl"
+			"world_model"					"models/weapons/w_bhp.mdl"
+			"rounds_per_minute"				"700"
+			"weapon_slot"					"secondary"
+			"act_table"						"pistol"
+			"weapon_abilities"				"ironsight"
+			"weapon_weight"					"45"
+			"weapon_cost"					"1"
+			"class_restricted"				"1"
+			"barrel_length"					"7"
+			
+			"fov"
+			{
+				"fov_wpn_default"			"70"
+				"fov_wpn_ironsight"			"60"
+			}
+			"viewmodel_offsets"
+			{
+				// x back, y left, z down
+				"VMOffsetStand"					"0.15 0.75 0.75"
+			}
+			"sounds"
+			{
+				"shot_single"				"Weapon_BHP.Single"
+				"shot_single_local"			"Weapon_BHP.SingleLocal"
+				"shot_silent"				"Weapon_M45.SingleSilenced"
+				"shot_silent_local"			"Weapon_M45.SingleSilencedLocal"
+				"empty"						"Weapon_M9.Empty"
+				"magin"						"Weapon_M9.Clipin"
+				"magout"					"Weapon_M9.Clipout"
+				"slide_back"				"Weapon_M9.slideback"
+				"slide_forward"				"Weapon_M9.slideforward"
+				"safety"					"Weapon_M9.safety"
+			}
+			"particles"
+			{
+				"particle_muzzleflash_1st"	"muzzleflash_m9_1p"
+				"particle_muzzleflash_3rd"	"muzzleflash_m9_3rd"		
+			}
+			"recoil"
+			{
+				"recoil_lateral_range"				"-1.25 1.25"
+				"recoil_vertical_range"				"2.75 3.25"
+				"recoil_aim_punch"					"0.65 0.75"
+				"recoil_rest_rate"					"10"
+				"recoil_rest_delay"					"0.10"
+				"recoil_roll_range"					"-1.35 -1.35"
+				"recoil_roll_rest_rate"				"180"
+				"recoil_shot_reset_time" 			"0.75"	// Time delay for resetting the shots fired counter for the above (default = 0.3)
+				"recoil_punch_additive_factor" 		"0.85"	// How much of the view punch from the previous shot(s) get added to any additional shot fired (default 1.0)
+				
+				"RecoilBaseFracByWeight"
+				{
+					"0"						"1.20"
+				}
+			}
+			"ballistics"
+			{
+				"spread"					"0.4 0.4 0.4"
+				"FireModes"					"semi"
+				"bulletcount"				"1"
+				"maxrange"					"6000"
+			}
+			"ammo_clip"
+			{
+				"ammo_type"					"9mm_13rnd"
+				"clip_max"					"10"
+				"clip_max_rounds"			"13"
+				"clip_default"				"2"
+			}
+			"attachments"
+			{
+				"attachment_addon"			"pistol"
+			}
+			"kitui_offset"
+			{
+				"position"				"12 -3 0"
+			}
+			"team_access"	"insurgent"
+		}
+		
 		"weapon_model10"
 		{
 			"import"					"pistol_base"
@@ -899,26 +978,19 @@
 			"weapon_abilities"			"ironsight"
 			"weapon_weight"				"30"
 			"weapon_cost"				"0"
-			"class_restricted"			"0"
+			"class_restricted"			"1"
 			"barrel_length"				"16"
 			"closed_bolt"				"0"
 			"trigger_delay"				"0.04"
 			
-			"player_restrictions"
-			{
-				“allow_reload_sprint”				"1"
-			}
 			"freeaim"
 			{
 				"freeaim_ads"			"0"
 			}
 			"fov"
 			{
-				"fov_plr_ironsight"			"-10"
-				"fov_plr_focus"				"-10"
 				"fov_wpn_default"			"70"
 				"fov_wpn_ironsight"			"74"
-				"fov_wpn_focus"				"84"
 			}
 			"viewmodel_offsets"
 			{
@@ -952,10 +1024,15 @@
 				"recoil_roll_rest_rate"				"180"
 				"recoil_shot_reset_time"			"1.45"	// Time delay for resetting the shots fired counter for the above (default = 0.3)
 				"recoil_punch_additive_factor"		"0.8"	// How much of the view punch from the previous shot(s) get added to any additional shot fired (default 1.0)
+				
+				"RecoilBaseFracByWeight"
+				{
+					"0"						"1.10"
+				}
 			}
 			"ballistics"
 			{
-				"spread"				"0.5 0.5 0.5"
+				"spread"				"0.35 0.35 0.35"
 				"FireModes"				"semi"
 				"bulletcount"			"1"
 				"maxrange"				"6000"
@@ -1008,11 +1085,8 @@
 			}
 			"fov"
 			{
-				"fov_plr_ironsight"			"-10"
-				"fov_plr_focus"				"-10"
-				"fov_wpn_default"			"74"
-				"fov_wpn_ironsight"			"74"
-				"fov_wpn_focus"				"84"
+				"fov_wpn_default"			"84"
+				"fov_wpn_ironsight"			"84"
 			}
 			"viewmodel_offsets"
 			{
@@ -1050,10 +1124,15 @@
 				"recoil_roll_rest_rate"				"180"
 				"recoil_shot_reset_time" 			"0.75"	// Time delay for resetting the shots fired counter for the above (default = 0.3)
 				"recoil_punch_additive_factor" 		"0.85"	// How much of the view punch from the previous shot(s) get added to any additional shot fired (default 1.0)
+				
+				"RecoilBaseFracByWeight"
+				{
+					"0"						"1.20"
+				}
 			}
 			"ballistics"
 			{
-				"spread"					"0.5 0.5 0.5"
+				"spread"					"0.4 0.4 0.4"
 				"FireModes"					"semi, burst"
 				"bulletcount"				"1"
 				"maxrange"					"6000"
@@ -1092,18 +1171,12 @@
 			"weapon_cost"					"1"
 			"class_restricted"				"0"
 			"barrel_length"					"5"
+			"reload_speed"					"1.10"
 			
-			"player_restrictions"
-			{
-				“allow_reload_sprint”				"1"
-			}
 			"fov"
 			{
-				"fov_plr_ironsight"			"-10"
-				"fov_plr_focus"				"-10"
-				"fov_wpn_default"			"74"
-				"fov_wpn_ironsight"			"74"
-				"fov_wpn_focus"				"84"
+				"fov_wpn_default"			"84"
+				"fov_wpn_ironsight"			"84"
 			}
 			"viewmodel_attachments"
 			{
@@ -1157,10 +1230,15 @@
 				"recoil_shot_reset_time" 			"0.75"	// Time delay for resetting the shots fired counter for the above (default = 0.3)
 				"recoil_punch_additive_factor" 		"0.9"	// How much of the view punch from the previous shot(s) get added to any additional shot fired (default 1.0)
 				"recoil_additional_rest_per_shot"	"5"
+				
+				"RecoilBaseFracByWeight"
+				{
+					"0"						"1.20"
+				}
 			}
 			"ballistics"
 			{
-				"spread"					"0.5 0.5 0.5"
+				"spread"					"0.4 0.4 0.4"
 				"FireModes"					"semi"
 				"bulletcount"				"1"
 				"maxrange"					"6000"
@@ -1197,13 +1275,9 @@
 			"weapon_abilities"				"ironsight"
 			"weapon_weight"					"28" // (0.7kg[weapon] + (0.1kg[ammo] * (1+4)[mags]) )*10[kg->hg for int]  +2[encumbrance]
 			"weapon_cost"					"1"
-			"class_restricted"				"0"
+			"class_restricted"				"1"
 			"barrel_length"					"5"
 			
-			"player_restrictions"
-			{
-				“allow_reload_sprint”				"1"
-			}
 			"viewmodel_attachments"
 			{
 				"standard_magazine"
@@ -1223,11 +1297,8 @@
 			}
 			"fov"
 			{
-				"fov_plr_ironsight"			"-10"
-				"fov_plr_focus"				"-10"
-				"fov_wpn_default"			"74"
-				"fov_wpn_ironsight"			"72"
-				"fov_wpn_focus"				"82"
+				"fov_wpn_default"			"84"
+				"fov_wpn_ironsight"			"84"
 			}
 			"viewmodel_offsets"
 			{
@@ -1255,14 +1326,19 @@
 			"recoil"
 			{
 				"recoil_lateral_range"				"-2.0 2.0"
-				"recoil_vertical_range"				"2.8 3.25"
-				"recoil_aim_punch"					"1.2 1.6"
+				"recoil_vertical_range"				"2.25 2.75"
+				"recoil_aim_punch"					"0.9 1.2"
 				"recoil_rest_rate"					"12"
 				"recoil_rest_delay"					"0.10"
 				"recoil_roll_range"					"-1.35 -1.35"
 				"recoil_roll_rest_rate"				"180"
 				"recoil_shot_reset_time" 			"0.75"	// Time delay for resetting the shots fired counter for the above (default = 0.3)
 				"recoil_punch_additive_factor" 		"0.85"	// How much of the view punch from the previous shot(s) get added to any additional shot fired (default 1.0)
+				
+				"RecoilBaseFracByWeight"
+				{
+					"0"						"1.20"
+				}
 			}
 
 			"ballistics"
@@ -1277,98 +1353,6 @@
 				"ammo_type"					"9x18mm"
 				"clip_max"					"10"
 				"clip_max_rounds"			"8"
-				"clip_default"				"2"
-			}
-			"attachments"
-			{
-				"attachment_addon"			"pistol"
-			}
-			"kitui_offset"
-			{
-				"position"				"12 -3 0"
-			}
-			"team_access"	"insurgent"
-		}
-		"weapon_aps"
-		{
-			"import"						"pistol_base"
-			"weapon_class"					"pistol"
-			"print_name"					"#weapon_aps"
-			"print_desc"					"#weapon_aps_desc"
-			"view_model"					"models/weapons/v_makarov.mdl"
-			"world_model"					"models/weapons/w_makarov.mdl"
-			"rounds_per_minute"				"750"
-			"burst_delay"					"0.20"
-			"weapon_slot"					"secondary"
-			"act_table"						"pistol"
-			"weapon_abilities"				"ironsight"
-			"weapon_weight"					"50"
-			"weapon_cost"					"3"
-			"class_restricted"				"1"
-			"barrel_length"					"10"
-			
-			"player_restrictions"
-			{
-				“allow_reload_sprint”				"1"
-			}
-			"fov"
-			{
-				"fov_plr_ironsight"			"-10"
-				"fov_plr_focus"				"-10"
-				"fov_wpn_default"			"74"
-				"fov_wpn_ironsight"			"72"
-				"fov_wpn_focus"				"82"
-			}
-			"viewmodel_offsets"
-			{
-				// x back, y left, z down
-				"VMOffsetStand"					"0.15 0.75 0.75"
-			}
-			"sounds"
-			{
-				"shot_single"				"Weapon_Makarov.Single"
-				"shot_single_local"			"Weapon_Makarov.SingleLocal"
-				"shot_silent"				"Weapon_Makarov.SingleSilenced"
-				"shot_silent_local"			"Weapon_Makarov.SingleSilencedLocal"
-				"empty"						"Weapon_Makarov.Empty"
-				"magin"						"Weapon_Makarov.Clipin"
-				"magout"					"Weapon_Makarov.Clipout"
-				"slide_back"				"Weapon_Makarov.slideback"
-				"slide_forward"				"Weapon_Makarov.slideforward"
-				"safety"					"Weapon_Makarov.safety"
-				"rofdown"					"Weapon_Makarov.ROF"
-				"rofup"						"Weapon_Makarov.ROF"
-			}
-			"particles"
-			{
-				"particle_muzzleflash_1st"	"muzzleflash_makarov_1p"
-				"particle_muzzleflash_3rd"	"muzzleflash_makarov_3rd"	
-			}
-			"recoil"
-			{
-				"recoil_lateral_range"				"-2.0 2.0"
-				"recoil_vertical_range"				"2.8 3.25"
-				"recoil_aim_punch"					"1.2 1.6"
-				"recoil_rest_rate"					"12"
-				"recoil_rest_delay"					"0.10"
-				"recoil_roll_range"					"-1.35 -1.35"
-				"recoil_roll_rest_rate"				"180"
-				"recoil_shot_reset_time" 			"0.75"	// Time delay for resetting the shots fired counter for the above (default = 0.3)
-				"recoil_punch_additive_factor" 		"0.85"	// How much of the view punch from the previous shot(s) get added to any additional shot fired (default 1.0)
-			}
-
-			"ballistics"
-			{
-				"spread"					"0.5 0.5 0.5"
-				"FireModes"					"full, burst, semi"
-				"bulletcount"				"1"
-				"maxrange"					"6000"
-			}
-			"ammo_clip"
-			{
-				"ammo_type"					"9x18mm_aps"
-				"clip_max"					"10"
-				"clip_max_rounds"			"20"
 				"clip_default"				"2"
 			}
 			"attachments"
@@ -1397,11 +1381,8 @@
 			"weapon_cost"					"1"
 			"class_restricted"				"0"
 			"barrel_length"					"5"
+			"reload_speed"					"1.10"
 			
-			"player_restrictions"
-			{
-				“allow_reload_sprint”				"1"
-			}
 			"viewmodel_attachments"
 			{
 				"standard_magazine"
@@ -1421,11 +1402,8 @@
 			}
 			"fov"
 			{
-				"fov_plr_ironsight"			"-10"
-				"fov_plr_focus"				"-10"
-				"fov_wpn_default"			"74"
-				"fov_wpn_ironsight"			"74"
-				"fov_wpn_focus"				"84"
+				"fov_wpn_default"			"84"
+				"fov_wpn_ironsight"			"84"
 			}
 			"viewmodel_offsets"
 			{
@@ -1462,6 +1440,11 @@
 				"recoil_shot_reset_time" 			"0.75"	// Time delay for resetting the shots fired counter for the above (default = 0.3)
 				"recoil_punch_additive_factor" 		"0.9"	// How much of the view punch from the previous shot(s) get added to any additional shot fired (default 1.0)
 				"recoil_additional_rest_per_shot"	"5"
+				
+				"RecoilBaseFracByWeight"
+				{
+					"0"						"1.30"
+				}
 			}
 			"ballistics"
 			{
@@ -1506,17 +1489,10 @@
 			"team_access"		"security, insurgent"
 			"barrel_length"		"20"	
 			
-			"player_restrictions"
-			{
-				“allow_reload_sprint”				"1"
-			}
 			"fov"
 			{
-				"fov_plr_ironsight"			"-10"
-				"fov_plr_focus"				"-10"
-				"fov_wpn_default"			"74"
-				"fov_wpn_ironsight"			"74"
-				"fov_wpn_focus"				"84"
+				"fov_wpn_default"			"84"
+				"fov_wpn_ironsight"			"84"
 			}
 			"viewmodel_offsets"
 			{
@@ -1558,6 +1534,11 @@
 				"recoil_shot_reset_time" 			"0.75"	// Time delay for resetting the shots fired counter for the above (default = 0.3)
 				"recoil_punch_additive_factor" 		"0.9"	// How much of the view punch from the previous shot(s) get added to any additional shot fired (default 1.0)
 				"recoil_additional_rest_per_shot"	"5"
+				
+				"RecoilBaseFracByWeight"
+				{
+					"0"						"1.30"
+				}
 			}
 			"ballistics"
 			{
@@ -1600,17 +1581,10 @@
 			"class_restricted"				"0"
 			"barrel_length"					"15"
 			
-			"player_restrictions"
-			{
-				“allow_reload_sprint”				"1"
-			}
 			"fov"
 			{
-				"fov_plr_ironsight"			"-10"
-				"fov_plr_focus"				"-10"
-				"fov_wpn_default"			"74"
-				"fov_wpn_ironsight"			"74"
-				"fov_wpn_focus"				"84"
+				"fov_wpn_default"			"84"
+				"fov_wpn_ironsight"			"84"
 			}
 			"viewmodel_offsets"
 			{
@@ -1649,10 +1623,15 @@
 				"recoil_shot_reset_time" 			"0.75"	// Time delay for resetting the shots fired counter for the above (default = 0.3)
 				"recoil_punch_additive_factor" 		"0.9"	// How much of the view punch from the previous shot(s) get added to any additional shot fired (default 1.0)
 				"recoil_additional_rest_per_shot"	"5"
+				
+				"RecoilBaseFracByWeight"
+				{
+					"0"						"1.20"
+				}
 			}
 			"ballistics"
 			{
-				"spread"					"0.5 0.5 0.5"
+				"spread"					"0.4 0.4 0.4"
 				"FireModes"					"semi"
 				"bulletcount"				"1"
 				"maxrange"					"6000"
@@ -1692,17 +1671,10 @@
 			"class_restricted"				"1"
 			"barrel_length"					"15"
 			
-			"player_restrictions"
-			{
-				“allow_reload_sprint”				"1"
-			}
 			"fov"
 			{
-				"fov_plr_ironsight"			"-10"
-				"fov_plr_focus"				"-10"
-				"fov_wpn_default"			"74"
-				"fov_wpn_ironsight"			"72"
-				"fov_wpn_focus"				"82"
+				"fov_wpn_default"			"84"
+				"fov_wpn_ironsight"			"84"
 			}
 			"viewmodel_attachments"
 			{
@@ -1730,8 +1702,8 @@
 			{
 				"shot_single"				"Weapon_tokarev.Single"
 				"shot_single_local"			"Weapon_tokarev.SingleLocal"
-				"shot_silent"				"Weapon_M1911.SingleSilenced"
-				"shot_silent_local"			"Weapon_M1911.SingleSilencedLocal"
+				"shot_silent"				"Weapon_Makarov.SingleSilenced"
+				"shot_silent_local"			"Weapon_Makarov.SingleSilencedLocal"
 				"empty"						"Weapon_Makarov.Empty"
 				"magin"						"Weapon_M1911.Clipin"
 				"magout"					"Weapon_M1911.Clipout"
@@ -1756,10 +1728,15 @@
 				"recoil_shot_reset_time" 			"0.75"	// Time delay for resetting the shots fired counter for the above (default = 0.3)
 				"recoil_punch_additive_factor" 		"0.9"	// How much of the view punch from the previous shot(s) get added to any additional shot fired (default 1.0)
 				"recoil_additional_rest_per_shot"	"5"
+				
+				"RecoilBaseFracByWeight"
+				{
+					"0"						"1.30"
+				}
 			}
 			"ballistics"
 			{
-				"spread"					"0.5 0.5 0.5"
+				"spread"					"0.4 0.4 0.4"
 				"FireModes"					"semi"
 				"bulletcount"				"1"
 				"maxrange"					"6000"
@@ -1788,7 +1765,7 @@
 		
 		"weapon_m16a4"
 		{
-			"import"						"ballistic_base"
+			"import"						"assault_rifle_base"
 			"weapon_class"					"rifle_controlled_fire"
 			"print_name"					"#weapon_m16"
 			"print_desc"					"#weapon_m16_desc"
@@ -1803,13 +1780,6 @@
 			"weapon_cost"					"1"
 			"class_restricted"				"1"
 			"barrel_length"					"40"
-			
-			
-			"ironsights"
-			{
-				"in_time"				"0.40"
-				"out_time"				"0.35"
-			}
 			
 			"viewmodel_attachments"
 			{
@@ -1835,11 +1805,8 @@
 			}
 			"fov"
 			{
-				"fov_plr_ironsight"			"-25"
-				"fov_plr_focus"				"-12"
 				"fov_wpn_default"			"68"
 				"fov_wpn_ironsight"			"72"
-				"fov_wpn_focus"				"84"
 			}
 			"viewmodel_offsets"
 			{
@@ -1869,7 +1836,7 @@
 			"recoil"
 			{
 				"recoil_lateral_range"			"-1.35 1.35"
-				"recoil_vertical_range"			"1.875 2.00"
+				"recoil_vertical_range"			"2.00 2.30"
 				"recoil_aim_punch"				"0.4 0.8"
 				"recoil_rest_rate"				"10"
 				"recoil_rest_delay"				"0.12"
@@ -1880,6 +1847,7 @@
 				"recoil_shot_reset_time"			"0.5"	// Time delay for resetting the shots fired counter for the above (default = 0.3)
 				"recoil_shot_max_shots"				"5"	// Max number of shots to account for for the additional rest (default = 5)
 				"recoil_punch_additive_factor"		"0.85"	// How much of the view punch from the previous shot(s) get added to any additional shot fired.
+				
 			}
 			"ballistics"
 			{
@@ -1908,7 +1876,7 @@
 		
 		"weapon_m4carbine"
 		{
-			"import"						"ballistic_base"
+			"import"						"carbine_base"
 			"weapon_class"					"rifle_controlled_fire"
 			"print_name"					"#weapon_m4carbine"
 			"print_desc"					"#weapon_m4carbine_desc"
@@ -1923,12 +1891,6 @@
 			"weapon_cost"					"2"
 			"class_restricted"				"1"
 			"barrel_length"					"32"
-			
-			"ironsights"
-			{
-				"in_time"				"0.35"
-				"out_time"				"0.30"
-			}
 			
 			"viewmodel_attachments"
 			{
@@ -1948,11 +1910,8 @@
 			}
 			"fov"
 			{
-				"fov_plr_ironsight"			"-25"
-				"fov_plr_focus"				"-12"
 				"fov_wpn_default"			"68"
 				"fov_wpn_ironsight"			"74"
-				"fov_wpn_focus"				"84"
 			}
 			"viewmodel_offsets"
 			{
@@ -1982,8 +1941,8 @@
 			"recoil"
 			{
 				"recoil_lateral_range"			"-1.35 1.35"
-				"recoil_vertical_range"			"2.85 3.00"
-				"recoil_aim_punch"				"0.4 0.8"
+				"recoil_vertical_range"			"2.00 2.40"
+				"recoil_aim_punch"				"0.6 0.8"
 				"recoil_rest_rate"				"10"
 				"recoil_rest_delay"				"0.12"
 				"recoil_roll_range"				"-1.5 -1.5"
@@ -1991,8 +1950,9 @@
 				
 				"recoil_additional_rest_per_shot"	"2.5"	// Amount of rest per additional shot (added to rest rate) (default = 2.5)
 				"recoil_shot_reset_time"			"0.5"	// Time delay for resetting the shots fired counter for the above (default = 0.3)
-				"recoil_shot_max_shots"				"8"	// Max number of shots to account for for the additional rest (default = 5)
+				"recoil_shot_max_shots"				"5"	// Max number of shots to account for for the additional rest (default = 5)
 				"recoil_punch_additive_factor"		"0.85"	// How much of the view punch from the previous shot(s) get added to any additional shot fired.
+				
 			}
 			"ballistics"
 			{
@@ -2021,7 +1981,7 @@
 		
 		"weapon_mk18"
 		{
-			"import"						"ballistic_base"
+			"import"						"carbine_base"
 			"weapon_class"					"rifle_automatic_fire"
 			"print_name"					"#weapon_mk18"
 			"print_desc"					"#weapon_m4a1_desc"
@@ -2058,11 +2018,8 @@
 			}
 			"fov"
 			{
-				"fov_plr_ironsight"			"-25"
-				"fov_plr_focus"				"-12"
 				"fov_wpn_default"			"68"
 				"fov_wpn_ironsight"			"80"
-				"fov_wpn_focus"				"92"
 			}
 			"viewmodel_offsets"
 			{
@@ -2092,8 +2049,8 @@
 			"recoil"
 			{
 				"recoil_lateral_range"			"-1.35 1.35"
-				"recoil_vertical_range"			"2.85 3.00"
-				"recoil_aim_punch"				"0.4 0.8"
+				"recoil_vertical_range"			"2.50 2.75"
+				"recoil_aim_punch"				"0.8 0.8"
 				"recoil_rest_rate"				"10"
 				"recoil_rest_delay"				"0.12"
 				"recoil_roll_range"				"-1.5 -1.5"
@@ -2101,12 +2058,17 @@
 				
 				"recoil_additional_rest_per_shot"	"2.5"	// Amount of rest per additional shot (added to rest rate) (default = 2.5)
 				"recoil_shot_reset_time"			"0.5"	// Time delay for resetting the shots fired counter for the above (default = 0.3)
-				"recoil_shot_max_shots"				"8"	// Max number of shots to account for for the additional rest (default = 5)
+				"recoil_shot_max_shots"				"5"	// Max number of shots to account for for the additional rest (default = 5)
 				"recoil_punch_additive_factor"		"0.85"	// How much of the view punch from the previous shot(s) get added to any additional shot fired.
+				
+				"RecoilBaseFracByWeight"
+				{
+					"0"							"1.175"
+				}
 			}
 			"ballistics"
 			{
-				"spread"					"0.25 0.25 0.25"
+				"spread"					"0.2 0.2 0.2"
 				"FireModes"					"semi, full"
 				"bulletcount"				"1"
 				"maxrange"					"10000"
@@ -2131,7 +2093,7 @@
 		
 		"weapon_m4a1"
 		{
-			"import"						"ballistic_base"
+			"import"						"carbine_base"
 			"weapon_class"					"rifle_automatic_fire"
 			"print_name"					"#weapon_m4a1"
 			"print_desc"					"#weapon_m4a1_desc"
@@ -2144,12 +2106,6 @@
 			"weapon_weight"					"115" // (2.8kg[weapon] + (0.4kg[ammo] * (1+8)[mags]) )*10[kg->hg for int]  +16[encumbrance]
 			"weapon_cost"					"3"
 			"barrel_length"					"35"
-			
-			"ironsights"
-			{
-				"in_time"				"0.35"
-				"out_time"				"0.30"
-			}
 			
 			"viewmodel_attachments"
 			{
@@ -2184,11 +2140,8 @@
 			}
 			"fov"
 			{
-				"fov_plr_ironsight"			"-25"
-				"fov_plr_focus"				"-12"
 				"fov_wpn_default"			"68"
 				"fov_wpn_ironsight"			"74"
-				"fov_wpn_focus"				"86"
 			}
 			"viewmodel_offsets"
 			{
@@ -2218,8 +2171,8 @@
 			"recoil"
 			{
 				"recoil_lateral_range"			"-1.35 1.35"
-				"recoil_vertical_range"			"2.85 3.00"
-				"recoil_aim_punch"				"0.4 0.8"
+				"recoil_vertical_range"			"2.50 2.75"
+				"recoil_aim_punch"				"0.6 0.8"
 				"recoil_rest_rate"				"10"
 				"recoil_rest_delay"				"0.12"
 				"recoil_roll_range"				"-1.5 -1.5"
@@ -2227,12 +2180,13 @@
 				
 				"recoil_additional_rest_per_shot"	"2.5"	// Amount of rest per additional shot (added to rest rate) (default = 2.5)
 				"recoil_shot_reset_time"			"0.5"	// Time delay for resetting the shots fired counter for the above (default = 0.3)
-				"recoil_shot_max_shots"				"8"	// Max number of shots to account for for the additional rest (default = 5)
+				"recoil_shot_max_shots"				"5"	// Max number of shots to account for for the additional rest (default = 5)
 				"recoil_punch_additive_factor"		"0.85"	// How much of the view punch from the previous shot(s) get added to any additional shot fired.
+				
 			}
 			"ballistics"
 			{
-				"spread"					"0.20 0.20 0.20"
+				"spread"					"0.15 0.15 0.15"
 				"FireModes"					"semi, full"
 				"bulletcount"				"1"
 				"maxrange"					"10000"
@@ -2257,7 +2211,7 @@
 		
 		"weapon_m27iar"
 		{
-			"import"						"ballistic_base"
+			"import"						"assault_rifle_base"
 			"weapon_class"					"rifle_automatic_fire"
 			"print_name"					"#weapon_m27iar"
 			"print_desc"					"#weapon_m27iar_desc"
@@ -2271,11 +2225,6 @@
 			"weapon_cost"					"3"
 			"barrel_length"					"35"
 			
-			"ironsights"
-			{
-				"in_time"				"0.40"
-				"out_time"				"0.35"
-			}
 			
 			"viewmodel_attachments"
 			{
@@ -2295,11 +2244,8 @@
 			}
 			"fov"
 			{
-				"fov_plr_ironsight"			"-25"
-				"fov_plr_focus"				"-12"
 				"fov_wpn_default"			"68"
 				"fov_wpn_ironsight"			"74"
-				"fov_wpn_focus"				"86"
 			}
 			"freeaim"
 			{
@@ -2333,7 +2279,7 @@
 			"recoil"
 			{
 				"recoil_lateral_range"				"-1.35 1.35"
-				"recoil_vertical_range"				"2.85 3.00"
+				"recoil_vertical_range"				"2.25 2.50"
 				"recoil_aim_punch"					"0.4 0.8"
 				"recoil_rest_rate"					"10"
 				"recoil_rest_delay"					"0.12"
@@ -2342,8 +2288,9 @@
 				
 				"recoil_additional_rest_per_shot"	"2.5"	// Amount of rest per additional shot (added to rest rate) (default = 2.5)
 				"recoil_shot_reset_time"			"0.5"	// Time delay for resetting the shots fired counter for the above (default = 0.3)
-				"recoil_shot_max_shots"				"8"	// Max number of shots to account for for the additional rest (default = 5)
+				"recoil_shot_max_shots"				"5"	// Max number of shots to account for for the additional rest (default = 5)
 				"recoil_punch_additive_factor"		"0.85"	// How much of the view punch from the previous shot(s) get added to any additional shot fired.
+				
 			}
 			"ballistics"
 			{
@@ -2372,7 +2319,7 @@
 		
 		"weapon_galil"
 		{
-			"import"					"ballistic_base"
+			"import"					"assault_rifle_base"
 			"weapon_class"				"rifle_automatic_fire"
 			"print_name"				"#weapon_galil"
 			"print_desc"				"#weapon_galil_desc"
@@ -2386,12 +2333,6 @@
 			"weapon_weight"				"178"	// (2.8kg[weapon] + (0.4kg[ammo] * (1+8)[mags]) )*10[kg->hg for int]  +16[encumbrance]
 			"weapon_cost"				"3"
 			"barrel_length"				"38"
-			
-			"ironsights"
-			{
-				"in_time"				"0.40"
-				"out_time"				"0.35"
-			}
 			
 			"viewmodel_attachments"
 			{
@@ -2421,9 +2362,6 @@
 			{
 				"fov_wpn_default"			"65"
 				"fov_wpn_ironsight"			"68"
-				"fov_wpn_focus"				"80"
-				"fov_plr_ironsight"			"-25"
-				"fov_plr_focus"				"-12"
 			}
 			
 			"sounds"
@@ -2448,18 +2386,19 @@
 			}
 			"recoil"
 			{
-				"recoil_lateral_range"			"-1.25 1.25"
-				"recoil_vertical_range"			"2.85 3.25"
-				"recoil_aim_punch"				"0.35 0.45"
-				"recoil_rest_rate"				"12"
-				"recoil_rest_delay"				"0.05"
+				"recoil_lateral_range"			"-1.35 1.35"
+				"recoil_vertical_range"			"2.50 3.00"
+				"recoil_aim_punch"				"0.4 0.8"
+				"recoil_rest_rate"				"10"
+				"recoil_rest_delay"				"0.12"
 				"recoil_roll_range"				"-1.5 -1.5"
 				"recoil_roll_rest_rate"			"150"
 				
 				"recoil_additional_rest_per_shot"	"2.5"	// Amount of rest per additional shot (added to rest rate) (default = 2.5)
 				"recoil_shot_reset_time"			"0.5"	// Time delay for resetting the shots fired counter for the above (default = 0.3)
-				"recoil_shot_max_shots"				"8"		// Max number of shots to account for for the additional rest (default = 5)
+				"recoil_shot_max_shots"				"5"	// Max number of shots to account for for the additional rest (default = 5)
 				"recoil_punch_additive_factor"		"0.85"	// How much of the view punch from the previous shot(s) get added to any additional shot fired.
+				
 			}
 			"ballistics"
 			{
@@ -2488,7 +2427,7 @@
 		
 		"weapon_galil_sar"
 		{
-			"import"					"ballistic_base"
+			"import"					"carbine_base"
 			"weapon_class"				"rifle_automatic_fire"
 			"print_name"				"#weapon_galil_sar"
 			"print_desc"				"#weapon_galil_sar_desc"
@@ -2501,13 +2440,6 @@
 			"weapon_weight"				"178"	// (2.8kg[weapon] + (0.4kg[ammo] * (1+8)[mags]) )*10[kg->hg for int]  +16[encumbrance]
 			"weapon_cost"				"3"
 			"barrel_length"				"35"
-			
-			
-			"ironsights"
-			{
-				"in_time"				"0.35"
-				"out_time"				"0.25"
-			}
 			
 			"viewmodel_attachments"
 			{
@@ -2537,9 +2469,6 @@
 			{
 				"fov_wpn_default"			"65"
 				"fov_wpn_ironsight"			"68"
-				"fov_wpn_focus"				"80"
-				"fov_plr_ironsight"			"-25"
-				"fov_plr_focus"				"-12"
 			}
 			
 			"sounds"
@@ -2564,18 +2493,17 @@
 			}
 			"recoil"
 			{
-				"recoil_lateral_range"			"-1.25 1.25"
-				"recoil_vertical_range"			"2.85 3.25"
-				"recoil_aim_punch"				"0.35 0.45"
-				"recoil_rest_rate"				"12"
-				"recoil_rest_delay"				"0.05"
+				"recoil_lateral_range"			"-1.35 1.35"
+				"recoil_vertical_range"			"2.75 3.00"
+				"recoil_aim_punch"				"0.4 0.8"
+				"recoil_rest_rate"				"10"
+				"recoil_rest_delay"				"0.12"
 				"recoil_roll_range"				"-1.5 -1.5"
 				"recoil_roll_rest_rate"			"150"
-				"recoil_freeaim_frac"			"0.3"
 				
 				"recoil_additional_rest_per_shot"	"2.5"	// Amount of rest per additional shot (added to rest rate) (default = 2.5)
 				"recoil_shot_reset_time"			"0.5"	// Time delay for resetting the shots fired counter for the above (default = 0.3)
-				"recoil_shot_max_shots"				"8"		// Max number of shots to account for for the additional rest (default = 5)
+				"recoil_shot_max_shots"				"5"	// Max number of shots to account for for the additional rest (default = 5)
 				"recoil_punch_additive_factor"		"0.85"	// How much of the view punch from the previous shot(s) get added to any additional shot fired.
 			}
 			"ballistics"
@@ -2605,7 +2533,7 @@
 		
 		"weapon_akm"
 		{
-			"import"						"ballistic_base"
+			"import"						"assault_rifle_base"
 			"weapon_class"					"rifle_automatic_fire"
 			"print_name"					"#weapon_akm"
 			"print_desc"					"#weapon_akm_desc"
@@ -2619,12 +2547,6 @@
 			"weapon_cost"					"0"
 			"class_restricted"				"1"
 			"barrel_length"					"35"
-
-			"ironsights"
-			{
-				"in_time"				"0.35"
-				"out_time"				"0.30"
-			}
 			
 		    "viewmodel_attachments"
 			{
@@ -2638,9 +2560,6 @@
 			{
 				"fov_wpn_default"			"60"
 				"fov_wpn_ironsight"			"68"
-				"fov_wpn_focus"				"80"
-				"fov_plr_ironsight"			"-25"
-				"fov_plr_focus"				"-12"
 			}
 			"sounds"
 			{
@@ -2664,18 +2583,18 @@
 			}
 			"recoil"
 			{
-				"recoil_lateral_range"			"-2.15 2.15"
-				"recoil_vertical_range"			"3.875 4.325"
-				"recoil_aim_punch"				"0.5 0.8"
+				"recoil_lateral_range"			"-1.40 1.40"
+				"recoil_vertical_range"			"3.75 4.00"
+				"recoil_aim_punch"				"0.6 0.6"
 				"recoil_rest_rate"				"14"
 				"recoil_rest_delay"				"0.12"
 				"recoil_roll_range"				"-1.8 -1.8"
-				"recoil_roll_rest_rate"			"190"
+				"recoil_roll_rest_rate"			"150"
 				
 				"recoil_additional_rest_per_shot"	"2.5"	// Amount of rest per additional shot (added to rest rate) (default = 2.5)
 				"recoil_shot_reset_time"			"0.5"	// Time delay for resetting the shots fired counter for the above (default = 0.3)
 				"recoil_shot_max_shots"				"6"	// Max number of shots to account for for the additional rest (default = 5)
-				"recoil_punch_additive_factor"		"0.85"	// How much of the view punch from the previous shot(s) get added to any additional shot fired.
+				"recoil_punch_additive_factor"		"0.92"	// How much of the view punch from the previous shot(s) get added to any additional shot fired.
 			}
 			"ballistics"
 			{
@@ -2704,7 +2623,7 @@
 
 		"weapon_ak74"
 		{
-			"import"						"ballistic_base"
+			"import"						"assault_rifle_base"
 			"weapon_class"					"rifle_automatic_fire"
 			"print_name"					"#weapon_ak74"
 			"print_desc"					"#weapon_ak74_desc"
@@ -2715,15 +2634,9 @@
 			"act_table"						"shortrifle"
 			"weapon_abilities"				"ironsight"
 			"weapon_weight"					"123" // (3.5kg[weapon] + (0.8kg[ammo] * (1+4)[mags]) )*10[kg->hg for int]  +24[encumbrance]	
-			"weapon_cost"					"2"
+			"weapon_cost"					"3"
 			"class_restricted"				"1"
 			"barrel_length"					"40"
-
-			"ironsights"
-			{
-				"in_time"				"0.40"
-				"out_time"				"0.35"
-			}
 			
 			"viewmodel_attachments"
 			{
@@ -2737,9 +2650,6 @@
 			{
 				"fov_wpn_default"			"60"
 				"fov_wpn_ironsight"			"68"
-				"fov_wpn_focus"				"80"
-				"fov_plr_ironsight"			"-25"
-				"fov_plr_focus"				"-12"
 			}
 			"sounds"
 			{
@@ -2763,8 +2673,8 @@
 			}
 			"recoil"
 			{
-				"recoil_lateral_range"			"-1.25 1.25"
-				"recoil_vertical_range"			"2.8 3.0"
+				"recoil_lateral_range"			"-1.05 1.05"
+				"recoil_vertical_range"			"2.75 3.00"
 				"recoil_aim_punch"				"0.4 0.4"
 				"recoil_rest_rate"				"12"
 				"recoil_rest_delay"				"0.09"
@@ -2775,6 +2685,7 @@
 				"recoil_shot_reset_time"			"0.5"	// Time delay for resetting the shots fired counter for the above (default = 0.3)
 				"recoil_shot_max_shots"				"8"	// Max number of shots to account for for the additional rest (default = 5)
 				"recoil_punch_additive_factor"		"0.85"	// How much of the view punch from the previous shot(s) get added to any additional shot fired.
+				
 			}
 			"ballistics"
 			{
@@ -2803,7 +2714,7 @@
 
 		"weapon_fal"
 		{
-			"import"						"ballistic_base"
+			"import"						"battle_rifle_base"
 			"weapon_class"					"rifle_automatic_fire"
 			"print_name"					"#weapon_fal"
 			"print_desc"					"#weapon_fal_desc"
@@ -2819,12 +2730,6 @@
 			"draw_speed"					"0.90"
 			"holster_speed"					"0.90"
 			"reload_speed"					"0.90"
-			
-			"ironsights"
-			{
-				"in_time"				"0.40"
-				"out_time"				"0.35"
-			}
 			
 			"viewmodel_attachments"
 			{
@@ -2843,9 +2748,6 @@
 			{
 				"fov_wpn_default"			"55"
 				"fov_wpn_ironsight"			"59"
-				"fov_wpn_focus"				"71"
-				"fov_plr_ironsight"			"-25"
-				"fov_plr_focus"				"-12"
 			}
 			"sounds"
 			{
@@ -2870,9 +2772,9 @@
 			"recoil"
 			{
 				"recoil_lateral_range"				"-2.00 2.00"
-				"recoil_vertical_range"				"5.25 6.25"
+				"recoil_vertical_range"				"4.25 5.25"
 				"recoil_aim_punch"					"0.5 0.8"
-				"recoil_rest_rate"					"14"
+				"recoil_rest_rate"					"10"
 				"recoil_rest_delay"					"0.12"
 				"recoil_roll_range"					"-1.8 -1.8"
 				"recoil_roll_rest_rate"				"150"
@@ -2880,7 +2782,8 @@
 				"recoil_additional_rest_per_shot"	"2.5"	// Amount of rest per additional shot (added to rest rate) (default = 2.5)
 				"recoil_shot_reset_time"			"0.5"	// Time delay for resetting the shots fired counter for the above (default = 0.3)
 				"recoil_shot_max_shots"				"6"	// Max number of shots to account for for the additional rest (default = 5)
-				"recoil_punch_additive_factor"		"0.92"	// How much of the view punch from the previous shot(s) get added to any additional shot fired.
+				"recoil_punch_additive_factor"		"0.90"	// How much of the view punch from the previous shot(s) get added to any additional shot fired.
+				
 			}
 			"ballistics"
 			{
@@ -2908,7 +2811,7 @@
 		}
 		"weapon_l1a1"
 		{
-			"import"						"ballistic_base"
+			"import"						"battle_rifle_base"
 			"weapon_class"					"rifle_controlled_fire"
 			"print_name"					"#weapon_l1a1"
 			"print_desc"					"#weapon_l1a1_desc"
@@ -2938,18 +2841,10 @@
 					"fallback_for_slot"		"magazine"
 				}
 			}
-			"ironsights"
-			{
-				"in_time"				"0.40"
-				"out_time"				"0.35"
-			}
 			"fov"
 			{
 				"fov_wpn_default"			"55"
 				"fov_wpn_ironsight"			"59"
-				"fov_wpn_focus"				"71"
-				"fov_plr_ironsight"			"-25"
-				"fov_plr_focus"				"-12"
 			}
 			"sounds"
 			{
@@ -2974,9 +2869,9 @@
 			"recoil"
 			{
 				"recoil_lateral_range"				"-2.00 2.00"
-				"recoil_vertical_range"				"5.25 6.25"
+				"recoil_vertical_range"				"4.25 5.25"
 				"recoil_aim_punch"					"0.5 0.8"
-				"recoil_rest_rate"					"14"
+				"recoil_rest_rate"					"10"
 				"recoil_rest_delay"					"0.12"
 				"recoil_roll_range"					"-1.8 -1.8"
 				"recoil_roll_rest_rate"				"150"
@@ -2984,7 +2879,8 @@
 				"recoil_additional_rest_per_shot"	"2.5"	// Amount of rest per additional shot (added to rest rate) (default = 2.5)
 				"recoil_shot_reset_time"			"0.5"	// Time delay for resetting the shots fired counter for the above (default = 0.3)
 				"recoil_shot_max_shots"				"6"	// Max number of shots to account for for the additional rest (default = 5)
-				"recoil_punch_additive_factor"		"0.92"	// How much of the view punch from the previous shot(s) get added to any additional shot fired.
+				"recoil_punch_additive_factor"		"0.90"	// How much of the view punch from the previous shot(s) get added to any additional shot fired.
+				
 			}
 			"ballistics"
 			{
@@ -3012,13 +2908,13 @@
 		}
 		"weapon_zastava"
 		{
-			"import"						"ballistic_base"
+			"import"						"battle_rifle_base"
 			"weapon_class"					"rifle_controlled_fire"
 			"print_name"					"#weapon_zastava"
-			"print_desc"					"Designated marksman rifle manufactured in Yugoslavia (4.6kg)"
+			"print_desc"					"#weapon_zastava_desc"
 			"view_model"					"models/weapons/v_zastava.mdl"
 			"world_model"					"models/weapons/w_zastava.mdl"
-			"rounds_per_minute"				"250"
+			"rounds_per_minute"				"200"
 			"class_restricted"				"1"
 			"weapon_slot"					"primary"
 			"act_table"						"shortrifle"
@@ -3029,19 +2925,11 @@
 			"draw_speed"					"0.85"
 			"holster_speed"					"0.70"
 			"reload_speed"					"0.85"
-			"ironsights"
-			{
-				"in_time"				"0.45"
-				"out_time"				"0.40"
-			}
             
 			"fov"
 			{
-				"fov_plr_ironsight"			"-25"
-				"fov_plr_focus"				"-12"
 				"fov_wpn_default"			"65"
-				"fov_wpn_ironsight"			"83"
-				"fov_wpn_focus"				"95"
+				"fov_wpn_ironsight"			"75"
 			}
 			"sounds"
 			{
@@ -3064,18 +2952,19 @@
 			}
 			"recoil"
 			{
-				"recoil_lateral_range"				"-8.0 8.0"
-				"recoil_vertical_range"				"8.75 9.25"
-				"recoil_aim_punch"					"0.8 1.0"
-				"recoil_rest_rate"					"18"
-				"recoil_rest_delay"					"0.15"
+				"recoil_lateral_range"				"-2.50 2.50"
+				"recoil_vertical_range"				"4.25 5.25"
+				"recoil_aim_punch"					"0.5 0.8"
+				"recoil_rest_rate"					"12"
+				"recoil_rest_delay"					"0.12"
 				"recoil_roll_range"					"-1.8 -1.8"
 				"recoil_roll_rest_rate"				"150"
 				
-				"recoil_additional_rest_per_shot"	"5.0"	// Amount of rest per additional shot (added to rest rate) (default = 2.5)
+				"recoil_additional_rest_per_shot"	"2.5"	// Amount of rest per additional shot (added to rest rate) (default = 2.5)
 				"recoil_shot_reset_time"			"0.5"	// Time delay for resetting the shots fired counter for the above (default = 0.3)
-				"recoil_shot_max_shots"				"10"	// Max number of shots to account for for the additional rest (default = 5)
+				"recoil_shot_max_shots"				"6"	// Max number of shots to account for for the additional rest (default = 5)
 				"recoil_punch_additive_factor"		"0.92"	// How much of the view punch from the previous shot(s) get added to any additional shot fired.
+				
 			}
 			"ballistics"
 			{
@@ -3109,7 +2998,7 @@
 		
 		"weapon_mini14"
 		{
-			"import"						"ballistic_base"
+			"import"						"assault_rifle_base"
 			"weapon_class"					"rifle_automatic_fire"
 			"print_name"					"#weapon_mini14"
 			"print_desc"					"#weapon_mini14_desc"
@@ -3122,20 +3011,11 @@
 			"weapon_weight"					"116" // (2.9kg[weapon] + (0.3kg[ammo] * (1+10)[mags]) )*10[kg->hg for int]  +16[encumbrance]
 			"weapon_cost"					"3"
 			"barrel_length"					"35"
-
-			"ironsights"
-			{
-				"in_time"				"0.35"
-				"out_time"				"0.30"
-			}
 			
 			"fov"
 			{
-				"fov_plr_ironsight"			"-25"
-				"fov_plr_focus"				"-12"
 				"fov_wpn_default"			"60"
 				"fov_wpn_ironsight"			"66"
-				"fov_wpn_focus"				"78"
 			}
 			"sounds"
 			{
@@ -3158,10 +3038,10 @@
 			}
 			"recoil"
 			{
-					"recoil_lateral_range"			"-1.40 1.40"
-					"recoil_vertical_range"			"3.75 4.75"
-					"recoil_aim_punch"				"0.5 0.8"
-					"recoil_rest_rate"				"14"
+					"recoil_lateral_range"			"-1.25 1.25"
+					"recoil_vertical_range"			"3.50 3.75"
+					"recoil_aim_punch"				"0.6 0.8"
+					"recoil_rest_rate"				"10"
 					"recoil_rest_delay"				"0.12"
 					"recoil_roll_range"				"-1.8 -1.8"
 					"recoil_roll_rest_rate"			"150"
@@ -3170,6 +3050,7 @@
 					"recoil_shot_reset_time"			"0.5"	// Time delay for resetting the shots fired counter for the above (default = 0.3)
 					"recoil_shot_max_shots"				"6"	// Max number of shots to account for for the additional rest (default = 5)
 					"recoil_punch_additive_factor"		"0.92"	// How much of the view punch from the previous shot(s) get added to any additional shot fired.
+					
 			}
 			"ballistics"
 			{
@@ -3198,7 +3079,7 @@
 		
 		"weapon_m14"
 		{
-			"import"						"ballistic_base"
+			"import"						"battle_rifle_base"
 			"weapon_class"					"rifle_controlled_fire"
 			"print_name"					"#weapon_m14"
 			"print_desc"					"#weapon_m14_desc"
@@ -3214,19 +3095,11 @@
 			"draw_speed"					"0.90"
 			"holster_speed"					"0.90"
 			"reload_speed"					"0.90"
-			"ironsights"
-			{
-				"in_time"				"0.40"
-				"out_time"				"0.35"
-			}
 			
 			"fov"
 			{
-				"fov_plr_ironsight"			"-25"
-				"fov_plr_focus"				"-12"
 				"fov_wpn_default"			"62"
 				"fov_wpn_ironsight"			"80"
-				"fov_wpn_focus"				"92"
 			}
 			"sounds"
 			{
@@ -3249,18 +3122,19 @@
 			}
 			"recoil"
 			{
-				"recoil_lateral_range"			"-1.00 1.00"
-				"recoil_vertical_range"			"4.25 5.25"
-				"recoil_aim_punch"				"0.5 0.8"
-				"recoil_rest_rate"				"14"
-				"recoil_rest_delay"				"0.12"
-				"recoil_roll_range"				"-1.8 -1.8"
-				"recoil_roll_rest_rate"			"150"
+				"recoil_lateral_range"				"-1.00 1.00"
+				"recoil_vertical_range"				"4.25 5.25"
+				"recoil_aim_punch"					"0.6 0.8"
+				"recoil_rest_rate"					"10"
+				"recoil_rest_delay"					"0.12"
+				"recoil_roll_range"					"-1.8 -1.8"
+				"recoil_roll_rest_rate"				"150"
 				
 				"recoil_additional_rest_per_shot"	"2.5"	// Amount of rest per additional shot (added to rest rate) (default = 2.5)
 				"recoil_shot_reset_time"			"0.5"	// Time delay for resetting the shots fired counter for the above (default = 0.3)
 				"recoil_shot_max_shots"				"6"	// Max number of shots to account for for the additional rest (default = 5)
-				"recoil_punch_additive_factor"		"0.92"	// How much of the view punch from the previous shot(s) get added to any additional shot fired.
+				"recoil_punch_additive_factor"		"0.90"	// How much of the view punch from the previous shot(s) get added to any additional shot fired.
+				
 			}
 			"ballistics"
 			{
@@ -3289,7 +3163,7 @@
 		
 		"weapon_m1a1"
 		{
-			"import"						"ballistic_base"
+			"import"						"carbine_base"
 			"weapon_class"					"rifle_controlled_fire"
 			"print_name"					"#weapon_m1a1"
 			"print_desc"					"#weapon_m1a1_desc"
@@ -3300,21 +3174,13 @@
 			"act_table"						"shortrifle"
 			"weapon_abilities"				"ironsight"
 			"weapon_weight"					"100" // (2.4kg[weapon] + (0.3kg[ammo] * (1+10)[mags]) )*10[kg->hg for int]  +16[encumbrance]
-			"weapon_cost"					"1"
+			"weapon_cost"					"2"
 			"barrel_length"					"35"
 			
-			"ironsights"
-			{
-				"in_time"					"0.35"
-				"out_time"					"0.30"
-			}
 			"fov"
 			{
-				"fov_plr_ironsight"			"-25"
-				"fov_plr_focus"				"-12"
 				"fov_wpn_default"			"65"
 				"fov_wpn_ironsight"			"83"
-				"fov_wpn_focus"				"95"
 			}
 			"sounds"
 			{
@@ -3336,18 +3202,19 @@
 			}
 			"recoil"
 			{
-				"recoil_lateral_range"			"-1.2 1.2"
-				"recoil_vertical_range"			"3.75 4.75"
-				"recoil_aim_punch"				"0.65 0.8"
-				"recoil_rest_rate"				"14"
-				"recoil_rest_delay"				"0.12"
-				"recoil_roll_range"				"-1.8 -1.8"
-				"recoil_roll_rest_rate"			"150"
+					"recoil_lateral_range"			"-1.25 1.25"
+					"recoil_vertical_range"			"4.00 4.75"
+					"recoil_aim_punch"				"0.6 0.8"
+					"recoil_rest_rate"				"10"
+					"recoil_rest_delay"				"0.12"
+					"recoil_roll_range"				"-1.8 -1.8"
+					"recoil_roll_rest_rate"			"150"
 				
-				"recoil_additional_rest_per_shot"	"2.5"	// Amount of rest per additional shot (added to rest rate) (default = 2.5)
-				"recoil_shot_reset_time"			"0.5"	// Time delay for resetting the shots fired counter for the above (default = 0.3)
-				"recoil_shot_max_shots"				"6"	// Max number of shots to account for for the additional rest (default = 5)
-				"recoil_punch_additive_factor"		"0.92"	// How much of the view punch from the previous shot(s) get added to any additional shot fired.
+					"recoil_additional_rest_per_shot"	"2.5"	// Amount of rest per additional shot (added to rest rate) (default = 2.5)
+					"recoil_shot_reset_time"			"0.5"	// Time delay for resetting the shots fired counter for the above (default = 0.3)
+					"recoil_shot_max_shots"				"6"	// Max number of shots to account for for the additional rest (default = 5)
+					"recoil_punch_additive_factor"		"0.90"	// How much of the view punch from the previous shot(s) get added to any additional shot fired.
+					
 			}
 			"ballistics"
 			{
@@ -3404,7 +3271,7 @@
 		
 		"weapon_sks"
 		{
-			"import"						"ballistic_base"
+			"import"						"assault_rifle_base"
 			"weapon_class"					"rifle_controlled_fire"
 			"print_name"					"#weapon_sks"
 			"print_desc"					"#weapon_sks_desc"
@@ -3418,19 +3285,10 @@
 			"weapon_cost"					"1"
 			"barrel_length"					"35"
 
-			"ironsights"
-			{
-				"in_time"					"0.40"
-				"out_time"					"0.35"
-			}
-			
 			"fov"
 			{
-				"fov_plr_ironsight"			"-25"
-				"fov_plr_focus"				"-12"
 				"fov_wpn_default"			"68"
 				"fov_wpn_ironsight"			"76"
-				"fov_wpn_focus"				"88"
 			}
 			"sounds"
 			{
@@ -3512,17 +3370,10 @@
 			"barrel_length"					"20"
 
 			
-			“player_restrictions”
-			{
-				“allow_reload_sprint”				"1"
-			}
 			"fov"
 			{
-				"fov_plr_ironsight"			"-25"
-				"fov_plr_focus"				"-12"
 				"fov_wpn_default"			"62"
 				"fov_wpn_ironsight"			"80"
-				"fov_wpn_focus"				"92"
 			}
 			"sounds"
 			{
@@ -3546,27 +3397,27 @@
 			}
 			"recoil"
 			{
-				"recoil_lateral_range"				"-1.00 1.00"
-				"recoil_vertical_range"				"1.75 2.50"
-				"recoil_aim_punch"					"0.45 0.5"
-				"recoil_rest_rate"					"18"
-				"recoil_rest_delay"					"0.12"
-				"recoil_roll_range"					"-1.35 -1.35"
-				"recoil_roll_rest_rate"				"150"
+				"recoil_lateral_range"			"-1.00 1.00"
+				"recoil_vertical_range"			"2.65 2.65"
+				"recoil_aim_punch"				"0.3 0.3"
+				"recoil_rest_rate"				"12"
+				"recoil_rest_delay"				"0.09"
+				"recoil_roll_range"				"-1.5 -1.5"
+				"recoil_roll_rest_rate"			"150"
 				
 				"recoil_additional_rest_per_shot"	"2.5"	// Amount of rest per additional shot (added to rest rate) (default = 2.5)
 				"recoil_shot_reset_time"			"0.5"	// Time delay for resetting the shots fired counter for the above (default = 0.3)
-				"recoil_shot_max_shots"				"5"	// Max number of shots to account for for the additional rest (default = 5)
-				"recoil_punch_additive_factor"		"0.80"	// How much of the view punch from the previous shot(s) get added to any additional shot fired.
-				"recoil_freeaim_frac"				"0.4"
+				"recoil_shot_max_shots"				"8"	// Max number of shots to account for for the additional rest (default = 5)
+				"recoil_punch_additive_factor"		"0.85"	// How much of the view punch from the previous shot(s) get added to any additional shot fired.
 				
-				// Integrated foregrip
-				"recoil_lateral_frac"		"0.75"
-				"recoil_vertical_frac"		"0.75"
+				"RecoilMoveFracByWeight"
+				{
+					"60"					"1.00"
+				}
 			}
 			"ballistics"
 			{
-				"spread"					"0.5 0.5 0.5"
+				"spread"					"0.4 0.4 0.4"
 				"FireModes"					"semi, burst, full"
 				"bulletcount"				"1"
 				"maxrange"					"8000"
@@ -3608,17 +3459,10 @@
 			"barrel_length"					"25"
 
 			
-			"player_restrictions"
-			{
-				“allow_reload_sprint”				"1"
-			}
 			"fov"
 			{
-				"fov_plr_ironsight"			"-25"
-				"fov_plr_focus"				"-12"
 				"fov_wpn_default"			"62"
 				"fov_wpn_ironsight"			"65"
-				"fov_wpn_focus"				"77"
 			}
 			"sounds"
 			{
@@ -3642,9 +3486,9 @@
 			}
 			"recoil"
 			{
-				"recoil_lateral_range"			"-0.20 0.20"
-				"recoil_vertical_range"			"1.50 1.75"
-				"recoil_aim_punch"				"0.2 0.3"
+				"recoil_lateral_range"			"-0.25 0.25"
+				"recoil_vertical_range"			"2.00 2.00"
+				"recoil_aim_punch"				"0.1 0.2"
 				"recoil_rest_rate"				"12"
 				"recoil_rest_delay"				"0.14"
 				"recoil_roll_range"				"-1.45 -1.45"
@@ -3656,13 +3500,14 @@
 				"recoil_shot_max_shots"				"5"	// Max number of shots to account for for the additional rest (default = 5)
 				"recoil_punch_additive_factor"		"0.82"	// How much of the view punch from the previous shot(s) get added to any additional shot fired.
 				
-				// pseudo foregrip (mag held)
-				"recoil_lateral_frac"		"0.80"
-				"recoil_vertical_frac"		"0.75"
+				"RecoilMoveFracByWeight"
+				{
+					"60"					"1.00"
+				}
 			}
 			"ballistics"
 			{
-				"spread"					"0.5 0.5 0.5"
+				"spread"					"0.4 0.4 0.4"
 				"FireModes"					"full"
 				"bulletcount"				"1"
 				"maxrange"					"8000"
@@ -3687,7 +3532,7 @@
 		
 		"weapon_sterling"
 		{
-			"import"					"ballistic_base"
+			"import"					"smg_base"
 			"weapon_class"				"smg"
 			"view_model"				"models/weapons/v_sterling.mdl"
 			"world_model"				"models/weapons/w_sterling.mdl"
@@ -3702,17 +3547,10 @@
 			"weapon_cost"				"2"
 			"barrel_length"				"16"
 			
-			"player_restrictions"
-			{
-				“allow_reload_sprint”				"1"
-			}
 			"fov"
 			{
-				"fov_plr_ironsight"			"-25"
-				"fov_plr_focus"				"-12"
 				"fov_wpn_default"			"65"
 				"fov_wpn_ironsight"			"79"
-				"fov_wpn_focus"				"91"
 			}
 			"sounds"
 			{
@@ -3736,27 +3574,27 @@
 			}
 			"recoil"
 			{
-				"recoil_lateral_range"				"-1.00 1.00"
-				"recoil_vertical_range"				"1.50 2.75"
-				"recoil_aim_punch"					"0.5 0.6"
-				"recoil_rest_rate"					"18"
-				"recoil_rest_delay"					"0.12"
-				"recoil_roll_range"					"-1.35 -1.35"
-				"recoil_roll_rest_rate"				"150"
+				"recoil_lateral_range"			"-1.25 1.25"
+				"recoil_vertical_range"			"2.6 2.8"
+				"recoil_aim_punch"				"0.4 0.4"
+				"recoil_rest_rate"				"12"
+				"recoil_rest_delay"				"0.09"
+				"recoil_roll_range"				"-1.5 -1.5"
+				"recoil_roll_rest_rate"			"150"
 				
 				"recoil_additional_rest_per_shot"	"2.5"	// Amount of rest per additional shot (added to rest rate) (default = 2.5)
 				"recoil_shot_reset_time"			"0.5"	// Time delay for resetting the shots fired counter for the above (default = 0.3)
-				"recoil_shot_max_shots"				"5"	// Max number of shots to account for for the additional rest (default = 5)
-				"recoil_punch_additive_factor"		"0.80"	// How much of the view punch from the previous shot(s) get added to any additional shot fired.
-				"recoil_freeaim_frac"				"0.4"
+				"recoil_shot_max_shots"				"8"	// Max number of shots to account for for the additional rest (default = 5)
+				"recoil_punch_additive_factor"		"0.85"	// How much of the view punch from the previous shot(s) get added to any additional shot fired.
 				
-				// Integrated foregrip
-				"recoil_lateral_frac"		"0.75"
-				"recoil_vertical_frac"		"0.75"
+				"RecoilMoveFracByWeight"
+				{
+					"60"					"1.00"
+				}
 			}
 			"ballistics"
 			{
-				"spread"					"0.45 0.45 0.45"
+				"spread"					"0.4 0.4 0.4"
 				"FireModes"					"full"
 				"bulletcount"				"1"
 				"maxrange"					"8000"
@@ -3798,7 +3636,7 @@
 		
 		"weapon_ump45"
 		{
-			"import"						"ballistic_base"
+			"import"						"smg_base"
 			"weapon_class"					"smg"
 			"print_name"					"#weapon_ump45"
 			"print_desc"					"#weapon_ump45_desc"
@@ -3813,17 +3651,10 @@
 			"weapon_cost"					"2"
 			"barrel_length"					"25"
 			
-			"player_restrictions"
-			{
-				“allow_reload_sprint”				"1"
-			}
 			"fov"
 			{
-				"fov_plr_ironsight"			"-25"
-				"fov_plr_focus"				"-12"
 				"fov_wpn_default"			"62"
 				"fov_wpn_ironsight"			"82"
-				"fov_wpn_focus"				"94"
 			}
 			"sounds"
 			{
@@ -3847,27 +3678,27 @@
 			}
 			"recoil"
 			{
-				"recoil_lateral_range"				"-1.00 1.00"
-				"recoil_vertical_range"				"2.75 3.10"
-				"recoil_aim_punch"					"0.7 0.75"
-				"recoil_rest_rate"					"18"
-				"recoil_rest_delay"					"0.12"
-				"recoil_roll_range"					"-1.35 -1.35"
+				"recoil_lateral_range"				"-1.25 1.25"
+				"recoil_vertical_range"				"2.8 2.8"
+				"recoil_aim_punch"					"0.4 0.4"
+				"recoil_rest_rate"					"12"
+				"recoil_rest_delay"					"0.09"
+				"recoil_roll_range"					"-1.5 -1.5"
 				"recoil_roll_rest_rate"				"150"
 				
 				"recoil_additional_rest_per_shot"	"2.5"	// Amount of rest per additional shot (added to rest rate) (default = 2.5)
 				"recoil_shot_reset_time"			"0.5"	// Time delay for resetting the shots fired counter for the above (default = 0.3)
-				"recoil_shot_max_shots"				"5"	// Max number of shots to account for for the additional rest (default = 5)
-				"recoil_punch_additive_factor"		"0.80"	// How much of the view punch from the previous shot(s) get added to any additional shot fired.
-				"recoil_freeaim_frac"			"0.4"
+				"recoil_shot_max_shots"				"8"	// Max number of shots to account for for the additional rest (default = 5)
+				"recoil_punch_additive_factor"		"0.85"	// How much of the view punch from the previous shot(s) get added to any additional shot fired.
 				
-				// Integrated foregrip
-				"recoil_lateral_frac"		"0.75"
-				"recoil_vertical_frac"		"0.75"
+				"RecoilMoveFracByWeight"
+				{
+					"60"					"1.00"
+				}
 			}
 			"ballistics"
 			{
-				"spread"					"0.4 0.4 0.4"
+				"spread"					"0.35 0.35 0.35"
 				"FireModes"					"semi, burst, full"
 				"bulletcount"				"1"
 				"maxrange"					"8000"
@@ -3892,7 +3723,7 @@
 		
 		"weapon_aks74u"
 		{
-			"import"						"ballistic_base"
+			"import"						"carbine_base"
 			"weapon_class"					"smg"
 			"print_name"					"#weapon_aks74u"
 			"print_desc"					"#weapon_aks74u_desc"
@@ -3916,11 +3747,8 @@
 			}
            "fov"
 			{
-				"fov_plr_ironsight"			"-25"
-				"fov_plr_focus"				"-12"
 				"fov_wpn_default"			"65"
 				"fov_wpn_ironsight"			"72"
-				"fov_wpn_focus"				"84"
 			}
 			"sounds"
 			{
@@ -3944,11 +3772,11 @@
 			}
 			"recoil"
 			{
-				"recoil_lateral_range"			"-1.50 1.50"
-				"recoil_vertical_range"			"2.50 3.25"
-				"recoil_aim_punch"				"0.6 0.8"
-				"recoil_rest_rate"				"10"
-				"recoil_rest_delay"				"0.12"
+				"recoil_lateral_range"			"-1.05 1.05"
+				"recoil_vertical_range"			"2.75 3.00"
+				"recoil_aim_punch"				"0.4 0.4"
+				"recoil_rest_rate"				"12"
+				"recoil_rest_delay"				"0.09"
 				"recoil_roll_range"				"-1.5 -1.5"
 				"recoil_roll_rest_rate"			"150"
 				
@@ -3956,10 +3784,15 @@
 				"recoil_shot_reset_time"			"0.5"	// Time delay for resetting the shots fired counter for the above (default = 0.3)
 				"recoil_shot_max_shots"				"8"	// Max number of shots to account for for the additional rest (default = 5)
 				"recoil_punch_additive_factor"		"0.85"	// How much of the view punch from the previous shot(s) get added to any additional shot fired.
+				
+				"RecoilBaseFracByWeight"
+				{
+					"0"					"1.15"
+				}
 			}
 			"ballistics"
 			{
-				"spread"					"0.25 0.25 0.25"
+				"spread"					"0.2 0.2 0.2"
 				"FireModes"					"semi, full"
 				"bulletcount"				"1"
 				"maxrange"					"8000"
@@ -4003,10 +3836,15 @@
 			"weapon_weight"					"105" // (2.5kg[weapon] + (0.3kg[ammo] * (1+10)[mags]) )*10[kg->hg for int]  +24[encumbrance]
 			"barrel_length"					"30"
 			"bolt_speed"					"1.40"
+			
 			"ironsights"
 			{
 				"in_time"				"0.20"
 				"out_time"				"0.20"
+			}
+			"player_restrictions"
+			{
+				"allow_reload_sprint"	"1"
 			}
 			
 			"viewmodel_attachments"
@@ -4019,11 +3857,8 @@
 			}
 			"fov"
 			{
-				"fov_plr_ironsight"			"-25"
-				"fov_plr_focus"				"-12"
 				"fov_wpn_default"			"54"
 				"fov_wpn_ironsight"			"74"
-				"fov_wpn_focus"				"86"
 			}
 			"sway"
 			{
@@ -4062,12 +3897,11 @@
 				"RecoilLowStaminaFracByWeight"
 				{
 					"60"					"1.00"
-					"640"					"1.00"
 				}
 			}
 			"ballistics"
 			{
-				"spread"					"2.0 2.0 0.0"
+				"spread"					"1.85 1.85 0.0"
 				"FireModes"					"pump"
 				"maxrange"					"5000"
 				"singleReload"				"1"
@@ -4114,14 +3948,15 @@
 				"in_time"				"0.20"
 				"out_time"				"0.20"
 			}
+			"player_restrictions"
+			{
+				"allow_reload_sprint"	"1"
+			}
 			
 			"fov"
 			{
-				"fov_plr_ironsight"			"-25"
-				"fov_plr_focus"				"-12"
 				"fov_wpn_default"			"52"
 				"fov_wpn_ironsight"			"64"
-				"fov_wpn_focus"				"76"
 			}
 			"sway"
 			{
@@ -4167,12 +4002,15 @@
 				"RecoilLowStaminaFracByWeight"
 				{
 					"60"					"1.00"
-					"640"					"1.00"
+				}
+				"RecoilBaseFracByWeight"
+				{
+					"0"						"1.15"
 				}
 			}
 			"ballistics"  
 			{
-				"spread"					"2.0 1.5 0.0"
+				"spread"					"2.0 2.0 0.0"
 				"FireModes"					"pump"
 				"maxrange"					"5000"
 				"singleReload"				"1"
@@ -4226,11 +4064,8 @@
 			}
 			"fov"
 			{
-				"fov_plr_ironsight"			"-25"
-				"fov_plr_focus"				"-12"
 				"fov_wpn_default"			"60"
 				"fov_wpn_ironsight"			"68"
-				"fov_wpn_focus"				"80"
 			}
 			"sway"
 			{
@@ -4343,9 +4178,6 @@
 			{
 				"fov_wpn_default"			"60"
 				"fov_wpn_ironsight"			"68"
-				"fov_wpn_focus"				"80"
-				"fov_plr_ironsight"			"-25"
-				"fov_plr_focus"				"-12"
 			}
 			"sway"
 			{
@@ -4364,18 +4196,18 @@
 			}
 			"recoil"
 			{
-				"recoil_lateral_range"			"-1.90 1.90"
-				"recoil_vertical_range"			"3.675 3.875"
-				"recoil_aim_punch"				"0.5 0.8"
+				"recoil_lateral_range"			"-1.10 1.10"
+				"recoil_vertical_range"			"3.75 4.25"
+				"recoil_aim_punch"				"0.6 0.6"
 				"recoil_rest_rate"				"14"
 				"recoil_rest_delay"				"0.12"
 				"recoil_roll_range"				"-1.8 -1.8"
-				"recoil_roll_rest_rate"			"190"
+				"recoil_roll_rest_rate"			"150"
 				
 				"recoil_additional_rest_per_shot"	"2.5"	// Amount of rest per additional shot (added to rest rate) (default = 2.5)
 				"recoil_shot_reset_time"			"0.5"	// Time delay for resetting the shots fired counter for the above (default = 0.3)
-				"recoil_shot_max_shots"				"8"		// Max number of shots to account for for the additional rest (default = 5)
-				"recoil_punch_additive_factor"		"0.85"	// How much of the view punch from the previous shot(s) get added to any additional shot fired.
+				"recoil_shot_max_shots"				"6"	// Max number of shots to account for for the additional rest (default = 5)
+				"recoil_punch_additive_factor"		"0.92"	// How much of the view punch from the previous shot(s) get added to any additional shot fired.
 			}
 			"ballistics"
 			{
@@ -4449,8 +4281,8 @@
 			
 			"ironsights"
 			{
-				"in_time"				"0.35"
-				"out_time"				"0.35"
+				"in_time"				"0.40"
+				"out_time"				"0.25"
 			}
 			
 			"viewmodel_attachments"
@@ -4467,11 +4299,8 @@
 			}
 			"fov"
 			{
-				"fov_plr_ironsight"			"-18"
-				"fov_plr_focus"				"-6"
 				"fov_wpn_default"			"60"
 				"fov_wpn_ironsight"			"56"
-				"fov_wpn_focus"				"68"
 			}
 			"sounds"
 			{
@@ -4550,17 +4379,14 @@
 			
 			"ironsights"
 			{
-				"in_time"				"0.35"
+				"in_time"				"0.40"
 				"out_time"				"0.35"
 			}
 			
 			"fov"
 			{
-				"fov_plr_ironsight"			"-18"
-				"fov_plr_focus"				"-6"
 				"fov_wpn_default"			"56"
 				"fov_wpn_ironsight"			"60"
-				"fov_wpn_focus"				"72"
 			}
 			"sway"
 			{
@@ -4730,19 +4556,19 @@
 			"DetonateDamage"				"100"	// det damage is for when it first goes off
 			"DetonatePenetrationRadius"		"0"
 			"DetonateDamageRadius"			"240"
-			"FuseTime"						"1.8"
+			"FuseTime"						"4"
 			"DetonateUnderwater"			"0"
-			"Cookable"						"0"
+			"Cookable"						"1"
 			"RocketStartSpeed"				"2000"
 			"ShakeAmplitude"				"0"
 			
 			"Deafen"						"0"
 			"AreaDamageTime"				"24"
-			"AreaDamageFrequency"			"0.38"
-			"AreaDamageMinRadius"			"120"
-			"AreaDamageMaxRadius"			"160"
-			"AreaDamageGrowSpeed"			"20"
-			"AreaDamageAmount"				"76"
+			"AreaDamageFrequency"			"0.30"
+			"AreaDamageMinRadius"			"160"
+			"AreaDamageMaxRadius"			"180"
+			"AreaDamageGrowSpeed"			"40"
+			"AreaDamageAmount"				"40"
 			
 			"Health"						"50"
 			"ReactExplosions"				"1"
@@ -4782,11 +4608,11 @@
 			
 			"Deafen"						"0"
 			"AreaDamageTime"				"24"
-			"AreaDamageFrequency"			"0.44"
+			"AreaDamageFrequency"			"0.30"
 			"AreaDamageMinRadius"			"240"
 			"AreaDamageMaxRadius"			"260"
-			"AreaDamageGrowSpeed"			"9"
-			"AreaDamageAmount"				"18"
+			"AreaDamageGrowSpeed"			"30"
+			"AreaDamageAmount"				"35"
 			
 			"Health"					"50"
 			"ReactExplosions"			"1"
@@ -4863,7 +4689,7 @@
 			"FuseTime"					"0"
 			"ImpactDetonation"			"1"
 			"ArmDelay"					"0.12"
-			"RocketStartSpeed"			"3000"
+			"RocketStartSpeed"			"3250"
 			
 			"Health"						"50"
 			"ReactExplosions"				"1"
@@ -4892,7 +4718,7 @@
 			"Model"						"models/weapons/upgrades/a_projectile_m203.mdl"
 			"FuseTime"					"0"
 			"ImpactDetonation"			"1"
-			"RocketStartSpeed"			"3000"
+			"RocketStartSpeed"			"3250"
 			"ArmDelay"					"0.12"
 			
 			"Health"						"50"
@@ -4922,12 +4748,12 @@
 			"Model"						"models/weapons/w_at4_projectile.mdl"
 			"DetonateDamage"			"300"
 			"DetonatePenetrationRadius" "350"
-			"DetonateDamageRadius"		"850"
+			"DetonateDamageRadius"		"1000"
 			"RocketTopSpeed"			"3500" // you cannot go faster than 3500
-			"RocketStartSpeed"			"200"
+			"RocketStartSpeed"			"400"
 			"RocketAcceleration"		"400"
 			"RocketWobble"				"1"
-			"RocketWobbleFrequency"		"0.25"
+			"RocketWobbleFrequency"		"0.10"
 			"Particles"
 			{
 				"DetonateParticle"			"ins_rpg_explosion"
@@ -4947,12 +4773,12 @@
 			"Model"						"models/weapons/w_rpg7_projectile.mdl"
 			"DetonateDamage"			"300"
 			"DetonatePenetrationRadius" "350"
-			"DetonateDamageRadius"		"850"
+			"DetonateDamageRadius"		"1000"
 			"RocketTopSpeed"			"3500" // you cannot go faster than 3500
-			"RocketStartSpeed"			"200"
+			"RocketStartSpeed"			"400"
 			"RocketAcceleration"		"400"
 			"RocketWobble"				"1"
-			"RocketWobbleFrequency"		"0.35"
+			"RocketWobbleFrequency"		"0.175"
 			"Particles"
 			{
 				"DetonateParticle"			"ins_rpg_explosion"

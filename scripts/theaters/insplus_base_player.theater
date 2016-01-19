@@ -28,19 +28,19 @@
 		}
 		"speed"
 		{
-			"frac_side_move"			"0.65"
+			"frac_side_move"			"0.75"
 			"frac_back_move"			"0.50"
-			"frac_side_step"			"0.60"
-			"speed_prone"				"40"
-			"speed_crouch_walk"			"40"
+			"frac_side_step"			"0.65"
+			"speed_prone"				"50"
+			"speed_crouch_walk"			"50"
 			"speed_crouch_run"			"75"
 			"speed_walk"				"75"
-			"speed_run"					"130"
-			"speed_sprint"				"215"
+			"speed_run"					"135"
+			"speed_sprint"				"225"
 			"AccelerationByWeight"
 			{
 				"60"					"4.20"
-				"640"					"3.90"
+				"640"					"4.10"
 			}
 			
 			"DecelerationByWeight"
@@ -52,13 +52,13 @@
 			"FrictionByWeight"
 			{
 				"60"					"4.20"
-				"640"					"4.90"
+				"640"					"4.50"
 			}
 			"SprintSpeedFactorByStamina"
 			{
 				"60"					"1.00"
-				"140"					"1.20"
-				"240"					"1.375"
+				"160"					"1.10"
+				"260"					"1.20"
 			}
 		}
 		"turning"
@@ -70,11 +70,11 @@
 		{
 			"StaminaMaxByWeight"
 			{
-				"60"				"295"
-				"640"				"165"
+				"60"				"325"
+				"640"				"140"
 			}
 			"stamina_regain"		"4.50"
-			"stamina_sprint_take"	"2.50" 
+			"stamina_sprint_take"	"3.00" 
 			"stamina_jump_take"		"20"
 			"stamina_dmg_take"		"295"
 			
@@ -91,7 +91,7 @@
 		{
 			"FocusTimeStamina"
 			{
-				"0"					"4.5"
+				"0"					"4.0"
 				"100"				"8.0"
 			}
 
@@ -103,7 +103,7 @@
 
 			"FocusEffectivenessStamina"
 			{
-				"0"					"0.50"
+				"0"					"1.00"
 				"100"               "1.50"
 			}
 		}
