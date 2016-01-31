@@ -719,10 +719,6 @@
 			"print_desc"				"#weapon_upgrade_2xaimpoint_desc"
 			"team_access"				"security, insurgent"
 			
-			"freeaim"
-			{
-				"freeaim_frac_ads"				"0.50"
-			}
 			
 			"allowed_weapons"
 			{
@@ -862,7 +858,8 @@
 				
 				"weapon_m14"
 				{
-					"fov_wpn_ironsight"			"29"
+					"fov_wpn_ironsight"			"32"
+					"fov_wpn_focus"				"42"
 				}
 				
 				"weapon_m590"
@@ -969,13 +966,8 @@
 			"print_name"				"#weapon_upgrade_aimpoint"
 			"print_desc"				"#weapon_upgrade_aimpoint_desc"
 			"team_access"				"security"
-			"ads_in_speed"				"1.15"
-			"ads_out_speed"				"1.15"
+			"ads_in_speed"				"1.05"
 			
-			"freeaim"
-			{
-				"freeaim_frac_ads"				"0.50"
-			}
 			
 			"allowed_weapons"
 			{
@@ -1209,6 +1201,7 @@
 			"print_name"				"#weapon_upgrade_elcan"
 			"print_desc"				"#weapon_upgrade_elcan_desc"
 			"team_access"				"security"
+			"ads_out_speed"				"0.90"
 			
 			"freeaim"
 			{
@@ -1330,7 +1323,8 @@
 				
 				"weapon_m14"
 				{
-					"fov_wpn_ironsight"			"30"
+					"fov_wpn_ironsight"			"27"
+					"fov_wpn_focus"				"37"
 				}
 				
 				"weapon_mini14"
@@ -1437,13 +1431,8 @@
 			"print_name"				"#weapon_upgrade_holographic"
 			"print_desc"				"#weapon_upgrade_holographic_desc"
 			"team_access"				"security"
-			"ads_in_speed"				"1.15"
-			"ads_out_speed"				"1.15"
+			"ads_in_speed"				"1.05"
 			
-			"freeaim"
-			{
-				"freeaim_frac_ads"				"0.50"
-			}
 			
 			"allowed_weapons"
 			{
@@ -1704,13 +1693,9 @@
 			"print_name"				"#weapon_upgrade_kobra"
 			"print_desc"				"#weapon_upgrade_kobra_desc"
 			"team_access"				"insurgent"
-			"ads_in_speed"				"1.15"
-			"ads_out_speed"				"1.15"
+			"ads_in_speed"				"1.05"
+
 			
-			"freeaim"
-			{
-				"freeaim_frac_ads"				"0.50"
-			}
 			"allowed_weapons"
 			{
 				// insurgent weapons
@@ -1952,11 +1937,7 @@
 			"print_name"				"#weapon_upgrade_po4x24"
 			"print_desc"				"#weapon_upgrade_po4x24_desc"
 			"team_access"				"insurgent"
-			
-			"freeaim"
-			{
-				"freeaim_frac_ads"				"0.25"
-			}
+			"ads_out_speed"				"0.90"
 			
 			"allowed_weapons"
 			{
@@ -2102,6 +2083,7 @@
 				"weapon_zastava"
 				{
 					"fov_wpn_ironsight"			"27"
+					"fov_wpn_focus"				"40"
 				}
 				
 				"weapon_mosin"
@@ -2179,11 +2161,7 @@
 			"class_restricted"			"1"
 			"upgrade_cost"				"4"
 			"team_access"				"insurgent"
-			
-			"freeaim"
-			{
-				"freeaim_distance_ads"				"1.50"
-			}
+			"ads_out_speed"				"0.90"
 			
 			"allowed_weapons"
 			{
@@ -2274,6 +2252,7 @@
 				{
 					"fov_wpn_scope"				"10"
 					"fov_wpn_ironsight"			"35"
+					"fov_wpn_focus"				"45"
 				}
 				
 				"weapon_l1a1"
@@ -2297,11 +2276,7 @@
 			"print_desc"				"#weapon_upgrade_scope_m40a1_desc"
 			"class_restricted"			"1"
 			"team_access"				"security"
-			
-			"freeaim"
-			{
-				"freeaim_frac_ads"				"0.25"
-			}
+			"ads_out_speed"				"0.90"
 			
 			"allowed_weapons"
 			{
@@ -3356,6 +3331,38 @@
 					"model"					"models/weapons/upgrades/a_woodgrips_ak74.mdl"
 					"Gesture"				"delta_foregrip"
 					"ActSuffix"				"_FOREGRIP"
+					
+					"weapons"
+					{
+						"weapon"				"weapon_ak74"
+					}
+				}
+			}
+			"world_attachments"
+			{
+				"Foregrip_AKM"
+				{
+					"model"					"models/weapons/upgrades/w_foregrip_wood_1.mdl"
+					
+					"weapons"
+					{
+						"weapon"				"weapon_akm"
+					}
+				}
+				
+				"Foregrip_AKS"
+				{
+					"model"					"models/weapons/upgrades/w_foregrip_aks74u.mdl"
+					
+					"weapons"
+					{
+						"weapon"				"weapon_aks74u"
+					}
+				}
+				
+				"Foregrip_AK74"
+				{
+					"model"					"models/weapons/upgrades/w_foregrip_wood_2.mdl"
 					
 					"weapons"
 					{

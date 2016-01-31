@@ -6,17 +6,22 @@
 	{
 		"precache"
 		{
+			// Localization
 			"localize"			"resource/insplus_english.txt"
+			
 			// default theater specific sounds
 			"sounds"			"scripts/ins_sounds_weapons.txt"
 			"sounds"			"scripts/ins_sounds_cues.txt"
 			"sounds"			"scripts/ins_sounds_voice.txt"
 			"sounds"			"scripts/ins_sounds_radial_security.txt"				
-			"sounds"			"scripts/ins_sounds_radial_insurgent.txt"			
+			"sounds"			"scripts/ins_sounds_radial_insurgent.txt"				
 			"sounds"			"scripts/ins_sounds_responses_security.txt"
 			"sounds"			"scripts/ins_sounds_responses_insurgent.txt"
 			"sounds"			"scripts/ins_sounds_hq.txt"
+			
+			// coop specific
 			"sounds"			"scripts/ins_sounds_voice_coop.txt"
+			
 			// custom sounds
 			"sounds"			"scripts/insplus_sounds.txt"
 		}
@@ -72,6 +77,8 @@
 				"weapon_upgrade"			"ins_silencer_heavy"
 				"weapon_upgrade"			"underbarrel_bipod"
 				"gear"						"sec_light_armor"
+				"gear"						"sec_medium_armor"
+				"gear"						"sec_heavy_armor"
 			}
 			"cost_modifiers"
 			{
@@ -144,7 +151,9 @@
 				"weapon_upgrade"			"barrel_silencer_ins1"
 				"weapon_upgrade"			"barrel_silencer_pistol"
 				"weapon_upgrade"			"underbarrel_bipod"
-				"gear"						"sec_light_armor_cap"
+				"gear"						"sec_light_armor"
+				"gear"						"sec_medium_armor"
+				"gear"						"sec_heavy_armor"
 			}
 		}
 		"template_recon_security_coop"
@@ -203,7 +212,9 @@
 				"weapon_upgrade"			"barrel_silencer_pistol"
 				"weapon_upgrade"			"barrel_silencer_integrated"
 				"weapon_upgrade"			"underbarrel_bipod"
-				"gear"						"sec_light_armor_cap"
+				"gear"						"sec_light_armor"
+				"gear"						"sec_medium_armor"
+				"gear"						"sec_heavy_armor"
 			}
 		}
 		"template_designated_marksman_security_coop"
@@ -248,6 +259,8 @@
 				"weapon_upgrade"			"barrel_silencer_pistol"
 				"weapon_upgrade"			"underbarrel_bipod"
 				"gear"						"sec_light_armor"
+				"gear"						"sec_medium_armor"
+				"gear"						"sec_heavy_armor"
 			}
 		}
 		"template_breacher_security_coop"
@@ -304,6 +317,8 @@
 				"weapon_upgrade"			"ins_woodgrip2"
 				"weapon_upgrade"			"underbarrel_bipod"
 				"gear"						"sec_light_armor"
+				"gear"						"sec_medium_armor"
+				"gear"						"sec_heavy_armor"
 			}
 			"cost_modifiers"
 			{
@@ -360,7 +375,9 @@
 				"weapon_upgrade"			"underbarrel_bipod"
 				"weapon_upgrade"			"magazine_extended_lsw"
 				"weapon_upgrade"			"magazine_drum_75rd"
-				"gear"						"sec_light_armor"
+`				"gear"						"sec_light_armor"
+				"gear"						"sec_medium_armor"
+				"gear"						"sec_heavy_armor"
 			}
 			"cost_modifiers"
 			{
@@ -424,7 +441,9 @@
 				"weapon_upgrade"			"barrel_silencer_ins1"
 				"weapon_upgrade"			"barrel_silencer_pistol"
 				"weapon_upgrade"			"underbarrel_bipod"
-				"gear"						"sec_light_armor_cap"
+				"gear"						"sec_light_armor"
+				"gear"						"sec_medium_armor"
+				"gear"						"sec_heavy_armor"
 			}
 		}
 		"template_demolitions_security_coop"
@@ -479,7 +498,9 @@
 				"weapon_upgrade"			"barrel_silencer_ins1"
 				"weapon_upgrade"			"barrel_silencer_pistol"
 				"weapon_upgrade"			"underbarrel_bipod"
-				"gear"						"sec_light_armor_cap"
+				"gear"						"sec_light_armor"
+				"gear"						"sec_medium_armor"
+				"gear"						"sec_heavy_armor"
 			}
 			"cost_modifiers"
 			{
@@ -924,6 +945,12 @@
 			"weapon_cost"				"3"
 			"team_access"				"security, insurgent"
 			"class_restricted"			"1"
+		}
+		
+		"weapon_bhp"
+		{
+			"team_access"				"security, insurgent"
+			"class_restricted"			"0"
 		}
 		
 		"weapon_ak74"

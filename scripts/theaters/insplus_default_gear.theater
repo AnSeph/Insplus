@@ -16,8 +16,8 @@
 			"DamageHitgroups"
 			{
 				"HITGROUP_HEAD"					"1.00" 
-				"HITGROUP_CHEST"				"0.70"
-				"HITGROUP_STOMACH"				"0.70"
+				"HITGROUP_CHEST"				"0.65"
+				"HITGROUP_STOMACH"				"0.65"
 				"HITGROUP_LEFTARM"				"1.00"
 				"HITGROUP_RIGHTARM"				"1.00"
 				"HITGROUP_LEFTLEG"				"1.00"
@@ -38,8 +38,8 @@
 			"DamageHitgroups"
 			{
 				"HITGROUP_HEAD"					"1.00" 
-				"HITGROUP_CHEST"				"0.70"
-				"HITGROUP_STOMACH"				"0.70"
+				"HITGROUP_CHEST"				"0.65"
+				"HITGROUP_STOMACH"				"0.65"
 				"HITGROUP_LEFTARM"				"1.00"
 				"HITGROUP_RIGHTARM"				"1.00"
 				"HITGROUP_LEFTLEG"				"1.00"
@@ -63,8 +63,8 @@
 			"DamageHitgroups"
 			{
 				"HITGROUP_HEAD"					"1.00" 
-				"HITGROUP_CHEST"				"0.40"
-				"HITGROUP_STOMACH"				"0.40"
+				"HITGROUP_CHEST"				"0.3"
+				"HITGROUP_STOMACH"				"0.3"
 				"HITGROUP_LEFTARM"				"1.00"
 				"HITGROUP_RIGHTARM"				"1.00"
 				"HITGROUP_LEFTLEG"				"1.00"
@@ -85,8 +85,8 @@
 			"DamageHitgroups"
 			{
 				"HITGROUP_HEAD"					"1.00" 
-				"HITGROUP_CHEST"				"0.40"
-				"HITGROUP_STOMACH"				"0.40"
+				"HITGROUP_CHEST"				"0.3"
+				"HITGROUP_STOMACH"				"0.3"
 				"HITGROUP_LEFTARM"				"1.00"
 				"HITGROUP_RIGHTARM"				"1.00"
 				"HITGROUP_LEFTLEG"				"1.00"
@@ -151,7 +151,7 @@
 			"print_desc"	"#gear_chest_rig_desc"
 			"gear_slot"		"vest"
 			"gear_cost"		"1"
-			"gear_weight"	"75" // 22 (2.2kg) + 24 encumbrance
+			"gear_weight"	"60" // 22 (2.2kg) + 24 encumbrance
 			"extra_ammo"
 			{
 				"primary"	"2"
@@ -170,7 +170,7 @@
 			"print_desc"	"#gear_chest_rig_desc"
 			"gear_slot"		"vest"
 			"gear_cost"		"1"
-			"gear_weight"	"75" // 22 (2.2kg) + 24 encumbrance
+			"gear_weight"	"60" // 22 (2.2kg) + 24 encumbrance
 			"extra_ammo"
 			{
 				"primary"	"2"
@@ -211,7 +211,7 @@
 			"print_name"	"#gear_chest_carrier"
 			"print_desc"	"#gear_chest_carrier_desc"
 			"gear_slot"		"vest"
-			"gear_cost"		"3"
+			"gear_cost"		"2"
 			"gear_weight"	"160" // 50 (5.0kg) + 50 encumbrance
 			"extra_ammo"
 			{

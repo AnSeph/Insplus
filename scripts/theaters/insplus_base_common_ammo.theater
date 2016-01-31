@@ -349,8 +349,8 @@
 			"DamageHitgroups"
 			{
 				"HITGROUP_HEAD"       "1.00" 
-				"HITGROUP_CHEST"      "1.00"
-				"HITGROUP_STOMACH"    "1.00"
+				"HITGROUP_CHEST"      "1.25"
+				"HITGROUP_STOMACH"    "1.25"
 				"HITGROUP_LEFTARM"    "1.00"
 				"HITGROUP_RIGHTARM"   "1.00"
 				"HITGROUP_LEFTLEG"    "1.00"
@@ -387,12 +387,12 @@
 			"DamageHitgroups"
 			{
 				"HITGROUP_HEAD"       "1.00"
-				"HITGROUP_CHEST"      "1.60"
-				"HITGROUP_STOMACH"    "1.60"
-				"HITGROUP_LEFTARM"    "0.90"
-				"HITGROUP_RIGHTARM"   "0.90"
-				"HITGROUP_LEFTLEG"    "0.50"
-				"HITGROUP_RIGHTLEG"   "0.50"
+				"HITGROUP_CHEST"      "1.75"
+				"HITGROUP_STOMACH"    "1.75"
+				"HITGROUP_LEFTARM"    "0.95"
+				"HITGROUP_RIGHTARM"   "0.95"
+				"HITGROUP_LEFTLEG"    "0.75"
+				"HITGROUP_RIGHTLEG"   "0.75"
 			}
 			"PenetrationPower"
 			{
@@ -423,8 +423,8 @@
 			"DamageHitgroups"
 			{
 				"HITGROUP_HEAD"       "1.00" 
-				"HITGROUP_CHEST"      "1.00"
-				"HITGROUP_STOMACH"    "1.00"
+				"HITGROUP_CHEST"      "1.25"
+				"HITGROUP_STOMACH"    "1.25"
 				"HITGROUP_LEFTARM"    "1.00"
 				"HITGROUP_RIGHTARM"   "1.00"
 				"HITGROUP_LEFTLEG"    "1.00"
@@ -461,12 +461,12 @@
 			"DamageHitgroups"
 			{
 				"HITGROUP_HEAD"       "1.00"
-				"HITGROUP_CHEST"      "1.60"
-				"HITGROUP_STOMACH"    "1.60"
-				"HITGROUP_LEFTARM"    "0.90"
-				"HITGROUP_RIGHTARM"   "0.90"
-				"HITGROUP_LEFTLEG"    "0.50"
-				"HITGROUP_RIGHTLEG"   "0.50"
+				"HITGROUP_CHEST"      "1.75"
+				"HITGROUP_STOMACH"    "1.75"
+				"HITGROUP_LEFTARM"    "0.95"
+				"HITGROUP_RIGHTARM"   "0.95"
+				"HITGROUP_LEFTLEG"    "0.75"
+				"HITGROUP_RIGHTLEG"   "0.75"
 			}
 			"PenetrationPower"
 			{
@@ -499,7 +499,7 @@
 			{
 				"HITGROUP_HEAD"       "1.00" 
 				"HITGROUP_CHEST"      "1.25"
-				"HITGROUP_STOMACH"    "1.00"
+				"HITGROUP_STOMACH"    "1.28"
 				"HITGROUP_LEFTARM"    "1.00"
 				"HITGROUP_RIGHTARM"   "1.00"
 				"HITGROUP_LEFTLEG"    "1.00"
@@ -538,8 +538,8 @@
 				"HITGROUP_HEAD"       "1.00"
 				"HITGROUP_CHEST"      "1.75"
 				"HITGROUP_STOMACH"    "1.75"
-				"HITGROUP_LEFTARM"    "0.90"
-				"HITGROUP_RIGHTARM"   "0.90"
+				"HITGROUP_LEFTARM"    "1.00"
+				"HITGROUP_RIGHTARM"   "1.00"
 				"HITGROUP_LEFTLEG"    "0.75"
 				"HITGROUP_RIGHTLEG"   "0.75"
 			}
@@ -573,7 +573,7 @@
 			{
 				"HITGROUP_HEAD"       "1.00" 
 				"HITGROUP_CHEST"      "1.25"
-				"HITGROUP_STOMACH"    "1.00"
+				"HITGROUP_STOMACH"    "1.25"
 				"HITGROUP_LEFTARM"    "1.00"
 				"HITGROUP_RIGHTARM"   "1.00"
 				"HITGROUP_LEFTLEG"    "1.00"
@@ -612,8 +612,8 @@
 				"HITGROUP_HEAD"       "1.00"
 				"HITGROUP_CHEST"      "1.75"
 				"HITGROUP_STOMACH"    "1.75"
-				"HITGROUP_LEFTARM"    "0.90"
-				"HITGROUP_RIGHTARM"   "0.90"
+				"HITGROUP_LEFTARM"    "1.00"
+				"HITGROUP_RIGHTARM"   "1.00"
 				"HITGROUP_LEFTLEG"    "0.75"
 				"HITGROUP_RIGHTLEG"   "0.75"
 			}
@@ -647,7 +647,7 @@
 			{
 				"HITGROUP_HEAD"       "1.00" 
 				"HITGROUP_CHEST"      "1.25"
-				"HITGROUP_STOMACH"    "1.00"
+				"HITGROUP_STOMACH"    "1.25"
 				"HITGROUP_LEFTARM"    "1.00"
 				"HITGROUP_RIGHTARM"   "1.00"
 				"HITGROUP_LEFTLEG"    "1.00"
@@ -686,8 +686,8 @@
 				"HITGROUP_HEAD"       "1.00"
 				"HITGROUP_CHEST"      "1.75"
 				"HITGROUP_STOMACH"    "1.75"
-				"HITGROUP_LEFTARM"    "0.90"
-				"HITGROUP_RIGHTARM"   "0.90"
+				"HITGROUP_LEFTARM"    "1.00"
+				"HITGROUP_RIGHTARM"   "1.00"
 				"HITGROUP_LEFTLEG"    "0.75"
 				"HITGROUP_RIGHTLEG"   "0.75"
 			}
@@ -769,10 +769,10 @@
 				"HITGROUP_HEAD"       "1.00"
 				"HITGROUP_CHEST"      "2.00"
 				"HITGROUP_STOMACH"    "2.00"
-				"HITGROUP_LEFTARM"    "1.00"
-				"HITGROUP_RIGHTARM"   "1.00"
-				"HITGROUP_LEFTLEG"    "0.45"
-				"HITGROUP_RIGHTLEG"   "0.45"
+				"HITGROUP_LEFTARM"    "0.95"
+				"HITGROUP_RIGHTARM"   "0.95"
+				"HITGROUP_LEFTLEG"    "0.75"
+				"HITGROUP_RIGHTLEG"   "0.75"
 			}
 			"PenetrationPower"
 			{

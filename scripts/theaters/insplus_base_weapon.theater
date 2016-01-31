@@ -35,12 +35,12 @@
 				"SwayRadiusByStamina"
 				{
 					"0"						"1.50"
-					"100"					"1.00"
+					"100"					"0.95"
 				}
 				"SwaySpeedByStamina"
 				{
 					"0"						"1.00"
-					"100"					"1.00"
+					"100"					"0.95"
 				}
 				"sway_radius_stand_frac"		"1.00"
 				"sway_radius_crouch_frac"		"0.80"
@@ -48,12 +48,12 @@
 				"sway_radius_bipod_frac"		"0.10"
 				"sway_radius_ironsight_frac"	"0.75"
 				"sway_radius_lean_frac"			"1.00"
-				"sway_amount_focus_frac"		"0.00"
-				"sway_speed_ironsight_frac"		"0.80"
+				"sway_speed_ironsight_frac"		"1.00"
 				"sway_speed_bipod_frac"			"0.25"
-				"sway_speed_focus_frac"			"0.00"
-				"sway_amount_focus_penalty"		"0.00"
-				"sway_speed_focus_penalty"		"0.00"
+				"sway_amount_focus_frac"		"0.05"
+				"sway_speed_focus_frac"			"40.00"
+				"sway_amount_focus_penalty"		"0.50"
+				"sway_speed_focus_penalty"		"0.50"
 				"sway_screen_ratio"				"1.00"
 				"sway_viewmodel_ratio"			"0.25"
 				"sway_screen_ads_ratio"			"1.00"
@@ -96,7 +96,7 @@
 				"freeaim_screenratio"			"0.75"
 				"freeaim_screenratio_bipod"		"0.95"
 				
-				"freeaim_ads"					"0"
+				"freeaim_ads"					"1"
 				"freeaim_distance_ads"			"2.00"
 				"freeaim_screenratio_ads"		"0.75"
 				
@@ -115,7 +115,7 @@
 				"recoil_shot_reset_time"			"0.30"
 				"recoil_focus_frac"					"1.00"
 				"recoil_freeaim_frac"				"1.00"
-				"recoil_ironsight_frac"				"0.95"
+				"recoil_ironsight_frac"				"1.00"
 				
 				"recoil_return_controller_only"		"1"
 				"recoil_return_frac"				"0.5"
@@ -129,7 +129,7 @@
 				}
 				"RecoilIronSightFracByWeight"
 				{
-					"0"						"1.00"
+					"0"						"1.05"
 				}
 				"RecoilBipodFracByWeight"
 				{
@@ -137,7 +137,7 @@
 				}
 				"RecoilLeanFracByWeight"
 				{
-					"60"					"0.80"
+					"60"					"1.00"
 				}
 				"RecoilMoveFracByWeight"
 				{
@@ -244,7 +244,8 @@
 			}
 			"freeaim"
 			{
-				"freeaim_distance_frac"			"0.50"
+				"freeaim_frac"			"0.50"
+				"freeaim_frac_ads"		"1.80"
 			}
 			"kitui_offset"
 			{
@@ -262,14 +263,15 @@
 			"IsBase"					"1"
 			"import"					"ballistic_base"
 			"barrel_length"				"12"
-			"freeaim"
-			{
-				"freeaim_distance_frac"			"0.60"
-			}
 			"ironsights"
 			{
 				"in_time"					"0.25"
-				"out_time"					"0.25"
+				"out_time"					"0.30"
+			}
+			"freeaim"
+			{
+				"freeaim_frac"			"0.50"
+				"freeaim_frac_ads"		"1.80"
 			}
 		}
 		"carbine_base"
@@ -279,7 +281,7 @@
 			"ironsights"
 			{
 				"in_time"					"0.30"
-				"out_time"					"0.30"
+				"out_time"					"0.40"
 			}
 		}
 		"assault_rifle_base"
@@ -289,7 +291,7 @@
 			"ironsights"
 			{
 				"in_time"					"0.35"
-				"out_time"					"0.35"
+				"out_time"					"0.40"
 			}
 		}
 		"battle_rifle_base"
@@ -299,18 +301,27 @@
 			"ironsights"
 			{
 				"in_time"					"0.40"
-				"out_time"					"0.45"
+				"out_time"					"0.50"
 			}
 		}
 		"weapon_grenade_base"
 		{
 			"IsBase"				"1"
 			"import"				"weapon_base"
-			"barrel_length"				"-1"
-			"weapon_type"				"grenade"
-			"weapon_slot"				"explosive"
+			"barrel_length"			"-1"
+			"weapon_type"			"grenade"
+			"weapon_slot"			"explosive"
 			"act_table"				"grenade"
 			
+			"explosives"
+			{
+				"GrenadeRollSpeed"			"425"
+				"GrenadeRollSpeedProne"		"350"
+				"GrenadeRollUpSpeed"		"250"
+				"GrenadeRollUpSpeedProne"	"200"
+				"GrenadeThrowSpeed"			"1000"
+				"GrenadeThrowSpeedProne"	"620"
+			}
 			"sounds"
 			{
 				"special1"					"Weapon_M67.SpoonEject"

@@ -24,7 +24,7 @@
 		"weight"
 		{
 			"min_weight"			"60" 
-			"max_weight"			"760" 
+			"max_weight"			"640" 
 		}
 		"speed"
 		{
@@ -35,12 +35,12 @@
 			"speed_crouch_walk"			"50"
 			"speed_crouch_run"			"75"
 			"speed_walk"				"75"
-			"speed_run"					"135"
+			"speed_run"					"130"
 			"speed_sprint"				"225"
 			"AccelerationByWeight"
 			{
-				"60"					"4.20"
-				"640"					"4.10"
+				"60"					"4.40"
+				"640"					"4.00"
 			}
 			
 			"DecelerationByWeight"
@@ -52,7 +52,7 @@
 			"FrictionByWeight"
 			{
 				"60"					"4.20"
-				"640"					"4.50"
+				"640"					"4.55"
 			}
 			"SprintSpeedFactorByStamina"
 			{
@@ -70,8 +70,8 @@
 		{
 			"StaminaMaxByWeight"
 			{
-				"60"				"325"
-				"640"				"140"
+				"60"				"295"
+				"640"				"160"
 			}
 			"stamina_regain"		"4.50"
 			"stamina_sprint_take"	"3.00" 
@@ -91,37 +91,37 @@
 		{
 			"FocusTimeStamina"
 			{
-				"0"					"4.0"
-				"100"				"8.0"
+				"0"					"2.0"
+				"160"				"5.0"
 			}
 
 			"FocusCooldownStamina"
 			{
 				"0"					"3.50"
-				"100"				"1.50"
+				"160"				"1.50"
 			}
 
 			"FocusEffectivenessStamina"
 			{
-				"0"					"1.00"
-				"100"               "1.50"
+				"0"					"0.25"
+				"160"               "1.50"
 			}
 		}
 		"slide"
 		{
-			"min_sprint_time"			"2.0"
+			"min_sprint_time"			"4.0"
 			"post_sprint_grace"			"0.08"
 			
 			"DistanceByWeight"
 			{
-				"60"					"0.6"
-				"640"					"0.5"
+				"60"					"0.5"
+				"640"					"0.4"
 			}
 			
 			"SpeedByWeight"
 			{
-				"60"					"200"
-				"640"					"140"
+				"60"					"180"
+				"640"					"120"
 			}
 		}
 		"lean"
@@ -170,10 +170,10 @@
 			{
 				"HITGROUP_CHEST"    			"0.50"
 				"HITGROUP_STOMACH"    			"0.50"
-				"HITGROUP_LEFTARM"				"0.75"
-				"HITGROUP_RIGHTARM"				"0.75"
-				"HITGROUP_LEFTLEG"    			"0.15"
-				"HITGROUP_RIGHTLEG"   	 		"0.15"
+				"HITGROUP_LEFTARM"				"1.00"
+				"HITGROUP_RIGHTARM"				"1.00"
+				"HITGROUP_LEFTLEG"    			"0.10"
+				"HITGROUP_RIGHTLEG"   	 		"0.10"
 			}
 			"BulletPenetrationPower"
 			{

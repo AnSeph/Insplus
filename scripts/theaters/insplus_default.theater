@@ -10,7 +10,9 @@
 		// Custom Precache Files
 		"precache"
 		{
+			// Localization
 			"localize"			"resource/insplus_english.txt"
+			
 			// default theater specific sounds
 			"sounds"			"scripts/ins_sounds_weapons.txt"
 			"sounds"			"scripts/ins_sounds_cues.txt"
@@ -20,6 +22,7 @@
 			"sounds"			"scripts/ins_sounds_responses_security.txt"
 			"sounds"			"scripts/ins_sounds_responses_insurgent.txt"
 			"sounds"			"scripts/ins_sounds_hq.txt"
+			
 			// custom sounds 
 			"sounds"			"scripts/insplus_sounds.txt"
 		}
@@ -125,7 +128,6 @@
 				// Primary Weapons
 				"weapon"			"weapon_m16a4"
 				"weapon"			"weapon_m16a4"
-				"weapon"			"weapon_l1a1"
 				"weapon"			"weapon_m4carbine"
 				// Grenades
 				"weapon"			"weapon_m67"
@@ -176,7 +178,6 @@
 				"weapon"			"weapon_m4a1"
 				"weapon"			"weapon_m4a1"
 				"weapon"			"weapon_galil_sar"
-				"weapon"			"weapon_m14"
 				// Grenades
 				"weapon"			"weapon_m67"
 				"weapon"			"weapon_m18"
@@ -240,7 +241,6 @@
 				// Primary Weapons
 				"weapon"			"weapon_mk18"
 				"weapon"			"weapon_mk18"
-				"weapon"			"weapon_ump45"
 				"weapon"			"weapon_mp5"
 				"weapon"			"weapon_m590"
 				// Grenades
@@ -281,7 +281,7 @@
 
 			"buy_order" 
 			{
-				"gear"				"sec_heavy_armor"
+				"gear"				"sec_medium_armor"
 				"gear"				"sec_chest_carrier"
 				"weapon"			"weapon_kabar"
 				"weapon"			"weapon_m249"
@@ -293,6 +293,7 @@
 				// Primary Weapons
 				"weapon"			"weapon_m249"
 				"weapon"			"weapon_m249"
+				"weapon"			"weapon_m14"
 				"weapon"			"weapon_m27iar"
 				// Grenades
 				"weapon"			"weapon_m67"
@@ -563,7 +564,6 @@
 				"weapon"			"weapon_mk18"
 				"weapon"			"weapon_m4carbine"
 				"weapon"			"weapon_ump45"
-				"weapon"			"weapon_m590"
 				// Grenades
 				"weapon"			"weapon_m18"
 				"weapon"			"weapon_at4"
@@ -617,7 +617,6 @@
 				"weapon"			"weapon_m4a1"
 				"weapon"			"weapon_m4a1"
 				"weapon"			"weapon_m16a4"
-				"weapon"			"weapon_ump45"
 				"weapon"			"weapon_m590"
 				// Personal Weapons
 				"weapon"			"weapon_ump45"
@@ -962,10 +961,9 @@
 			"allowed_items"
 			{
 				// Primary Weapons
-				"weapon"			"weapon_aks74u"
-				"weapon"			"weapon_aks74u"
 				"weapon"			"weapon_akm"
-				"weapon"			"weapon_sterling"
+				"weapon"			"weapon_akm"
+				"weapon"			"weapon_mp40"
 				"weapon"			"weapon_toz"
 				// Personal Weapons
 				"weapon"			"weapon_model10"
@@ -1197,7 +1195,7 @@
 				"gear"				"ins_light_armor"
 				"gear"				"ins_chest_rig"
 				"weapon"			"weapon_gurkha"
-				"weapon"			"weapon_toz"
+				"weapon"			"weapon_mp40"
 				"weapon"			"weapon_makarov"
 				"weapon"			"weapon_c4_ied" 
 			}
@@ -1206,8 +1204,6 @@
 				// Primary Weapons
 				"weapon"			"weapon_mp40"
 				"weapon"			"weapon_mp40"
-				"weapon"			"weapon_toz"
-				"weapon"			"weapon_m1a1"
 				"weapon"			"weapon_akm"
 				"weapon"			"weapon_ak74"
 				// Personal Weapons
@@ -1264,7 +1260,6 @@
 				"weapon"			"weapon_sks"
 				"weapon"			"weapon_sks"
 				"weapon"			"weapon_aks74u"
-				"weapon"			"weapon_mp40"
 				"weapon"			"weapon_sterling"
 				// Personal Weapons
 				"weapon"			"weapon_makarov"
@@ -1304,8 +1299,8 @@
 
 			"models"
 			{
-				"player"			"models/characters/insurgent_standard.mdl"
-				"viewmodel_hands"	"models/weapons/v_hands_ins_l.mdl"
+				"player"			"models/characters/insurgent_sapper.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_ins_m.mdl"
 			}
 			"buy_order" 
 			{
@@ -1318,8 +1313,7 @@
 			"allowed_items"
 			{
 				// Primary Weapons
-				"weapon"			"weapon_akm"
-				"weapon"			"weapon_akm"
+				"weapon"			"weapon_aks74u"
 				"weapon"			"weapon_aks74u"
 				"weapon"			"weapon_sterling"
 				"weapon"			"weapon_toz"
@@ -1331,6 +1325,7 @@
 				"weapon"			"weapon_m84"
 				// Upgrades
 				"gear"				"ins_medium_armor"
+				"gear"				"ins_heavy_armor"
 				"?nightmap"
 				{
 					"weapon"			"weapon_p2a1"
@@ -1342,6 +1337,12 @@
 				{
 					"weapon_akm"		"3"
 					"weapon_aks74u"		"1"
+				}
+				"gear"
+				{
+					"ins_light_armor"	"-1"	
+					"ins_medium_armor"	"-1"
+					"ins_heavy_armor"	"-1"
 				}
 			}
 		}
@@ -1394,6 +1395,7 @@
 				"weapon_upgrade"	"barrel_silencer_pistol"
 				// Gear
 				"gear"				"ins_medium_armor"
+				"gear"				"ins_heavy_armor"
 			}
 			"cost_modifiers"
 			{
@@ -1407,6 +1409,12 @@
 				{
 					"barrel_silencer_ins1"			"-2"
 					"barrel_silencer_pistol"		"-2"
+				}
+				"gear"
+				{
+					"ins_light_armor"	"-1"	
+					"ins_medium_armor"	"-1"
+					"ins_heavy_armor"	"-1"
 				}
 			}
 		}
@@ -1426,8 +1434,8 @@
 				"gear"				"ins_chest_rig"
 				"gear"				"ins_medium_armor"
 				"weapon"			"weapon_gurkha"
-				"weapon"			"weapon_makarov"
-				"weapon"			"weapon_galil"
+				"weapon"			"weapon_bhp"
+				"weapon"			"weapon_ak74"
 				"weapon"			"weapon_m18"
 			}
 			"allowed_items"
@@ -1563,7 +1571,6 @@
 				// Primary Weapons
 				"weapon"			"weapon_ak74"
 				"weapon"			"weapon_ak74"
-				"weapon"			"weapon_galil"
 				"weapon"			"weapon_akm"
 				"weapon"			"weapon_sks"
 				// Personal Weapons
