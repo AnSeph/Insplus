@@ -1,4 +1,108 @@
 // --------------------------
+// Grenade Launcher Explode 
+// --------------------------
+
+"Weapon_m203.Explode"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"	    "1.0"
+	"soundlevel"  	"SNDLVL_140dB"
+	"pitch"			"PITCH_NORM"
+	"rndwave"
+	{
+	"wave"	        ")weapons/m203/m203_detonate_01.wav"	
+	"wave"	        ")weapons/m203/m203_detonate_02.wav"	
+	"wave"	        ")weapons/m203/m203_detonate_03.wav"	
+	}
+	
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			"import_stack" "INS_speed_of_sound"
+			"import_stack" "INS_DistantVoiceSwap" 
+			
+			"Swap_trigger"
+			{
+			"input2" "1500"
+			}
+			
+			"voice_play_entry"
+			{
+				"entry_name" "Weapon_m203.ExplodeDistant"
+			}
+			
+
+        }
+	}
+}
+
+
+"Weapon_m203.ExplodeDistant"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"soundlevel"  	"SNDLVL_110dB"
+	"pitch"			"PITCH_NORM"
+	"rndwave"
+	{
+	"wave"			")weapons/m203/m203_detonate_dist_01.wav"
+	"wave"			")weapons/m203/m203_detonate_dist_02.wav"
+	"wave"			")weapons/m203/m203_detonate_dist_03.wav"
+    } 	
+	
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			"import_stack" "INS_speed_of_sound"
+			"import_stack" "INS_DistantVoiceSwap2" 
+			
+			"Swap_trigger2"
+			{
+			"input2" "5000"
+			}
+			
+			"voice_play_entry2"
+			{
+				"entry_name" "Weapon_m203.ExplodeFarDistant"
+			}
+			
+
+        }
+	}
+}
+
+
+"Weapon_m203.ExplodeFarDistant"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"soundlevel"  	"SNDLVL_150dB"
+	"pitch"			"PITCH_NORM"
+	"rndwave"
+	{
+	"wave"			")weapons/m203/m203_detonate_far_dist_01.wav"
+	"wave"			")weapons/m203/m203_detonate_far_dist_02.wav"
+	"wave"			")weapons/m203/m203_detonate_far_dist_03.wav"
+    } 	
+	
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			"import_stack" "INS_speed_of_sound"
+			"import_stack" "INS_limit_start"
+		}
+
+
+} 
+}
+
+// --------------------------
 // DESERT EAGLE 
 // --------------------------
 
@@ -610,4 +714,59 @@
     "pitch"			"100,105"
     "soundlevel"	"SNDLVL_GUNFIRE"
 	"wave"		    "weapons/fal/fal_fp.wav"	
+}
+
+// --------------------------
+// AK103  
+// --------------------------
+
+"weapon_AK103.Single"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"	    "1.0"
+    "pitch"			"100,105"
+	"soundlevel"  	"SNDLVL_94dB "
+	"rndwave"
+	{
+		"wave"	        "weapons/ak103/ak103_tp.wav"	
+	}	
+	"soundentry_version" 	"2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{		
+			"import_stack" "INS_distance_weapon_start"
+			"import_stack" "INS_limit_start3"			
+			"play_distant_version_1"
+			{
+				"entry_name" "Weapon_AK74.SingleDistant"
+			}
+		}		
+		"update_stack"
+		{
+			"import_stack" "INS_update_weapon"
+			"mixer"
+			{
+				"mixgroup" "ThirdWeapons"
+			}
+			"volume_distance_xfade"
+			{
+				"input_map_min" "0.0"
+				"input_map_max" "1.0"
+			}
+			"volume_accumulate"
+			{
+				"input3" "0.7"
+			}
+
+		}
+	}
+}
+"Weapon_AK103.SingleLocal"
+{
+	"channel"	    "CHAN_WEAPON"
+	"volume"	    "1.0"
+    "pitch"			"100,105"
+    "soundlevel"	"SNDLVL_GUNFIRE"
+	"wave"		    "weapons/ak103/ak103_fp.wav"	
 }

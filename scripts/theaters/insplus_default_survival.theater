@@ -19,6 +19,9 @@
 			"sounds"			"scripts/ins_sounds_hq.txt"
 			// custom sounds 
 			"sounds"			"scripts/insplus_sounds.txt"
+			// survival specific
+			"sounds"			"scripts/ins_sounds_voice_coop.txt"
+			"sounds"			"scripts/ins_sounds_voice_survival.txt"	
 		}
 	}
 	
@@ -30,9 +33,9 @@
 			{
 				"#Cell_Alpha"
 				{
-					"#Squad_Cell_Leader_Militant"		"template_survival_militant_insurgent"
+					"#Squad_Cell_Leader_Militant"	"template_survival_militant_insurgent"
 					"#Squad_Cell_Specialist"		"template_survival_specialist_insurgent"
-					"#Squad_Cell_Scout"			"template_survival_scout_insurgent"
+					"#Squad_Cell_Scout"				"template_survival_scout_insurgent"
 					"#Squad_Cell_Fighter"			"template_survival_fighter_insurgent"
 					"#Squad_Cell_Sapper"			"template_survival_sapper_insurgent"
 					"#Squad_Cell_Sharpshooter"		"template_survival_sharpshooter_insurgent"
@@ -103,8 +106,8 @@
 			
 			"models"
 			{
-				"player"				"models/characters/insurgent_sapper.mdl"
-				"viewmodel_hands"			"models/weapons/v_hands_ins_h.mdl"
+				"player"				"models/characters/insurgent_warlord.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_ins_w.mdl"
 			}
 			
 			"buy_order"
@@ -124,9 +127,6 @@
 				"weapon"				"weapon_m84"
 				"weapon"				"weapon_m18"
 				"weapon"				"weapon_molotov"
-				"weapon"				"weapon_deagle"
-				"weapon"				"weapon_tokarev"
-				"weapon"				"weapon_p226"
 				"?nightmap"
 				{
 					"weapon"			"weapon_p2a1"
@@ -167,9 +167,6 @@
 				"weapon"				"weapon_m84"
 				"weapon"				"weapon_m18"
 				"weapon"				"weapon_molotov"
-				"weapon"				"weapon_deagle"
-				"weapon"				"weapon_tokarev"
-				"weapon"				"weapon_p226"
 				"?nightmap"
 				{
 					"weapon"				"weapon_p2a1"
@@ -234,8 +231,6 @@
 				"weapon"				"weapon_m84"
 				"weapon"				"weapon_m18"
 				"weapon"				"weapon_molotov"
-				"weapon"				"weapon_deagle"
-				"weapon"				"weapon_tokarev"
 				"?nightmap"
 				{
 					"weapon"			"weapon_p2a1"
@@ -295,7 +290,6 @@
 				"weapon"				"weapon_m84"
 				"weapon"				"weapon_m18"
 				"weapon"				"weapon_molotov"
-				"weapon"				"weapon_tokarev"
 				"?nightmap"
 				{
 					"weapon"			"weapon_p2a1"
@@ -328,7 +322,6 @@
 				"weapon"				"weapon_m590"
 				"weapon"				"weapon_c4_ied"
 				"weapon"				"weapon_molotov"
-				"weapon"				"weapon_tokarev"
 				"weapon_upgrade"			"barrel_silencer_ins1"
 				"weapon_upgrade"			"barrel_silencer_pistol"
 				"weapon_upgrade"			"barrel_silencer_pistol"
@@ -361,9 +354,6 @@
 				"weapon"				"weapon_fal"
 				"weapon"				"weapon_m40a1"
 				"weapon"				"weapon_m18"
-				"weapon"				"weapon_zastava"
-				"weapon"				"weapon_deagle"
-				"weapon"				"weapon_tokarev"
 				"?nightmap"
 				{
 					"weapon"			"weapon_p2a1"
@@ -388,7 +378,7 @@
 			"models"
 			{
 				"player"				"models/characters/insurgent_machinegunner.mdl"
-				"viewmodel_hands"			"models/weapons/v_hands_ins_m.mdl"
+				"viewmodel_hands"			"models/weapons/v_hands_ins_l.mdl"
 			}
 			
 			"buy_order"
@@ -404,16 +394,12 @@
 				"weapon"				"weapon_akm"
 				"weapon"				"weapon_fal"
 				"weapon"				"weapon_m1a1"
-				"weapon"				"weapon_galil"
 				"weapon"				"weapon_m249"
 				"weapon"				"weapon_m18"
-				"weapon"				"weapon_deagle"
-				"weapon"				"weapon_tokarev"
 				"?nightmap"
 				{
 					"weapon"			"weapon_p2a1"
 				}
-				"weapon_upgrade"			"underbarrel_bipod"
 				"weapon_upgrade"			"underbarrel_bipod"
 			}
 			"cost_modifiers"
@@ -435,8 +421,8 @@
 			
 			"models"
 			{
-				"player"				"models/characters/insurgent_standard.mdl"
-				"viewmodel_hands"			"models/weapons/v_hands_ins_m.mdl"
+				"player"				"models/characters/insurgent_heavy.mdl"
+				"viewmodel_hands"			"models/weapons/v_hands_ins_h.mdl"
 			}
 			
 			"buy_order"
@@ -455,8 +441,6 @@
 				"weapon"				"weapon_mosin"
 				"weapon"				"weapon_c4_ied"
 				"weapon"				"weapon_molotov"
-				"weapon"				"weapon_deagle"
-				"weapon"				"weapon_tokarev"
 				"?nightmap"
 				{
 					"weapon"			"weapon_p2a1"
@@ -481,7 +465,8 @@
 				{
 					"cap"
 					{
-						"model"			"models/characters/us_cap_light.mdl"
+						"model"					"models/characters/us_cap_light.mdl"
+						"fallback_for_slot"		"armor"
 					}
 				}
 			}
@@ -489,9 +474,10 @@
 			"buy_order"
 			{
 				"gear"					"sec_chest_rig"
+				"gear"					"sec_light_armor"
 				"weapon"				"weapon_kabar"
 				"weapon"				"weapon_m9"
-				"weapon_upgrade"			"siderail_flashlight_pistol"
+				"weapon_upgrade"		"siderail_flashlight_pistol"
 				"weapon"				"weapon_m84"
 			}
 			"allowed_items"
@@ -526,6 +512,7 @@
 				"weapon"				"weapon_kabar"
 				"weapon"				"weapon_m9"
 				"weapon"				"weapon_mp5"
+				"weapon_upgrade"		"sec_flashlight"
 				"weapon"				"weapon_m18"
 			}
 			
@@ -561,7 +548,7 @@
 				"gear"					"sec_light_armor"
 				"weapon"				"weapon_kabar"
 				"weapon"				"weapon_mp5"
-				"weapon_upgrade"			"sec_flashlight"
+				"weapon_upgrade"		"sec_flashlight"
 				"weapon"				"weapon_m84"
 			}
 			"allowed_items"
@@ -578,8 +565,17 @@
 			
 			"models"
 			{
-				"player"				"models/characters/civilian_vip_insurgent.mdl"
+				"player"				"models/characters/security_specialist.mdl"
 				"viewmodel_hands"			"models/weapons/v_hands_sec_l.mdl"
+				
+				"attachments"
+				{
+					"cap"
+					{
+						"model"					"models/characters/us_cap_light.mdl"
+						"fallback_for_slot"		"armor"
+					}
+				}
 			}
 			
 			"buy_order"
@@ -588,15 +584,14 @@
 				"gear"					"sec_light_armor"
 				"weapon"				"weapon_kabar"
 				"weapon"				"weapon_m9"
-				"weapon"				"weapon_ump45"
-				"weapon_upgrade"			"siderail_lasersight_band"
-				"weapon_upgrade"			"ammo_ap_ump45"
+				"weapon"				"weapon_m4a1"
+				"weapon_upgrade"		"siderail_lasersight_band"
 				"weapon"				"weapon_m18"
 			}
 			
 			"allowed_items"
 			{
-				"weapon"				"weapon_ump45"
+				"weapon"				"weapon_m4a1"
 				"weapon"				"weapon_m18"
 			}
 		}
@@ -610,23 +605,14 @@
 			{
 				"player"				"models/characters/security_rifleman.mdl"
 				"viewmodel_hands"			"models/weapons/v_hands_sec_l.mdl"
-				
-				"attachments"
-				{
-					"helmet"
-					{
-						"model"			"models/characters/us_helmet_head.mdl"
-					}
-				}
 			}
 			
 			"buy_order"
 			{
 				"gear"					"sec_chest_rig"
-				"gear"					"sec_heavy_armor"
+				"gear"					"sec_medium_armor"
 				"weapon"				"weapon_kabar"
 				"weapon"				"weapon_m16a4"
-				"weapon_upgrade"			"sec_flashlight"
 				"weapon"				"weapon_m67"
 			}
 			"allowed_items"
@@ -643,26 +629,27 @@
 			
 			"models"
 			{
-				"player"				"models/characters/civilian_vip_insurgent.mdl"
+				"player"					"models/characters/security_standard.mdl"
 				"viewmodel_hands"			"models/weapons/v_hands_sec_l.mdl"
 			}
 			
 			"buy_order"
 			{
 				"gear"					"sec_chest_rig"
-				"gear"					"sec_light_armor"
+				"gear"					"sec_medium_armor"
 				"weapon"				"weapon_kabar"
 				"weapon"				"weapon_m9"
-				"weapon"				"weapon_m4a1"
-				"weapon_upgrade"			"barrel_silencer_sec1"
-				"weapon_upgrade"			"siderail_lasersight_band"
-				"weapon"				"weapon_m18"
+				"weapon"				"weapon_m4carbine"
+				"weapon_upgrade"		"barrel_silencer_sec1"
+				"weapon_upgrade"		"siderail_lasersight_band"
+				"weapon"				"weapon_m67"
 			}
 			
 			"allowed_items"
 			{
-				"weapon"				"weapon_m4a1"
+				"weapon"				"weapon_m4carbine"
 				"weapon"				"weapon_m18"
+				"weapon"				"weapon_m67"
 			}
 		}
 		
@@ -673,31 +660,23 @@
 			
 			"models"
 			{
-				"player"				"models/characters/security_heavy.mdl"
+				"player"				"models/characters/security_rifleman.mdl"
 				"viewmodel_hands"			"models/weapons/v_hands_sec_l.mdl"
 				
-				"attachments"
-				{
-					"helmet"
-					{
-						"model"			"models/characters/us_helmet_head.mdl"
-					}
-				}
 			}
 			
 			"buy_order"
 			{
 				"gear"					"sec_chest_carrier"
-				"gear"					"sec_heavy_armor"
+				"gear"					"sec_medium_armor"
 				"weapon"				"weapon_kabar"
-				"weapon"				"weapon_m4a1"
-				"weapon_upgrade"			"barrel_silencer_sec1"
-				"weapon_upgrade"			"siderail_lasersight_band"
+				"weapon"				"weapon_m4carbine"
+				"weapon_upgrade"		"siderail_lasersight_band"
 				"weapon"				"weapon_m67"
 			}
 			"allowed_items"
 			{
-				"weapon"				"weapon_m4a1"
+				"weapon"				"weapon_m4carbine"
 				"weapon"				"weapon_m67"
 			}
 		}
@@ -709,7 +688,7 @@
 			
 			"models"
 			{
-				"player"				"models/characters/civilian_vip_security.mdl"
+				"player"				"models/characters/security_specialist.mdl"
 				"viewmodel_hands"			"models/weapons/v_hands_sec_l.mdl"
 				
 				"attachments"
@@ -717,6 +696,7 @@
 					"cap"
 					{
 						"model"			"models/characters/us_cap_vip.mdl"
+						"fallback_for_slot"	"armor"
 					}
 				}
 			}
@@ -724,22 +704,82 @@
 			"buy_order"
 			{
 				"gear"					"sec_chest_rig"
-				"gear"					"sec_light_armor"
+				"gear"					"sec_medium_armor"
 				"weapon"				"weapon_kabar"
 				"weapon"				"weapon_m9"
-				"weapon"				"weapon_m4a1"
-				"weapon_upgrade"			"barrel_silencer_sec1"
-				"weapon_upgrade"			"siderail_lasersight_band"
+				"weapon"				"weapon_mk18"
+				"weapon_upgrade"		"barrel_silencer_sec2"
+				"weapon_upgrade"		"siderail_lasersight_band"
+				"weapon"				"weapon_m84"
 				"weapon"				"weapon_m18"
 			}
 			
 			"allowed_items"
 			{
-				"weapon"				"weapon_ump45"
+				"weapon"				"weapon_mk18"
 				"weapon"				"weapon_m18"
+				"weapon"				"weapon_m84"
+				"weapon"				"weapon_m67"
+			}
+		}
+		"template_survival_base_05_security"
+		{
+			"team"					"security"
+			"print_name"				"Security Force 05 Class"
+			
+			"models"
+			{
+				"player"				"models/characters/security_standard.mdl"
+				"viewmodel_hands"			"models/weapons/v_hands_sec_l.mdl"
+			}
+			
+			"buy_order"
+			{
+				"gear"					"sec_chest_carrier"
+				"gear"					"sec_medium_armor"
+				"weapon"				"weapon_kabar"
+				"weapon"				"weapon_m4a1"
+				"weapon_upgrade"		"ammo_ap_m4"
+				"weapon"				"weapon_m67"
+			}
+			"allowed_items"
+			{
+				"weapon"				"weapon_m4a1"
+				"weapon"				"weapon_m67"
 			}
 		}
 		
+		"template_survival_officer_05_security"
+		{
+			"team"					"security"
+			"print_name"				"Security Officer 05 Class"
+			
+			"models"
+			{
+				"player"				"models/characters/security_standard.mdl"
+				"viewmodel_hands"			"models/weapons/v_hands_sec_l.mdl"
+			}
+			
+			"buy_order"
+			{
+				"gear"					"sec_chest_rig"
+				"gear"					"sec_heavy_armor"
+				"weapon"				"weapon_kabar"
+				"weapon"				"weapon_m9"
+				"weapon"				"weapon_m4a1"
+				"weapon_upgrade"		"ammo_ap_m4"
+				"weapon"				"weapon_m67"
+				"weapon"				"weapon_m84"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"				"weapon_m4a1"
+				"weapon"				"weapon_m18"
+				"weapon"				"weapon_m84"
+				"weapon"				"weapon_m67"
+			}
+		}
 		"template_survival_m249_security"
 		{
 			"team"					"security"
@@ -747,32 +787,23 @@
 			
 			"models"
 			{
-				"player"				"models/characters/security_rifleman.mdl"
+				"player"				"models/characters/security_heavy.mdl"
 				"viewmodel_hands"			"models/weapons/v_hands_sec_l.mdl"
-				
-				"attachments"
-				{
-					"helmet"
-					{
-						"model"			"models/characters/us_helmet_head.mdl"
-					}
-				}
 			}
 			
 			"buy_order"
 			{
-				"gear"					"sec_chest_carrier"
-				"gear"					"sec_light_armor"
+				"gear"					"sec_chest_rig"
+				"gear"					"sec_heavy_armor"
 				"weapon"				"weapon_kabar"
-				"weapon"				"weapon_m9"
 				"weapon"				"weapon_m249"
-				"weapon"				"weapon_m67"
+				"weapon"				"weapon_m18"
 			}
 			
 			"allowed_items"
 			{
 				"weapon"				"weapon_m249"
-				"weapon"				"weapon_m67"
+				"weapon"				"weapon_m18"
 			}
 		}
 		
@@ -783,30 +814,32 @@
 			
 			"models"
 			{
-				"player"				"models/characters/security_heavy.mdl"
+				"player"				"models/characters/security_specialist.mdl"
 				"viewmodel_hands"			"models/weapons/v_hands_sec_l.mdl"
 				
 				"attachments"
 				{
-					"helmet"
+					"cap"
 					{
-						"model"			"models/characters/us_helmet_head.mdl"
+						"model"			"models/characters/us_cap_vip.mdl"
+						"fallback_for_slot"	"armor"
 					}
 				}
 			}
 			
 			"buy_order"
 			{
-				"gear"					"sec_chest_carrier"
+				"gear"					"sec_chest_rig"
 				"gear"					"sec_light_armor"
 				"weapon"				"weapon_kabar"
-				"weapon"				"weapon_m9"
+				"weapon"				"weapon_ump45"
 				"weapon"				"weapon_at4"
 			}
 			
 			"allowed_items"
 			{
 				"weapon"				"weapon_at4"
+				"weapon"				"weapon_ump45"
 			}
 		}
 	}
@@ -815,120 +848,261 @@
 	{
 		"ins_light_armor"
 		{
-			"gear_cost"				"1"
+			"class_restricted"		"0"
+			"gear_cost"				"4"
+		}
+		"ins_medium_armor"
+		{
+			"class_restricted"		"0"
+			"gear_cost"				"6"
 		}
 		"ins_heavy_armor"
 		{
-			"gear_cost"				"5"
+			"class_restricted"		"0"
+			"gear_cost"				"8"
 		}
 		"ins_chest_rig"
 		{
-			"gear_cost"				"2"
+			"class_restricted"		"0"
+			"gear_cost"				"3"
 		}
 		"ins_chest_carrier"
 		{
+			"class_restricted"		"0"
 			"gear_cost"				"6"
 		}
 		"ins_nightvision"
 		{
+			"class_restricted"		"0"
 			"gear_cost"				"2"
 		}
 	}
 	
 	"weapons"
 	{
-		"weapon_makarov"
-		{
-			"weapon_cost"				"0"
-		}
-		"weapon_m9"
+		// Pistols
+		"weapon_model10"
 		{
 			"weapon_cost"				"0"
 			"team_access"				"security, insurgent"
+			"class_restricted"			"0"
+		}
+		"weapon_makarov"
+		{
+			"weapon_cost"				"0"
+			"team_access"				"security, insurgent"
+			"class_restricted"			"0"
+		}
+		"weapon_bhp"
+		{
+			"weapon_cost"				"0"
+			"team_access"				"security, insurgent"
+			"class_restricted"			"0"
+		}
+		"weapon_m9"
+		{
+			"weapon_cost"				"1"
+			"team_access"				"security, insurgent"
+			"class_restricted"			"0"
 		}
 		"weapon_m1911"
 		{
 			"weapon_cost"				"1"
+			"team_access"				"security, insurgent"
+			"class_restricted"			"0"
 		}
+		"weapon_m45"
+		{
+			"weapon_cost"				"1"
+			"team_access"				"security, insurgent"
+			"class_restricted"			"0"
+		}
+		"weapon_tokarev"
+		{
+			"weapon_cost"				"3"
+			"team_access"				"security, insurgent"
+			"class_restricted"			"0"
+		}
+		"weapon_deagle"
+		{
+			"weapon_cost"				"3"
+			"team_access"				"security, insurgent"
+			"class_restricted"			"0"
+		}
+		"weapon_p226"
+		{
+			"weapon_cost"				"3"
+			"team_access"				"security, insurgent"
+			"class_restricted"			"0"
+		}
+		"weapon_m93r"
+		{
+			"weapon_cost"				"3"
+			"team_access"				"security, insurgent"
+			"class_restricted"			"0"
+		}
+		// Bolt Actions
 		"weapon_mosin"
 		{
 			"weapon_cost"				"1"
 		}
+		"weapon_m40a1"
+		{
+			"team_access"				"security, insurgent"
+			"class_restricted"			"0"
+			"weapon_cost"				"2"
+		}
+		// Semi-Auto Rifles and Carbines
 		"weapon_m1a1"
 		{
+			"team_access"				"security, insurgent"
+			"class_restricted"			"0"
 			"weapon_cost"				"3"
-		}
-		"weapon_toz"
-		{
-			"weapon_cost"				"2"
 		}
 		"weapon_sks"
 		{
-			"weapon_cost"				"2"
-		}
-		"weapon_mp40"
-		{
+			"team_access"				"security, insurgent"
+			"class_restricted"			"0"
 			"weapon_cost"				"3"
 		}
-		"weapon_akm"
+		"weapon_l1a1"
 		{
+			"team_access"				"security, insurgent"
+			"class_restricted"			"1"
 			"weapon_cost"				"5"
 		}
-		"weapon_aks74u"
+		// Assault Rifles 
+		"weapon_akm"
 		{
-			"weapon_cost"				"3"
+			"team_access"				"security, insurgent"
+			"class_restricted"			"1"
+			"weapon_cost"				"6"
 		}
 		"weapon_ak74"
 		{
-			"weapon_cost"				"5"
+			"team_access"				"security, insurgent"
+			"class_restricted"			"1"
+			"weapon_cost"				"10"
 		}
-		"weapon_fal"
+		"weapon_ak103"
 		{
-			"weapon_cost"				"6"
-		}
-		"weapon_rpk"
-		{
-			"weapon_cost"				"8"
+			"team_access"				"security, insurgent"
+			"class_restricted"			"1"
+			"weapon_cost"				"10"
 		}
 		"weapon_m16a4"
 		{
-			"weapon_cost"				"8"
+			"team_access"				"security, insurgent"
+			"class_restricted"			"1"
+			"weapon_cost"				"12"
 		}
-		"weapon_m590"
+		"weapon_galil"
 		{
-			"weapon_cost"				"6"
+			"team_access"				"security, insurgent"
+			"class_restricted"			"1"
+			"weapon_cost"				"11"
 		}
-		"weapon_m4a1"
+		// Assault Carbines
+		"weapon_mk18"
 		{
-			"weapon_cost"				"10"
+			"team_access"				"security, insurgent"
+			"class_restricted"			"1"
+			"weapon_cost"				"12"
 		}
-		"weapon_ump45"
+		"weapon_galil_sar"
 		{
+			"team_access"				"security, insurgent"
+			"class_restricted"			"1"
+			"weapon_cost"				"12"
+		}
+		"weapon_aks74u"
+		{
+			"team_access"				"security, insurgent"
+			"class_restricted"			"1"
 			"weapon_cost"				"8"
 		}
 		"weapon_mini14"
 		{
-			"weapon_cost"				"8"
+			"team_access"				"security, insurgent"
+			"class_restricted"			"1"
+			"weapon_cost"				"13"
 		}
+		"weapon_m4carbine"
+		{
+			"team_access"				"security, insurgent"
+			"class_restricted"			"1"
+			"weapon_cost"				"12"
+		}
+		"weapon_m4a1"
+		{
+			"team_access"				"security, insurgent"
+			"class_restricted"			"1"
+			"weapon_cost"				"12"
+		}
+		// Battle Rifles
+		"weapon_m14"
+		{
+			"team_access"				"security, insurgent"
+			"class_restricted"			"1"
+			"weapon_cost"				"15"
+		}
+		"weapon_fal"
+		{
+			"team_access"				"security, insurgent"
+			"class_restricted"			"1"
+			"weapon_cost"				"15"
+		}
+		// Light Machine Guns
 		"weapon_m249"
 		{
-			"weapon_cost"				"14"
+			"team_access"				"security, insurgent"
+			"class_restricted"			"1"
+			"weapon_cost"				"18"
 		}
-		"weapon_m40a1"
+		"weapon_rpk"
 		{
-			"weapon_cost"				"8"
+			"team_access"				"security, insurgent"
+			"class_restricted"			"1"
+			"weapon_cost"				"15"
 		}
+		// Sub Machine Guns
+		"weapon_mp40"
+		{
+			"team_access"				"security, insurgent"
+			"class_restricted"			"1"
+			"weapon_cost"				"4"
+		}
+		"weapon_mp5"
+		{
+			"team_access"				"security, insurgent"
+			"class_restricted"			"1"
+			"weapon_cost"				"7"
+		}
+		"weapon_sterling"
+		{
+			"team_access"				"security, insurgent"
+			"class_restricted"			"1"
+			"weapon_cost"				"5"
+		}
+		"weapon_ump45"
+		{
+			"team_access"				"security, insurgent"
+			"class_restricted"			"1"
+			"weapon_cost"				"7"
+		}
+		
+		// Grenades and Explosives
 		"weapon_m18"
 		{
-			"weapon_cost"				"1"
+			"weapon_cost"				"2"
 		}
 		"weapon_m84"
 		{
-			"weapon_cost"				"1"
+			"weapon_cost"				"2"
 		}
 		"weapon_molotov"
 		{
-			"weapon_cost"				"3"
+			"weapon_cost"				"4"
 		}
 		"weapon_f1"
 		{
@@ -936,7 +1110,7 @@
 		}
 		"weapon_c4_ied"
 		{
-			"weapon_cost"				"4"
+			"weapon_cost"				"8"
 		}
 		"weapon_rpg7"
 		{

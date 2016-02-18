@@ -1,0 +1,20 @@
+"VertexLitGeneric"
+{
+	$basetexture			"models\weapons\ak74\ak103\ak74m_col"
+	$bumpmap 				"models\weapons\ak74\ak103\ak74m_nor"
+	
+    $color			        		"[0.65 0.7 0.75]"
+	
+	$phong                          "1"
+	$phongalbedotint                "1"
+	$phongtint                      "[.6 .8 1]"
+	$phongboost                     ".3"
+	$phongexponent                  "20"
+	$phongfresnelranges             "[2 4 6]"
+	$halflambert 1
+	
+	$rimlight               1
+	$rimlightexponent       250
+	$rimlightboost          .01	
+	$rimmask 1
+}

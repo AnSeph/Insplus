@@ -10,10 +10,10 @@ NightVision
 	$brightness 3.0 [!$POSIX]
 	$brightness 35.0 [$POSIX]
 	
-	$bloomstrength 4.0
-	$bloompower 1.25
+	$bloomstrength 1.75
+	$bloompower 1.0
 	
-	$flarestrength 0.35
+	$flarestrength 0.25
 	
 	$color "[0.6 .95 0.70]"
 }

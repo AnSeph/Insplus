@@ -1,0 +1,9 @@
+"VertexLitGeneric"
+{
+	$basetexture 	"models\player\warlord\civ_vip_base_dm"
+	$bumpmap 		"models\player\warlord\civ_vip_base_nm"
+	
+	$detail		"models\player\char_blownup"
+	$detailscale 2
+	
+}

@@ -1,0 +1,10 @@
+patch
+{
+include "materials\models\hands\warlord\ins_shared.vmt"
+insert
+{
+$basetexture "models\hands\warlord\us_shortsleeve_color"
+$bumpmap "models\hands\warlord\ins_sleeve_normals"
+$rimmask 1
+}
+}

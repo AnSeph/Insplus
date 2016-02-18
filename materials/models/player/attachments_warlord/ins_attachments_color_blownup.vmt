@@ -1,0 +1,12 @@
+
+"VertexLitGeneric"
+{
+$basetexture "models\player\attachments_warlord\ins_attachments_color"
+$bumpmap "models\player\attachments_warlord\ins_attachments_normal"
+
+$detail		"models\player\char_blownup"
+$detailscale 2
+
+$alphatest "1"
+
+}

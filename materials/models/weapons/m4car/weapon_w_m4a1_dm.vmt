@@ -1,7 +1,7 @@
 "VertexLitGeneric"
 {
 	$basetexture			"models\weapons\m4car\weapon_w_m4a1_dm"
-	$bumpmap 			"models\weapons\m4car\weapon_w_m4a1_nm"
+	$bumpmap 				"models\weapons\m4car\weapon_w_m4a1_nm"
 
         $phongtint 			"[0.6 0.8 1.0]"
 
