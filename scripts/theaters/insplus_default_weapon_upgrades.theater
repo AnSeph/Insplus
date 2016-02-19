@@ -827,21 +827,21 @@
 				
 				"weapon_m16a4"
 				{
-					"fov_wpn_ironsight"			"60"
+					"fov_wpn_ironsight"			"57"
 				}
 				"weapon_m4a1"
 				{
-					"fov_wpn_ironsight"			"60"
+					"fov_wpn_ironsight"			"57"
 				}
 				
 				"weapon_m4carbine"
 				{
-					"fov_wpn_ironsight"			"60"
+					"fov_wpn_ironsight"			"57"
 				}
 				
 				"weapon_m27iar"
 				{
-					"fov_wpn_ironsight"			"60"
+					"fov_wpn_ironsight"			"57"
 				}
 				
 				"weapon_m249"
@@ -856,7 +856,7 @@
 				
 				"weapon_mk18"
 				{
-					"fov_wpn_ironsight"			"59"
+					"fov_wpn_ironsight"			"55"
 				}
 				
 				"weapon_m14"
@@ -878,13 +878,13 @@
 				"weapon_mp5"
 				{
 					"fov_wpn_ironsight"			"40"
-					"fov_wpn_focus"				"55"
+					"fov_wpn_focus"				"50"
 				}
 				
 				"weapon_ump45"
 				{
 					"fov_wpn_ironsight"			"45"
-					"fov_wpn_focus"				"60"
+					"fov_wpn_focus"				"55"
 				}
 				
 				"weapon_l1a1"

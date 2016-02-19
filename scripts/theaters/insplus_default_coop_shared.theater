@@ -27,6 +27,191 @@
 		}
 	}
 	
+	"weapon_upgrades"
+	{
+		"optic_elcan"
+		{
+			"team_access"				"security, insurgent"
+			
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_m16a4"
+				"weapon"				"weapon_m249"
+				"weapon"				"weapon_m40a1"
+				"weapon"				"weapon_mk18"
+				"weapon"				"weapon_m4a1"
+				"weapon"				"weapon_m14"
+				"weapon"				"weapon_mini14"
+				"weapon"				"weapon_mp5"
+				"weapon"				"weapon_ump45"
+				"weapon"				"weapon_akm"
+				"weapon"				"weapon_m4carbine"
+				"weapon"				"weapon_ak74"
+				"weapon"				"weapon_aks74u"
+				"weapon"				"weapon_fal"
+				"weapon"				"weapon_m1a1"
+				"weapon"				"weapon_mosin"
+				"weapon"				"weapon_mp40"
+				"weapon"				"weapon_rpk"
+				"weapon"				"weapon_sks"
+				"weapon"				"weapon_ak103"
+			}
+			
+		}
+		"optic_aimpoint"
+		{
+			"team_access"				"security, insurgent"
+			
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_m16a4"
+				"weapon"				"weapon_m4a1"
+				"weapon"				"weapon_m249"
+				"weapon"				"weapon_m40a1"
+				"weapon"				"weapon_mk18"
+				"weapon"				"weapon_m590"
+				"weapon"				"weapon_m14"
+				"weapon"				"weapon_mini14"
+				"weapon"				"weapon_mp5"
+				"weapon"				"weapon_ump45"
+				"weapon"				"weapon_m4carbine"
+				"weapon"				"weapon_ak74"
+				"weapon"				"weapon_akm"
+				"weapon"				"weapon_aks74u"
+				"weapon"				"weapon_fal"
+				"weapon"				"weapon_mosin"
+				"weapon"				"weapon_rpk"
+				"weapon"				"weapon_sks"
+				"weapon"				"weapon_toz"
+			}
+			
+		}
+		
+		"optic_eotech"
+		{
+			"team_access"				"security, insurgent"
+			
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_m16a4"
+				"weapon"				"weapon_m249"
+				"weapon"				"weapon_m40a1"
+				"weapon"				"weapon_mk18"
+				"weapon"				"weapon_m4a1"
+				"weapon"				"weapon_m590"
+				"weapon"				"weapon_m14"
+				"weapon"				"weapon_mini14"
+				"weapon"				"weapon_mp5"
+				"weapon"				"weapon_ump45"
+				"weapon"				"weapon_m4carbine"
+				"weapon"				"weapon_akm"
+				"weapon"				"weapon_ak74"
+				"weapon"				"weapon_ak103"
+				"weapon"				"weapon_aks74u"
+				"weapon"				"weapon_fal"
+				"weapon"				"weapon_m1a1"
+				"weapon"				"weapon_mp40"
+				"weapon"				"weapon_mosin"
+				"weapon"				"weapon_rpk"
+				"weapon"				"weapon_sks"
+				"weapon"				"weapon_toz"
+			}
+			
+		}
+		
+		"optic_kobra"
+		{
+			"team_access"				"security, insurgent"
+			
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_akm"
+				"weapon"				"weapon_ak74"
+				"weapon"				"weapon_aks74u"
+				"weapon"				"weapon_fal"
+				"weapon"				"weapon_m1a1"
+				"weapon"				"weapon_mp40"
+				"weapon"				"weapon_mosin"
+				"weapon"				"weapon_ak103"
+				"weapon"				"weapon_rpk"
+				"weapon"				"weapon_sks"
+				"weapon"				"weapon_toz"
+				"weapon"				"weapon_m16a4"
+				"weapon"				"weapon_m4a1"
+				"weapon"				"weapon_m40a1"
+				"weapon"				"weapon_mk18"
+				"weapon"				"weapon_m590"
+				"weapon"				"weapon_m14"
+				"weapon"				"weapon_m249"
+				"weapon"				"weapon_mini14"
+				"weapon"				"weapon_mp5"
+				"weapon"				"weapon_galil_sar"
+				"weapon"				"weapon_galil"
+				"weapon"				"weapon_ump45"
+			}
+			
+		}
+		
+		"optic_po4x24"
+		{
+			"team_access"				"security, insurgent"
+			"class_restricted"			"0"
+			
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_akm"
+				"weapon"				"weapon_aks74u"
+				"weapon"				"weapon_fal"
+				"weapon"				"weapon_m1a1"
+				"weapon"				"weapon_mosin"
+				"weapon"				"weapon_mp40"
+				"weapon"				"weapon_rpk"
+				"weapon"				"weapon_sks"
+				"weapon"				"weapon_zastava"
+				"weapon"				"weapon_m16a4"
+				"weapon"				"weapon_m249"
+				"weapon"				"weapon_m40a1"
+				"weapon"				"weapon_mk18"
+				"weapon"				"weapon_mini14"
+				"weapon"				"weapon_mp5"
+				"weapon"				"weapon_ump45"
+				"weapon"				"weapon_galil"
+				"weapon"				"weapon_galil_sar"
+				"weapon"				"weapon_ak103"
+			}
+			
+		}
+		
+		"optic_scope_7x"
+		{
+			"team_access"			"security, insurgent"
+			
+			"allowed_weapons"
+			{
+				"weapon"			"weapon_fal"
+				"weapon"			"weapon_zastava"
+				"weapon"			"weapon_mosin"
+			}
+		}
+		
+		"underbarrel_woodgrip"
+		{
+			"team_access"				"security, insurgent"
+			"class_restricted"			"0"
+		}
+		
+		"underbarrel_foregrip_ins1"
+		{
+			"team_access"				"security, insurgent"
+			"class_restricted"			"0"
+		}
+		
+		"underbarrel_foregrip_ins2"
+		{
+			"team_access"				"security, insurgent"
+			"class_restricted"			"0"
+		}
+	}
 	
 	"player_templates"
 	{
@@ -255,6 +440,7 @@
 				"weapon"					"weapon_ump45"
 				"weapon"					"weapon_mp5"
 				"weapon"					"weapon_m4carbine"
+				"weapon"					"weapon_m4a1"
 				"weapon"					"weapon_mini14"
 				"weapon"					"weapon_m67"
 				"weapon"					"weapon_m84"
@@ -413,7 +599,7 @@
 			"allowed_items"
 			{
 				"weapon"					"weapon_m590"
-				"weapon"					"weapon_m4carbine"
+				"weapon"					"weapon_sterling"
 				"weapon"					"weapon_m4a1"
 				"weapon"					"weapon_mk18"
 				"weapon"					"weapon_aks74u"
@@ -598,185 +784,6 @@
 		"weapon_mosin"
 		{
 			"weapon_cost"				"1"
-		}
-	}
-	
-	"weapon_upgrades"
-	{
-		"optic_elcan"
-		{
-			"team_access"				"security, insurgent"
-			
-			"allowed_weapons"
-			{
-				"weapon"				"weapon_m16a4"
-				"weapon"				"weapon_m249"
-				"weapon"				"weapon_m40a1"
-				"weapon"				"weapon_mk18"
-				"weapon"				"weapon_m4a1"
-				"weapon"				"weapon_m14"
-				"weapon"				"weapon_mini14"
-				"weapon"				"weapon_mp5"
-				"weapon"				"weapon_ump45"
-				"weapon"				"weapon_akm"
-				"weapon"				"weapon_m4carbine"
-				"weapon"				"weapon_ak74"
-				"weapon"				"weapon_aks74u"
-				"weapon"				"weapon_fal"
-				"weapon"				"weapon_m1a1"
-				"weapon"				"weapon_mosin"
-				"weapon"				"weapon_mp40"
-				"weapon"				"weapon_rpk"
-				"weapon"				"weapon_sks"
-				"weapon"				"weapon_ak103"
-			}
-			
-		}
-		
-		"optic_aimpoint"
-		{
-			"team_access"				"security, insurgent"
-			
-			"allowed_weapons"
-			{
-				"weapon"				"weapon_m16a4"
-				"weapon"				"weapon_m4a1"
-				"weapon"				"weapon_m249"
-				"weapon"				"weapon_m40a1"
-				"weapon"				"weapon_mk18"
-				"weapon"				"weapon_m590"
-				"weapon"				"weapon_m14"
-				"weapon"				"weapon_mini14"
-				"weapon"				"weapon_mp5"
-				"weapon"				"weapon_ump45"
-				"weapon"				"weapon_m4carbine"
-				"weapon"				"weapon_ak74"
-				"weapon"				"weapon_akm"
-				"weapon"				"weapon_aks74u"
-				"weapon"				"weapon_fal"
-				"weapon"				"weapon_mosin"
-				"weapon"				"weapon_rpk"
-				"weapon"				"weapon_sks"
-				"weapon"				"weapon_toz"
-			}
-			
-		}
-		
-		"optic_eotech"
-		{
-			"team_access"				"security, insurgent"
-			
-			"allowed_weapons"
-			{
-				"weapon"				"weapon_m16a4"
-				"weapon"				"weapon_m249"
-				"weapon"				"weapon_m40a1"
-				"weapon"				"weapon_mk18"
-				"weapon"				"weapon_m4a1"
-				"weapon"				"weapon_m590"
-				"weapon"				"weapon_m14"
-				"weapon"				"weapon_mini14"
-				"weapon"				"weapon_mp5"
-				"weapon"				"weapon_ump45"
-				"weapon"				"weapon_m4carbine"
-				"weapon"				"weapon_akm"
-				"weapon"				"weapon_ak74"
-				"weapon"				"weapon_aks74u"
-				"weapon"				"weapon_fal"
-				"weapon"				"weapon_m1a1"
-				"weapon"				"weapon_mp40"
-				"weapon"				"weapon_mosin"
-				"weapon"				"weapon_rpk"
-				"weapon"				"weapon_sks"
-				"weapon"				"weapon_toz"
-			}
-			
-		}
-		
-		"optic_kobra"
-		{
-			"team_access"				"security, insurgent"
-			
-			"allowed_weapons"
-			{
-				"weapon"				"weapon_akm"
-				"weapon"				"weapon_ak74"
-				"weapon"				"weapon_aks74u"
-				"weapon"				"weapon_fal"
-				"weapon"				"weapon_m1a1"
-				"weapon"				"weapon_mp40"
-				"weapon"				"weapon_mosin"
-				"weapon"				"weapon_ak103"
-				"weapon"				"weapon_rpk"
-				"weapon"				"weapon_sks"
-				"weapon"				"weapon_toz"
-				"weapon"				"weapon_m16a4"
-				"weapon"				"weapon_m4a1"
-				"weapon"				"weapon_m40a1"
-				"weapon"				"weapon_mk18"
-				"weapon"				"weapon_m590"
-				"weapon"				"weapon_m14"
-				"weapon"				"weapon_m249"
-				"weapon"				"weapon_mini14"
-				"weapon"				"weapon_mp5"
-				"weapon"				"weapon_galil_sar"
-				"weapon"				"weapon_galil"
-				"weapon"				"weapon_ump45"
-			}
-			
-		}
-		
-		"optic_po4x24"
-		{
-			"team_access"				"security, insurgent"
-			"class_restricted"			"0"
-			
-			"allowed_weapons"
-			{
-				"weapon"				"weapon_akm"
-				"weapon"				"weapon_aks74u"
-				"weapon"				"weapon_fal"
-				"weapon"				"weapon_m1a1"
-				"weapon"				"weapon_mosin"
-				"weapon"				"weapon_mp40"
-				"weapon"				"weapon_rpk"
-				"weapon"				"weapon_sks"
-				"weapon"				"weapon_zastava"
-				"weapon"				"weapon_m16a4"
-				"weapon"				"weapon_m249"
-				"weapon"				"weapon_m40a1"
-				"weapon"				"weapon_mk18"
-				"weapon"				"weapon_mini14"
-				"weapon"				"weapon_mp5"
-				"weapon"				"weapon_ump45"
-				"weapon"				"weapon_galil"
-				"weapon"				"weapon_galil_sar"
-				"weapon"				"weapon_ak103"
-			}
-			
-		}
-		"optic_scope_7x"
-		{
-			"team_access			"security, insurgent"
-			
-			"allowed_weapons"
-			{
-				"weapon"			"weapon_fal"
-				"weapon"			"weapon_zastava"
-				"weapon"			"weapon_mosin"
-			}
-		}
-		"underbarrel_woodgrip"
-		{
-			"team_access"				"security, insurgent"
-		}
-		"underbarrel_foregrip_ins1"
-		{
-			"team_access"				"security, insurgent"
-		}
-		"underbarrel_foregrip_ins2"
-		{
-			"team_access"				"security, insurgent"
 		}
 	}
 	"player_gear"

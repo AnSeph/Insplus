@@ -256,7 +256,7 @@
 			{
 				"RecoilBaseFracByWeight"
 				{
-					"0"						"1.10"
+					"0"						"1.20"
 				}
 			}
 			"kitui_offset"
@@ -299,8 +299,8 @@
 			"import"	"ballistic_base"
 			"ironsights"
 			{
-				"in_time"					"0.40"
-				"out_time"					"0.45"
+				"in_time"					"0.35"
+				"out_time"					"0.40"
 			}
 		}
 		"cqb_carbine_base"
@@ -310,7 +310,7 @@
 			"ironsights"
 			{
 				"in_time"					"0.35"
-				"out_time"					"0.30"
+				"out_time"					"0.35"
 			}
 			"recoil"
 			{
@@ -326,7 +326,7 @@
 			"import"	"ballistic_base"
 			"ironsights"
 			{
-				"in_time"					"0.45"
+				"in_time"					"0.35"
 				"out_time"					"0.50"
 			}
 		}

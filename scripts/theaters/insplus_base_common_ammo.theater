@@ -417,7 +417,7 @@
 			"Damage"					
 			{
 				"50"      	"110"
-				"450"		"110" // No drop off up to 20m
+				"850"		"110" // No drop off up to 20m
 				"10000"   	"80"
 			}
 			"DamageHitgroups"
@@ -801,7 +801,7 @@
 			"Damage"					
 			{
 				"50"      	"100"
-				"450"		"100"
+				"850"		"100"
 				"8000"   	"70" 
 			}
 			"DamageHitgroups"
@@ -969,8 +969,8 @@
 			"Damage"
 			{
 				"400"				"30"
-				"2000"            	"15"
-				"7000"				"5"
+				"4000"            	"15"
+				"8000"				"5"
 			}	
 			"PenetrationPower"
 			{
@@ -980,8 +980,8 @@
 			"DamageHitgroups"
 			{
 				"HITGROUP_HEAD"					"1.00"
-				"HITGROUP_CHEST"			  	"0.85"
-				"HITGROUP_STOMACH"				"0.85"
+				"HITGROUP_CHEST"			  	"0.70"
+				"HITGROUP_STOMACH"				"0.70"
 				"HITGROUP_LEFTARM"				"1.00"
 				"HITGROUP_RIGHTARM"				"1.00"
 				"HITGROUP_LEFTLEG"				"1.00"
@@ -1522,8 +1522,8 @@
 			"DamageHitgroups"
 			{
 				"HITGROUP_HEAD"					"1.00"
-				"HITGROUP_CHEST"			  	"1.75"
-				"HITGROUP_STOMACH"				"1.75"
+				"HITGROUP_CHEST"			  	"2.00"
+				"HITGROUP_STOMACH"				"2.00"
 				"HITGROUP_LEFTARM"				"1.00"
 				"HITGROUP_RIGHTARM"				"1.00"
 				"HITGROUP_LEFTLEG"				"1.00"
@@ -1550,10 +1550,10 @@
 				"HITGROUP_HEAD"					"1.00"
 				"HITGROUP_CHEST"			  	"1.75"
 				"HITGROUP_STOMACH"				"1.75"
-				"HITGROUP_LEFTARM"				"0.75"
-				"HITGROUP_RIGHTARM"				"0.75"
-				"HITGROUP_LEFTLEG"				"0.75"
-				"HITGROUP_RIGHTLEG"				"0.75"
+				"HITGROUP_LEFTARM"				"1.00"
+				"HITGROUP_RIGHTARM"				"1.00"
+				"HITGROUP_LEFTLEG"				"0.65"
+				"HITGROUP_RIGHTLEG"				"0.65"
 			}
 		}
 		"762x25_hp"
