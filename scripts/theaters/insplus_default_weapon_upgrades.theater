@@ -720,6 +720,8 @@
 			"print_name"				"#weapon_upgrade_2xaimpoint"
 			"print_desc"				"#weapon_upgrade_2xaimpoint_desc"
 			"team_access"				"security"
+			"ads_in_speed"				"0.90"
+			"ads_out_speed"				"0.90"
 			
 			
 			"allowed_weapons"
@@ -1217,12 +1219,8 @@
 			"print_name"				"#weapon_upgrade_elcan"
 			"print_desc"				"#weapon_upgrade_elcan_desc"
 			"team_access"				"security"
-			"ads_out_speed"				"0.90"
-			
-			"freeaim"
-			{
-				"freeaim_frac_ads"				"0.25"
-			}
+			"ads_in_speed"				"0.80"
+			"ads_out_speed"				"0.80"
 			
 			"allowed_weapons"
 			{
@@ -1577,8 +1575,8 @@
 			
 			"optics"
 			{
-				"optic_holographic"			"1"
-				"optic_material"			"models/weapons/optics/eotech_reticule_holo"
+				"optic_holographic"				"1"
+				"optic_material"				"models/weapons/optics/eotech_reticule_holo"
 				"optic_paralax_distance"		"7"
 				"optic_reticle_size"			"0.28"
 				
@@ -1758,11 +1756,11 @@
 			{
 				"Kobra_Normal"
 				{
-					"model"					"models/weapons/upgrades/a_optic_kobra.mdl"
+					"model"						"models/weapons/upgrades/a_optic_kobra.mdl"
 					"AnimIronSights"			"zoom"
-					"AnimIdle"				"idle"
-					"Gesture"				"delta_kobra"
-					"Main"					"1"
+					"AnimIdle"					"idle"
+					"Gesture"					"delta_kobra"
+					"Main"						"1"
 					"ReticleScale"				"0.7"
 					
 					"weapons"
@@ -1778,11 +1776,11 @@
 				
 				"Kobra_XLarge"
 				{
-					"model"					"models/weapons/upgrades/a_optic_kobra_xl.mdl"
+					"model"						"models/weapons/upgrades/a_optic_kobra_xl.mdl"
 					"AnimIronSights"			"zoom"
-					"AnimIdle"				"idle"
-					"Gesture"				"delta_kobra"
-					"Main"					"1"
+					"AnimIdle"					"idle"
+					"Gesture"					"delta_kobra"
+					"Main"						"1"
 					
 					"weapons"
 					{
@@ -1794,11 +1792,11 @@
 				}
 				"Kobra_Large"
 				{
-					"model"					"models/weapons/upgrades/a_optic_kobra_l.mdl"
+					"model"						"models/weapons/upgrades/a_optic_kobra_l.mdl"
 					"AnimIronSights"			"zoom"
-					"AnimIdle"				"idle"
-					"Gesture"				"delta_kobra"
-					"Main"					"1"
+					"AnimIdle"					"idle"
+					"Gesture"					"delta_kobra"
+					"Main"						"1"
 					
 					"excluded_weapons"
 					{
@@ -1827,8 +1825,8 @@
 			
 			"optics"
 			{
-				"optic_holographic"			"1"
-				"optic_material"			"models/weapons/optics/kobra_dot"
+				"optic_holographic"				"1"
+				"optic_material"				"models/weapons/optics/kobra_dot"
 				"optic_paralax_distance"		"4"
 				"optic_reticle_size"			"0.15"
 			}
@@ -1967,7 +1965,8 @@
 			"print_desc"				"#weapon_upgrade_po4x24_desc"
 			"team_access"				"insurgent"
 			"class_restricted"			"1"
-			"ads_out_speed"				"0.90"
+			"ads_in_speed"				"0.80"
+			"ads_out_speed"				"0.80"
 			
 			"allowed_weapons"
 			{
@@ -2197,7 +2196,8 @@
 			"class_restricted"			"1"
 			"upgrade_cost"				"4"
 			"team_access"				"insurgent"
-			"ads_out_speed"				"0.90"
+			"ads_in_speed"				"0.75"
+			"ads_out_speed"				"0.75"
 			
 			"allowed_weapons"
 			{
@@ -2312,7 +2312,8 @@
 			"print_desc"				"#weapon_upgrade_scope_m40a1_desc"
 			"class_restricted"			"1"
 			"team_access"				"security"
-			"ads_out_speed"				"0.90"
+			"ads_in_speed"				"0.75"
+			"ads_out_speed"				"0.75"
 			
 			"allowed_weapons"
 			{
@@ -3271,7 +3272,6 @@
 			
 			"allowed_weapons"
 			{
-				"weapon"				"weapon_zastava"
 				"weapon"				"weapon_fal"
 				"weapon"				"weapon_galil"
 				"weapon"				"weapon_ak103"
@@ -3287,7 +3287,6 @@
 					"scales"
 					{
 						"weapon_m1a1"				"0.5"
-						"weapon_zastava"			"0.5"
 						"weapon_sks"				"0.5"
 						"weapon_galil"				"0.45"
 						"weapon_fal"				"0.45"
@@ -3336,7 +3335,6 @@
 					"weapons"
 					{
 						"weapon"				"weapon_ak103"
-						"weapon"				"weapon_zastava"
 						"weapon"				"weapon_fal"
 						"weapon"				"weapon_galil"
 					}

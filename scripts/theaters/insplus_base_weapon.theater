@@ -162,7 +162,7 @@
 				"RecoilLowStaminaFracByWeight"
 				{
 					"60"					"1.30"
-					"640"					"1.25"
+					"640"					"1.30"
 				}
 				"RecoilMaxFracByWeight"
 				{
@@ -300,7 +300,7 @@
 			"ironsights"
 			{
 				"in_time"					"0.35"
-				"out_time"					"0.40"
+				"out_time"					"0.35"
 			}
 		}
 		"cqb_carbine_base"
@@ -309,8 +309,8 @@
 			"import"	"ballistic_base"
 			"ironsights"
 			{
-				"in_time"					"0.35"
-				"out_time"					"0.35"
+				"in_time"					"0.30"
+				"out_time"					"0.30"
 			}
 			"recoil"
 			{
@@ -327,7 +327,7 @@
 			"ironsights"
 			{
 				"in_time"					"0.35"
-				"out_time"					"0.50"
+				"out_time"					"0.40"
 			}
 		}
 		"battle_rifle_base"

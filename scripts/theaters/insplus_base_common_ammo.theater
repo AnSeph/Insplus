@@ -118,7 +118,7 @@
 			"Damage"					
 			{
 				"50"      "60"
-				"8000"    "40"
+				"4000"    "40"
 			}
 			"PenetrationPower"
 			{
@@ -194,7 +194,7 @@
 			"Damage"
 			{
 				"50"					"60"
-				"8000"					"30"
+				"4000"					"30"
 			}
 			"PenetrationPower"
 			{
@@ -255,7 +255,7 @@
 			"Damage"					
 			{
 				"50"      	"76"
-				"8000"    	"30"
+				"4000"    	"36"
 			}
 			"PenetrationPower"
 			{
@@ -417,7 +417,7 @@
 			"Damage"					
 			{
 				"50"      	"110"
-				"850"		"110" // No drop off up to 20m
+				"1250"		"110" // No drop off up to 30m
 				"10000"   	"80"
 			}
 			"DamageHitgroups"
@@ -566,7 +566,7 @@
 			"Damage"					
 			{
 				"50"      	"120" // bullets fragment at under 20m dealing more damage. (truly more like 50m but compromise for gameplay)
-				"850"		"110"
+				"1650"		"110"
 				"12000"   	"75" 
 			}
 			"DamageHitgroups"
@@ -640,7 +640,7 @@
 			"Damage"					
 			{
 				"50"      	"130" // bullets fragment at under 20m dealing more damage. (truly more like 50m but compromise for gameplay)
-				"450"		"110"
+				"850"		"110"
 				"10000"   	"70" 
 			}
 			"DamageHitgroups"
@@ -1512,7 +1512,7 @@
 			"Damage"
 			{
 				"50"		"60"
-				"8000"		"50"
+				"4000"		"30"
 			}
 			"PenetrationPower"
 			{
@@ -1543,7 +1543,7 @@
 			"Damage"
 			{
 				"50"		"75"
-				"8000"		"50"
+				"4000"		"35"
 			}
 			"DamageHitgroups"
 			{

@@ -46,7 +46,7 @@
 			"print_name"					"#weapon_upgrade_insplus_foregrip"
 			"print_desc"					"#weapon_upgrade_insplus_foregrip_desc"
 			"weapon_abilities"				"foregrip"
-			"ads_out_speed"					"1.15"
+			"ads_out_speed"					"1.30"
 			
 			"freeaim"
 			{
@@ -64,8 +64,9 @@
 			"upgrade_cost"					"1"
 			"print_name"					"#weapon_upgrade_insplus_heavybarrel"
 			"print_desc"					"#weapon_upgrade_insplus_heavybarrel_desc"
-			"spread_frac"					"0.75"
-			"ads_in_speed"					"0.90"
+			"spread_frac"					"0.80"
+			"ads_in_speed"					"0.85"
+			"ads_out_speed"					"0.85"
 			
 			"freeaim"
 			{
@@ -90,6 +91,8 @@
 			"particle_1p"					"muzzleflash_suppressed_1p"
 			"particle_attach"				"muzzle_supp"
 			"spread_frac"					"1.15"
+			"ads_in_speed"					"0.85"
+			"ads_out_speed"					"0.85"
 			
 			"freeaim"
 			{
@@ -130,8 +133,8 @@
 			"print_desc"					"#weapon_upgrade_lasersight_desc"
 			"weapon_abilities"				"lasersights"
 			"particle_attach"				"Laser"
-			"ads_in_speed"					"1.25"
-			"ads_out_speed"					"1.00"
+			"ads_in_speed"					"1.30"
+			"ads_out_speed"					"1.30"
 			
 			"freeaim"
 			{
