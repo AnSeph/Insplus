@@ -54,7 +54,7 @@
 				"weapon"				"weapon_mp40"
 				"weapon"				"weapon_rpk"
 				"weapon"				"weapon_sks"
-				"weapon"				"weapon_ak103"
+				//"weapon"				"weapon_ak103"
 			}
 			
 		}
@@ -106,7 +106,7 @@
 				"weapon"				"weapon_m4carbine"
 				"weapon"				"weapon_akm"
 				"weapon"				"weapon_ak74"
-				"weapon"				"weapon_ak103"
+				//"weapon"				"weapon_ak103"
 				"weapon"				"weapon_aks74u"
 				"weapon"				"weapon_fal"
 				"weapon"				"weapon_m1a1"
@@ -132,7 +132,7 @@
 				"weapon"				"weapon_m1a1"
 				"weapon"				"weapon_mp40"
 				"weapon"				"weapon_mosin"
-				"weapon"				"weapon_ak103"
+				//"weapon"				"weapon_ak103"
 				"weapon"				"weapon_rpk"
 				"weapon"				"weapon_sks"
 				"weapon"				"weapon_toz"
@@ -177,7 +177,7 @@
 				"weapon"				"weapon_ump45"
 				"weapon"				"weapon_galil"
 				"weapon"				"weapon_galil_sar"
-				"weapon"				"weapon_ak103"
+				//"weapon"				"weapon_ak103"
 			}
 			
 		}
@@ -305,7 +305,7 @@
 				"weapon"					"weapon_m590"
 				"weapon"					"weapon_m4a1"
 				"weapon"					"weapon_m16a4"
-				"weapon"					"weapon_ak103"
+				//"weapon"					"weapon_ak103"
 				"weapon"					"weapon_ak74"
 				"weapon"					"weapon_c4_clicker"
 				"weapon"					"weapon_m67"
@@ -371,7 +371,7 @@
 				"weapon"					"weapon_tokarev"
 				"weapon"					"weapon_p226"
 				"weapon"					"weapon_galil"
-				"weapon"					"weapon_ak103"
+				//"weapon"					"weapon_ak103"
 				"weapon_upgrade"			"sec_foregrip"
 				"weapon_upgrade"			"sec_foregrip2"
 				"weapon_upgrade"			"ins_foregrip1"

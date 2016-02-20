@@ -295,7 +295,6 @@
 				// Primary Weapons
 				"weapon"			"weapon_m249"
 				"weapon"			"weapon_m249"
-				"weapon"			"weapon_m14"
 				"weapon"			"weapon_m27iar"
 				// Grenades
 				"weapon"			"weapon_m67"
@@ -1022,7 +1021,7 @@
 				"weapon"			"weapon_ak74"
 				"weapon"			"weapon_ak74"
 				"weapon"			"weapon_akm"
-				"weapon"			"weapon_ak103"
+				//"weapon"			"weapon_ak103"
 				// Personal Weapons
 				"weapon"			"weapon_tokarev"
 				"weapon"			"weapon_makarov"
@@ -1433,7 +1432,7 @@
 				"gear"				"ins_medium_armor"
 				"weapon"			"weapon_gurkha"
 				"weapon"			"weapon_bhp"
-				"weapon"			"weapon_ak103"
+				"weapon"			"weapon_fal"
 				"weapon"			"weapon_m18"
 			}
 			"allowed_items"
@@ -1443,7 +1442,7 @@
 				"weapon"			"weapon_fal"
 				"weapon"			"weapon_galil"
 				"weapon"			"weapon_ak74"
-				"weapon"			"weapon_ak103"
+				//"weapon"			"weapon_ak103"
 				// Personal Weapons
 				"weapon"			"weapon_tokarev"
 				"weapon"			"weapon_bhp"
