@@ -662,10 +662,10 @@
 }
 
 // --------------------------
-// FAL (old) 
+// G3A3
 // --------------------------
 
-"weapon_FAL.Single"
+"Weapon_G3A3.Single"
 {
 	"channel"		"CHAN_STATIC"
 	"volume"	    "1.0"
@@ -673,7 +673,7 @@
 	"soundlevel"  	"SNDLVL_94dB "
 	"rndwave"
 	{
-		"wave"	        "weapons/fal/fal_tp.wav"	
+		"wave"	        "weapons/g3/g3_tp.wav"	
 	}	
 	"soundentry_version" 	"2"
 	"operator_stacks"
@@ -707,13 +707,13 @@
 		}
 	}
 }
-"Weapon_FAL.SingleLocal"
+"Weapon_G3A3.SingleLocal"
 {
 	"channel"	    "CHAN_WEAPON"
 	"volume"	    "1.0"
     "pitch"			"100,105"
     "soundlevel"	"SNDLVL_GUNFIRE"
-	"wave"		    "weapons/fal/fal_fp.wav"	
+	"wave"		    "weapons/g3/g3_fp.wav"	
 }
 
 // --------------------------

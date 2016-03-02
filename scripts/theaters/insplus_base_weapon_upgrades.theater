@@ -75,7 +75,7 @@
 			"recoil"
 			{
 				"recoil_vertical_frac"			"1.00"
-				"recoil_lateral_frac"			"0.85"
+				"recoil_lateral_frac"			"0.90"
 			}
 			"sway"
 			{
@@ -133,8 +133,8 @@
 			"print_desc"					"#weapon_upgrade_lasersight_desc"
 			"weapon_abilities"				"lasersights"
 			"particle_attach"				"Laser"
-			"ads_in_speed"					"1.30"
-			"ads_out_speed"					"1.30"
+			"ads_in_speed"					"1.25"
+			"ads_out_speed"					"1.25"
 			
 			"freeaim"
 			{

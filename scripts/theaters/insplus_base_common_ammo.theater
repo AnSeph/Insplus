@@ -80,19 +80,19 @@
 		}
 		"grenade_m203_he"
 		{
-			"carry"						"3"
+			"carry"						"4"
 		}
 		"grenade_gp25_he"
 		{
-			"carry"						"3"
+			"carry"						"4"
 		}
 		"grenade_m203_smoke"
 		{
-			"carry"						"3"
+			"carry"						"4"
 		}
 		"grenade_gp25_smoke"
 		{
-			"carry"						"3"
+			"carry"						"4"
 		}
 		"grenade_anm14"
 		{
@@ -100,7 +100,7 @@
 		}
 		"grenade_molotov"
 		{
-			"carry"						"3"
+			"carry"						"2"
 		}
 		"grenade_flares"
 		{
@@ -389,10 +389,10 @@
 				"HITGROUP_HEAD"       "1.00"
 				"HITGROUP_CHEST"      "3.00"
 				"HITGROUP_STOMACH"    "3.00"
-				"HITGROUP_LEFTARM"    "0.95"
-				"HITGROUP_RIGHTARM"   "0.95"
-				"HITGROUP_LEFTLEG"    "0.75"
-				"HITGROUP_RIGHTLEG"   "0.75"
+				"HITGROUP_LEFTARM"    "1.00"
+				"HITGROUP_RIGHTARM"   "1.00"
+				"HITGROUP_LEFTLEG"    "0.50"
+				"HITGROUP_RIGHTLEG"   "0.50"
 			}
 			"PenetrationPower"
 			{
@@ -463,10 +463,10 @@
 				"HITGROUP_HEAD"       "1.00"
 				"HITGROUP_CHEST"      "3.00"
 				"HITGROUP_STOMACH"    "3.00"
-				"HITGROUP_LEFTARM"    "0.95"
-				"HITGROUP_RIGHTARM"   "0.95"
-				"HITGROUP_LEFTLEG"    "0.75"
-				"HITGROUP_RIGHTLEG"   "0.75"
+				"HITGROUP_LEFTARM"    "1.00"
+				"HITGROUP_RIGHTARM"   "1.00"
+				"HITGROUP_LEFTLEG"    "0.50"
+				"HITGROUP_RIGHTLEG"   "0.50"
 			}
 			"PenetrationPower"
 			{
@@ -538,8 +538,8 @@
 				"HITGROUP_HEAD"       "1.00"
 				"HITGROUP_CHEST"      "3.00"
 				"HITGROUP_STOMACH"    "3.00"
-				"HITGROUP_LEFTARM"    "0.90"
-				"HITGROUP_RIGHTARM"   "0.90"
+				"HITGROUP_LEFTARM"    "1.00"
+				"HITGROUP_RIGHTARM"   "1.00"
 				"HITGROUP_LEFTLEG"    "0.75"
 				"HITGROUP_RIGHTLEG"   "0.75"
 			}
@@ -612,8 +612,8 @@
 				"HITGROUP_HEAD"       "1.00"
 				"HITGROUP_CHEST"      "3.00"
 				"HITGROUP_STOMACH"    "3.00"
-				"HITGROUP_LEFTARM"    "0.90"
-				"HITGROUP_RIGHTARM"   "0.90"
+				"HITGROUP_LEFTARM"    "1.00"
+				"HITGROUP_RIGHTARM"   "1.00"
 				"HITGROUP_LEFTLEG"    "0.75"
 				"HITGROUP_RIGHTLEG"   "0.75"
 			}
@@ -686,8 +686,8 @@
 				"HITGROUP_HEAD"       "1.00"
 				"HITGROUP_CHEST"      "3.00"
 				"HITGROUP_STOMACH"    "3.00"
-				"HITGROUP_LEFTARM"    "0.90"
-				"HITGROUP_RIGHTARM"   "0.90"
+				"HITGROUP_LEFTARM"    "1.00"
+				"HITGROUP_RIGHTARM"   "1.00"
 				"HITGROUP_LEFTLEG"    "0.75"
 				"HITGROUP_RIGHTLEG"   "0.75"
 			}
@@ -728,7 +728,7 @@
 			"DamageHitgroups"
 			{
 				"HITGROUP_HEAD"       "1.00"
-				"HITGROUP_CHEST"      "1.25"
+				"HITGROUP_CHEST"      "1.50"
 				"HITGROUP_STOMACH"    "1.25"
 				"HITGROUP_LEFTARM"    "1.00"
 				"HITGROUP_RIGHTARM"   "1.00"
@@ -840,12 +840,12 @@
 			"DamageHitgroups"
 			{
 				"HITGROUP_HEAD"       "1.00"
-				"HITGROUP_CHEST"      "2.00"
-				"HITGROUP_STOMACH"    "2.00"
+				"HITGROUP_CHEST"      "2.75"
+				"HITGROUP_STOMACH"    "2.75"
 				"HITGROUP_LEFTARM"    "1.00"
 				"HITGROUP_RIGHTARM"   "1.00"
-				"HITGROUP_LEFTLEG"    "0.60"
-				"HITGROUP_RIGHTLEG"   "0.60"
+				"HITGROUP_LEFTLEG"    "0.75"
+				"HITGROUP_RIGHTLEG"   "0.75"
 			}
 			"PenetrationPower"
 			{

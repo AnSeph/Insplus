@@ -35,8 +35,8 @@
 					"#Squad_Cell_Fighter"						"template_fighter_insurgent"
 					"#Squad_Cell_Fighter"						"template_fighter_insurgent"
 					"#Squad_Cell_Militant"						"template_militant_insurgent"
-					"#Squad_Cell_Rebel"							"template_rebel_insurgent"
-					"#Squad_Cell_Rebel"							"template_rebel_insurgent"
+					"#Squad_Cell_Specialist"					"template_specialist_insurgent"
+					"#Squad_Cell_Fighter"						"template_fighter_insurgent"
 					
 				}
 				
@@ -47,8 +47,8 @@
 					"#Squad_Cell_Fighter"						"template_fighter_insurgent"
 					"#Squad_Cell_Fighter"						"template_fighter_insurgent"
 					"#Squad_Cell_Militant"						"template_militant_insurgent"
-					"#Squad_Cell_Rebel"							"template_rebel_insurgent"
-					"#Squad_Cell_Rebel"							"template_rebel_insurgent"
+					"#Squad_Cell_Striker"						"template_striker_insurgent"
+					"#Squad_Cell_Fighter"						"template_fighter_insurgent"
 				}
 				
 				"#Cell_Charlie"	// support team

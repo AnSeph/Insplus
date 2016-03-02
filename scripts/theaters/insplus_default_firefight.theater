@@ -15,7 +15,7 @@
 					"#Squad_Fireteam_Rifleman"						"template_rifleman_security"
 					"#Squad_Fireteam_Rifleman"						"template_rifleman_security"
 					"#Squad_Fireteam_Rifleman"						"template_rifleman_security"
-					"#Squad_Fireteam_AutoRifleman"					"template_autorifleman_security"
+					"#Squad_Fireteam_Rifleman"						"template_rifleman_security"
 					"#Squad_Fireteam_Breacher"						"template_breacher_security"
 				}
 				
@@ -52,7 +52,7 @@
 					"#Squad_Cell_Fighter"						"template_fighter_insurgent"
 					"#Squad_Cell_Fighter"						"template_fighter_insurgent"
 					"#Squad_Cell_Fighter"						"template_fighter_insurgent"
-					"#Squad_Cell_Rebel"							"template_rebel_insurgent"
+					"#Squad_Cell_Fighter"						"template_fighter_insurgent"
 					"#Squad_Cell_Militant"						"template_militant_insurgent"
 				}
 				

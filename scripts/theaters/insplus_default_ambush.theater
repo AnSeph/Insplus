@@ -51,7 +51,7 @@
 						"#Squad_Fireteam_Rifleman"						"template_rifleman_security"
 						"#Squad_Fireteam_Rifleman"						"template_rifleman_security"
 						"#Squad_Fireteam_Rifleman"						"template_rifleman_security"
-						"#Squad_Fireteam_AutoRifleman"					"template_autorifleman_security"
+						"#Squad_Fireteam_Rifleman"						"template_rifleman_security"
 						"#Squad_Fireteam_Support"						"template_support_security"
 					}
 					
@@ -120,7 +120,7 @@
 						"#Squad_Cell_Fighter"						"template_fighter_insurgent"
 						"#Squad_Cell_Fighter"						"template_fighter_insurgent"
 						"#Squad_Cell_Fighter"						"template_fighter_insurgent"
-						"#Squad_Cell_Rebel"							"template_rebel_insurgent"
+						"#Squad_Cell_Fighter"						"template_fighter_insurgent"
 						"#Squad_Cell_Machinegunner"					"template_machinegunner_insurgent"
 					}
 					"[B] Support Cell"

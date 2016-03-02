@@ -63,8 +63,8 @@
 			"DamageHitgroups"
 			{
 				"HITGROUP_HEAD"					"1.00" 
-				"HITGROUP_CHEST"				"0.20"
-				"HITGROUP_STOMACH"				"0.20"
+				"HITGROUP_CHEST"				"0.25"
+				"HITGROUP_STOMACH"				"0.25"
 				"HITGROUP_LEFTARM"				"1.00"
 				"HITGROUP_RIGHTARM"				"1.00"
 				"HITGROUP_LEFTLEG"				"1.00"
@@ -85,8 +85,8 @@
 			"DamageHitgroups"
 			{
 				"HITGROUP_HEAD"					"1.00" 
-				"HITGROUP_CHEST"				"0.20"
-				"HITGROUP_STOMACH"				"0.20"
+				"HITGROUP_CHEST"				"0.25"
+				"HITGROUP_STOMACH"				"0.25"
 				"HITGROUP_LEFTARM"				"1.00"
 				"HITGROUP_RIGHTARM"				"1.00"
 				"HITGROUP_LEFTLEG"				"1.00"
@@ -110,8 +110,8 @@
 			"DamageHitgroups"
 			{
 				"HITGROUP_HEAD"					"1.00" // death
-				"HITGROUP_CHEST"				"0.10"
-				"HITGROUP_STOMACH"				"0.10"
+				"HITGROUP_CHEST"				"0.125"
+				"HITGROUP_STOMACH"				"0.125"
 				"HITGROUP_LEFTARM"				"1.00"
 				"HITGROUP_RIGHTARM"				"1.00"
 				"HITGROUP_LEFTLEG"				"1.00"
@@ -134,8 +134,8 @@
 			"DamageHitgroups"
 			{
 				"HITGROUP_HEAD"					"1.00" // death
-				"HITGROUP_CHEST"				"0.10"
-				"HITGROUP_STOMACH"				"0.10"
+				"HITGROUP_CHEST"				"0.125"
+				"HITGROUP_STOMACH"				"0.125"
 				"HITGROUP_LEFTARM"				"1.00"
 				"HITGROUP_RIGHTARM"				"1.00"
 				"HITGROUP_LEFTLEG"				"1.00"
