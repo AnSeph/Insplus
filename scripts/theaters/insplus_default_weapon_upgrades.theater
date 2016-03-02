@@ -2161,7 +2161,7 @@
 			
 			"optics_fov_override"
 			{
-				"fov_wpn_scope"				"16"
+				"fov_wpn_scope"				"12"
 				"fov_wpn_ironsight"			"39"
 				"fov_wpn_focus"				"39"
 				
@@ -2177,12 +2177,6 @@
 					"fov_wpn_focus"				"56"
 				}
 				
-				"weapon_zastava"
-				{
-					"fov_wpn_ironsight"			"44"
-					"fov_wpn_focus"				"50"
-				}
-				
 				"weapon_fal"
 				{
 					"fov_wpn_ironsight"			"58"
@@ -2191,8 +2185,8 @@
 				
 				"weapon_g3"
 				{
-					"fov_wpn_ironsight"			"58"
-					"fov_wpn_focus"				"61"
+					"fov_wpn_ironsight"			"47"
+					"fov_wpn_focus"				"50"
 				}
 				
 				"weapon_galil"
@@ -2221,14 +2215,14 @@
 				
 				"weapon_m1a1"
 				{
-					"fov_wpn_ironsight"			"35"
-					"fov_wpn_focus"				"41"
+					"fov_wpn_ironsight"			"30"
+					"fov_wpn_focus"				"40"
 				}
 				
-				"weapon_m1a1"
+				"weapon_zastava"
 				{
-					"fov_wpn_ironsight"			"35"
-					"fov_wpn_focus"				"41"
+					"fov_wpn_ironsight"			"30"
+					"fov_wpn_focus"				"40"
 				}
 				
 				"weapon_mosin"
