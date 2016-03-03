@@ -59,6 +59,12 @@ I do not own the custom models and sounds used in this mod, nor did I originally
 	Model: Krycek
 	Textures: Krycek
 	Animation Edits: Farengar
+
+- Browning Hi Power: http://steamcommunity.com/sharedfiles/filedetails/?id=518726503&searchtext=hi+power
+	Workshop Upload: E5150
+	Model: Lt. Rocky
+	Irons Fix: Phale
+	Textures: E5150
 	
 The sounds used by the weapon were a mix made from the default SKS, AK74, and FAL
 - http://gamebanana.com/sounds/23701 for P226, Deagle, and Tokarev
