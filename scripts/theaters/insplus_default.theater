@@ -339,7 +339,7 @@
 					"optic_eotech"				"2"
 					"optic_elcan"				"-2"
 					"optic_scope_mk4"			"-2"
-					"underbarrel_bipod"			"-1"
+					"underbarrel_bipod" 		"-2"
 				}
 			}
 		}
@@ -1118,7 +1118,7 @@
 					"barrel_silencer_pistol"	"-1"
 					"ins_foregrip1"				"-1"
 					"ins_foregrip2"				"-1"
-					"underbarrel_bipod"			"-1"
+					"underbarrel_bipod" 		"-2"
 				}
 			}
 		}

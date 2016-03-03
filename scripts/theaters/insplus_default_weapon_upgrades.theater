@@ -84,7 +84,7 @@
 		"magazine_extended_rifle_30rd"
 		{
 			"upgrade_slot"				"magazine"
-			"upgrade_cost"				"2"
+			"upgrade_cost"				"1"
 			"team_access"				"security, insurgent"
 			"class_restricted"			"1"
 			"print_name"				"#weapon_upgrade_magazine_extended"
@@ -188,7 +188,7 @@
 		"magazine_drum_75rd"
 		{
 			"upgrade_slot"				"magazine"
-			"upgrade_cost"				"2"
+			"upgrade_cost"				"1"
 			"class_restricted"			"1"
 			"team_acces"				"security, insurgent"
 			
@@ -2589,7 +2589,7 @@
 		"ammo_hp_makarov"
 		{
 			"import"				"base_ammo_hp"
-			"upgrade_cost"				"1"
+			"upgrade_cost"				"2"
 			"allowed_weapons"
 			{
 				"weapon"				"weapon_makarov"
