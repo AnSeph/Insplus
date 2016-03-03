@@ -3760,6 +3760,7 @@
 			"allowed_weapons"
 			{
 				"weapon"				"weapon_zastava"
+				"weapon"				"weapon_m1a1"
 				"weapon"				"weapon_sks"
 				"weapon"				"weapon_fal"
 				"weapon"				"weapon_g3"

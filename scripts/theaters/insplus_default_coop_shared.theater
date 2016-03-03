@@ -368,6 +368,7 @@
 			{
 				"weapon"					"weapon_m16a4"
 				"weapon"					"weapon_mini14"
+				"weapon"					"weapon_sks"
 				"weapon"					"weapon_m4carbine"
 				"weapon"					"weapon_akm"
 				"weapon"					"weapon_ak74"
@@ -511,6 +512,7 @@
 				"weapon"					"weapon_aks74u"
 				"weapon"					"weapon_sterling"
 				"weapon"					"weapon_m1a1"
+				"weapon"					"weapon_sks"
 				"weapon"					"weapon_m67"
 				"weapon"					"weapon_m84"
 				"weapon"					"weapon_m18"
@@ -563,6 +565,7 @@
 				"weapon"					"weapon_fal"
 				"weapon"					"weapon_m16a4"
 				"weapon"					"weapon_zastava"
+				"weapon"					"weapon_sks"
 				"weapon"					"weapon_g3"
 				"weapon"					"weapon_m67"
 				"weapon"					"weapon_m18"

@@ -909,6 +909,7 @@
 				"weapon"			"weapon_aks74u"
 				"weapon"			"weapon_aks74u"
 				"weapon"			"weapon_m1a1"
+				"weapon"			"weapon_sks"
 				"weapon"			"weapon_akm"
 				"weapon"			"weapon_toz"
 				// Personal Weapons
@@ -1147,6 +1148,7 @@
 				"weapon"			"weapon_mp40"
 				"weapon"			"weapon_mp40"
 				"weapon"			"weapon_akm"
+				"weapon"			"weapon_sks"
 				"weapon"			"weapon_ak74"
 				"weapon"			"weapon_aks74u"
 				// Personal Weapons
@@ -1285,7 +1287,6 @@
 				{
 					"weapon_aks74u"		"1"
 					"weapon_akm"		"2"
-					"weapon_m1a1"		"1"
 				}
 				"gear"
 				{
@@ -1394,6 +1395,7 @@
 				"weapon"			"weapon_g3"
 				"weapon"			"weapon_galil"
 				"weapon"			"weapon_ak74"
+				"weapon"			"weapon_akm"
 				//"weapon"			"weapon_ak103"
 				// Personal Weapons
 				"weapon"			"weapon_tokarev"
@@ -1425,7 +1427,7 @@
 					"weapon_bhp"					"-1"
 					"weapon_tokarev"				"-1"
 					"weapon_ak74"					"-1"
-					"weapon_ak103"					"-1"
+					"weapon_akm"					"1"
 				}
 				"weapon_upgrade"
 				{
