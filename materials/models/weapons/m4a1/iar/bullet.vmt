@@ -18,5 +18,4 @@
 	
 	$phongboost 					"1"
 	$phongfresnelranges				"[0.5 1 3]"
-
 }
