@@ -51,7 +51,7 @@
 				"sway_speed_ironsight_frac"		"1.00"
 				"sway_speed_bipod_frac"			"0.25"
 				"sway_amount_focus_frac"		"0.10"
-				"sway_speed_focus_frac"			"20.00"
+				"sway_speed_focus_frac"			"10.00"
 				"sway_amount_focus_penalty"		"0.50"
 				"sway_speed_focus_penalty"		"0.50"
 				"sway_screen_ratio"				"1.00"
@@ -94,10 +94,10 @@
 				"freeaim_distance"				"10.50"
 				"freeaim_distance_bipod"		"10.50"
 				"freeaim_screenratio"			"0.75"
-				"freeaim_screenratio_bipod"		"0.95"
+				"freeaim_screenratio_bipod"		"0.75"
 				
 				"freeaim_ads"					"0"
-				"freeaim_distance_ads"			"2.50"
+				"freeaim_distance_ads"			"10.50"
 				"freeaim_screenratio_ads"		"0.75"
 				
 				"freeaim_frac"					"1.0"
@@ -250,13 +250,13 @@
 			"freeaim"
 			{
 				"freeaim_frac"			"0.50"
-				"freeaim_frac_ads"		"1.80"
 			}
 			"recoil"
 			{
 				"RecoilBaseFracByWeight"
 				{
-					"0"						"1.20"
+					"60"					"1.12"
+					"640"					"1.10"
 				}
 			}
 			"kitui_offset"
@@ -284,14 +284,15 @@
 			{
 				"RecoilBaseFracByWeight"
 				{
-					"0"						"1.00"
+					"60"					"1.12"
+					"640"					"1.10"
 				}
 			}
 			"freeaim"
 			{
 				"freeaim_frac"			"0.50"
-				"freeaim_frac_ads"		"1.00"
 			}
+			
 		}
 		"assault_carbine_base"
 		{
@@ -299,8 +300,16 @@
 			"import"	"ballistic_base"
 			"ironsights"
 			{
-				"in_time"					"0.325"
+				"in_time"					"0.30"
 				"out_time"					"0.35"
+			}
+			"recoil"
+			{
+				"RecoilBaseFracByWeight"
+				{
+					"60"					"1.02"
+					"640"					"1.00"
+				}
 			}
 		}
 		"cqb_carbine_base"
@@ -309,14 +318,15 @@
 			"import"	"ballistic_base"
 			"ironsights"
 			{
-				"in_time"					"0.30"
+				"in_time"					"0.25"
 				"out_time"					"0.30"
 			}
 			"recoil"
 			{
 				"RecoilBaseFracByWeight"
 				{
-					"0"						"1.15"
+					"60"					"1.17"
+					"640"					"1.15"
 				}
 			}
 		}
@@ -343,7 +353,8 @@
 			{
 				"RecoilBaseFracByWeight"
 				{
-					"0"						"1.15"
+					"60"					"1.17"
+					"640"					"1.15"
 				}
 			}
 		}
@@ -360,8 +371,13 @@
 			{
 				"RecoilBaseFracByWeight"
 				{
-					"0"						"1.00"
+					"60"					"1.02"
+					"640"					"1.00"
 				}
+			}
+			"freeaim"
+			{
+				"freeaim_ads"					"1"
 			}
 		}
 		"weapon_grenade_base"

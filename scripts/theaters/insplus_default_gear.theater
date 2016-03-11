@@ -145,88 +145,254 @@
 			"team_access"	"insurgent"		
 		}
 		
-		"sec_chest_rig"
+		"ins_vest_01"
 		{
-			"print_name"	"#gear_chest_rig"
-			"print_desc"	"#gear_chest_rig_desc"
-			"gear_slot"		"vest"
-			"gear_cost"		"1"
-			"gear_weight"	"60" // 22 (2.2kg) + 24 encumbrance
+			"print_name"				"#gear_vest_carrier01"
+			"print_desc"				"#gear_vest_carrier01_desc"
+			"gear_slot"					"vest"
+			"gear_cost"					"1"
+			"gear_weight"				"32"
 			"extra_ammo"
 			{
-				"primary"	"2"
-				"secondary"	"2"
-				"explosive"	"0"
+				"primary"				"1"
+				"secondary"				"1"
+				"explosive"				"0"
 			}
 			"weapon_slots"
 			{
-				"explosive"	"1"
+				"explosive"				"0"
 			}
-			"team_access"	"security"		
+			"team_access"				"insurgent"
 		}
-		"ins_chest_rig"
+		
+		
+		"ins_vest_02"
 		{
-			"print_name"	"#gear_chest_rig"
-			"print_desc"	"#gear_chest_rig_desc"
-			"gear_slot"		"vest"
-			"gear_cost"		"1"
-			"gear_weight"	"60" // 22 (2.2kg) + 24 encumbrance
+			"print_name"				"#gear_vest_carrier02"
+			"print_desc"				"#gear_vest_carrier02_desc"
+			"gear_slot"					"vest"
+			"gear_cost"					"1"
+			"gear_weight"				"32"
 			"extra_ammo"
 			{
-				"primary"	"2"
-				"secondary"	"2"
-				"explosive"	"0"
+				"primary"				"1"
+				"secondary"				"0"
+				"explosive"				"0"
 			}
 			"weapon_slots"
 			{
-				"explosive"	"1"
+				"explosive"				"1"
 			}
-			"team_access"	"insurgent"		
+			"team_access"				"insurgent"
 		}
-		"sec_chest_carrier"
+		
+		"sec_vest_01"
 		{
-			"print_name"	"#gear_chest_carrier"
-			"print_desc"	"#gear_chest_carrier_desc"
-			"gear_slot"		"vest"
-			"gear_cost"		"2"
-			"gear_weight"	"100" // 50 (5.0kg) + 50 encumbrance
+			"print_name"				"#gear_vest_carrier01"
+			"print_desc"				"#gear_vest_carrier01_desc"
+			"gear_slot"					"vest"
+			"gear_cost"					"1"
+			"gear_weight"				"32"
 			"extra_ammo"
 			{
-				"primary"	"4"
-				"secondary"	"4"
-
+				"primary"				"1"
+				"secondary"				"1"
+				"explosive"				"0"
+			}
+			"weapon_slots"
+			{
+				"explosive"				"0"
+			}
+			"team_access"				"security"
+		}
+		
+		"sec_vest_02"
+		{
+			"print_name"				"#gear_vest_carrier02"
+			"print_desc"				"#gear_vest_carrier02_desc"
+			"gear_slot"					"vest"
+			"gear_cost"					"1"
+			"gear_weight"				"42"
+			"extra_ammo"
+			{
+				"primary"				"1"
+				"secondary"				"0"
+				"explosive"				"0"
+			}
+			"weapon_slots"
+			{
+				"explosive"				"1"
+			}
+			"team_access"				"security"
+		}
+		
+		"sec_rig_01"
+		{
+			"print_name"				"#gear_chest_rig01"
+			"print_desc"				"#gear_chest_rig01_desc"
+			"gear_slot"					"vest"
+			"gear_cost"					"2"
+			"gear_weight"				"64"
+			"extra_ammo"
+			{
+				"primary"				"2"
+				"secondary"				"2"
+				"explosive"				"0"
+			}
+			"weapon_slots"
+			{
+				"explosive"				"1"
+			}
+			"team_access"				"security"
+		}
+		
+		"sec_rig_02"
+		{
+			"print_name"				"#gear_chest_rig02"
+			"print_desc"				"#gear_chest_rig02_desc"
+			"gear_slot"					"vest"
+			"gear_cost"					"3"
+			"gear_weight"				"100"
+			"extra_ammo"
+			{
+				"primary"				"4"
+				"secondary"				"3"
+				"explosive"				"0"
+			}
+			"weapon_slots"
+			{
+				"explosive"				"1"
+			}
+			"team_access"				"security"
+		}
+		
+		"sec_bandolier"
+		{
+			"print_name"				"#gear_bandolier01"
+			"print_desc"				"#gear_bandolier01_desc"
+			"gear_slot"					"vest"
+			"gear_cost"					"2"
+			"gear_weight"				"128"
+			"class_restricted"			"1"
+			"extra_ammo"
+			{
+				"primary"				"4"
+				"secondary"				"0"
 				"explosive"
 				{
-					"1"		"1" // an extra explosive in the second slot only, sub-slots are 0 indexed
+					"0"					"1"
+					"1"					"1"
 				}
 			}
 			"weapon_slots"
 			{
-				"explosive"	"1"
+				"explosive"				"1"
 			}
-			"team_access"	"security"
+			"team_access"				"security"
 		}
-		"ins_chest_carrier"
+		
+		"sec_pistolbelt01"
 		{
-			"print_name"	"#gear_chest_carrier"
-			"print_desc"	"#gear_chest_carrier_desc"
-			"gear_slot"		"vest"
-			"gear_cost"		"2"
-			"gear_weight"	"100" // 50 (5.0kg) + 50 encumbrance
+			"print_name"				"#gear_pistolbelt01"
+			"print_desc"				"#gear_pistolbelt01_desc"
+			"gear_slot"					"vest"
+			"gear_cost"					"1"
+			"gear_weight"				"32"
+			"class_restricted"			"1"
 			"extra_ammo"
 			{
-				"primary"	"4"
-				"secondary"	"4"
+				"primary"				"1"
+				"secondary"				"5"
+				"explosive"				"0"
+			}
+			"weapon_slots"
+			{
+				"explosive"				"0"
+			}
+			"team_access"				"security"
+		}
+		
+		"ins_rig_01"
+		{
+			"print_name"				"#gear_chest_rig01"
+			"print_desc"				"#gear_chest_rig01_desc"
+			"gear_slot"					"vest"
+			"gear_cost"					"2"
+			"gear_weight"				"64"
+			"extra_ammo"
+			{
+				"primary"				"2"
+				"secondary"				"2"
+				"explosive"				"0"
+			}
+			"weapon_slots"
+			{
+				"explosive"				"1"
+			}
+			"team_access"				"insurgent"
+		}
+		"ins_rig_02"
+		{
+			"print_name"				"#gear_chest_rig02"
+			"print_desc"				"#gear_chest_rig02_desc"
+			"gear_slot"					"vest"
+			"gear_cost"					"3"
+			"gear_weight"				"100"
+			"extra_ammo"
+			{
+				"primary"				"4"
+				"secondary"				"3"
+				"explosive"				"0"
+			}
+			"weapon_slots"
+			{
+				"explosive"				"1"
+			}
+			"team_access"				"insurgent"
+		}
+		"ins_bandolier"
+		{
+			"print_name"				"#gear_bandolier01"
+			"print_desc"				"#gear_bandolier01_desc"
+			"gear_slot"					"vest"
+			"gear_cost"					"2"
+			"gear_weight"				"64"
+			"class_restricted"			"1"
+			"extra_ammo"
+			{
+				"primary"				"4"
+				"secondary"				"0"
 				"explosive"
 				{
-					"1"		"1"
+					"0"					"1"
+					"1"					"1"
 				}
 			}
 			"weapon_slots"
 			{
-				"explosive"	"1"
+				"explosive"				"1"
 			}
-			"team_access"	"insurgent"	
+			"team_access"				"insurgent"
+		}
+		"ins_pistolbelt01"
+		{
+			"print_name"				"#gear_pistolbelt01"
+			"print_desc"				"#gear_pistolbelt01_desc"
+			"gear_slot"					"vest"
+			"gear_cost"					"1"
+			"gear_weight"				"32"
+			"class_restricted"			"1"
+			"extra_ammo"
+			{
+				"primary"				"1"
+				"secondary"				"5"
+				"explosive"				"0"
+			}
+			"weapon_slots"
+			{
+				"explosive"				"0"
+			}
+			"team_access"				"insurgent"
 		}
 		"?nightmap"
 		{
@@ -242,18 +408,18 @@
 				
 				"settings"
 				{
-					"material"	"dev/sec_nightvision_insplus"
-					"sound_on"	"Weapon_NVG.NvgOn"
-					"sound_off"	"Weapon_NVG.NvgOff"
-					"chromatic_aberation" "0"
-					"dust_power" "1.2"
+					"material"				"dev/sec_nightvision_insplus"
+					"sound_on"				"Weapon_NVG.NvgOn"
+					"sound_off"				"Weapon_NVG.NvgOff"
+					"chromatic_aberation" 	"0"
+					"dust_power" 			"1.2"
 					
-					"fade_in_time"	"0.3"
-					"fade_in_hold"	"0.1"
-					"fade_in_tonemap"	"170"
+					"fade_in_time"			"0.3"
+					"fade_in_hold"			"0.1"
+					"fade_in_tonemap"		"170"
 					
-					"fade_out_time"	"0.5"
-					"fade_out_hold"	"0.1"
+					"fade_out_time"			"0.5"
+					"fade_out_hold"			"0.1"
 				}
 				
 				"team_access"	"security"
@@ -270,18 +436,18 @@
 				
 				"settings"
 				{
-					"material"	"dev/ins_nightvision_insplus"
-					"sound_on"	"Weapon_NVG.InsNvgOn"
-					"sound_off"	"Weapon_NVG.InsNvgOff"
-					"chromatic_aberation" "1"
-					"dust_power" "1.0"
+					"material"				"dev/ins_nightvision_insplus"
+					"sound_on"				"Weapon_NVG.InsNvgOn"
+					"sound_off"				"Weapon_NVG.InsNvgOff"
+					"chromatic_aberation"	 "1"
+					"dust_power" 			"1.0"
 					
-					"fade_in_time"	"0.5"
-					"fade_in_hold"	"0.25"
-					"fade_in_tonemap"	"190"
+					"fade_in_time"			"0.5"
+					"fade_in_hold"			"0.25"
+					"fade_in_tonemap"		"190"
 					
-					"fade_out_time"	"0.5"
-					"fade_out_hold"	"0.1"
+					"fade_out_time"		"0.5"
+					"fade_out_hold"		"0.1"
 				}
 				
 				"team_access"	"insurgent"

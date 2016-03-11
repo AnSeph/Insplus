@@ -122,7 +122,7 @@
 			"print_desc"				"Increases magazine size to hold 30 rounds"
 
 			"magsize_override"			"30"
-			"reload_speed"				"0.85"
+			"reload_speed"				"0.90"
 
 			"allowed_weapons"
 			{
@@ -883,8 +883,8 @@
 				
 				"weapon_m14"
 				{
-					"fov_wpn_ironsight"			"41"
-					"fov_wpn_focus"				"51"
+					"fov_wpn_ironsight"			"25"
+					"fov_wpn_focus"				"35"
 				}
 				
 				"weapon_m590"
@@ -895,8 +895,8 @@
 				
 				"weapon_mini14"
 				{
-					"fov_wpn_ironsight"			"48"
-					"fov_wpn_focus"				"57"
+					"fov_wpn_ironsight"			"38"
+					"fov_wpn_focus"				"47"
 				}
 				
 				"weapon_mp5"
@@ -913,8 +913,8 @@
 				
 				"weapon_l1a1"
 				{
-					"fov_wpn_ironsight"			"53"
-					"fov_wpn_focus"				"60"
+					"fov_wpn_ironsight"			"43"
+					"fov_wpn_focus"				"50"
 				}
 
 				"weapon_akm"
@@ -931,20 +931,20 @@
 				
 				"weapon_zastava"
 				{
-					"fov_wpn_ironsight"			"60"
-					"fov_wpn_focus"				"67"
+					"fov_wpn_ironsight"			"50"
+					"fov_wpn_focus"				"57"
 				}
 				
 				"weapon_fal"
 				{
-					"fov_wpn_ironsight"			"53"
-					"fov_wpn_focus"				"60"
+					"fov_wpn_ironsight"			"43"
+					"fov_wpn_focus"				"50"
 				}
 				
 				"weapon_g3"
 				{
-					"fov_wpn_ironsight"			"53"
-					"fov_wpn_focus"				"60"
+					"fov_wpn_ironsight"			"43"
+					"fov_wpn_focus"				"50"
 				}
 				
 				"weapon_galil"
@@ -1389,8 +1389,8 @@
 				
 				"weapon_m14"
 				{
-					"fov_wpn_ironsight"			"42"
-					"fov_wpn_focus"				"49"
+					"fov_wpn_ironsight"			"32"
+					"fov_wpn_focus"				"39"
 				}
 				
 				"weapon_mini14"
@@ -2179,26 +2179,26 @@
 				
 				"weapon_fal"
 				{
-					"fov_wpn_ironsight"			"58"
-					"fov_wpn_focus"				"61"
+					"fov_wpn_ironsight"			"48"
+					"fov_wpn_focus"				"51"
 				}
 				
 				"weapon_g3"
 				{
-					"fov_wpn_ironsight"			"47"
-					"fov_wpn_focus"				"50"
+					"fov_wpn_ironsight"			"37"
+					"fov_wpn_focus"				"47"
 				}
 				
 				"weapon_galil"
 				{
-					"fov_wpn_ironsight"			"59"
-					"fov_wpn_focus"				"61"
+					"fov_wpn_ironsight"			"49"
+					"fov_wpn_focus"				"51"
 				}
 
 				"weapon_galil_sar"
 				{
-					"fov_wpn_ironsight"			"59"
-					"fov_wpn_focus"				"61"
+					"fov_wpn_ironsight"			"49"
+					"fov_wpn_focus"				"51"
 				}
 
 				"weapon_l1a1"
@@ -2548,7 +2548,7 @@
 		// ========================================
 		"ammo_hp_p226"
 		{
-			"import"				"base_ammo_hp"
+			"import"					"base_ammo_hp"
 			"upgrade_cost"				"1"
 			"allowed_weapons"
 			{
@@ -2561,7 +2561,7 @@
 			"import"					"base_ammo_ap"
 			"print_name"				"#weapon_upgrade_ap_sig"
 			"print_desc"				"Decreases magazine size to 13 rounds. Effective against armored targets."
-			"upgrade_cost"				"2"
+			"upgrade_cost"				"1"
 			"allowed_weapons"
 			{
 				"weapon"				"weapon_p226"
@@ -2637,7 +2637,7 @@
 		"ammo_hp_tokarev"
 		{
 			"import"						"base_ammo_hp"
-			"upgrade_cost"					"2"
+			"upgrade_cost"					"1"
 			"allowed_weapons"
 			{
 				"weapon"					"weapon_tokarev"
@@ -3779,7 +3779,7 @@
 					
 					"scales"
 					{
-						"weapon_m1a1"				".5"
+						"weapon_m1a1"				"0.7"
 						"weapon_sks"				"0.85"
 						"weapon_mp40"				"0.72"
 						"weapon_fal"				"0.8"

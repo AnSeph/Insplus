@@ -90,8 +90,12 @@
 		// 	"sec_medium_armor"
 		//	"sec_heavy_armor"
 		// Ammo Rigs
-		//	"sec_chest_rig"
-		//	"sec_chest_carrier"
+		//	"sec_vest_01"
+		//	"sec_vest_02"
+		//	"sec_rig_01"
+		//	"sec_rig_02"
+		//	"sec_bandolier"
+		//	"sec_pistolbelt01"
 		// Silencers
 		//	"barrel_silencer_integrated"
 		//	"barrel_silencer_pistol"
@@ -117,7 +121,7 @@
 			"buy_order" 
 			{
 				"gear"				"sec_medium_armor"
-				"gear"				"sec_chest_rig"
+				"gear"				"sec_rig_01"
 				"weapon"			"weapon_kabar"
 				"weapon"			"weapon_m16a4"
 				"weapon_upgrade"	"ammo_ap_m16a4"
@@ -176,7 +180,7 @@
 			"buy_order" 
 			{
 				"gear"				"sec_medium_armor"
-				"gear"				"sec_chest_carrier"
+				"gear"				"sec_rig_02"
 				"weapon"			"weapon_kabar"
 				"weapon"			"weapon_mk18"
 				"weapon_upgrade"	"optic_eotech"
@@ -231,7 +235,7 @@
 			"buy_order" 
 			{
 				"gear"				"sec_heavy_armor"
-				"gear"				"sec_chest_rig"
+				"gear"				"sec_rig_01"
 				"weapon"			"weapon_kabar"
 				"weapon"			"weapon_m249"
 				"weapon"			"weapon_m9"
@@ -289,7 +293,7 @@
 			"buy_order" 
 			{
 				"gear"				"sec_medium_armor"
-				"gear"				"sec_chest_rig"
+				"gear"				"sec_rig_01"
 				"weapon"			"weapon_m14"
 				"weapon_upgrade"	"optic_elcan"
 				"weapon"			"weapon_kabar"
@@ -320,6 +324,7 @@
 				"gear"				"sec_light_armor"
 				"gear"				"sec_medium_armor"
 				"gear"				"sec_heavy_armor"
+				"gear"				"sec_pistolbelt01"
 			}
 			"cost_modifiers"
 			{
@@ -365,7 +370,7 @@
 			"buy_order" 
 			{
 				"gear"				"sec_medium_armor"
-				"gear"				"sec_chest_rig"
+				"gear"				"sec_rig_01"
 				"weapon"			"weapon_kabar"
 				"weapon"			"weapon_m9"
 				"weapon"			"weapon_m16a4"
@@ -496,7 +501,7 @@
 			"buy_order" 
 			{
 				"gear"				"sec_light_armor"
-				"gear"				"sec_chest_rig"
+				"gear"				"sec_rig_01"
 				"weapon"			"weapon_kabar"
 				"weapon"			"weapon_m4carbine"
 				"weapon_upgrade"	"optic_eotech"
@@ -519,6 +524,7 @@
 				"gear"				"sec_light_armor"
 				"gear"				"sec_medium_armor"
 				"gear"				"sec_heavy_armor"
+				"gear"				"sec_bandolier"
 			}
 			"cost_modifiers"
 			{
@@ -551,7 +557,7 @@
 			"buy_order" 
 			{
 				"gear"				"sec_medium_armor"
-				"gear"				"sec_chest_carrier"
+				"gear"				"sec_bandolier" 
 				"weapon"			"weapon_kabar"
 				"weapon"			"weapon_m9"
 				"weapon"			"weapon_m590"
@@ -586,6 +592,7 @@
 				"gear"				"sec_light_armor"
 				"gear"				"sec_medium_armor"
 				"gear"				"sec_heavy_armor"
+				"gear"				"sec_bandolier"
 			}
 			"cost_modifiers"
 			{
@@ -618,7 +625,7 @@
 			"buy_order" 
 			{
 				"gear"				"sec_light_armor"
-				"gear"				"sec_chest_rig"
+				"gear"				"sec_rig_01"
 				"weapon"			"weapon_kabar"
 				"weapon"			"weapon_mk18"
 				"weapon_upgrade"	"ammo_tracer_m4"
@@ -680,7 +687,7 @@
 			"buy_order" 
 			{
 				"gear"				"sec_light_armor"
-				"gear"				"sec_chest_rig"
+				"gear"				"sec_rig_01"
 				"weapon"			"weapon_kabar"
 				"weapon"			"weapon_mini14"
 				"weapon_upgrade"	"optic_eotech"
@@ -729,7 +736,7 @@
 			}
 			"buy_order" 
 			{
-				"gear"				"sec_chest_rig"
+				"gear"				"sec_rig_01"
 				"gear"				"sec_light_armor"
 				"weapon"			"weapon_kabar"
 				"weapon"			"weapon_mp5"
@@ -826,8 +833,12 @@
 		//	"ins_medium_armor"
 		//	"ins_heavy_armor"
 		// Ammo Rigs
-		//	"ins_chest_rig"
-		//	"ins_chest_carrier"
+		//	"ins_vest_01"
+		//	"ins_vest_02"
+		//	"ins_rig_01"
+		//	"ins_rig_02"
+		//	"ins_bandolier"
+		//	"ins_pistolbelt01"
 		// Silencers
 		//	"barrel_silencer_integrated"
 		//	"barrel_silencer_pistol"
@@ -851,7 +862,7 @@
 			}
 			"buy_order" 
 			{
-				"gear"				"ins_chest_rig"
+				"gear"				"ins_rig_01"
 				"weapon"			"weapon_gurkha"
 				"weapon"			"weapon_makarov"
 				"weapon"			"weapon_akm"
@@ -897,7 +908,7 @@
 			}
 			"buy_order" 
 			{
-				"gear"				"ins_chest_rig"
+				"gear"				"ins_rig_01"
 				"weapon"			"weapon_gurkha"
 				"weapon"			"weapon_makarov"
 				"weapon"			"weapon_toz"
@@ -927,6 +938,7 @@
 				// Gear
 				"gear"				"ins_medium_armor"
 				"gear"				"ins_heavy_armor"
+				"gear"				"ins_bandolier"
 			}
 			"cost_modifiers"
 			{
@@ -956,7 +968,7 @@
 			}
 			"buy_order" 
 			{
-				"gear"				"ins_chest_rig"
+				"gear"				"ins_bandolier"
 				"weapon"			"weapon_gurkha"
 				"weapon"			"weapon_makarov"
 				"weapon"			"weapon_akm"
@@ -981,8 +993,10 @@
 				// Upgrades
 				"weapon_upgrade"	"underbarrel_gp25_he"
 				"weapon_upgrade"	"underbarrel_gp25_smoke"
+				// Gear
 				"gear"				"ins_medium_armor"
 				"gear"				"ins_heavy_armor"
+				"gear"				"ins_bandolier"
 			}
 			"cost_modifiers"
 			{
@@ -1012,7 +1026,7 @@
 			"buy_order" 
 			{
 				"gear"				"ins_medium_armor"
-				"gear"				"ins_chest_rig"
+				"gear"				"ins_rig_01"
 				"weapon"			"weapon_gurkha"
 				"weapon"			"weapon_makarov"
 				"weapon"			"weapon_rpk"
@@ -1070,7 +1084,7 @@
 
 			"buy_order" 
 			{
-				"gear"				"ins_chest_rig"
+				"gear"				"ins_rig_01"
 				"weapon"			"weapon_gurkha"
 				"weapon"			"weapon_makarov"
 				"weapon"			"weapon_zastava"
@@ -1101,6 +1115,7 @@
 				"weapon_upgrade"	"barrel_silencer_sec2"
 				"weapon_upgrade"	"barrel_silencer_ins1"
 				// Gear
+				"gear"				"ins_pistolbelt01"
 			}
 			"cost_modifiers"
 			{
@@ -1136,7 +1151,7 @@
 			"buy_order" 
 			{
 				"gear"				"ins_light_armor"
-				"gear"				"ins_chest_rig"
+				"gear"				"ins_rig_01"
 				"weapon"			"weapon_gurkha"
 				"weapon"			"weapon_mp40"
 				"weapon"			"weapon_makarov"
@@ -1193,7 +1208,7 @@
 			}
 			"buy_order" 
 			{
-				"gear"				"ins_chest_rig"
+				"gear"				"ins_rig_01"
 				"weapon"			"weapon_gurkha"
 				"weapon"			"weapon_m1911"
 				"weapon"			"weapon_sterling"
@@ -1250,7 +1265,7 @@
 			}
 			"buy_order" 
 			{
-				"gear"				"ins_chest_rig"
+				"gear"				"ins_rig_01"
 				"gear"				"ins_light_armor"
 				"weapon"			"weapon_gurkha"
 				"weapon"			"weapon_makarov"
@@ -1274,6 +1289,7 @@
 				"weapon"			"weapon_molotov"
 				"weapon"			"weapon_m84"
 				// Upgrades
+				// Gear
 				"gear"				"ins_medium_armor"
 				"gear"				"ins_heavy_armor"
 				"?nightmap"
@@ -1309,7 +1325,7 @@
 			}
 			"buy_order" 
 			{
-				"gear"				"ins_chest_rig"
+				"gear"				"ins_rig_01"
 				"gear"				"ins_medium_armor"
 				"weapon"			"weapon_gurkha"
 				"weapon"			"weapon_makarov"
@@ -1381,7 +1397,7 @@
 			}
 			"buy_order" 
 			{
-				"gear"				"ins_chest_rig"
+				"gear"				"ins_rig_01"
 				"gear"				"ins_light_armor"
 				"weapon"			"weapon_gurkha"
 				"weapon"			"weapon_bhp"
@@ -1449,7 +1465,7 @@
 			}
 			"buy_order" 
 			{
-				"gear"				"ins_chest_rig"
+				"gear"				"ins_rig_01"
 				"gear"				"ins_light_armor"
 				"weapon"			"weapon_gurkha"
 				"weapon"			"weapon_makarov"
@@ -1521,7 +1537,7 @@
 			"buy_order"
 			{
 				"gear"					"sec_heavy_armor"
-				"gear"					"sec_chest_rig"
+				"gear"					"sec_rig_01"
 				"gear"					"sec_nightvision"
 				"weapon"				"weapon_kabar"
 				"weapon"				"weapon_kabar"
@@ -1548,7 +1564,7 @@
 			"buy_order"
 			{
 				"gear"					"sec_heavy_armor"
-				"gear"					"sec_chest_carrier"
+				"gear"					"sec_rig_02"
 				"weapon"				"weapon_gurkha"
 				"weapon"				"weapon_m9"
 				"weapon_upgrade"		"barrel_silencer_pistol"
@@ -1568,7 +1584,7 @@
 			"buy_order"
 			{
 				"gear"					"ins_light_armor"
-				"gear"					"ins_chest_rig"
+				"gear"					"ins_rig_01"
 				"gear"					"ins_nightvision"
 				"weapon"				"weapon_gurkha"
 				"weapon"				"weapon_bhp"
@@ -1599,7 +1615,7 @@
 			"buy_order"
 			{
 				"gear"					"ins_light_armor"
-				"gear"					"ins_chest_rig"
+				"gear"					"ins_rig_01"
 				"weapon"				"weapon_gurkha"
 				"weapon"				"weapon_bhp"
 				"weapon_upgrade"		"barrel_silencer_pistol"

@@ -60,19 +60,19 @@
 		//========================================
 		"grenade_m67"
 		{
-			"carry"						"3"
+			"carry"						"4"
 		}
     	"grenade_f1"
 		{
-			"carry"						"3"
+			"carry"						"4"
 		}
 		"grenade_m18"
 		{
-			"carry"						"3"
+			"carry"						"4"
 		}
 		"grenade_m84"
 		{
-			"carry"						"3"
+			"carry"						"4"
 		}
 		"grenade_c4"
 		{
@@ -100,7 +100,7 @@
 		}
 		"grenade_molotov"
 		{
-			"carry"						"2"
+			"carry"						"3"
 		}
 		"grenade_flares"
 		{

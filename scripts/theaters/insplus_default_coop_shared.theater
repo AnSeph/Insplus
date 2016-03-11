@@ -243,7 +243,7 @@
 			"buy_order"
 			{
 				"gear"					"sec_light_armor_cap"
-				"gear"					"sec_chest_rig"
+				"gear"					"sec_pistolbelt01"
 				"weapon"				"weapon_kabar"
 				"weapon"				"weapon_m9"
 				"weapon"				"weapon_m40a1"
@@ -273,6 +273,7 @@
 				"gear"						"sec_light_armor"
 				"gear"						"sec_medium_armor"
 				"gear"						"sec_heavy_armor"
+				"gear"						"sec_pistolbelt01"
 			}
 		}
 		"template_demolitions_security_coop"
@@ -298,7 +299,7 @@
 			"buy_order"
 			{
 				"gear"					"sec_heavy_armor"
-				"gear"					"sec_chest_carrier"
+				"gear"					"sec_rig_02"
 				"weapon"				"weapon_kabar"
 				"weapon"				"weapon_m9"
 				"weapon"				"weapon_m16a4"
@@ -331,6 +332,7 @@
 				"gear"						"sec_light_armor"
 				"gear"						"sec_medium_armor"
 				"gear"						"sec_heavy_armor"
+				"gear"						"sec_bandolier"
 			}
 			"cost_modifiers"
 			{
@@ -358,7 +360,7 @@
 			"buy_order"
 			{
 				"gear"						"sec_heavy_armor"
-				"gear"						"sec_chest_carrier"
+				"gear"						"sec_rig_02"
 				"weapon"					"weapon_kabar"
 				"weapon"					"weapon_m16a4"
 				"weapon_upgrade"			"ammo_ap_m16a4"
@@ -432,7 +434,7 @@
 			"buy_order"
 			{
 				"gear"						"sec_light_armor_cap"
-				"gear"						"sec_chest_carrier"
+				"gear"						"sec_rig_02"
 				"weapon"					"weapon_kabar"
 				"weapon"					"weapon_mk18"
 				"weapon_upgrade"			"sec_foregrip"
@@ -496,7 +498,7 @@
 			
 			"buy_order"
 			{
-				"gear"						"sec_chest_rig"
+				"gear"						"sec_rig_01"
 				"weapon"					"weapon_kabar"
 				"weapon"					"weapon_mp5"
 				"weapon_upgrade"			"barrel_silencer_sec1"
@@ -551,7 +553,7 @@
 			"buy_order"
 			{
 				"gear"						"sec_light_armor"
-				"gear"						"sec_chest_rig"
+				"gear"						"sec_pistolbelt01"
 				"weapon"					"weapon_m14"
 				"weapon_upgrade"			"optic_2xaimpoint"
 				"weapon_upgrade"			"ammo_ap_m14"
@@ -583,6 +585,7 @@
 				"gear"						"sec_light_armor"
 				"gear"						"sec_medium_armor"
 				"gear"						"sec_heavy_armor"
+				"gear"						"sec_pistolbelt01"
 			}
 		}
 		"template_breacher_security_coop"
@@ -600,7 +603,7 @@
 			"buy_order"
 			{
 				"gear"					"sec_medium_armor"
-				"gear"					"sec_chest_carrier"
+				"gear"					"sec_rig_02"
 				"weapon"				"weapon_kabar"
 				"weapon"				"weapon_m9"
 				"weapon"				"weapon_m590"
@@ -670,7 +673,7 @@
 			"buy_order"
 			{
 				"gear"					"sec_heavy_armor"
-				"gear"					"sec_chest_rig"
+				"gear"					"sec_rig_01"
 				"weapon"				"weapon_kabar"
 				"weapon"				"weapon_m9"
 				"weapon"				"weapon_m249"
