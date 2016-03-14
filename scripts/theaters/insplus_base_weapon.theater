@@ -113,7 +113,7 @@
 				"recoil_additional_rest_per_shot"	"2.50"
 				"recoil_rest_max_shots"				"5.00"
 				"recoil_shot_reset_time"			"0.30"
-				"recoil_focus_frac"					"1.00"
+				"recoil_focus_frac"					"0.75"
 				"recoil_freeaim_frac"				"1.10"
 				"recoil_ironsight_frac"				"1.00"
 				

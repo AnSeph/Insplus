@@ -32,7 +32,7 @@
 			"frac_back_move"			"0.60"
 			"frac_side_step"			"0.60"
 			"speed_prone"				"50"
-			"speed_crouch_walk"			"50"
+			"speed_crouch_walk"			"55"
 			"speed_crouch_run"			"70"
 			"speed_walk"				"75"
 			"speed_run"					"115"
@@ -61,15 +61,19 @@
 		}
 		"turning"
 		{
-			"frac_turn_sprint"		"0.25"
-			"frac_turn_lean"		"0.95"
+			"frac_turn_sprint"			"0.75"
+			"frac_turn_lean"			"0.95"
+			"frac_turn_crawl"			"0.5"
+			"frac_turn_prone_limit"		"0.0"
+			"prone_yaw_limit_amount"	"80"
+			"prone_yaw_limit_approach"	"20"
 		}
 		"stamina"
 		{
 			"StaminaMaxByWeight"
 			{
-				"60"				"200"
-				"640"				"200"
+				"60"					"200"
+				"640"					"200"
 			}
 			"stamina_regain"			"4.00"
 			"stamina_sprint_take"		"4.00"
@@ -145,8 +149,8 @@
 		}
 		"suppression"
 		{
-			"suppression_resistance"	"0.05"
-			"suppression_recovery_rate"	"10"
+			"suppression_resistance"			"0"
+			"suppression_recovery_rate"			"10"
 		}
 		"damage"
 		{
@@ -167,12 +171,10 @@
 			}
 			"VelocityHitgroups"
 			{
-				"HITGROUP_CHEST"    			"0.45"
-				"HITGROUP_STOMACH"    			"0.45"
-				"HITGROUP_LEFTARM"				"0.75"
-				"HITGROUP_RIGHTARM"				"0.75"
-				"HITGROUP_LEFTLEG"    			"0.10"
-				"HITGROUP_RIGHTLEG"   	 		"0.10"
+				"HITGROUP_CHEST"    			"0.75"
+				"HITGROUP_STOMACH"    			"0.75"
+				"HITGROUP_LEFTLEG"    			"0.25"
+				"HITGROUP_RIGHTLEG"   	 		"0.25"
 			}
 			"BulletPenetrationPower"
 			{
