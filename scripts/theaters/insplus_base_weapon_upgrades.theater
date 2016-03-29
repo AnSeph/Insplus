@@ -50,12 +50,17 @@
 			
 			"freeaim"
 			{
-				"freeaim_distance_frac"			"0.80"
+				"freeaim_distance_frac"			"0.75"
 			}
 			"recoil"
 			{
-				"recoil_vertical_frac"			"0.90"
-				"recoil_lateral_frac"			"0.90"
+				"recoil_lateral_frac"			"0.70"
+				"recoil_vertical_frac"			"1.10"
+			}
+			"sway"
+			{
+				"sway_radius_frac"			"1.00"
+				"sway_speed_frac"			"1.20"
 			}
 		}
 		"base_heavybarrel"
@@ -65,22 +70,23 @@
 			"print_name"					"#weapon_upgrade_insplus_heavybarrel"
 			"print_desc"					"#weapon_upgrade_insplus_heavybarrel_desc"
 			"draw_speed"					"0.90"
-			"spread_frac"					"0.75"
+			"spread_frac"					"0.70"
 			"ads_in_speed"					"0.85"
 			"ads_out_speed"					"0.85"
 			
 			"freeaim"
 			{
-				"freeaim_distance_frac"			"1.20"
+				"freeaim_distance_frac"			"1.25"
 			}
 			"recoil"
 			{
-				"recoil_vertical_frac"			"0.90"
-				"recoil_lateral_frac"			"1.00"
+				"recoil_lateral_frac"			"1.0"
+				"recoil_vertical_frac"			"0.85"
 			}
 			"sway"
 			{
-				"sway_speed"				"0.80"
+				"sway_radius_frac"			"1.20"
+				"sway_speed_frac"			"1.00"
 			}
 		}
 		"base_silencer"

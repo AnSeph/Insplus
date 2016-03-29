@@ -35,28 +35,28 @@
 			"speed_crouch_walk"			"55"
 			"speed_crouch_run"			"70"
 			"speed_walk"				"75"
-			"speed_run"					"115"
+			"speed_run"					"120"
 			"speed_sprint"				"200"
 			"AccelerationByWeight"
 			{
 				"60"					"4.20"
-				"640"					"3.75"
+				"640"					"4.00"
 			}
 			"DecelerationByWeight"
 			{
-				"60"					"250.0"	// these are much higher than acceleration values because it's loss in velocity per second
-				"640"					"400.0"
+				"60"					"300.0"	// these are much higher than acceleration values because it's loss in velocity per second
+				"640"					"450.0"
 			}
 			
 			"FrictionByWeight"
 			{
-				"60"					"4.10"
-				"640"					"4.70"
+				"60"					"4.20"
+				"640"					"4.80"
 			}
 			"SprintSpeedFactorByStamina"
 			{
 				"0"						"1.000"
-				"180"					"1.300"
+				"200"					"1.350"
 			}
 		}
 		"turning"
@@ -78,7 +78,7 @@
 			"stamina_regain"			"4.00"
 			"stamina_sprint_take"		"4.00"
 			"stamina_jump_take"			"25"
-			"stamina_dmg_take"			"250"
+			"stamina_dmg_take"			"100"
 			
 			"land_viewpunch_minvel"		"150"
 			"land_viewpunch_basepitch" 	"0.75"
@@ -154,10 +154,10 @@
 		}
 		"damage"
 		{
-			"damage_decay_rate"					"20"
-			"explosion_deafen_radius_factor"	"0.5"
+			"damage_decay_rate"					"10"
+			"explosion_deafen_radius_factor"	"0.25"
 			"default_penetration_power"			"15"
-			"max_penetration_distance"			"1000"
+			"max_penetration_distance"			"1500"
 			
 			"DamageHitgroups"
 			{

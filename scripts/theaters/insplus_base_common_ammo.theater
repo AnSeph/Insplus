@@ -144,10 +144,10 @@
 				"HITGROUP_HEAD"       "1.00"
 				"HITGROUP_CHEST"      "1.00"
 				"HITGROUP_STOMACH"    "1.00"
-				"HITGROUP_LEFTARM"    "2"
-				"HITGROUP_RIGHTARM"   "2"
-				"HITGROUP_LEFTLEG"    "2"
-				"HITGROUP_RIGHTLEG"   "2"
+				"HITGROUP_LEFTARM"    "1.75"
+				"HITGROUP_RIGHTARM"   "1.75"
+				"HITGROUP_LEFTLEG"    "1.75"
+				"HITGROUP_RIGHTLEG"   "1.75"
 			}
 			"PenetrationPower"
 			{
@@ -254,8 +254,8 @@
 			"brass_model" 				"models/weapons/shells/45apc.mdl"
 			"Damage"					
 			{
-				"50"      	"76"
-				"4000"    	"36"
+				"50"      	"80"
+				"3000"    	"30"
 			}
 			"PenetrationPower"
 			{
@@ -267,8 +267,8 @@
 				"HITGROUP_HEAD"       "1.00"
 				"HITGROUP_CHEST"      "1.00"
 				"HITGROUP_STOMACH"    "1.00"
-				"HITGROUP_LEFTARM"    "1.50"
-				"HITGROUP_RIGHTARM"   "1.50"
+				"HITGROUP_LEFTARM"    "1.25"
+				"HITGROUP_RIGHTARM"   "1.25"
 				"HITGROUP_LEFTLEG"    "1.25"
 				"HITGROUP_RIGHTLEG"   "1.25"
 			}
@@ -286,10 +286,10 @@
 				"HITGROUP_HEAD"       "1.00"
 				"HITGROUP_CHEST"      "1.00"
 				"HITGROUP_STOMACH"    "1.00"
-				"HITGROUP_LEFTARM"    "2.00"
-				"HITGROUP_RIGHTARM"   "2.00"
-				"HITGROUP_LEFTLEG"    "2.00"
-				"HITGROUP_RIGHTLEG"   "2.00"
+				"HITGROUP_LEFTARM"    "1.75"
+				"HITGROUP_RIGHTARM"   "1.75"
+				"HITGROUP_LEFTLEG"    "1.75"
+				"HITGROUP_RIGHTLEG"   "1.75"
 			}
 			"PenetrationPower"
 			{
@@ -329,7 +329,7 @@
 		"45acp_tracer"
 		{
 			"import"			"45acp"
-			"SuppressionIncrement"		"35"
+			"SuppressionIncrement"		"25"
 			"tracer_frequency"	"4"
 			"tracer_type"		"whiz_with_line"
 			"tracer_lowammo"	"5"
@@ -338,7 +338,7 @@
 		"545x39" // FMJ 900m/s  
 		{
 			"import"    				"default"
-			"SuppressionIncrement"		"50"
+			"SuppressionIncrement"		"30"
 			"brass_model"				"models/weapons/shells/545x39.mdl"
 			"Damage"					
 			{
@@ -353,8 +353,8 @@
 				"HITGROUP_STOMACH"    "1.25"
 				"HITGROUP_LEFTARM"    "1.00"
 				"HITGROUP_RIGHTARM"   "1.00"
-				"HITGROUP_LEFTLEG"    "1.00"
-				"HITGROUP_RIGHTLEG"   "1.00"
+				"HITGROUP_LEFTLEG"    "0.90"
+				"HITGROUP_RIGHTLEG"   "0.90"
 			}
 			"PenetrationPower"
 			{
@@ -403,7 +403,7 @@
 		"545x39_tracer" // 122gr  730.3m/s 2,108J 
 		{
 			"import"   				"545x39"
-			"SuppressionIncrement"		"75"
+			"SuppressionIncrement"		"35"
 			"tracer_frequency"		"4"
 			"tracer_type"			"whiz_with_line"
 			"tracer_lowammo"		"5"
@@ -412,7 +412,7 @@
 		"545x39_car" // 735 m/s
 		{
 			"import"    "default"
-			"SuppressionIncrement"		"35"
+			"SuppressionIncrement"		"30"
 			"brass_model"				"models/weapons/shells/545x39.mdl"
 			"Damage"					
 			{
@@ -427,8 +427,8 @@
 				"HITGROUP_STOMACH"    "1.25"
 				"HITGROUP_LEFTARM"    "1.00"
 				"HITGROUP_RIGHTARM"   "1.00"
-				"HITGROUP_LEFTLEG"    "1.00"
-				"HITGROUP_RIGHTLEG"   "1.00"
+				"HITGROUP_LEFTLEG"    "0.90"
+				"HITGROUP_RIGHTLEG"   "0.90"
 			}
 			"PenetrationPower"
 			{
@@ -477,7 +477,7 @@
 		"545x39_car_tracer" // 122gr  730.3m/s 2,108J 
 		{
 			"import"   				"545x39_car"
-			"SuppressionIncrement"		"75"
+			"SuppressionIncrement"		"35"
 			"tracer_frequency"		"4"
 			"tracer_type"			"whiz_with_line"
 			"tracer_lowammo"		"5"
@@ -487,7 +487,7 @@
 		"556x45" // (currently assuming 855 not 855a) rough approx: 62gr 940m/s 1,767J 
 		{
 			"import"    "default"
-			"SuppressionIncrement"		"50"
+			"SuppressionIncrement"		"30"
 			"brass_model"				"models/weapons/shells/556x45.mdl"
 			"Damage"					
 			{
@@ -499,11 +499,11 @@
 			{
 				"HITGROUP_HEAD"       "1.00" 
 				"HITGROUP_CHEST"      "1.25"
-				"HITGROUP_STOMACH"    "1.28"
+				"HITGROUP_STOMACH"    "1.25"
 				"HITGROUP_LEFTARM"    "1.00"
 				"HITGROUP_RIGHTARM"   "1.00"
-				"HITGROUP_LEFTLEG"    "1.00"
-				"HITGROUP_RIGHTLEG"   "1.00"
+				"HITGROUP_LEFTLEG"    "0.80"
+				"HITGROUP_RIGHTLEG"   "0.80"
 			}
 			"PenetrationPower" // Maybe offer or imply Mk318 rounds which are like combined HP and AP at high cost?
 			{
@@ -552,7 +552,7 @@
 		"556x45_tracer" // 122gr  730.3m/s 2,108J 
 		{
 			"import"   				"556x45"
-			"SuppressionIncrement"		"75"
+			"SuppressionIncrement"		"35"
 			"tracer_frequency"		"3"
 			"tracer_type"			"whiz_with_line"
 			"tracer_lowammo"		"5"
@@ -562,10 +562,10 @@
 		{
 			"import"    "default"
 			"brass_model"				"models/weapons/shells/556x45.mdl"
-			"SuppressionIncrement"		"50"
+			"SuppressionIncrement"		"30"
 			"Damage"					
 			{
-				"50"      	"120" // bullets fragment at under 20m dealing more damage. (truly more like 50m but compromise for gameplay)
+				"50"      	"120" // bullets fragment at under 40m dealing more damage. (truly more like 60m but compromise for gameplay)
 				"1650"		"110"
 				"12000"   	"75" 
 			}
@@ -576,8 +576,8 @@
 				"HITGROUP_STOMACH"    "1.25"
 				"HITGROUP_LEFTARM"    "1.00"
 				"HITGROUP_RIGHTARM"   "1.00"
-				"HITGROUP_LEFTLEG"    "1.00"
-				"HITGROUP_RIGHTLEG"   "1.00"
+				"HITGROUP_LEFTLEG"    "0.80"
+				"HITGROUP_RIGHTLEG"   "0.80"
 			}
 			"PenetrationPower"
 			{
@@ -626,7 +626,7 @@
 		"556x45_car_tracer" // 122gr  730.3m/s 2,108J 
 		{
 			"import"   					"556x45_car"
-			"SuppressionIncrement"		"75"
+			"SuppressionIncrement"		"35"
 			"tracer_frequency"			"4"
 			"tracer_type"				"whiz_with_line"
 			"tracer_lowammo"			"5"
@@ -636,7 +636,7 @@
 		{
 			"import"    "default"
 			"brass_model"				"models/weapons/shells/556x45.mdl"
-			"SuppressionIncrement"		"50"
+			"SuppressionIncrement"		"30"
 			"Damage"					
 			{
 				"50"      	"130" // bullets fragment at under 20m dealing more damage. (truly more like 50m but compromise for gameplay)
@@ -650,8 +650,8 @@
 				"HITGROUP_STOMACH"    "1.25"
 				"HITGROUP_LEFTARM"    "1.00"
 				"HITGROUP_RIGHTARM"   "1.00"
-				"HITGROUP_LEFTLEG"    "1.00"
-				"HITGROUP_RIGHTLEG"   "1.00"
+				"HITGROUP_LEFTLEG"    "0.90"
+				"HITGROUP_RIGHTLEG"   "0.90"
 			}
 			"PenetrationPower" // Maybe offer or imply Mk318 rounds which are like combined HP and AP at high cost?
 			{
@@ -700,7 +700,7 @@
 		"556x45_cqb_tracer" // 122gr  730.3m/s 2,108J 
 		{
 			"import"   					"556x45_car"
-			"SuppressionIncrement"		"75"
+			"SuppressionIncrement"		"35"
 			"tracer_frequency"			"4"
 			"tracer_type"				"whiz_with_line"
 			"tracer_lowammo"			"5"
@@ -709,7 +709,7 @@
 		"762x39" // 122gr  730.3m/s 2,108J 
 		{
 			"import"    "default"
-			"SuppressionIncrement"		"50"
+			"SuppressionIncrement"		"30"
 			"brass_model" "models/weapons/shells/762x39.mdl"
 			
 			"PenetrationDamage"
@@ -732,8 +732,8 @@
 				"HITGROUP_STOMACH"    "1.25"
 				"HITGROUP_LEFTARM"    "1.00"
 				"HITGROUP_RIGHTARM"   "1.00"
-				"HITGROUP_LEFTLEG"    "1.00"
-				"HITGROUP_RIGHTLEG"   "1.00"
+				"HITGROUP_LEFTLEG"    "0.90"
+				"HITGROUP_RIGHTLEG"   "0.90"
 			}
 			"PenetrationPower"
 			{
@@ -782,7 +782,7 @@
 		"762x39_tracer" // 122gr  730.3m/s 2,108J 
 		{
 			"import"   				"762x39"
-			"SuppressionIncrement"		"75"
+			"SuppressionIncrement"		"30"
 			"tracer_frequency"		"4"
 			"tracer_type"			"whiz_with_line"
 			"tracer_lowammo"		"5"
@@ -791,7 +791,7 @@
 		"762x33" // 110gr 606.5m/s  1,311 J
 		{
 			"import"    "default"
-			"SuppressionIncrement"		"50"
+			"SuppressionIncrement"		"30"
 			"brass_model"				"models/weapons/shells/762x33.mdl"
 			"PenetrationPower"
 			{
@@ -811,8 +811,8 @@
 				"HITGROUP_STOMACH"    "1.00"
 				"HITGROUP_LEFTARM"    "1.00"
 				"HITGROUP_RIGHTARM"   "1.00"
-				"HITGROUP_LEFTLEG"    "1.00"
-				"HITGROUP_RIGHTLEG"   "1.00"
+				"HITGROUP_LEFTLEG"    "0.75"
+				"HITGROUP_RIGHTLEG"   "0.75"
 			}
 		}
 		"762x33_hp"
@@ -856,7 +856,7 @@
 		"762x33_tracer"
 		{
 			"import"			"762x33"
-			"SuppressionIncrement"		"75"
+			"SuppressionIncrement"		"35"
 			"tracer_frequency"	"3"
 			"tracer_type"		"whiz_with_line"
 			"tracer_lowammo"	"5"
@@ -865,7 +865,7 @@
 		"762x51" // 147gr 833 m/s 3,304J
 		{
 			"import"    "default"
-			"SuppressionIncrement"		"75"
+			"SuppressionIncrement"		"100"
 			"brass_model"				"models/weapons/shells/762x51.mdl"
 			"Damage"					
 			{
@@ -900,7 +900,7 @@
 		"762x51_tracer"
 		{
 			"import"				"762x51"
-			"SuppressionIncrement"	"100"		
+			"SuppressionIncrement"	"150"		
 			"tracer_frequency"		"4"
 			"tracer_type"			"whiz_with_line"
 			"tracer_lowammo"		"5"		
@@ -1453,7 +1453,7 @@
 		"50ae"
 		{
 			"import"    				"default"
-			"SuppressionIncrement"		"65"
+			"SuppressionIncrement"		"50"
 			"brass_model" 				"models/weapons/shells/45apc.mdl"
 			"Damage"					
 			{
@@ -1480,7 +1480,7 @@
 		"440Cor"
 		{
 			"import"    				"default"
-			"SuppressionIncrement"		"65"
+			"SuppressionIncrement"		"50"
 			"brass_model" 				"models/weapons/shells/45apc.mdl"
 			"Damage"					
 			{
@@ -1507,7 +1507,7 @@
 		"357sig"
 		{
 			"import"					"default"
-			"SuppressionIncrement"		"30"
+			"SuppressionIncrement"		"35"
 			"brass_model" 				"models/weapons/shells/45apc.mdl"
 			"Damage"
 			{
@@ -1533,7 +1533,7 @@
 		"762x25"
 		{
 			"import"					"default"
-			"SuppressionIncrement"		"40"
+			"SuppressionIncrement"		"35"
 			"brass_model" 				"models/weapons/shells/45apc.mdl"
 			"PenetrationPower"
 			{
@@ -1548,12 +1548,12 @@
 			"DamageHitgroups"
 			{
 				"HITGROUP_HEAD"					"1.00"
-				"HITGROUP_CHEST"			  	"1.75"
-				"HITGROUP_STOMACH"				"1.75"
+				"HITGROUP_CHEST"			  	"2.00"
+				"HITGROUP_STOMACH"				"2.00"
 				"HITGROUP_LEFTARM"				"1.00"
 				"HITGROUP_RIGHTARM"				"1.00"
-				"HITGROUP_LEFTLEG"				"0.65"
-				"HITGROUP_RIGHTLEG"				"0.65"
+				"HITGROUP_LEFTLEG"				"1.00"
+				"HITGROUP_RIGHTLEG"				"1.00"
 			}
 		}
 		"762x25_hp"
@@ -1599,7 +1599,7 @@
 		"792x57"
 		{
 			"import"					"default"
-			"SuppressionIncrement"		"75"
+			"SuppressionIncrement"		"100"
 			"brass_model"				"models/weapons/shells/762x51.mdl"
 			"PenetrationPower"
 			{
