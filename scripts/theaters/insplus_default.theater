@@ -34,6 +34,14 @@
 		{
 			"name"		"#Team_Security"
 			"logo"		"gameui/fac_sec"
+			
+			"cost_modifiers"
+			{
+				"weapon_upgrade"
+				{
+					"barrel_heavybarrel"		"-1"
+				}
+			}
 		}
 		
 		"insurgents"
@@ -59,12 +67,13 @@
 		//	"weapon_m40a1"
 		// Support Weapons
 		//	"weapon_m249"
-		//	"weapon_m27iar"
+		//	"weapon_galil_sar" with 75 round drum
 		// Shotguns
 		//	"weapon_m590"
 		// SMGs
 		//	"weapon_mp5"
 		//	"weapon_ump45"
+		//	"weapon_mp5a4"
 		// Pistols
 		//	"weapon_m9"
 		//	"weapon_m45"
@@ -194,6 +203,7 @@
 				"weapon"			"weapon_mk18"
 				"weapon"			"weapon_mk18"
 				"weapon"			"weapon_mp5"
+				"weapon"			"weapon_mp5a4"
 				"weapon"			"weapon_ump45"
 				"weapon"			"weapon_m590"
 				// Grenades
@@ -245,12 +255,12 @@
 				// Primary Weapons
 				"weapon"			"weapon_m249"
 				"weapon"			"weapon_m249"
-				"weapon"			"weapon_m27iar"
+				"weapon"			"weapon_galil_sar"
 				// Grenades
 				"weapon"			"weapon_m67"
 				"weapon"			"weapon_m18"
 				// Upgrades
-				"weapon_upgrade"	"magazine_extended_lsw"
+				"weapon_upgrade"	"magazine_drum_75rd"
 				"?nightmap"
 				{
 					"weapon_upgrade"	"barrel_silencer_integrated"
@@ -272,6 +282,7 @@
 				"weapon_upgrade"
 				{
 					"underbarrel_m203_smoke" 	"-1" 
+					"underbarrel_bipod"			"-2"
 				}
 				"gear"
 				{
@@ -405,6 +416,7 @@
 				"gear"				"sec_light_armor"
 				"gear"				"sec_medium_armor"
 				"gear"				"sec_heavy_armor"
+				"gear"				"sec_bandolier"
 			}
 			"cost_modifiers"
 			{
@@ -443,6 +455,7 @@
 				"weapon"			"weapon_mk18"
 				"weapon"			"weapon_m16a4"
 				"weapon"			"weapon_ump45"
+				"weapon"			"weapon_mp5a4"
 				"weapon"			"weapon_mp5"
 				// Grenades
 				"weapon"			"weapon_m84"
@@ -570,6 +583,7 @@
 				"weapon"			"weapon_m4a1"
 				"weapon"			"weapon_m4a1"
 				"weapon"			"weapon_m16a4"
+				"weapon"			"weapon_mp5a4"
 				"weapon"			"weapon_m590"
 				// Personal Weapons
 				"weapon"			"weapon_ump45"
@@ -699,7 +713,7 @@
 				// Primary Weapons
 				"weapon"			"weapon_mini14"
 				"weapon"			"weapon_mini14"
-				"weapon"			"weapon_mp5"
+				"weapon"			"weapon_mp5a4"
 				"weapon"			"weapon_m590"
 				// Grenades
 				"weapon"			"weapon_anm14"
@@ -753,6 +767,7 @@
 				"weapon"			"weapon_m4a1"
 				"weapon"			"weapon_mk18"
 				"weapon"			"weapon_mp5"
+				"weapon"			"weapon_mp5a4"
 				"weapon"			"weapon_ump45"
 				// Grenades
 				"weapon"			"weapon_m84"
@@ -968,7 +983,7 @@
 			}
 			"buy_order" 
 			{
-				"gear"				"ins_bandolier"
+				"gear"				"ins_rig_02"
 				"weapon"			"weapon_gurkha"
 				"weapon"			"weapon_makarov"
 				"weapon"			"weapon_akm"

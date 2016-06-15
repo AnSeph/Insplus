@@ -2,8 +2,8 @@
 {	
 	"ammo"
 	{
-    	// don't use this
-		"default" // set for AKM values as baseline
+    	
+		"default" // baseline ammo type, don't actually use
 		{
 			"flags"						"AMMO_USE_MAGAZINES"
       		"carry"						"12"
@@ -17,13 +17,12 @@
 			"PenetrationDamage"
 			{
 				"0"					  "1.00"
-				"200"				  "0.70"
-				"400"				  "0.50"
+				"200"				  "0.85"
+				"400"				  "0.80"
+				"800"				  "0.75"
 			}
 			"Damage"					
 			{
-				"50"				  	"100"
-				"8000"					"60"
 			}
 			"PenetrationPower"
 			{
@@ -118,7 +117,7 @@
 			"Damage"					
 			{
 				"50"      "60"
-				"4000"    "40"
+				"3700"    "40"
 			}
 			"PenetrationPower"
 			{
@@ -194,7 +193,7 @@
 			"Damage"
 			{
 				"50"					"60"
-				"4000"					"30"
+				"3700"					"30"
 			}
 			"PenetrationPower"
 			{
@@ -255,7 +254,7 @@
 			"Damage"					
 			{
 				"50"      	"80"
-				"3000"    	"30"
+				"3700"    	"25"
 			}
 			"PenetrationPower"
 			{
@@ -536,8 +535,8 @@
 			"DamageHitgroups"
 			{
 				"HITGROUP_HEAD"       "1.00"
-				"HITGROUP_CHEST"      "2.25"
-				"HITGROUP_STOMACH"    "2.25"
+				"HITGROUP_CHEST"      "2.35"
+				"HITGROUP_STOMACH"    "2.35"
 				"HITGROUP_LEFTARM"    "1.00"
 				"HITGROUP_RIGHTARM"   "1.00"
 				"HITGROUP_LEFTLEG"    "0.75"
@@ -610,8 +609,8 @@
 			"DamageHitgroups"
 			{
 				"HITGROUP_HEAD"       "1.00"
-				"HITGROUP_CHEST"      "2.25"
-				"HITGROUP_STOMACH"    "2.25"
+				"HITGROUP_CHEST"      "2.35"
+				"HITGROUP_STOMACH"    "2.35"
 				"HITGROUP_LEFTARM"    "1.00"
 				"HITGROUP_RIGHTARM"   "1.00"
 				"HITGROUP_LEFTLEG"    "0.75"
@@ -684,8 +683,8 @@
 			"DamageHitgroups"
 			{
 				"HITGROUP_HEAD"       "1.00"
-				"HITGROUP_CHEST"      "2.25"
-				"HITGROUP_STOMACH"    "2.25"
+				"HITGROUP_CHEST"      "2.35"
+				"HITGROUP_STOMACH"    "2.35"
 				"HITGROUP_LEFTARM"    "1.00"
 				"HITGROUP_RIGHTARM"   "1.00"
 				"HITGROUP_LEFTLEG"    "0.75"
@@ -775,8 +774,8 @@
 			}
 			"PenetrationPower"
 			{
-				"150"      	"1200" 
-				"12000"   	"550" 
+				"150"      	"1700" 
+				"12000"   	"650" 
 			}
 		}
 		"762x39_tracer" // 122gr  730.3m/s 2,108J 
@@ -840,8 +839,8 @@
 			"DamageHitgroups"
 			{
 				"HITGROUP_HEAD"       "1.00"
-				"HITGROUP_CHEST"      "2.75"
-				"HITGROUP_STOMACH"    "2.75"
+				"HITGROUP_CHEST"      "2.50"
+				"HITGROUP_STOMACH"    "2.50"
 				"HITGROUP_LEFTARM"    "1.00"
 				"HITGROUP_RIGHTARM"   "1.00"
 				"HITGROUP_LEFTLEG"    "0.75"
@@ -876,9 +875,9 @@
 			"PenetrationDamage"
 			{
 				"0"					  "1.00"
-				"200"				  "0.90"
-				"400"				  "0.80"
-				"800"				  "0.70"
+				"200"				  "1.00"
+				"400"				  "1.00"
+				"800"				  "0.90"
 			}
 			"DamageHitgroups"
 			{
@@ -942,8 +941,8 @@
 			}
 			"PenetrationPower"
 			{
-				"150"      "1700" 
-				"12000"   "600" 
+				"150"      "1800" 
+				"12000"   	"750" 
 			}
 		}
 		
@@ -961,8 +960,8 @@
 		"00buck"
 		{
 			"import"					"default"
-			"SuppressionIncrement"		"75"
-			"bulletcount"				"12"
+			"SuppressionIncrement"		"100"
+			"bulletcount"				"9"
 			"damageType"				"DMG_BUCKSHOT"
 			"brass_model"				"models/weapons/shells/12guage.mdl"
 			"brass_sound"				"BOUNCE_SHOTSHELL"
@@ -974,7 +973,7 @@
 			}	
 			"PenetrationPower"
 			{
-				"1000"						"65" 
+				"1000"						"60" 
 				"8000"						"10" 
 			}			
 			"DamageHitgroups"
@@ -1512,7 +1511,7 @@
 			"Damage"
 			{
 				"50"		"60"
-				"4000"		"30"
+				"3700"		"30"
 			}
 			"PenetrationPower"
 			{
@@ -1524,8 +1523,8 @@
 				"HITGROUP_HEAD"					"1.00"
 				"HITGROUP_CHEST"			  	"2.00"
 				"HITGROUP_STOMACH"				"2.00"
-				"HITGROUP_LEFTARM"				"1.00"
-				"HITGROUP_RIGHTARM"				"1.00"
+				"HITGROUP_LEFTARM"				"1.75"
+				"HITGROUP_RIGHTARM"				"1.75"
 				"HITGROUP_LEFTLEG"				"1.00"
 				"HITGROUP_RIGHTLEG"				"1.00"
 			}
@@ -1543,15 +1542,15 @@
 			"Damage"
 			{
 				"50"		"75"
-				"4000"		"35"
+				"3700"		"35"
 			}
 			"DamageHitgroups"
 			{
 				"HITGROUP_HEAD"					"1.00"
 				"HITGROUP_CHEST"			  	"2.00"
 				"HITGROUP_STOMACH"				"2.00"
-				"HITGROUP_LEFTARM"				"1.00"
-				"HITGROUP_RIGHTARM"				"1.00"
+				"HITGROUP_LEFTARM"				"1.50"
+				"HITGROUP_RIGHTARM"				"1.50"
 				"HITGROUP_LEFTLEG"				"1.00"
 				"HITGROUP_RIGHTLEG"				"1.00"
 			}
@@ -1604,20 +1603,20 @@
 			"PenetrationPower"
 			{
 				"150"        "850" 
-				"12000"     "150"  
+				"12000"      "150"  
 			}
 			"PenetrationDamage"
 			{
 				"0"					  "1.00"
-				"200"				  "0.90"
-				"400"				  "0.80"
-				"800"				  "0.70"
+				"200"				  "1.00"
+				"400"				  "1.00"
+				"800"				  "1.00"
 			}
 			"Damage"
 			{
-				"50"		"120"
-				"450"		"150"
-				"12000"		"100"
+				"50"							"120"
+				"450"							"150"
+				"12000"							"100"
 			}
 			"DamageHitgroups"
 			{
@@ -1635,8 +1634,8 @@
 			"import"					"792x57"
 			"PenetrationPower"
 			{
-				"150"		"1800"
-				"15000"		"550"
+				"150"		"2000"
+				"15000"		"850"
 			}
 			"DamageHitgroups"
 			{
@@ -1707,12 +1706,6 @@
 		"50ActionExpress"
 		{
 			"import"					"50ae"
-			"carry"						"5"
-			"magsize"					"7"
-		}
-		"440Corbon"
-		{
-			"import"					"440Cor"
 			"carry"						"5"
 			"magsize"					"7"
 		}

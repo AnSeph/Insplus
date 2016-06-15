@@ -5,13 +5,14 @@
 		"scoring"
 		{
 			"kill"						"10" 
-			"kill_offensive"			"50"
-			"kill_defensive"			"50" 
+			"kill_offensive"			"25"
+			"kill_defensive"			"25" 
 			"kill_headshot_bonus"		"5"	
 			"kill_savior"				"10"	
 			"kill_bonus_domination"		"5"	
 			"kill_bonus_revenge"		"5"	
-			"assist"					"5"	
+			"assist"					"5"
+			"death"						"-25"
 
 			"obj_captured"				"100"
 			"obj_neutralized"			"50"
@@ -29,34 +30,34 @@
 		"speed"
 		{
 			"frac_side_move"			"0.90"
-			"frac_back_move"			"0.60"
-			"frac_side_step"			"0.60"
+			"frac_back_move"			"0.70"
+			"frac_side_step"			"0.70"
 			"speed_prone"				"50"
 			"speed_crouch_walk"			"55"
-			"speed_crouch_run"			"70"
+			"speed_crouch_run"			"75"
 			"speed_walk"				"75"
-			"speed_run"					"120"
-			"speed_sprint"				"200"
+			"speed_run"					"125"
+			"speed_sprint"				"220"
 			"AccelerationByWeight"
 			{
 				"60"					"4.20"
-				"640"					"4.00"
+				"640"					"1.80"
 			}
 			"DecelerationByWeight"
 			{
-				"60"					"300.0"	// these are much higher than acceleration values because it's loss in velocity per second
-				"640"					"450.0"
+				"60"					"600.00"	// these are much higher than acceleration values because it's loss in velocity per second
+				"640"					"400.00"
 			}
 			
 			"FrictionByWeight"
 			{
-				"60"					"4.20"
-				"640"					"4.80"
+				"60"					"4.00"
+				"640"					"2.00"
 			}
 			"SprintSpeedFactorByStamina"
 			{
 				"0"						"1.000"
-				"200"					"1.350"
+				"200"					"1.220"
 			}
 		}
 		"turning"
@@ -72,11 +73,11 @@
 		{
 			"StaminaMaxByWeight"
 			{
-				"60"					"200"
-				"640"					"200"
+				"60"					"220"
+				"640"					"220"
 			}
-			"stamina_regain"			"4.00"
-			"stamina_sprint_take"		"4.00"
+			"stamina_regain"			"3.50"
+			"stamina_sprint_take"		"2.50"
 			"stamina_jump_take"			"25"
 			"stamina_dmg_take"			"100"
 			
@@ -93,8 +94,8 @@
 		{
 			"FocusTimeStamina"
 			{
-				"0"					"4.5"
-				"100"				"6.5"
+				"0"					"10"
+				"100"				"15"
 			}
 
 			"FocusCooldownStamina"
@@ -105,7 +106,7 @@
 
 			"FocusEffectivenessStamina"
 			{
-				"0"					"0.25"
+				"0"					"0.50"
 				"100"               "1.00"
 			}
 		}
@@ -116,14 +117,14 @@
 			
 			"DistanceByWeight"
 			{
-				"60"					"0.5"
-				"640"					"0.4"
+				"60"					"1.0"
+				"640"					"0.7"
 			}
 			
 			"SpeedByWeight"
 			{
-				"60"					"200"
-				"640"					"140"
+				"60"					"225"
+				"640"					"100"
 			}
 		}
 		"lean"
@@ -138,12 +139,12 @@
 			
 			"LeanSpeedByWeight"
 			{
-				"60"					"6.00"
+				"60"					"4.00"
 				"640"					"3.00"
 			}
 			"LeanViewModelSpeedByWeight"
 			{
-				"60"					"6.00"
+				"60"					"4.00"
 				"640"					"3.00"
 			}
 		}
@@ -171,10 +172,12 @@
 			}
 			"VelocityHitgroups"
 			{
-				"HITGROUP_CHEST"    			"0.75"
-				"HITGROUP_STOMACH"    			"0.75"
-				"HITGROUP_LEFTLEG"    			"0.25"
-				"HITGROUP_RIGHTLEG"   	 		"0.25"
+				"HITGROUP_CHEST"    			"0.50"
+				"HITGROUP_STOMACH"    			"0.50"
+				"HITGROUP_LEFTARM"				"0.50"
+				"HITGROUP_RIGHTARM"				"0.50"
+				"HITGROUP_LEFTLEG"    			"0.20"
+				"HITGROUP_RIGHTLEG"   	 		"0.20"
 			}
 			"BulletPenetrationPower"
 			{
@@ -191,15 +194,15 @@
 				"CHAR_TEX_COMPUTER"			"25"
 				"CHAR_TEX_ASPHALT"			"25"
 				"CHAR_TEX_SLOSH"			"12"
-				"CHAR_TEX_TILE"				"13"
+				"CHAR_TEX_TILE"				"22"
 				"CHAR_TEX_CARDBOARD"		"5"
 				"CHAR_TEX_VENT"				"8"
-				"CHAR_TEX_WOOD"				"40"
+				"CHAR_TEX_WOOD"				"43"
 				"CHAR_TEX_GLASS"			"2"
 				"CHAR_TEX_ROCK"				"60"
 				"CHAR_TEX_RUBBER"			"8"
-				"CHAR_TEX_SHEETROCK"		"5"
-				"CHAR_TEX_CARPET"			"15"
+				"CHAR_TEX_SHEETROCK"		"15"
+				"CHAR_TEX_CARPET"			"10"
 			}
 		}
 		"health"

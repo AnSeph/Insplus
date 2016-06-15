@@ -766,7 +766,7 @@
 		
 		"weapon_ak74"
 		{
-			"weapon_cost"				"2"
+			"weapon_cost"				"3"
 			"team_access"				"security, insurgent"
 			"class_restricted"			"1"
 		}

@@ -8,7 +8,7 @@
 			"print_desc"	"#gear_lightarmor_desc"
 			"gear_slot"		"armor"
 			"gear_cost"		"0"
-			"gear_weight"	"100" // 25 (2.5kg) + 75 encumbrance
+			"gear_weight"	"75" // 25 (2.5kg) + 50 encumbrance
 			"entity"		"model"
 			"model"			"models/characters/us_cap_specialist.mdl"
 			"class_restricted"	"0"
@@ -22,6 +22,7 @@
 				"HITGROUP_RIGHTARM"				"1.00"
 				"HITGROUP_LEFTLEG"				"1.00"
 				"HITGROUP_RIGHTLEG"				"1.00"
+				"HITGROUP_GENERIC"				"0.95"
 			}
 			
 			"team_access"	"security"		
@@ -33,7 +34,7 @@
 			"gear_slot"				"armor"
 			"gear_cost"				"2"
 			"class_restricted"		"0"
-			"gear_weight"			"100" // 25 (2.5kg) + 75 encumbrance
+			"gear_weight"			"75" // 25 (2.5kg) + 50 encumbrance
 			
 			"DamageHitgroups"
 			{
@@ -44,6 +45,7 @@
 				"HITGROUP_RIGHTARM"				"1.00"
 				"HITGROUP_LEFTLEG"				"1.00"
 				"HITGROUP_RIGHTLEG"				"1.00"
+				"HITGROUP_GENERIC"				"0.95"
 			}
 			
 			"team_access"	"insurgent"		
@@ -63,12 +65,13 @@
 			"DamageHitgroups"
 			{
 				"HITGROUP_HEAD"					"1.00" 
-				"HITGROUP_CHEST"				"0.25"
-				"HITGROUP_STOMACH"				"0.25"
+				"HITGROUP_CHEST"				"0.20"
+				"HITGROUP_STOMACH"				"0.20"
 				"HITGROUP_LEFTARM"				"1.00"
 				"HITGROUP_RIGHTARM"				"1.00"
 				"HITGROUP_LEFTLEG"				"1.00"
 				"HITGROUP_RIGHTLEG"				"1.00"
+				"HITGROUP_GENERIC"				"0.90"
 			}
 			
 			"team_access"	"security"		
@@ -85,12 +88,13 @@
 			"DamageHitgroups"
 			{
 				"HITGROUP_HEAD"					"1.00" 
-				"HITGROUP_CHEST"				"0.25"
-				"HITGROUP_STOMACH"				"0.25"
+				"HITGROUP_CHEST"				"0.20"
+				"HITGROUP_STOMACH"				"0.20"
 				"HITGROUP_LEFTARM"				"1.00"
 				"HITGROUP_RIGHTARM"				"1.00"
 				"HITGROUP_LEFTLEG"				"1.00"
 				"HITGROUP_RIGHTLEG"				"1.00"
+				"HITGROUP_GENERIC"				"0.90"
 			}
 			
 			"team_access"	"insurgent"		
@@ -110,12 +114,13 @@
 			"DamageHitgroups"
 			{
 				"HITGROUP_HEAD"					"1.00" // death
-				"HITGROUP_CHEST"				"0.125"
-				"HITGROUP_STOMACH"				"0.125"
+				"HITGROUP_CHEST"				"0.10"
+				"HITGROUP_STOMACH"				"0.10"
 				"HITGROUP_LEFTARM"				"1.00"
 				"HITGROUP_RIGHTARM"				"1.00"
 				"HITGROUP_LEFTLEG"				"1.00"
 				"HITGROUP_RIGHTLEG"				"1.00"
+				"HITGROUP_GENERIC"				"0.90"
 			}
 			
 			"team_access"	"security"		
@@ -125,7 +130,7 @@
 			"print_name"				"#gear_heavyarmor"
 			"print_desc"				"#gear_heavyarmor_desc"
 			"gear_slot"					"armor"
-			"gear_cost"					"4"
+			"gear_cost"					"5"
 			"class_restricted"			"1"
 			"gear_weight"				"320" // 75 (7.5kg) + 250 encumbrance
 			"entity" 					"model"
@@ -134,12 +139,13 @@
 			"DamageHitgroups"
 			{
 				"HITGROUP_HEAD"					"1.00" // death
-				"HITGROUP_CHEST"				"0.125"
-				"HITGROUP_STOMACH"				"0.125"
+				"HITGROUP_CHEST"				"0.10"
+				"HITGROUP_STOMACH"				"0.10"
 				"HITGROUP_LEFTARM"				"1.00"
 				"HITGROUP_RIGHTARM"				"1.00"
 				"HITGROUP_LEFTLEG"				"1.00"
 				"HITGROUP_RIGHTLEG"				"1.00"
+				"HITGROUP_GENERIC"				"0.90"
 			}
 			
 			"team_access"	"insurgent"		
@@ -151,7 +157,7 @@
 			"print_desc"				"#gear_vest_carrier01_desc"
 			"gear_slot"					"vest"
 			"gear_cost"					"1"
-			"gear_weight"				"32"
+			"gear_weight"				"42"
 			"extra_ammo"
 			{
 				"primary"				"1"
@@ -172,7 +178,7 @@
 			"print_desc"				"#gear_vest_carrier02_desc"
 			"gear_slot"					"vest"
 			"gear_cost"					"1"
-			"gear_weight"				"32"
+			"gear_weight"				"42"
 			"extra_ammo"
 			{
 				"primary"				"1"
@@ -192,7 +198,7 @@
 			"print_desc"				"#gear_vest_carrier01_desc"
 			"gear_slot"					"vest"
 			"gear_cost"					"1"
-			"gear_weight"				"32"
+			"gear_weight"				"42"
 			"extra_ammo"
 			{
 				"primary"				"1"
@@ -297,7 +303,7 @@
 			"print_desc"				"#gear_pistolbelt01_desc"
 			"gear_slot"					"vest"
 			"gear_cost"					"1"
-			"gear_weight"				"32"
+			"gear_weight"				"64"
 			"class_restricted"			"1"
 			"extra_ammo"
 			{
@@ -356,7 +362,7 @@
 			"print_desc"				"#gear_bandolier01_desc"
 			"gear_slot"					"vest"
 			"gear_cost"					"2"
-			"gear_weight"				"64"
+			"gear_weight"				"128"
 			"class_restricted"			"1"
 			"extra_ammo"
 			{
@@ -380,7 +386,7 @@
 			"print_desc"				"#gear_pistolbelt01_desc"
 			"gear_slot"					"vest"
 			"gear_cost"					"1"
-			"gear_weight"				"32"
+			"gear_weight"				"64"
 			"class_restricted"			"1"
 			"extra_ammo"
 			{
@@ -408,7 +414,7 @@
 				
 				"settings"
 				{
-					"material"				"dev/sec_nightvision_insplus"
+					"material"				"dev/sec_nightvision"
 					"sound_on"				"Weapon_NVG.NvgOn"
 					"sound_off"				"Weapon_NVG.NvgOff"
 					"chromatic_aberation" 	"0"
@@ -436,7 +442,7 @@
 				
 				"settings"
 				{
-					"material"				"dev/ins_nightvision_insplus"
+					"material"				"dev/ins_nightvision"
 					"sound_on"				"Weapon_NVG.InsNvgOn"
 					"sound_off"				"Weapon_NVG.InsNvgOff"
 					"chromatic_aberation"	 "1"

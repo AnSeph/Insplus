@@ -52,18 +52,18 @@
 				{
 					// role name								preset
 					"#Squad_Cell_Leader_Warlord"				"template_warlord_insurgent"
-					"#Squad_Cell_Scout"							"template_scout_insurgent"
 					"#Squad_Cell_Fighter"						"template_fighter_insurgent"
 					"#Squad_Cell_Fighter"						"template_fighter_insurgent"
-					"#Squad_Cell_Sharpshooter"					"template_sharpshooter_insurgent"
-					"#Squad_Cell_Machinegunner"					"template_machinegunner_insurgent"
+					"#Squad_Cell_Militant"						"template_militant_insurgent"
+					"#Squad_Cell_Fighter"						"template_fighter_insurgent"
+					"#Squad_Cell_Fighter"						"template_fighter_insurgent"
 				}
 				
 				"#Cell_Delta"	// heavy weapons team
 				{
 					// role name								preset
 					"#Squad_Cell_Leader_Specialist"				"template_specialist_insurgent"
-					"#Squad_Cell_Sapper"						"template_sapper_insurgent"
+					"#Squad_Cell_Specialist"					"template_specialist_insurgent"
 					"#Squad_Cell_Sapper"						"template_sapper_insurgent"
 					"#Squad_Cell_Striker"						"template_striker_insurgent"
 				}
@@ -81,9 +81,9 @@
 				{
 					// role name								preset
 					"#Squad_Cell_Leader_Specialist"				"template_specialist_insurgent"
-					"#Squad_Cell_Bomber"						"template_bomber_insurgent"
-					"#Squad_Cell_Bomber"						"template_bomber_insurgent"
-					"#Squad_Cell_Striker"						"template_bomber_insurgent"
+					"#Squad_Cell_Scout"							"template_scout_insurgent"
+					"#Squad_Cell_Scout"							"template_scout_insurgent"
+					"#Squad_Cell_bomber"						"template_bomber_insurgent"
 				}
 			}
 		}

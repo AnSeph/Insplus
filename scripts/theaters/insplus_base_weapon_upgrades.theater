@@ -46,33 +46,40 @@
 			"print_name"					"#weapon_upgrade_insplus_foregrip"
 			"print_desc"					"#weapon_upgrade_insplus_foregrip_desc"
 			"weapon_abilities"				"foregrip"
-			"ads_out_speed"					"1.30"
+			"ads_in_speed"					"1.20"
+			"ads_out_speed"					"1.20"
+			"draw_speed"					"0.90"
+			"holster_speed"					"0.90"
 			
 			"freeaim"
 			{
-				"freeaim_distance_frac"			"0.75"
+				"freeaim_distance_frac"			"0.90"
 			}
 			"recoil"
 			{
-				"recoil_lateral_frac"			"0.70"
-				"recoil_vertical_frac"			"1.10"
+				"recoil_lateral_frac"			"1.10"
+				"recoil_vertical_frac"			"0.55"
 			}
 			"sway"
 			{
-				"sway_radius_frac"			"1.00"
-				"sway_speed_frac"			"1.20"
+				"sway_radius_frac"			"0.85"
+				"sway_speed_frac"			"1.00"
+			}
+			"world_attachments"
+			{
+				"gesture"					"ACT_GESTURE_FOREGRIP"
 			}
 		}
 		"base_heavybarrel"
 		{
 			"upgrade_slot"					"barrel"
-			"upgrade_cost"					"1"
+			"upgrade_cost"					"2"
 			"print_name"					"#weapon_upgrade_insplus_heavybarrel"
 			"print_desc"					"#weapon_upgrade_insplus_heavybarrel_desc"
+			"spread_frac"					"0.60"
 			"draw_speed"					"0.90"
-			"spread_frac"					"0.70"
-			"ads_in_speed"					"0.85"
-			"ads_out_speed"					"0.85"
+			"ads_in_speed"					"0.90"
+			"ads_out_speed"					"0.90"
 			
 			"freeaim"
 			{
@@ -80,12 +87,12 @@
 			}
 			"recoil"
 			{
-				"recoil_lateral_frac"			"1.0"
-				"recoil_vertical_frac"			"0.85"
+				"recoil_lateral_frac"			"0.90"
+				"recoil_vertical_frac"			"1.00"
 			}
 			"sway"
 			{
-				"sway_radius_frac"			"1.20"
+				"sway_radius_frac"			"1.00"
 				"sway_speed_frac"			"1.00"
 			}
 		}
@@ -98,9 +105,9 @@
 			"particle_1p"					"muzzleflash_suppressed_1p"
 			"particle_attach"				"muzzle_supp"
 			"spread_frac"					"1.15"
-			"draw_speed"					"0.95"
-			"ads_in_speed"					"0.85"
-			"ads_out_speed"					"0.85"
+			"draw_speed"					"0.90"
+			"ads_in_speed"					"0.90"
+			"ads_out_speed"					"0.90"
 			
 			"freeaim"
 			{
