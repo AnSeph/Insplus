@@ -881,7 +881,6 @@
 				"weapon"			"weapon_gurkha"
 				"weapon"			"weapon_makarov"
 				"weapon"			"weapon_akm"
-				"weapon_upgrade"	"ammo_ap_akm"
 				"weapon"			"weapon_molotov"
 			}
 			"allowed_items"
@@ -1417,6 +1416,7 @@
 				"weapon"			"weapon_gurkha"
 				"weapon"			"weapon_bhp"
 				"weapon"			"weapon_g3"
+				"weapon_upgrade"	"ammo_ap_fal"
 				"weapon"			"weapon_m18"
 			}
 			"allowed_items"

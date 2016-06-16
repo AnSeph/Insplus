@@ -41,7 +41,7 @@
 			"AccelerationByWeight"
 			{
 				"60"					"4.20"
-				"640"					"1.80"
+				"640"					"1.60"
 			}
 			"DecelerationByWeight"
 			{
@@ -52,7 +52,7 @@
 			"FrictionByWeight"
 			{
 				"60"					"4.00"
-				"640"					"2.00"
+				"640"					"1.80"
 			}
 			"SprintSpeedFactorByStamina"
 			{
