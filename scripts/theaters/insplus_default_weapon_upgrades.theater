@@ -887,8 +887,8 @@
 				
 				"weapon_mp5"
 				{
-					"fov_wpn_ironsight"			"28"
-					"fov_wpn_focus"				"38"
+					"fov_wpn_ironsight"			"38"
+					"fov_wpn_focus"				"48"
 				}
 				
 				"weapon_mp5a4"
@@ -1406,20 +1406,20 @@
 				
 				"weapon_mp5"
 				{
-					"fov_wpn_ironsight"			"45"
-					"fov_wpn_focus"				"50"
+					"fov_wpn_ironsight"			"40"
+					"fov_wpn_focus"				"45"
 				}
 				
 				"weapon_mp5a4"
 				{
-					"fov_wpn_ironsight"			"45"
-					"fov_wpn_focus"				"50"
+					"fov_wpn_ironsight"			"35"
+					"fov_wpn_focus"				"40"
 				}
 				
 				"weapon_ump45"
 				{
-					"fov_wpn_ironsight"			"48"
-					"fov_wpn_focus"				"54"
+					"fov_wpn_ironsight"			"44"
+					"fov_wpn_focus"				"50"
 				}
 				
 				"weapon_l1a1"
@@ -2274,8 +2274,8 @@
 				
 				"weapon_m1a1"
 				{
-					"fov_wpn_ironsight"			"42"
-					"fov_wpn_focus"				"48"
+					"fov_wpn_ironsight"			"22"
+					"fov_wpn_focus"				"28"
 				}
 				
 				"weapon_zastava"

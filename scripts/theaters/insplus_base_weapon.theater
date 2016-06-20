@@ -34,24 +34,24 @@
 				"sway_speed"				"1.00"
 				"SwayRadiusByStamina"
 				{
-					"0"						"1.50"
+					"0"						"1.10"
 					"100"					"0.95"
 				}
 				"SwaySpeedByStamina"
 				{
-					"0"						"1.00"
+					"0"						"1.10"
 					"100"					"0.95"
 				}
 				"sway_radius_stand_frac"		"1.00"
 				"sway_radius_crouch_frac"		"0.75"
 				"sway_radius_prone_frac"		"0.40"
 				"sway_radius_bipod_frac"		"0.25"
-				"sway_radius_ironsight_frac"	"1.00"
+				"sway_radius_ironsight_frac"	"0.50"
 				"sway_radius_lean_frac"			"1.00"
 				"sway_speed_ironsight_frac"		"1.00"
 				"sway_speed_bipod_frac"			"0.25"
 				"sway_amount_focus_frac"		"0.25"
-				"sway_speed_focus_frac"			"10.00"
+				"sway_speed_focus_frac"			"9.50"
 				"sway_amount_focus_penalty"		"0.50"
 				"sway_speed_focus_penalty"		"0.50"
 				"sway_screen_ratio"				"1.00"
@@ -62,23 +62,23 @@
 				
 				"SwayRadiusFracBySpeed"
 				{
-					"0"						"0.50"
-					"75"					"4.00"
+					"0"						"0.20"
+					"75"					"8.00"
 				}
 				"SwaySpeedFracBySpeed"
 				{
 					"0"						"0.50"
-					"100"					"5.00"
+					"75"					"5.00"
 				}
 				"SwayRadiusBySuppression"
 				{
 					"0"						"1.0"
-					"100"					"6.5"
+					"100"					"15"
 				}
 				"SwaySpeedBySuppression"
 				{
 					"0"						"1.0"
-					"100"					"0.75"
+					"100"					"0.5"
 				}
 				
 			}
@@ -282,7 +282,7 @@
 			{
 				"RecoilBaseFracByWeight"
 				{
-					"60"					"1.15"
+					"60"					"1.05"
 				}
 				"RecoilMoveFracByWeight"
 				{
@@ -310,7 +310,7 @@
 			{
 				"RecoilBaseFracByWeight"
 				{
-					"60"					"1.10"
+					"60"					"1.00"
 				}
 				"RecoilMoveFracByWeight"
 				{
@@ -359,7 +359,7 @@
 			{
 				"RecoilBaseFracByWeight"
 				{
-					"60"					"1.10"
+					"60"					"1.05"
 				}
 			}
 		}
@@ -398,7 +398,7 @@
 			{
 				"RecoilBaseFracByWeight"
 				{
-					"60"					"1.15"
+					"60"					"1.10"
 				}
 			}
 			"freeaim"
