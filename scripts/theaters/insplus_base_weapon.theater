@@ -63,7 +63,7 @@
 				"SwayRadiusFracBySpeed"
 				{
 					"0"						"0.20"
-					"75"					"8.00"
+					"75"					"9.00"
 				}
 				"SwaySpeedFracBySpeed"
 				{
@@ -73,12 +73,12 @@
 				"SwayRadiusBySuppression"
 				{
 					"0"						"1.0"
-					"100"					"15"
+					"75"					"15"
 				}
 				"SwaySpeedBySuppression"
 				{
 					"0"						"1.0"
-					"100"					"0.5"
+					"75"					"0.75"
 				}
 				
 			}
@@ -115,7 +115,7 @@
 				"recoil_shot_reset_time"			"0.30"
 				"recoil_focus_frac"					"1.00"
 				"recoil_freeaim_frac"				"1.00"
-				"recoil_ironsight_frac"				"0.65"
+				"recoil_ironsight_frac"				"0.70"
 				
 				"recoil_return_controller_only"		"1"
 				"recoil_return_frac"				"0.5"
@@ -129,7 +129,7 @@
 				}
 				"RecoilIronSightFracByWeight"
 				{
-					"60"					"1.05"
+					"60"					"1.10"
 					"640"					"1.00"
 				}
 				"RecoilBipodFracByWeight"
@@ -283,34 +283,6 @@
 				"RecoilBaseFracByWeight"
 				{
 					"60"					"1.05"
-				}
-				"RecoilMoveFracByWeight"
-				{
-					"60"					"1.00"
-					"640"					"1.00"
-				}
-			}
-			"freeaim"
-			{
-				"freeaim_frac"			"0.75"
-			}
-			
-		}
-		"smg_fullstock_base"
-		{
-			"IsBase"					"1"
-			"import"					"ballistic_base"
-			"barrel_length"				"12"
-			"ironsights"
-			{
-				"in_time"					"0.25"
-				"out_time"					"0.25"
-			}
-			"recoil"
-			{
-				"RecoilBaseFracByWeight"
-				{
-					"60"					"1.00"
 				}
 				"RecoilMoveFracByWeight"
 				{
