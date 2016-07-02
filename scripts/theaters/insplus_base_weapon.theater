@@ -129,7 +129,7 @@
 				}
 				"RecoilIronSightFracByWeight"
 				{
-					"60"					"1.10"
+					"60"					"1.05"
 					"640"					"1.00"
 				}
 				"RecoilBipodFracByWeight"
@@ -254,7 +254,7 @@
 			{
 				"RecoilBaseFracByWeight"
 				{
-					"60"					"1.30"
+					"60"					"1.25"
 				}
 			}
 			"kitui_offset"
@@ -282,7 +282,7 @@
 			{
 				"RecoilBaseFracByWeight"
 				{
-					"60"					"1.05"
+					"60"					"1.00"
 				}
 				"RecoilMoveFracByWeight"
 				{
@@ -331,7 +331,7 @@
 			{
 				"RecoilBaseFracByWeight"
 				{
-					"60"					"1.05"
+					"60"					"1.00"
 				}
 			}
 		}
@@ -370,7 +370,7 @@
 			{
 				"RecoilBaseFracByWeight"
 				{
-					"60"					"1.10"
+					"60"					"1.05"
 				}
 			}
 			"freeaim"
