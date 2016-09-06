@@ -116,8 +116,9 @@
 			"brass_model" 				"models/weapons/shells/9x19.mdl"
 			"Damage"					
 			{
-				"50"      "60"
-				"3700"    "40"
+				"50"		"60"
+				"400"      	"60"
+				"2400"    	"40"
 			}
 			"PenetrationPower"
 			{
@@ -127,12 +128,12 @@
 			"DamageHitgroups"
 			{
 				"HITGROUP_HEAD"       "1.00"
-				"HITGROUP_CHEST"      "1.50"
-				"HITGROUP_STOMACH"    "1.50"
+				"HITGROUP_CHEST"      "1.25"
+				"HITGROUP_STOMACH"    "1.00"
 				"HITGROUP_LEFTARM"    "1.00"
 				"HITGROUP_RIGHTARM"   "1.00"
-				"HITGROUP_LEFTLEG"    "1.00"
-				"HITGROUP_RIGHTLEG"   "1.00"
+				"HITGROUP_LEFTLEG"    "0.75"
+				"HITGROUP_RIGHTLEG"   "0.75"
 			}
 		}
 		"9x19_hp"
@@ -143,10 +144,10 @@
 				"HITGROUP_HEAD"       "1.00"
 				"HITGROUP_CHEST"      "1.00"
 				"HITGROUP_STOMACH"    "1.00"
-				"HITGROUP_LEFTARM"    "1.75"
-				"HITGROUP_RIGHTARM"   "1.75"
-				"HITGROUP_LEFTLEG"    "1.75"
-				"HITGROUP_RIGHTLEG"   "1.75"
+				"HITGROUP_LEFTARM"    "2.00"
+				"HITGROUP_RIGHTARM"   "2.00"
+				"HITGROUP_LEFTLEG"    "2.00"
+				"HITGROUP_RIGHTLEG"   "2.00"
 			}
 			"PenetrationPower"
 			{
@@ -162,10 +163,10 @@
 				"HITGROUP_HEAD"       "1.00"
 				"HITGROUP_CHEST"      "1.5"
 				"HITGROUP_STOMACH"    "1.5"
-				"HITGROUP_LEFTARM"    "1"
-				"HITGROUP_RIGHTARM"   "1"
-				"HITGROUP_LEFTLEG"    "1"
-				"HITGROUP_RIGHTLEG"	  "1"
+				"HITGROUP_LEFTARM"    "1.0"
+				"HITGROUP_RIGHTARM"   "1.0"
+				"HITGROUP_LEFTLEG"    "1.0"
+				"HITGROUP_RIGHTLEG"	  "1.0"
 			}
 			"PenetrationPower"
 			{
@@ -190,10 +191,11 @@
 			"magsize"				"6"
 			"carry"					"48"
 
-			"Damage"
+			"Damage"					
 			{
 				"50"					"60"
-				"3700"					"30"
+				"400"      				"60"
+				"2400"    				"35"
 			}
 			"PenetrationPower"
 			{
@@ -212,10 +214,10 @@
 				"HITGROUP_HEAD"				"1.00"
 				"HITGROUP_CHEST"			"1.00"
 				"HITGROUP_STOMACH"			"1.00"
-				"HITGROUP_LEFTARM"			"2.00"
-				"HITGROUP_RIGHTARM"			"2.00"
-				"HITGROUP_LEFTLEG"			"2.00"
-				"HITGROUP_RIGHTLEG"			"2.00"
+				"HITGROUP_LEFTARM"			"2.50"
+				"HITGROUP_RIGHTARM"			"2.50"
+				"HITGROUP_LEFTLEG"			"2.70"
+				"HITGROUP_RIGHTLEG"			"2.70"
 			}
 			"PenetrationPower"
 			{
@@ -253,8 +255,9 @@
 			"brass_model" 				"models/weapons/shells/45apc.mdl"
 			"Damage"					
 			{
-				"50"      	"80"
-				"3700"    	"25"
+				"50"		"80"
+				"350"      	"80"
+				"2400"    	"30"
 			}
 			"PenetrationPower"
 			{
@@ -266,10 +269,10 @@
 				"HITGROUP_HEAD"       "1.00"
 				"HITGROUP_CHEST"      "1.00"
 				"HITGROUP_STOMACH"    "1.00"
-				"HITGROUP_LEFTARM"    "1.25"
-				"HITGROUP_RIGHTARM"   "1.25"
-				"HITGROUP_LEFTLEG"    "1.25"
-				"HITGROUP_RIGHTLEG"   "1.25"
+				"HITGROUP_LEFTARM"    "1.00"
+				"HITGROUP_RIGHTARM"   "1.00"
+				"HITGROUP_LEFTLEG"    "0.75"
+				"HITGROUP_RIGHTLEG"   "0.75"
 			}
 		}
 		"45acp_pistol" // FMJ (US Army Ball) 230gr 250m/s  477J
@@ -285,10 +288,10 @@
 				"HITGROUP_HEAD"       "1.00"
 				"HITGROUP_CHEST"      "1.00"
 				"HITGROUP_STOMACH"    "1.00"
-				"HITGROUP_LEFTARM"    "1.75"
-				"HITGROUP_RIGHTARM"   "1.75"
-				"HITGROUP_LEFTLEG"    "1.75"
-				"HITGROUP_RIGHTLEG"   "1.75"
+				"HITGROUP_LEFTARM"    "2.0"
+				"HITGROUP_RIGHTARM"   "2.0"
+				"HITGROUP_LEFTLEG"    "2.0"
+				"HITGROUP_RIGHTLEG"   "2.0"
 			}
 			"PenetrationPower"
 			{
@@ -341,8 +344,8 @@
 			"brass_model"				"models/weapons/shells/545x39.mdl"
 			"Damage"					
 			{
-				"50"      "110"
-				"2700"    "110"  // Drop off begins at 60m
+				"80"      "110"
+				"1600"    "105" 
 				"12000"   "85"
 			}
 			"DamageHitgroups"
@@ -350,10 +353,10 @@
 				"HITGROUP_HEAD"       "1.00" 
 				"HITGROUP_CHEST"      "1.25"
 				"HITGROUP_STOMACH"    "1.25"
-				"HITGROUP_LEFTARM"    "1.00"
-				"HITGROUP_RIGHTARM"   "1.00"
-				"HITGROUP_LEFTLEG"    "0.90"
-				"HITGROUP_RIGHTLEG"   "0.90"
+				"HITGROUP_LEFTARM"    "0.75"
+				"HITGROUP_RIGHTARM"   "0.75"
+				"HITGROUP_LEFTLEG"    "0.75"
+				"HITGROUP_RIGHTLEG"   "0.75"
 			}
 			"PenetrationPower"
 			{
@@ -386,12 +389,12 @@
 			"DamageHitgroups"
 			{
 				"HITGROUP_HEAD"       "1.00"
-				"HITGROUP_CHEST"      "3.00"
-				"HITGROUP_STOMACH"    "3.00"
-				"HITGROUP_LEFTARM"    "1.00"
-				"HITGROUP_RIGHTARM"   "1.00"
-				"HITGROUP_LEFTLEG"    "0.50"
-				"HITGROUP_RIGHTLEG"   "0.50"
+				"HITGROUP_CHEST"      "2.75"
+				"HITGROUP_STOMACH"    "2.75"
+				"HITGROUP_LEFTARM"    "0.75"
+				"HITGROUP_RIGHTARM"   "0.75"
+				"HITGROUP_LEFTLEG"    "0.5"
+				"HITGROUP_RIGHTLEG"   "0.5"
 			}
 			"PenetrationPower"
 			{
@@ -415,19 +418,19 @@
 			"brass_model"				"models/weapons/shells/545x39.mdl"
 			"Damage"					
 			{
-				"50"      	"110"
-				"1250"		"110" // No drop off up to 30m
-				"10000"   	"80"
+				"80"      	"110"
+				"8000"		"105" 
+				"10000"   	"70"
 			}
 			"DamageHitgroups"
 			{
 				"HITGROUP_HEAD"       "1.00" 
 				"HITGROUP_CHEST"      "1.25"
 				"HITGROUP_STOMACH"    "1.25"
-				"HITGROUP_LEFTARM"    "1.00"
-				"HITGROUP_RIGHTARM"   "1.00"
-				"HITGROUP_LEFTLEG"    "0.90"
-				"HITGROUP_RIGHTLEG"   "0.90"
+				"HITGROUP_LEFTARM"    "0.75"
+				"HITGROUP_RIGHTARM"   "0.75"
+				"HITGROUP_LEFTLEG"    "0.75"
+				"HITGROUP_RIGHTLEG"   "0.75"
 			}
 			"PenetrationPower"
 			{
@@ -460,12 +463,12 @@
 			"DamageHitgroups"
 			{
 				"HITGROUP_HEAD"       "1.00"
-				"HITGROUP_CHEST"      "3.00"
-				"HITGROUP_STOMACH"    "3.00"
-				"HITGROUP_LEFTARM"    "1.00"
-				"HITGROUP_RIGHTARM"   "1.00"
-				"HITGROUP_LEFTLEG"    "0.50"
-				"HITGROUP_RIGHTLEG"   "0.50"
+				"HITGROUP_CHEST"      "2.75"
+				"HITGROUP_STOMACH"    "2.75"
+				"HITGROUP_LEFTARM"    "0.75"
+				"HITGROUP_RIGHTARM"   "0.75"
+				"HITGROUP_LEFTLEG"    "0.5"
+				"HITGROUP_RIGHTLEG"   "0.5"
 			}
 			"PenetrationPower"
 			{
@@ -490,8 +493,8 @@
 			"brass_model"				"models/weapons/shells/556x45.mdl"
 			"Damage"					
 			{
-				"50"      "120" // bullets fragment at under 60m dealing more damage. (truly more like 150m but compromise for gameplay)
-				"2700"    "110" 
+				"80"      "120" // bullets fragment at under 30m dealing more damage. (truly more like 150m but compromise for gameplay)
+				"1600"    "110" 
 				"12000"   "80" 
 			}
 			"DamageHitgroups"
@@ -501,8 +504,8 @@
 				"HITGROUP_STOMACH"    "1.25"
 				"HITGROUP_LEFTARM"    "1.00"
 				"HITGROUP_RIGHTARM"   "1.00"
-				"HITGROUP_LEFTLEG"    "0.80"
-				"HITGROUP_RIGHTLEG"   "0.80"
+				"HITGROUP_LEFTLEG"    "0.75"
+				"HITGROUP_RIGHTLEG"   "0.75"
 			}
 			"PenetrationPower" // Maybe offer or imply Mk318 rounds which are like combined HP and AP at high cost?
 			{
@@ -535,10 +538,10 @@
 			"DamageHitgroups"
 			{
 				"HITGROUP_HEAD"       "1.00"
-				"HITGROUP_CHEST"      "2.35"
-				"HITGROUP_STOMACH"    "2.35"
-				"HITGROUP_LEFTARM"    "1.00"
-				"HITGROUP_RIGHTARM"   "1.00"
+				"HITGROUP_CHEST"      "2.50"
+				"HITGROUP_STOMACH"    "2.50"
+				"HITGROUP_LEFTARM"    "0.75"
+				"HITGROUP_RIGHTARM"   "0.75"
 				"HITGROUP_LEFTLEG"    "0.75"
 				"HITGROUP_RIGHTLEG"   "0.75"
 			}
@@ -564,8 +567,8 @@
 			"SuppressionIncrement"		"30"
 			"Damage"					
 			{
-				"50"      	"120" // bullets fragment at under 40m dealing more damage. (truly more like 60m but compromise for gameplay)
-				"1650"		"110"
+				"50"      	"120" // bullets fragment at under 30m dealing more damage. (truly more like 60m but compromise for gameplay)
+				"1200"		"110"
 				"12000"   	"75" 
 			}
 			"DamageHitgroups"
@@ -575,8 +578,8 @@
 				"HITGROUP_STOMACH"    "1.25"
 				"HITGROUP_LEFTARM"    "1.00"
 				"HITGROUP_RIGHTARM"   "1.00"
-				"HITGROUP_LEFTLEG"    "0.80"
-				"HITGROUP_RIGHTLEG"   "0.80"
+				"HITGROUP_LEFTLEG"    "0.75"
+				"HITGROUP_RIGHTLEG"   "0.75"
 			}
 			"PenetrationPower"
 			{
@@ -609,10 +612,10 @@
 			"DamageHitgroups"
 			{
 				"HITGROUP_HEAD"       "1.00"
-				"HITGROUP_CHEST"      "2.35"
-				"HITGROUP_STOMACH"    "2.35"
-				"HITGROUP_LEFTARM"    "1.00"
-				"HITGROUP_RIGHTARM"   "1.00"
+				"HITGROUP_CHEST"      "2.50"
+				"HITGROUP_STOMACH"    "2.50"
+				"HITGROUP_LEFTARM"    "0.75"
+				"HITGROUP_RIGHTARM"   "0.75"
 				"HITGROUP_LEFTLEG"    "0.75"
 				"HITGROUP_RIGHTLEG"   "0.75"
 			}
@@ -639,7 +642,7 @@
 			"Damage"					
 			{
 				"50"      	"130" // bullets fragment at under 20m dealing more damage. (truly more like 50m but compromise for gameplay)
-				"850"		"110"
+				"800"		"110"
 				"10000"   	"70" 
 			}
 			"DamageHitgroups"
@@ -649,8 +652,8 @@
 				"HITGROUP_STOMACH"    "1.25"
 				"HITGROUP_LEFTARM"    "1.00"
 				"HITGROUP_RIGHTARM"   "1.00"
-				"HITGROUP_LEFTLEG"    "0.90"
-				"HITGROUP_RIGHTLEG"   "0.90"
+				"HITGROUP_LEFTLEG"    "0.75"
+				"HITGROUP_RIGHTLEG"   "0.75"
 			}
 			"PenetrationPower" // Maybe offer or imply Mk318 rounds which are like combined HP and AP at high cost?
 			{
@@ -683,10 +686,10 @@
 			"DamageHitgroups"
 			{
 				"HITGROUP_HEAD"       "1.00"
-				"HITGROUP_CHEST"      "2.35"
-				"HITGROUP_STOMACH"    "2.35"
-				"HITGROUP_LEFTARM"    "1.00"
-				"HITGROUP_RIGHTARM"   "1.00"
+				"HITGROUP_CHEST"      "2.50"
+				"HITGROUP_STOMACH"    "2.50"
+				"HITGROUP_LEFTARM"    "0.75"
+				"HITGROUP_RIGHTARM"   "0.75"
 				"HITGROUP_LEFTLEG"    "0.75"
 				"HITGROUP_RIGHTLEG"   "0.75"
 			}
@@ -717,11 +720,10 @@
 				"400"				  "1.00"
 				"800"				  "0.70"
 			}
-			
 			"Damage"					
 			{
 				"50"      "100"
-				"2700"    "100"
+				"1400"    "100"
 				"12000"   "80" 
 			}
 			"DamageHitgroups"
@@ -729,10 +731,10 @@
 				"HITGROUP_HEAD"       "1.00"
 				"HITGROUP_CHEST"      "1.35"
 				"HITGROUP_STOMACH"    "1.35"
-				"HITGROUP_LEFTARM"    "1.00"
-				"HITGROUP_RIGHTARM"   "1.00"
-				"HITGROUP_LEFTLEG"    "0.90"
-				"HITGROUP_RIGHTLEG"   "0.90"
+				"HITGROUP_LEFTARM"    "0.75"
+				"HITGROUP_RIGHTARM"   "0.75"
+				"HITGROUP_LEFTLEG"    "0.75"
+				"HITGROUP_RIGHTLEG"   "0.75"
 			}
 			"PenetrationPower"
 			{
@@ -767,10 +769,10 @@
 				"HITGROUP_HEAD"       "1.00"
 				"HITGROUP_CHEST"      "3.00"
 				"HITGROUP_STOMACH"    "3.00"
-				"HITGROUP_LEFTARM"    "1.00"
-				"HITGROUP_RIGHTARM"   "1.00"
-				"HITGROUP_LEFTLEG"    "0.45"
-				"HITGROUP_RIGHTLEG"   "0.45"
+				"HITGROUP_LEFTARM"    "0.75"
+				"HITGROUP_RIGHTARM"   "0.75"
+				"HITGROUP_LEFTLEG"    "0.75"
+				"HITGROUP_RIGHTLEG"   "0.75"
 			}
 			"PenetrationPower"
 			{
@@ -800,16 +802,16 @@
 			"Damage"					
 			{
 				"50"      	"100"
-				"850"		"100"
-				"8000"   	"70" 
+				"620"		"100"
+				"6000"   	"70" 
 			}
 			"DamageHitgroups"
 			{
 				"HITGROUP_HEAD"       "1.00" 
 				"HITGROUP_CHEST"      "1.00"
 				"HITGROUP_STOMACH"    "1.00"
-				"HITGROUP_LEFTARM"    "1.00"
-				"HITGROUP_RIGHTARM"   "1.00"
+				"HITGROUP_LEFTARM"    "0.90"
+				"HITGROUP_RIGHTARM"   "0.90"
 				"HITGROUP_LEFTLEG"    "0.75"
 				"HITGROUP_RIGHTLEG"   "0.75"
 			}
@@ -822,10 +824,10 @@
 				"HITGROUP_HEAD"       "1.00"
 				"HITGROUP_CHEST"      "1.00"
 				"HITGROUP_STOMACH"    "1.00"
-				"HITGROUP_LEFTARM"    "2.20"
-				"HITGROUP_RIGHTARM"   "2.20"
-				"HITGROUP_LEFTLEG"    "2.20"
-				"HITGROUP_RIGHTLEG"   "2.20"
+				"HITGROUP_LEFTARM"    "2.00"
+				"HITGROUP_RIGHTARM"   "2.00"
+				"HITGROUP_LEFTLEG"    "2.00"
+				"HITGROUP_RIGHTLEG"   "2.00"
 			}
 			"PenetrationPower"
 			{
@@ -839,10 +841,10 @@
 			"DamageHitgroups"
 			{
 				"HITGROUP_HEAD"       "1.00"
-				"HITGROUP_CHEST"      "2.50"
-				"HITGROUP_STOMACH"    "2.50"
-				"HITGROUP_LEFTARM"    "1.00"
-				"HITGROUP_RIGHTARM"   "1.00"
+				"HITGROUP_CHEST"      "1.85"
+				"HITGROUP_STOMACH"    "1.85"
+				"HITGROUP_LEFTARM"    "0.75"
+				"HITGROUP_RIGHTARM"   "0.75"
 				"HITGROUP_LEFTLEG"    "0.75"
 				"HITGROUP_RIGHTLEG"   "0.75"
 			}
@@ -869,8 +871,8 @@
 			"Damage"					
 			{
 				"50"        "120"
-				"2700"		"135"
-				"18000"     "95" 
+				"2700"		"120"
+				"18000"     "100" 
 			}
 			"PenetrationDamage"
 			{
@@ -882,8 +884,8 @@
 			"DamageHitgroups"
 			{
 				"HITGROUP_HEAD"       "1.00"
-				"HITGROUP_CHEST"      "3.00"
-				"HITGROUP_STOMACH"    "2.00"
+				"HITGROUP_CHEST"      "3.50"
+				"HITGROUP_STOMACH"    "3.50"
 				"HITGROUP_LEFTARM"    "1.00"
 				"HITGROUP_RIGHTARM"   "1.00"
 				"HITGROUP_LEFTLEG"    "1.00"
@@ -934,10 +936,10 @@
 				"HITGROUP_HEAD"       "1.00"
 				"HITGROUP_CHEST"      "3.00"
 				"HITGROUP_STOMACH"    "3.00"
-				"HITGROUP_LEFTARM"    "0.95"
-				"HITGROUP_RIGHTARM"   "0.95"
-				"HITGROUP_LEFTLEG"    "0.50"
-				"HITGROUP_RIGHTLEG"   "0.50"
+				"HITGROUP_LEFTARM"    "1.00"
+				"HITGROUP_RIGHTARM"   "1.00"
+				"HITGROUP_LEFTLEG"    "0.75"
+				"HITGROUP_RIGHTLEG"   "0.75"
 			}
 			"PenetrationPower"
 			{
@@ -1008,7 +1010,7 @@
 			"DamageHitgroups"
 			{
 				"HITGROUP_HEAD"					"1.00"
-				"HITGROUP_CHEST"			  	"1.25"
+				"HITGROUP_CHEST"			  	"1.00"
 				"HITGROUP_STOMACH"				"1.00"
 				"HITGROUP_LEFTARM"				"1.00"
 				"HITGROUP_RIGHTARM"				"1.00"
@@ -1456,9 +1458,8 @@
 			"brass_model" 				"models/weapons/shells/45apc.mdl"
 			"Damage"					
 			{
-				"50"      	"100"
 				"450"		"100"
-				"8000"    	"50"
+				"2450"    	"60"
 			}
 			"PenetrationPower"
 			{
@@ -1510,8 +1511,8 @@
 			"brass_model" 				"models/weapons/shells/45apc.mdl"
 			"Damage"
 			{
-				"50"		"60"
-				"3700"		"30"
+				"400"		"60"
+				"2400"		"30"
 			}
 			"PenetrationPower"
 			{
@@ -1523,8 +1524,8 @@
 				"HITGROUP_HEAD"					"1.00"
 				"HITGROUP_CHEST"			  	"2.00"
 				"HITGROUP_STOMACH"				"2.00"
-				"HITGROUP_LEFTARM"				"1.75"
-				"HITGROUP_RIGHTARM"				"1.75"
+				"HITGROUP_LEFTARM"				"1.00"
+				"HITGROUP_RIGHTARM"				"1.00"
 				"HITGROUP_LEFTLEG"				"1.00"
 				"HITGROUP_RIGHTLEG"				"1.00"
 			}
@@ -1536,8 +1537,9 @@
 			"brass_model" 				"models/weapons/shells/45apc.mdl"
 			"PenetrationPower"
 			{
-				"50"		"600"
-				"8000"		"75"
+				"50"		"75"
+				"400"		"75"
+				"2400"		"40"
 			}
 			"Damage"
 			{
@@ -1549,8 +1551,8 @@
 				"HITGROUP_HEAD"					"1.00"
 				"HITGROUP_CHEST"			  	"2.00"
 				"HITGROUP_STOMACH"				"2.00"
-				"HITGROUP_LEFTARM"				"1.50"
-				"HITGROUP_RIGHTARM"				"1.50"
+				"HITGROUP_LEFTARM"				"1.00"
+				"HITGROUP_RIGHTARM"				"1.00"
 				"HITGROUP_LEFTLEG"				"1.00"
 				"HITGROUP_RIGHTLEG"				"1.00"
 			}
@@ -1614,15 +1616,15 @@
 			}
 			"Damage"
 			{
-				"50"							"120"
+				"50"							"150"
 				"450"							"150"
 				"12000"							"100"
 			}
 			"DamageHitgroups"
 			{
 				"HITGROUP_HEAD"					"1.00"
-				"HITGROUP_CHEST"			  	"3.00"
-				"HITGROUP_STOMACH"				"2.00"
+				"HITGROUP_CHEST"			  	"4.00"
+				"HITGROUP_STOMACH"				"4.00"
 				"HITGROUP_LEFTARM"				"1.00"
 				"HITGROUP_RIGHTARM"				"1.00"
 				"HITGROUP_LEFTLEG"				"1.00"

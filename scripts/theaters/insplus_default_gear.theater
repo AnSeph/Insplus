@@ -278,7 +278,7 @@
 			"print_desc"				"#gear_bandolier01_desc"
 			"gear_slot"					"vest"
 			"gear_cost"					"2"
-			"gear_weight"				"128"
+			"gear_weight"				"100"
 			"class_restricted"			"1"
 			"extra_ammo"
 			{
@@ -286,7 +286,7 @@
 				"secondary"				"0"
 				"explosive"
 				{
-					"0"					"1"
+					"0"					"0"
 					"1"					"1"
 				}
 			}
@@ -362,7 +362,7 @@
 			"print_desc"				"#gear_bandolier01_desc"
 			"gear_slot"					"vest"
 			"gear_cost"					"2"
-			"gear_weight"				"128"
+			"gear_weight"				"100"
 			"class_restricted"			"1"
 			"extra_ammo"
 			{
@@ -370,7 +370,7 @@
 				"secondary"				"0"
 				"explosive"
 				{
-					"0"					"1"
+					"0"					"0"
 					"1"					"1"
 				}
 			}

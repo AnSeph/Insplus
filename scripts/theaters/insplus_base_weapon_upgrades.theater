@@ -41,29 +41,27 @@
 		"base_foregrip"
 		{
 			"IsBase"						"1"
-			"upgrade_cost"					"3"
+			"upgrade_cost"					"4"
 			"upgrade_slot"					"underbarrel"
 			"print_name"					"#weapon_upgrade_insplus_foregrip"
 			"print_desc"					"#weapon_upgrade_insplus_foregrip_desc"
 			"weapon_abilities"				"foregrip"
-			"ads_in_speed"					"1.20"
-			"ads_out_speed"					"1.20"
-			"draw_speed"					"0.90"
-			"holster_speed"					"0.90"
+			"ads_in_speed"					"1.3"
+			"ads_out_speed"					"1.3"
 			
 			"freeaim"
 			{
-				"freeaim_distance_frac"			"0.90"
+				"freeaim_distance_frac"			"0.75"
 			}
 			"recoil"
 			{
-				"recoil_lateral_frac"			"1.10"
-				"recoil_vertical_frac"			"0.55"
+				"recoil_lateral_frac"			"0.80"
+				"recoil_vertical_frac"			"0.80"
 			}
 			"sway"
 			{
-				"sway_radius_frac"			"0.85"
-				"sway_speed_frac"			"1.00"
+				"sway_radius_frac"			"1.00"
+				"sway_speed_frac"			"1.20"
 			}
 			"world_attachments"
 			{
@@ -77,22 +75,22 @@
 			"print_name"					"#weapon_upgrade_insplus_heavybarrel"
 			"print_desc"					"#weapon_upgrade_insplus_heavybarrel_desc"
 			"spread_frac"					"0.60"
-			"draw_speed"					"0.90"
+			"draw_speed"					"0.95"
 			"ads_in_speed"					"0.90"
 			"ads_out_speed"					"0.90"
 			
 			"freeaim"
 			{
-				"freeaim_distance_frac"			"1.25"
+				"freeaim_distance_frac"			"1.20"
 			}
 			"recoil"
 			{
-				"recoil_lateral_frac"			"0.90"
-				"recoil_vertical_frac"			"1.00"
+				"recoil_lateral_frac"			"1.00"
+				"recoil_vertical_frac"			"0.85"
 			}
 			"sway"
 			{
-				"sway_radius_frac"			"1.00"
+				"sway_radius_frac"			"1.20"
 				"sway_speed_frac"			"1.00"
 			}
 		}
@@ -105,17 +103,13 @@
 			"particle_1p"					"muzzleflash_suppressed_1p"
 			"particle_attach"				"muzzle_supp"
 			"spread_frac"					"1.15"
-			"draw_speed"					"0.90"
-			"ads_in_speed"					"0.90"
-			"ads_out_speed"					"0.90"
+			"draw_speed"					"0.95"
+			"ads_in_speed"					"0.95"
+			"ads_out_speed"					"0.95"
 			
 			"freeaim"
 			{
-				"freeaim_distance_frac"			"1.20"
-			}
-			"sway"
-			{
-				"sway_radius_frac"				"1.20"
+				"freeaim_distance_frac"			"1.05"
 			}
 		}
 		"base_flashlight"
@@ -148,12 +142,12 @@
 			"print_desc"					"#weapon_upgrade_lasersight_desc"
 			"weapon_abilities"				"lasersights"
 			"particle_attach"				"Laser"
-			"ads_in_speed"					"1.25"
-			"ads_out_speed"					"1.25"
+			"ads_in_speed"					"1.10"
+			"ads_out_speed"					"1.10"
 			
 			"freeaim"
 			{
-				"freeaim_distance_frac"			"0.45"
+				"freeaim_distance_frac"			"0.75"
 			}
 			"world_attachments"
 			{
@@ -171,7 +165,7 @@
 			
 			"freeaim"
 			{
-				"freeaim_distance_frac"			"0.45"
+				"freeaim_distance_frac"			"0.75"
 			}
 		}
 		"base_bipod"

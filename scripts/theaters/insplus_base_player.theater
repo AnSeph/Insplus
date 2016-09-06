@@ -14,12 +14,14 @@
 			"assist"					"5"
 			"death"						"-25"
 
-			"obj_captured"				"100"
+			"obj_captured"				"50"
 			"obj_neutralized"			"50"
-			"cache_destroyed"			"100"
-			"intel_captured"			"100"
+			"obj_capture_tick"			"10"	
+			"obj_reset_tick"			"10"	
+			"cache_destroyed"			"50"
+			"intel_captured"			"50"
 			"vip_killed"				"100"
-			"safehouse_secured"			"100"
+			"safehouse_secured"			"50"
 		}
 		// Weight is in lb
 		"weight"
@@ -32,16 +34,17 @@
 			"frac_side_move"			"0.90"
 			"frac_back_move"			"0.70"
 			"frac_side_step"			"0.70"
+			"frac_speed_water"			"0.85"			
 			"speed_prone"				"50"
-			"speed_crouch_walk"			"55"
-			"speed_crouch_run"			"75"
-			"speed_walk"				"75"
-			"speed_run"					"125"
+			"speed_crouch_walk"			"60"
+			"speed_crouch_run"			"70"
+			"speed_walk"				"85"
+			"speed_run"					"145"
 			"speed_sprint"				"220"
 			"AccelerationByWeight"
 			{
-				"60"					"3.10"
-				"640"					"1.70"
+				"60"					"3.00"
+				"640"					"1.20"
 			}
 			"DecelerationByWeight"
 			{
@@ -52,17 +55,18 @@
 			"FrictionByWeight"
 			{
 				"60"					"3.00"
-				"640"					"1.80"
+				"640"					"1.21"
 			}
 			"SprintSpeedFactorByStamina"
 			{
 				"0"						"1.000"
-				"200"					"1.220"
+				"50"					"1.125"
+				"200"					"1.250"
 			}
 		}
 		"turning"
 		{
-			"frac_turn_sprint"			"0.75"
+			"frac_turn_sprint"			"0.70"
 			"frac_turn_lean"			"0.95"
 			"frac_turn_crawl"			"0.5"
 			"frac_turn_prone_limit"		"0.0"
@@ -73,13 +77,13 @@
 		{
 			"StaminaMaxByWeight"
 			{
-				"60"					"220"
+				"60"					"200"
 				"640"					"220"
 			}
-			"stamina_regain"			"3.50"
-			"stamina_sprint_take"		"2.50"
-			"stamina_jump_take"			"25"
-			"stamina_dmg_take"			"100"
+			"stamina_regain"			"7.50"
+			"stamina_sprint_take"		"7.50"
+			"stamina_jump_take"			"35"
+			"stamina_dmg_take"			"1.0"
 			
 			"land_viewpunch_minvel"		"150"
 			"land_viewpunch_basepitch" 	"0.75"
@@ -94,37 +98,37 @@
 		{
 			"FocusTimeStamina"
 			{
-				"0"					"10"
-				"100"				"15"
+				"0"						"1.0"
+				"200"					"5.0"
 			}
-
+			
 			"FocusCooldownStamina"
 			{
-				"0"					"2.50"
-				"100"				"1.50"
+				"100"					"5.0"
+				"200"					"1.0"
 			}
-
+			
 			"FocusEffectivenessStamina"
 			{
-				"0"					"0.50"
-				"100"               "1.00"
+				"0"						"0.5"
+				"200"					"1.0"
 			}
 		}
 		"slide"
 		{
-			"min_sprint_time"			"10.00"
+			"min_sprint_time"			"8.00"
 			"post_sprint_grace"			"0.08"
 			
 			"DistanceByWeight"
 			{
-				"60"					"1.0"
-				"640"					"0.7"
+				"60"					"0.5"
+				"640"					"0.5"
 			}
 			
 			"SpeedByWeight"
 			{
-				"60"					"225"
-				"640"					"100"
+				"60"					"180"
+				"640"					"180"
 			}
 		}
 		"lean"
@@ -139,8 +143,7 @@
 			
 			"LeanSpeedByWeight"
 			{
-				"60"					"4.00"
-				"640"					"3.00"
+				"60"					"3.80"
 			}
 			"LeanViewModelSpeedByWeight"
 			{
@@ -151,7 +154,7 @@
 		"suppression"
 		{
 			"suppression_resistance"			"0"
-			"suppression_recovery_rate"			"10"
+			"suppression_recovery_rate"			"15"
 		}
 		"damage"
 		{
@@ -164,7 +167,7 @@
 			{
 				"HITGROUP_HEAD"				"5.00"	// death
 				"HITGROUP_CHEST"			"1.50"
-				"HITGROUP_STOMACH"			"1.50"
+				"HITGROUP_STOMACH"			"1.35"
 				"HITGROUP_LEFTARM"			"1.00"
 				"HITGROUP_RIGHTARM"			"1.00"
 				"HITGROUP_LEFTLEG"			"1.00"
@@ -172,12 +175,10 @@
 			}
 			"VelocityHitgroups"
 			{
-				"HITGROUP_CHEST"    			"0.50"
-				"HITGROUP_STOMACH"    			"0.50"
-				"HITGROUP_LEFTARM"				"0.50"
-				"HITGROUP_RIGHTARM"				"0.50"
-				"HITGROUP_LEFTLEG"    			"0.20"
-				"HITGROUP_RIGHTLEG"   	 		"0.20"
+				"HITGROUP_LEFTLEG"			"0.10"
+				"HITGROUP_RIGHTLEG"			"0.10"
+				"HITGROUP_CHEST"			"0.50"
+				"HITGROUP_STOMACH"			"0.50"
 			}
 			"BulletPenetrationPower"
 			{
