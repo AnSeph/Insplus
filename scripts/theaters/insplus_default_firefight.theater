@@ -25,7 +25,7 @@
 					"#Squad_Fireteam_Leader_Specialist"				"template_specialist_security"
 					"#Squad_Fireteam_Rifleman"						"template_rifleman_security"
 					"#Squad_Fireteam_Rifleman"						"template_rifleman_security"
-					"#Squad_Fireteam_Technician"					"template_technician_security"
+					"#Squad_Fireteam_Rifleman"						"template_rifleman_security"
 					"#Squad_Fireteam_Grenadier"						"template_grenadier_security"
 					"#Squad_Fireteam_Support"						"template_support_security"
 				}

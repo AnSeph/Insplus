@@ -1,0 +1,9 @@
+"VertexLitGeneric"
+{
+	$basetexture 	"models\player\fighter\style3\ins_fighter_color"
+	$bumpmap 		"models\player\ins_medium\ins_medium_normal"
+	
+	$detail		"models\player\char_burned"
+	$detailscale 2
+	
+}

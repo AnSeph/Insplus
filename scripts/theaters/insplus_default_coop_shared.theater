@@ -46,7 +46,6 @@
 				"weapon"				"weapon_mp5a4"
 				"weapon"				"weapon_ump45"
 				"weapon"				"weapon_akm"
-				"weapon"				"weapon_m4carbine"
 				"weapon"				"weapon_ak74"
 				"weapon"				"weapon_aks74u"
 				"weapon"				"weapon_fal"
@@ -77,7 +76,6 @@
 				"weapon"				"weapon_mini14"
 				"weapon"				"weapon_mp5"
 				"weapon"				"weapon_ump45"
-				"weapon"				"weapon_m4carbine"
 				"weapon"				"weapon_ak74"
 				"weapon"				"weapon_akm"
 				"weapon"				"weapon_aks74u"
@@ -108,7 +106,6 @@
 				"weapon"				"weapon_mini14"
 				"weapon"				"weapon_mp5"
 				"weapon"				"weapon_ump45"
-				"weapon"				"weapon_m4carbine"
 				"weapon"				"weapon_g3"
 				"weapon"				"weapon_akm"
 				"weapon"				"weapon_ak74"
@@ -229,17 +226,8 @@
 			
 			"models"
 			{
-				"player"					"models/characters/security_light.mdl"
+				"player"					"models/characters/security_soldier.mdl"
 				"viewmodel_hands"			"models/weapons/v_hands_sec_l.mdl"
-
-				"attachments"
-				{
-					"cap"
-					{
-						"model"			"models/characters/us_cap_light.mdl"
-						"fallback_for_slot"		"armor"
-					}
-				}
 			}
 			
 			"buy_order"
@@ -287,15 +275,6 @@
 			{
 				"player"				"models/characters/security_specialist.mdl"
 				"viewmodel_hands"			"models/weapons/v_hands_sec_l.mdl"
-				
-				"attachments"
-				{
-					"cap"
-					{
-						"model"			"models/characters/us_cap_light.mdl"
-						"fallback_for_slot"		"armor"
-					}
-				}
 			}
 			
 			"buy_order"
@@ -333,7 +312,7 @@
 				"weapon_upgrade"			"barrel_silencer_pistol"
 				"weapon_upgrade"			"underbarrel_bipod"
 				"gear"						"sec_light_armor"
-				"gear"						"sec_medium_armor"
+				"gear"						"sec_medium_armor_spec"
 				"gear"						"sec_heavy_armor"
 				"gear"						"sec_bandolier"
 			}
@@ -356,8 +335,8 @@
 			
 			"models"
 			{
-				"player"				"models/characters/security_standard.mdl"
-				"viewmodel_hands"			"models/weapons/v_hands_sec_h.mdl"
+				"player"				"models/characters/security_soldier.mdl"
+				"viewmodel_hands"			"models/weapons/v_hands_sec_l.mdl"
 			}
 			
 			"buy_order"
@@ -374,7 +353,6 @@
 				"weapon"					"weapon_m16a4"
 				"weapon"					"weapon_mini14"
 				"weapon"					"weapon_sks"
-				"weapon"					"weapon_m4carbine"
 				"weapon"					"weapon_akm"
 				"weapon"					"weapon_ak74"
 				"weapon"					"weapon_g3"
@@ -423,15 +401,6 @@
 			{
 				"player"				"models/characters/security_specialist.mdl"
 				"viewmodel_hands"			"models/weapons/v_hands_sec_l.mdl"
-				
-				"attachments"
-				{
-					"cap"
-					{
-						"model"			"models/characters/us_cap_light.mdl"
-						"fallback_for_slot"		"armor"
-					}
-				}
 			}
 			
 			"buy_order"
@@ -475,7 +444,7 @@
 				"weapon_upgrade"			"barrel_silencer_pistol"
 				"weapon_upgrade"			"underbarrel_bipod"
 				"gear"						"sec_light_armor"
-				"gear"						"sec_medium_armor"
+				"gear"						"sec_medium_armor_spec"
 				"gear"						"sec_heavy_armor"
 			}
 		}
@@ -486,17 +455,8 @@
 			
 			"models"
 			{
-				"player"				"models/characters/security_light.mdl"
+				"player"				"models/characters/security_soldier.mdl"
 				"viewmodel_hands"			"models/weapons/v_hands_sec_l.mdl"
-				
-				"attachments"
-				{
-					"cap"
-					{
-						"model"			"models/characters/us_cap_light.mdl"
-						"fallback_for_slot"		"armor"
-					}
-				}
 			}
 			
 			"buy_order"
@@ -549,8 +509,8 @@
 			
 			"models"
 			{
-				"player"					"models/characters/security_standard.mdl"
-				"viewmodel_hands"			"models/weapons/v_hands_sec_m.mdl"
+				"player"					"models/characters/security_soldier.mdl"
+				"viewmodel_hands"			"models/weapons/v_hands_sec_l.mdl"
 			}
 			
 			"buy_order"
@@ -598,8 +558,8 @@
 			
 			"models"
 			{
-				"player"					"models/characters/security_standard.mdl"
-				"viewmodel_hands"			"models/weapons/v_hands_sec_m.mdl"
+				"player"					"models/characters/security_soldier.mdl"
+				"viewmodel_hands"			"models/weapons/v_hands_sec_l.mdl"
 				
 			}
 			
@@ -668,8 +628,8 @@
 			
 			"models"
 			{
-				"player"					"models/characters/security_heavy.mdl"
-				"viewmodel_hands"			"models/weapons/v_hands_sec_h.mdl"
+				"player"					"models/characters/security_soldier.mdl"
+				"viewmodel_hands"			"models/weapons/v_hands_sec_l.mdl"
 				
 			}
 			
@@ -802,21 +762,6 @@
 		"weapon_mosin"
 		{
 			"weapon_cost"				"1"
-		}
-	}
-	"player_gear"
-	{
-		"sec_light_armor"
-		{
-			"class_restricted"	"0"
-		}
-		"sec_medium_armor"
-		{
-			"class_restricted"	"0"
-		}
-		"sec_heavy_armor"
-		{
-			"class_restricted"	"0"
 		}
 	}
 }

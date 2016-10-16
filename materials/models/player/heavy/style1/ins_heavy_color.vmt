@@ -1,0 +1,25 @@
+"VertexLitGeneric"
+{
+	$basetexture 		"models\player\heavy\style1\ins_heavy_color"
+	$bumpmap 		"models\player\ins_heavy\ins_heavy_normal"
+	
+	$phong 			"1"
+	$phongboost 		".03"
+	$phongexponent 		"5"
+	$phongtint		"[0.5 0.425 0.36]"
+	
+	$halflambert 		"0"
+	$rimlight 		"0"
+	
+	"$detail"				"vgui/white"
+	"$detailblendfactor"	"0"
+	"$detailscale"			"2"
+	
+	"Proxies"
+	{
+		"CauseOfDeath"
+		{
+			"resultVar"		"$detail"
+		}
+	}
+}

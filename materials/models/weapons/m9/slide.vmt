@@ -2,7 +2,7 @@
 {
 	"$baseTexture" 					"models\weapons\m9\Slide"
 	"$bumpmap" 						"models\weapons\m9\Slide_Normal"
-	"$phongexponenttexture"			"models\weapons\m9\Slide_Exponent"
+	//"$phongexponenttexture"			"models\weapons\m9\Slide_Exponent"
 	
 	"$envmap" 						"env_cubemap"
 	
@@ -14,10 +14,8 @@
 	"$nocull" 						"1"
 	"$phong" 						"1"
 	"$phongexponent" 				"60"
-	"$phongboost" 					"1"
-	"$phongfresnelranges" 			"[5 2 -1]"
+	"$phongboost" 					"0.025"
+	"$phongfresnelranges" 			"[2.5 1 -1]"
 	"$phongalbedotint" 				"1"
 	"$halflambert" 					"1"
 }
-
-

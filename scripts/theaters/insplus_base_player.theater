@@ -35,16 +35,16 @@
 			"frac_back_move"			"0.70"
 			"frac_side_step"			"0.70"
 			"frac_speed_water"			"0.85"			
-			"speed_prone"				"50"
-			"speed_crouch_walk"			"60"
-			"speed_crouch_run"			"70"
-			"speed_walk"				"85"
-			"speed_run"					"145"
-			"speed_sprint"				"220"
+			"speed_prone"				"55"
+			"speed_crouch_walk"			"65"
+			"speed_crouch_run"			"85"
+			"speed_walk"				"95"
+			"speed_run"					"150"
+			"speed_sprint"				"225"
 			"AccelerationByWeight"
 			{
 				"60"					"3.00"
-				"640"					"1.20"
+				"640"					"1.50"
 			}
 			"DecelerationByWeight"
 			{
@@ -55,19 +55,19 @@
 			"FrictionByWeight"
 			{
 				"60"					"3.00"
-				"640"					"1.21"
+				"640"					"1.55"
 			}
 			"SprintSpeedFactorByStamina"
 			{
 				"0"						"1.000"
-				"50"					"1.125"
-				"200"					"1.250"
+				"100"					"1.125"
+				"225"					"1.200"
 			}
 		}
 		"turning"
 		{
-			"frac_turn_sprint"			"0.70"
-			"frac_turn_lean"			"0.95"
+			"frac_turn_sprint"			"0.65"
+			"frac_turn_lean"			"0.90"
 			"frac_turn_crawl"			"0.5"
 			"frac_turn_prone_limit"		"0.0"
 			"prone_yaw_limit_amount"	"80"
@@ -78,12 +78,12 @@
 			"StaminaMaxByWeight"
 			{
 				"60"					"200"
-				"640"					"220"
+				"640"					"225"
 			}
-			"stamina_regain"			"7.50"
-			"stamina_sprint_take"		"7.50"
-			"stamina_jump_take"			"35"
-			"stamina_dmg_take"			"1.0"
+			"stamina_regain"			"8.75"
+			"stamina_sprint_take"		"8.75"
+			"stamina_jump_take"			"40"
+			"stamina_dmg_take"			"200.00"
 			
 			"land_viewpunch_minvel"		"150"
 			"land_viewpunch_basepitch" 	"0.75"
@@ -98,19 +98,20 @@
 		{
 			"FocusTimeStamina"
 			{
-				"0"						"1.0"
-				"200"					"5.0"
+				"0"						"6.0"
+				"200"					"6.0"
 			}
 			
 			"FocusCooldownStamina"
 			{
-				"100"					"5.0"
+				"0"						"5.0"
+				"100"					"3.0"
 				"200"					"1.0"
 			}
 			
 			"FocusEffectivenessStamina"
 			{
-				"0"						"0.5"
+				"0"						"1.0"
 				"200"					"1.0"
 			}
 		}
@@ -166,8 +167,8 @@
 			"DamageHitgroups"
 			{
 				"HITGROUP_HEAD"				"5.00"	// death
-				"HITGROUP_CHEST"			"1.50"
-				"HITGROUP_STOMACH"			"1.35"
+				"HITGROUP_CHEST"			"1.00"
+				"HITGROUP_STOMACH"			"1.00"
 				"HITGROUP_LEFTARM"			"1.00"
 				"HITGROUP_RIGHTARM"			"1.00"
 				"HITGROUP_LEFTLEG"			"1.00"

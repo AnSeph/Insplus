@@ -1,0 +1,11 @@
+"VertexLitGeneric"
+{
+	$basetexture 	"models\player\fighter\style3\ins_fighter_color"
+	$bumpmap 		"models\player\ins_medium\ins_medium_normal"
+	$phong 			"1"
+	$phongboost 	".15"
+	$phongexponent 	"5"
+	$phongtint		"[0.5 0.425 0.36]"
+	$halflambert 	"0"
+	$rimlight 		"0"
+}

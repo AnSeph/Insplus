@@ -123,8 +123,8 @@
 
 			"models"
 			{
-				"player"				"models/characters/security_rifleman.mdl"
-				"viewmodel_hands"		"models/weapons/v_hands_sec_m.mdl"
+				"player"				"models/characters/security_soldier.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
 			}
 
 			"buy_order" 
@@ -173,7 +173,7 @@
 
 			"models"
 			{
-				"player"			"models/characters/security_light.mdl"
+				"player"			"models/characters/security_soldier.mdl"
 				"viewmodel_hands"	"models/weapons/v_hands_sec_l.mdl"
 				"attachments"
 				{
@@ -201,6 +201,7 @@
 				// Primary Weapons
 				"weapon"			"weapon_mk18"
 				"weapon"			"weapon_mk18"
+				"weapon"			"weapon_m4a1"
 				"weapon"			"weapon_mp5a4"
 				"weapon"			"weapon_m590"
 				// Grenades
@@ -226,6 +227,10 @@
 					"siderail_lasersight_shotgun_sec"		"-1"
 					"siderail_lasersight_pistol"			"-1"
 				}
+				"weapon"
+				{
+					"weapon_mp5a4"	"-1"
+				}
 			}
 		}
 		"template_support_security"
@@ -235,8 +240,8 @@
 
 			"models"
 			{
-				"player"			"models/characters/security_heavy.mdl"
-				"viewmodel_hands"	"models/weapons/v_hands_sec_h.mdl"	
+				"player"			"models/characters/security_soldier.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_sec_l.mdl"	
 			}
 
 			"buy_order" 
@@ -268,7 +273,6 @@
 					"weapon"			"weapon_p2a1"
 				}
 				"weapon_upgrade"	"underbarrel_bipod"
-				"weapon_upgrade"	"underbarrel_m203_smoke"
 				// Gear
 				"gear"				"sec_light_armor"
 				"gear"				"sec_medium_armor"
@@ -289,6 +293,7 @@
 				{
 					"weapon_m9"			"-1"
 					"weapon_m45"		"-1"
+					"weapon_m67"		"1"
 				}
 			}
 		}
@@ -300,8 +305,8 @@
 
 			"models"
 			{
-				"player"			"models/characters/security_standard.mdl"
-				"viewmodel_hands"	"models/weapons/v_hands_sec_m.mdl"	
+				"player"			"models/characters/security_soldier.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_sec_l.mdl"	
 			}
 
 			"buy_order" 
@@ -318,7 +323,6 @@
 				// Primary Weapons
 				"weapon"			"weapon_m14"
 				"weapon"			"weapon_m14"
-				"weapon"			"weapon_m16a4"
 				"weapon"			"weapon_m40a1"
 				"weapon"			"weapon_l1a1"
 				// Personal Weapons
@@ -344,7 +348,6 @@
 			{
 				"weapon"
 				{
-					"weapon_m16a4"	"1"
 					"weapon_m40a1"	"-1"
 				}
 				"weapon_upgrade"
@@ -375,8 +378,8 @@
 
 			"models"
 			{
-				"player"			"models/characters/security_standard.mdl"
-				"viewmodel_hands"	"models/weapons/v_hands_sec_m.mdl"
+				"player"			"models/characters/security_soldier.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_sec_l.mdl"
 				"attachments"
 				{
 					"cap"
@@ -442,8 +445,8 @@
 
 			"models"
 			{
-				"player"			"models/characters/security_standard.mdl"
-				"viewmodel_hands"	"models/weapons/v_hands_sec_m.mdl"
+				"player"			"models/characters/security_specialist.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_sec_l.mdl"
 			}
 
 			"buy_order" 
@@ -463,8 +466,7 @@
 				"weapon"			"weapon_mk18"
 				"weapon"			"weapon_m16a4"
 				"weapon"			"weapon_ump45"
-				"weapon"			"weapon_mp5a4"
-				"weapon"			"weapon_mp5"
+				"weapon"			"weapon_galil_sar"
 				// Grenades
 				"weapon"			"weapon_m84"
 				"weapon"			"weapon_m18"
@@ -477,7 +479,7 @@
 				"weapon_upgrade"	"barrel_silencer_ins1"
 				// Gear
 				"gear"				"sec_light_armor"
-				"gear"				"sec_medium_armor"
+				"gear"				"sec_medium_armor_spec"
 				"gear"				"sec_heavy_armor"
 			}
 			"cost_modifiers"
@@ -512,7 +514,7 @@
 
 			"models"
 			{
-				"player"			"models/characters/security_light.mdl"
+				"player"			"models/characters/security_soldier.mdl"
 				"viewmodel_hands"	"models/weapons/v_hands_sec_l.mdl"
 				"attachments"
 				{
@@ -530,7 +532,6 @@
 				"gear"				"sec_rig_01"
 				"weapon"			"weapon_kabar"
 				"weapon"			"weapon_mini14"
-				"weapon_upgrade"	"optic_eotech"
 				"weapon"			"weapon_m9"
 				"weapon"			"weapon_at4"
 			}
@@ -590,7 +591,7 @@
 				"gear"				"sec_bandolier" 
 				"weapon"			"weapon_kabar"
 				"weapon"			"weapon_m9"
-				"weapon"			"weapon_m590"
+				"weapon"			"weapon_m4a1"
 				"weapon"			"weapon_c4_clicker"
 				"weapon"			"weapon_m67"
 			}
@@ -600,16 +601,13 @@
 				"weapon"			"weapon_m4a1"
 				"weapon"			"weapon_m4a1"
 				"weapon"			"weapon_mp5a4"
+				"weapon"			"weapon_mini14"
 				"weapon"			"weapon_m590"
-				// Personal Weapons
-				"weapon"			"weapon_ump45"
 				// Grenades
 				"weapon"			"weapon_c4_clicker"
 				"weapon"			"weapon_m67"
 				"weapon"			"weapon_anm14"
 				// Upgrades
-				"weapon_upgrade"	"underbarrel_m203_he"
-				"weapon_upgrade"	"underbarrel_m203_smoke"
 				"?nightmap"
 				{
 					"weapon_upgrade"	"barrel_silencer_integrated"
@@ -620,16 +618,12 @@
 				}
 				// Gear
 				"gear"				"sec_light_armor"
-				"gear"				"sec_medium_armor"
+				"gear"				"sec_medium_armor_spec"
 				"gear"				"sec_heavy_armor"
 				"gear"				"sec_bandolier"
 			}
 			"cost_modifiers"
 			{
-				"weapon"
-				{
-					"weapon_m4carbine"		"1"
-				}
 				"weapon"
 				{
 					"weapon_m9"			"-1"
@@ -647,14 +641,6 @@
 			{
 				"player"				"models/characters/security_specialist.mdl"
 				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
-				"attachments"
-				{
-					"cap"
-					{
-						"model"			"models/characters/us_cap_light.mdl"
-						"fallback_for_slot"		"armor"
-					}
-				}
 			}
 
 			"buy_order" 
@@ -663,8 +649,9 @@
 				"gear"				"sec_rig_01"
 				"weapon"			"weapon_kabar"
 				"weapon"			"weapon_mk18"
-				"weapon_upgrade"	"ammo_tracer_m4"
+				"weapon_upgrade"	"ammo_tracer_m4cqb"
 				"weapon_upgrade"	"optic_eotech"
+				"weapon_upgrade"	"underbarrel_foregrip_sec1"
 				"weapon"			"weapon_m9"
 			}
 			"allowed_items"
@@ -673,7 +660,7 @@
 				"weapon"			"weapon_galil_sar"
 				"weapon"			"weapon_galil_sar"
 				"weapon"			"weapon_mk18"
-				"weapon"			"weapon_m4carbine"
+				"weapon"			"weapon_mp5a4"
 				// Secondary Weapons
 				"weapon"			"weapon_m93r"
 				// Grenades
@@ -688,80 +675,20 @@
 				"weapon_upgrade"	"barrel_silencer_ins1"
 				// Gear
 				"gear"				"sec_light_armor"
-				"gear"				"sec_medium_armor"
+				"gear"				"sec_medium_armor_spec"
 				"gear"				"sec_heavy_armor"
 			}
 			"cost_modifiers"
 			{
 				"weapon"
 				{
-					"weapon_l1a1"					"1"
-					"weapon_m4carbine"				"-1"
+					"weapon_mp5a4"					"-1"
+					"weapon_mk18"					"-1"
 				}
 				"weapon"
 				{
 					"weapon_m9"					"-1"
 					"weapon_m45"				"-1"
-				}
-			}
-		}
-		
-		"template_technician_security"
-		{	
-			"team"			"security"			
-			"print_name"	"Technician"	
-
-			"models"
-			{
-				"player"				"models/characters/security_light.mdl"
-				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
-				"attachments"
-				{
-					"cap"
-					{
-						"model"			"models/characters/us_cap_light.mdl"
-						"fallback_for_slot"		"armor"
-					}
-				}
-			}
-
-			"buy_order" 
-			{
-				"gear"				"sec_light_armor"
-				"gear"				"sec_rig_01"
-				"weapon"			"weapon_kabar"
-				"weapon"			"weapon_mini14"
-				"weapon_upgrade"	"optic_eotech"
-				"weapon"			"weapon_m9"
-				"weapon"			"weapon_m67"
-			}
-			"allowed_items"
-			{
-				// Primary Weapons
-				"weapon"			"weapon_mini14"
-				"weapon"			"weapon_mini14"
-				"weapon"			"weapon_mp5a4"
-				"weapon"			"weapon_m590"
-				// Grenades
-				"weapon"			"weapon_anm14"
-				"weapon"			"weapon_m18"
-				"weapon"			"weapon_m67"
-				"?nightmap"
-				{
-					"weapon"		"weapon_p2a1"
-				}
-				// Upgrades
-				// Gear
-				"gear"				"sec_light_armor"
-				"gear"				"sec_medium_armor"
-				"gear"				"sec_heavy_armor"
-			}
-			"cost_modifiers"
-			{
-				"weapon"
-				{
-					"weapon_m9"			"-1"
-					"weapon_m45"		"-1"
 				}
 			}
 		}
@@ -773,7 +700,7 @@
 
 			"models"
 			{
-				"player"				"models/characters/security_light.mdl"
+				"player"				"models/characters/security_specialist.mdl"
 				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
 				"attachments"
 				{
@@ -789,7 +716,7 @@
 				"gear"				"sec_rig_01"
 				"gear"				"sec_light_armor"
 				"weapon"			"weapon_kabar"
-				"weapon"			"weapon_mp5"
+				"weapon"			"weapon_mp5a4"
 				"weapon_upgrade"	"sec_silencer"
 				"weapon_upgrade"	"ammo_hp_mp5"
 				"weapon"			"weapon_p226"
@@ -820,7 +747,7 @@
 				"weapon_upgrade"	"barrel_silencer_ins1"
 				// Gear
 				"gear"				"sec_light_armor"
-				"gear"				"sec_medium_armor"
+				"gear"				"sec_medium_armor_spec"
 				"gear"				"sec_heavy_armor"
 			}
 			"cost_modifiers"
@@ -833,7 +760,7 @@
 				}
 				"weapon"
 				{
-					"weapon_mp5"				"-1"
+					"weapon_mp5a4"				"-1"
 				}
 				"weapon"
 				{
@@ -854,6 +781,7 @@
 		// Battle Rifles
 		//	"weapon_sks"
 		//	"weapon_fal"
+		//	"weapon_g3"
 		// Sniper Rifles
 		//	"weapon_mosin"
 		//	"weapon_zastava"
@@ -930,15 +858,14 @@
 				"weapon"			"weapon_akm"
 				"weapon"			"weapon_sks"
 				// Personal Weapons
-				"weapon"			"weapon_model10"
 				"weapon"			"weapon_makarov"
 				// Grenades
-				"weapon"			"weapon_f1"
 				"weapon"			"weapon_molotov"
+				"weapon"			"weapon_f1"
 				"weapon"			"weapon_m18"
 				// Upgrades
 				// Gear
-				"gear"				"ins_medium_armor"
+				"gear"				"ins_medium_armor_fighter"
 			}
 			"cost_modifiers"
 			{
@@ -957,14 +884,14 @@
 			"models"
 			{
 				"player"			"models/characters/insurgent_sapper.mdl"
-				"viewmodel_hands" 	"models/weapons/v_hands_ins_m.mdl"
+				"viewmodel_hands" 	"models/weapons/v_hands_ins_l.mdl"
 			}
 			"buy_order" 
 			{
 				"gear"				"ins_rig_01"
 				"weapon"			"weapon_gurkha"
 				"weapon"			"weapon_makarov"
-				"weapon"			"weapon_toz"
+				"weapon"			"weapon_aks74u"
 				"weapon"			"weapon_rpg7"
 			}
 			"allowed_items"
@@ -972,11 +899,11 @@
 				// Primary Weapons
 				"weapon"			"weapon_aks74u"
 				"weapon"			"weapon_aks74u"
+				"weapon"			"weapon_akm"
 				"weapon"			"weapon_m1a1"
-				"weapon"			"weapon_toz"
 				// Personal Weapons
-				"weapon"			"weapon_model10"
 				"weapon"			"weapon_makarov"
+				"weapon"			"weapon_toz"
 				// Grenades
 				"weapon"			"weapon_f1"
 				"weapon"			"weapon_m18"
@@ -987,24 +914,22 @@
 				"weapon_upgrade"	"barrel_silencer_pistol"
 				"weapon_upgrade"	"barrel_silencer_integrated"
 				// Gear
-				"gear"				"ins_medium_armor"
-				"gear"				"ins_heavy_armor"
+				"gear"				"ins_medium_armor_sapper"
+				"gear"				"ins_heavy_armor_rebel"
 				"gear"				"ins_bandolier"
 			}
 			"cost_modifiers"
 			{
 				"weapon"
 				{
-					"weapon_m1a1"		"1"
 					"weapon_akm"		"2"
 					"weapon_makarov"	"-1"
-					"weapon_m1911"		"-1"
 				}
 				"gear"
 				{
-					"ins_light_armor"	"-1"
-					"ins_medium_armor"	"-1"
-					"ins_heavy_armor"	"-1"
+					"ins_light_armor"			"-1"
+					"ins_medium_armor_sapper"	"-1"
+					"ins_heavy_armor_militant"	"-1"
 				}
 			}
 		}
@@ -1016,8 +941,8 @@
 
 			"models"
 			{
-				"player"			"models/characters/insurgent_heavy.mdl"
-				"viewmodel_hands" 	"models/weapons/v_hands_ins_h.mdl"
+				"player"			"models/characters/insurgent_sapper.mdl"
+				"viewmodel_hands" 	"models/weapons/v_hands_ins_l.mdl"
 			}
 			"buy_order" 
 			{
@@ -1026,7 +951,7 @@
 				"weapon"			"weapon_makarov"
 				"weapon"			"weapon_akm"
 				"weapon_upgrade"	"underbarrel_gp25_he"
-				"gear"				"ins_heavy_armor"
+				"gear"				"ins_medium_armor_sapper"
 			}
 			"allowed_items"
 			{
@@ -1037,7 +962,6 @@
 				// Personal Weapons
 				"weapon"			"weapon_tokarev"
 				"weapon"			"weapon_makarov"
-				"weapon"			"weapon_model10"
 				// Grenades
 				"weapon"			"weapon_f1"
 				"weapon"			"weapon_m18"
@@ -1046,8 +970,8 @@
 				"weapon_upgrade"	"underbarrel_gp25_he"
 				"weapon_upgrade"	"underbarrel_gp25_smoke"
 				// Gear
-				"gear"				"ins_medium_armor"
-				"gear"				"ins_heavy_armor"
+				"gear"				"ins_medium_armor_sapper"
+				"gear"				"ins_heavy_armor_militant"
 				"gear"				"ins_bandolier"
 			}
 			"cost_modifiers"
@@ -1056,13 +980,11 @@
 				{
 					"weapon_ak74"		"-1"
 					"weapon_makarov"	"-1"
-					"weapon_m1911"		"-1"
 				}
 				"gear"
 				{
-					"ins_light_armor"	"-1"
-					"ins_medium_armor"	"-1"
-					"ins_heavy_armor"	"-1"
+					"ins_light_armor"			"-1"
+					"ins_medium_armor_sapper"	"-1"
 				}
 			}
 		}
@@ -1074,12 +996,12 @@
 
 			"models"
 			{
-				"player"			"models/characters/insurgent_heavy.mdl"
-				"viewmodel_hands"	"models/weapons/v_hands_ins_h.mdl"
+				"player"			"models/characters/insurgent_specialist.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_ins_l.mdl"
 			}
 			"buy_order" 
 			{
-				"gear"				"ins_medium_armor"
+				"gear"				"ins_heavy_armor_militant"
 				"gear"				"ins_rig_01"
 				"weapon"			"weapon_gurkha"
 				"weapon"			"weapon_makarov"
@@ -1095,11 +1017,9 @@
 				"weapon"			"weapon_fal"
 				// Personal Weapons
 				"weapon"			"weapon_makarov"
-				"weapon"			"weapon_model10"
 				// Grenades
 				"weapon"			"weapon_m18"
 				"weapon"			"weapon_f1"
-				"weapon"			"weapon_molotov"
 				// Upgrades
 				"?nightmap"
 				{
@@ -1110,8 +1030,8 @@
 				"weapon_upgrade"    "magazine_drum_75rd"
 				"weapon_upgrade"	"magazine_extended_rifle_30rd"
 				// Gear
-				"gear"				"ins_medium_armor"
-				"gear"				"ins_heavy_armor"
+				"gear"				"ins_medium_armor_specialist"
+				"gear"				"ins_heavy_armor_militant"
 			}
 			"cost_modifiers"
 			{
@@ -1124,14 +1044,15 @@
 				}
 				"gear"
 				{
-					"ins_light_armor"	"-1"
-					"ins_medium_armor"	"-1"
-					"ins_heavy_armor"	"-1"
+					"ins_light_armor"				"-1"
+					"ins_medium_armor_specialist"	"-1"
+					"ins_heavy_armor_militant"		"-1"
 				}
 				"weapon"
 				{
 					"weapon_makarov"	"-1"
 					"weapon_m1911"		"-1"
+					"weapon_f1"			"1"
 				}
 			}
 		}
@@ -1143,7 +1064,7 @@
 
 			"models"
 			{
-				"player"			"models/characters/insurgent_light.mdl"
+				"player"			"models/characters/insurgent_scout.mdl"
 				"viewmodel_hands" 	"models/weapons/v_hands_ins_l.mdl"
 			}
 
@@ -1159,12 +1080,11 @@
 			"allowed_items"
 			{
 				// Primary Weapons
-				"weapon"			"weapon_fal"
-				"weapon"			"weapon_fal"
+				"weapon"			"weapon_g3"
+				"weapon"			"weapon_g3"
 				"weapon"			"weapon_zastava"
 				"weapon"			"weapon_mosin"
 				// Personal Weapons
-				"weapon"			"weapon_model10"
 				"weapon"			"weapon_makarov"
 				"weapon"			"weapon_tokarev"
 				// Grenades
@@ -1188,7 +1108,6 @@
 				{
 					"weapon_mosin"				"-1"
 					"weapon_makarov"			"-1"
-					"weapon_m1911"				"-1"
 				}
 				"weapon_upgrade"
 				{
@@ -1212,8 +1131,8 @@
 
 			"models"
 			{
-				"player"			"models/characters/insurgent_heavy.mdl"
-				"viewmodel_hands"	"models/weapons/v_hands_ins_h.mdl"
+				"player"			"models/characters/insurgent_sapper.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_ins_l.mdl"
 			}
 			"buy_order" 
 			{
@@ -1233,7 +1152,7 @@
 				"weapon"			"weapon_akm"
 				// Personal Weapons
 				"weapon"			"weapon_makarov"
-				"weapon"			"weapon_model10"
+				"weapon"			"weapon_toz"
 				"weapon"			"weapon_tokarev"
 				// Grenades
 				"weapon"			"weapon_c4_ied"
@@ -1243,8 +1162,8 @@
 				"weapon_upgrade"	"underbarrel_gp25_he"
 				"weapon_upgrade"	"underbarrel_gp25_smoke"
 				// Gear
-				"gear"				"ins_medium_armor"
-				"gear"				"ins_heavy_armor"
+				"gear"				"ins_medium_armor_sapper"
+				"gear"				"ins_heavy_armor_rebel"
 			}
 			"cost_modifiers"
 			{
@@ -1253,13 +1172,12 @@
 					"weapon_sks"		"1"
 					"weapon_akm"		"3"
 					"weapon_makarov"	"-1"
-					"weapon_m1911"		"-1"
 				}
 				"gear"
 				{
-					"ins_light_armor"	"-1"	
-					"ins_medium_armor"	"-1"
-					"ins_heavy_armor"	"-1"
+					"ins_light_armor"			"-1"	
+					"ins_medium_armor_sapper"	"-1"
+					"ins_heavy_armor_rebel"		"-1"
 				}
 			}
 		}
@@ -1271,7 +1189,7 @@
 
 			"models"
 			{
-				"player"			"models/characters/insurgent_light.mdl"
+				"player"			"models/characters/insurgent_scout.mdl"
 				"viewmodel_hands" 	"models/weapons/v_hands_ins_l.mdl"
 			}
 			"buy_order" 
@@ -1292,7 +1210,6 @@
 				"weapon"			"weapon_m1a1"
 				// Personal Weapons
 				"weapon"			"weapon_makarov"
-				"weapon"			"weapon_model10"
 				"weapon"			"weapon_tokarev"
 				// Grenades
 				"weapon"			"weapon_m18"
@@ -1329,7 +1246,7 @@
 
 			"models"
 			{
-				"player"			"models/characters/insurgent_machinegunner.mdl"
+				"player"			"models/characters/insurgent_specialist.mdl"
 				"viewmodel_hands"	"models/weapons/v_hands_ins_l.mdl"
 			}
 			"buy_order" 
@@ -1339,7 +1256,7 @@
 				"weapon"			"weapon_gurkha"
 				"weapon"			"weapon_makarov"
 				"weapon"			"weapon_ak74"
-				"weapon"			"weapon_m84"
+				"weapon"			"weapon_f1"
 			}
 			"allowed_items"
 			{
@@ -1349,8 +1266,8 @@
 				"weapon"			"weapon_akm"
 				"weapon"			"weapon_galil"
 				// Personal Weapons
-				"weapon"			"weapon_model10"
 				"weapon"			"weapon_makarov"
+				"weapon"			"weapon_toz"
 				"weapon"			"weapon_tokarev"
 				// Grenades
 				"weapon"			"weapon_f1"
@@ -1358,7 +1275,9 @@
 				"weapon"			"weapon_m84"
 				// Upgrades
 				// Gear
-				"gear"				"ins_medium_armor"
+				"gear"				"ins_medium_armor_specialist"
+				"gear"				"ins_heavy_armor_militant"
+				
 				"?nightmap"
 				{
 					"weapon"			"weapon_p2a1"
@@ -1369,11 +1288,12 @@
 				"weapon"
 				{
 					"weapon_akm"		"1"
+					"weapon_ak74"		"-1"
 				}
 				"gear"
 				{
-					"ins_light_armor"	"-1"	
-					"ins_medium_armor"	"-1"
+					"ins_light_armor"				"-1"	
+					"ins_medium_armor_specialist"	"-1"
 				}
 			}
 		}
@@ -1385,8 +1305,8 @@
 
 			"models"
 			{
-				"player"			"models/characters/insurgent_heavy.mdl"
-				"viewmodel_hands"	"models/weapons/v_hands_ins_h.mdl"
+				"player"			"models/characters/insurgent_specialist.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_ins_l.mdl"
 			}
 			"buy_order" 
 			{
@@ -1400,15 +1320,14 @@
 			"allowed_items"
 			{
 				// Primary Weapons
-				"weapon"			"weapon_sterling"
-				"weapon"			"weapon_sterling"
+				"weapon"			"weapon_g3"
+				"weapon"			"weapon_g3"
 				"weapon"			"weapon_galil"
 				"weapon"			"weapon_ak74"
 				"weapon"			"weapon_aks74u"
 				"weapon"			"weapon_akm"
 				// Personal Weapons
 				"weapon"			"weapon_tokarev"
-				"weapon"			"weapon_bhp"
 				"weapon"			"weapon_deagle"
 				// Grenades
 				"weapon"			"weapon_f1"
@@ -1425,16 +1344,15 @@
 				"weapon_upgrade"	"barrel_silencer_pistol"
 				"weapon_upgrade"	"optic_po4x24"
 				// Gear
-				"gear"				"ins_medium_armor"
-				"gear"				"ins_heavy_armor"
+				"gear"				"ins_medium_armor_specialist"
+				"gear"				"ins_heavy_armor_militant"
 			}
 			"cost_modifiers"
 			{
 				"weapon"
 				{
-					"weapon_bhp"					"-1"
 					"weapon_tokarev"				"-1"
-					"weapon_akm"					"2"
+					"weapon_akm"					"1"
 					"weapon_makarov"				"-1"
 					"weapon_m1911"					"-1"
 				}
@@ -1445,9 +1363,9 @@
 				}
 				"gear"
 				{
-					"ins_light_armor"	"-1"	
-					"ins_medium_armor"	"-1"
-					"ins_heavy_armor"	"-1"
+					"ins_light_armor"				"-1"	
+					"ins_medium_armor_specialist"	"-1"
+					"ins_heavy_armor_militant"		"-1"
 				}
 			}
 		}
@@ -1467,7 +1385,7 @@
 				"gear"				"ins_rig_01"
 				"gear"				"ins_light_armor"
 				"weapon"			"weapon_gurkha"
-				"weapon"			"weapon_bhp"
+				"weapon"			"weapon_makarov"
 				"weapon"			"weapon_g3"
 				"weapon_upgrade"	"ammo_ap_fal"
 				"weapon"			"weapon_m18"
@@ -1481,8 +1399,8 @@
 				"weapon"			"weapon_ak74"
 				// Personal Weapons
 				"weapon"			"weapon_tokarev"
-				"weapon"			"weapon_bhp"
 				"weapon"			"weapon_deagle"
+				"weapon"			"weapon_makarov"
 				"weapon"			"weapon_molotov"
 				// Grenades
 				"weapon"			"weapon_f1"
@@ -1500,16 +1418,19 @@
 				"weapon_upgrade"	"underbarrel_gp25_smoke"
 				"weapon_upgrade"	"optic_po4x24"
 				// Gear
-				"gear"				"ins_medium_armor"
+				"gear"				"ins_medium_armor_specialist"
+				"gear"				"ins_heavy_armor_rebel"
 			}
 			"cost_modifiers"
 			{
 				"weapon"
 				{
-					"weapon_bhp"					"-1"
 					"weapon_ak74"					"-2"
+					"weapon_galil"					"-1"
 					"weapon_makarov"				"-1"
 					"weapon_m1911"					"-1"
+					"weapon_f1"						"-1"
+					"weapon_bhp"					"-1"
 				}
 				"weapon_upgrade"
 				{
@@ -1526,8 +1447,8 @@
 
 			"models"
 			{
-				"player"			"models/characters/insurgent_standard.mdl"
-				"viewmodel_hands"	"models/weapons/v_hands_ins_l.mdl"
+				"player"			"models/characters/insurgent_warlord.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_ins_w.mdl"
 			}
 			"buy_order" 
 			{
@@ -1535,7 +1456,7 @@
 				"gear"				"ins_light_armor"
 				"weapon"			"weapon_gurkha"
 				"weapon"			"weapon_makarov"
-				"weapon"			"weapon_ak74"
+				"weapon"			"weapon_akm"
 				"weapon"			"weapon_f1"
 			}
 			"allowed_items"
@@ -1545,13 +1466,13 @@
 				"weapon"			"weapon_fal"
 				"weapon"			"weapon_aks74u"
 				"weapon"			"weapon_akm"
-				"weapon"			"weapon_ak74"
 				// Personal Weapons
-				"weapon"			"weapon_bhp"
 				"weapon"			"weapon_tokarev"
+				"weapon"			"weapon_makarov"
 				// Grenades
 				"weapon"			"weapon_molotov"
 				"weapon"			"weapon_m18"
+				"weapon"			"weapon_m84"
 				"weapon"			"weapon_f1"
 				"?nightmap"
 				{
@@ -1564,7 +1485,7 @@
 				"weapon_upgrade"	"barrel_silencer_ins1"
 				"weapon_upgrade"	"optic_po4x24"
 				// Gear
-				"gear"				"ins_medium_armor"
+				"gear"				"ins_medium_armor_specialist"
 			}
 			"cost_modifiers"
 			{
@@ -1574,6 +1495,7 @@
 					"weapon_bhp"			"-1"
 					"weapon_makarov"		"-1"
 					"weapon_m1911"			"-1"
+					"weapon_f1"				"-1"
 				}
 				"weapon_upgrade"
 				{

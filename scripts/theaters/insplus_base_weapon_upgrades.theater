@@ -4,24 +4,24 @@
 	{
 		"base_ammo_hp"
 		{
-			"IsBase"					"1"
-			"upgrade_slot"				"ammo"
-			"print_name"				"#weapon_upgrade_hp"
-			"print_desc"				"#weapon_upgrade_hp_desc"
+			"IsBase"						"1"
+			"upgrade_slot"					"ammo"
+			"print_name"					"#weapon_upgrade_hp"
+			"print_desc"					"#weapon_upgrade_hp_desc"
 		}
 		"base_ammo_ap"
 		{
-			"IsBase"					"1"
-			"upgrade_slot"				"ammo"
-			"print_name"				"#weapon_upgrade_ap"
-			"print_desc"				"#weapon_upgrade_ap_desc"
+			"IsBase"						"1"
+			"upgrade_slot"					"ammo"
+			"print_name"					"#weapon_upgrade_ap"
+			"print_desc"					"#weapon_upgrade_ap_desc"
 		}
 		"base_ammo_tracer"
 		{
-			"IsBase"					"1"
-			"upgrade_slot"				"ammo"
-			"print_name"				"#weapon_upgrade_tracer"
-			"print_desc"				"#weapon_upgrade_tracer_desc"
+			"IsBase"						"1"
+			"upgrade_slot"					"ammo"
+			"print_name"					"#weapon_upgrade_tracer"
+			"print_desc"					"#weapon_upgrade_tracer_desc"
 		}
 		"base_standard"
 		{
@@ -41,22 +41,23 @@
 		"base_foregrip"
 		{
 			"IsBase"						"1"
-			"upgrade_cost"					"4"
+			"upgrade_cost"					"3"
 			"upgrade_slot"					"underbarrel"
 			"print_name"					"#weapon_upgrade_insplus_foregrip"
 			"print_desc"					"#weapon_upgrade_insplus_foregrip_desc"
 			"weapon_abilities"				"foregrip"
 			"ads_in_speed"					"1.3"
 			"ads_out_speed"					"1.3"
+			"bolt_speed"					"1.2"
 			
 			"freeaim"
 			{
-				"freeaim_distance_frac"			"0.75"
+				"freeaim_distance_frac"			"1.00"
 			}
 			"recoil"
 			{
-				"recoil_lateral_frac"			"0.80"
-				"recoil_vertical_frac"			"0.80"
+				"recoil_lateral_frac"			"0.85"
+				"recoil_vertical_frac"			"0.85"
 			}
 			"sway"
 			{
@@ -81,7 +82,7 @@
 			
 			"freeaim"
 			{
-				"freeaim_distance_frac"			"1.20"
+				"freeaim_distance_frac"			"1.10"
 			}
 			"recoil"
 			{
@@ -102,7 +103,7 @@
 			"weapon_abilities"				"silencer"
 			"particle_1p"					"muzzleflash_suppressed_1p"
 			"particle_attach"				"muzzle_supp"
-			"spread_frac"					"1.15"
+			"spread_frac"					"1.20"
 			"draw_speed"					"0.95"
 			"ads_in_speed"					"0.95"
 			"ads_out_speed"					"0.95"

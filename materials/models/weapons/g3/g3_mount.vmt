@@ -16,7 +16,7 @@
 
 	"$envmap" "env_cubemap"
 	"$envmapfresnel" 1
-	"$envmaptint" "[.001 .001 .001]"
+	"$envmaptint"				 	"[0.02 0.02 0.02]"
 	"$normalmapalphaenvmapmask" 1
 	
 	"$nocull" 1

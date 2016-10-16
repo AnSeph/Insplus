@@ -1,0 +1,13 @@
+
+"VertexLitGeneric"
+{
+	$basetexture 	"models\player\attachments\us_ins_attachments_color"
+	$bumpmap 		"models\player\attachments\us_ins_attachments_normal"
+	$phong 			"1"
+	$phongboost 	".07"
+	$phongexponent 	"5"
+	$phongtint		"[0.5 0.425 0.36]"
+	$halflambert 	"0"
+	$rimlight 		"0"
+	$alphatest		"0"
+}

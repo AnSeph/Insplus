@@ -1,0 +1,22 @@
+"VertexLitGeneric"
+{
+	$basetexture 		"models\player\attachments\insplus\ins_attachments_color"
+	$bumpmap 		"models\player\attachments\ins_attachments_normal"
+	
+	$phong 			"1"
+	$phongboost 		".08"
+	$phongexponent 		"5"
+	$phongtint		"[0.5 0.425 0.36]"
+	
+	"$detail"				"vgui/white"
+	"$detailblendfactor"	"0"
+	"$detailscale"			"2"
+	
+	"Proxies"
+	{
+		"CauseOfDeath"
+		{
+			"resultVar"		"$detail"
+		}
+	}
+}

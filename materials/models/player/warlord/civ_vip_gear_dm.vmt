@@ -1,7 +1,7 @@
 "VertexLitGeneric"
 {
 	$basetexture 	"models\player\warlord\civ_vip_gear_dm"
-	$bumpmap 		"models\player\warlord\civ_vip_gear_nm"
+	$bumpmap 		"models\player\civ_vip\civ_vip_gear_nm"
 	$phong 			"1"
 	$phongboost 	".15"
 	$phongexponent 	"5"
