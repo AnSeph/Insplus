@@ -6,7 +6,7 @@
 	"description"					"Classic Insurgency PvP using Insplus Mod"
 	"category"						"pvp" // Required: Menu category, should be "pvp" or "coop"
 	
-	"require_maxplayers_max"		"24"	// Max player slots required for this playlist
+	"require_maxplayers_max"		"32"	// Max player slots required for this playlist
 	
 	"allowed_maps"
 	{
