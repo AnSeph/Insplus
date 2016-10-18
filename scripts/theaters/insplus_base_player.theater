@@ -43,19 +43,20 @@
 			"speed_sprint"				"225"
 			"AccelerationByWeight"
 			{
-				"60"					"3.00"
-				"640"					"1.50"
+				"60"					"4.20"
+				"640"					"2.70"
 			}
+			
 			"DecelerationByWeight"
 			{
-				"60"					"600.00"	// these are much higher than acceleration values because it's loss in velocity per second
-				"640"					"400.00"
+				"60"					"300.0"	// these are much higher than acceleration values because it's loss in velocity per second
+				"640"					"450.0"
 			}
 			
 			"FrictionByWeight"
 			{
-				"60"					"3.00"
-				"640"					"1.55"
+				"60"					"4.20"
+				"640"					"2.75"
 			}
 			"SprintSpeedFactorByStamina"
 			{
