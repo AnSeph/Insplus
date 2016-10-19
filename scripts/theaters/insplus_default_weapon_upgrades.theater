@@ -1125,8 +1125,8 @@
 				}
 				"weapon_mini14"
 				{
-					"fov_wpn_ironsight"			"57"
-					"fov_wpn_focus"				"57"
+					"fov_wpn_ironsight"			"55"
+					"fov_wpn_focus"				"61"
 				}
 				
 				"weapon_mk18"
@@ -1658,7 +1658,7 @@
 				"weapon_mini14"
 				{
 					"fov_wpn_ironsight"			"55"
-					"fov_wpn_focus"				"55"
+					"fov_wpn_focus"				"61"
 				}
 				
 				"weapon_m40a1"
@@ -2033,8 +2033,8 @@
 				
 				"weapon_mini14"
 				{
-					"fov_wpn_ironsight"			"49"
-					"fov_wpn_focus"				"58"
+					"fov_wpn_ironsight"			"50"
+					"fov_wpn_focus"				"57"
 				}
 				
 				"weapon_m40a1"

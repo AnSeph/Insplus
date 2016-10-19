@@ -58,7 +58,7 @@
 				"sway_viewmodel_ratio"			"0.70"
 				"sway_screen_ads_ratio"			"0.80"
 				"sway_viewmodel_ads_ratio"		"1.00"
-				"sway_radius_interp_speed"		"6.75"
+				"sway_radius_interp_speed"		"6.50"
 				
 				"SwayRadiusFracBySpeed"
 				{
@@ -71,7 +71,7 @@
 				{
 					"0"						"1.00"
 					"80"					"4.00"
-					"220"					"1.00"
+					"220"					"2.50"
 				}
 				"SwayRadiusBySuppression"
 				{
