@@ -1,4 +1,4 @@
-# Insurgency+ Tactical Rebalance Theater Mod
+# Insurgency+ Tactical Realism Theater Mod
 ## About
 This is a custom gameplay modification for Insurgency. It includes various gameplay tweaks and changes to Vanilla Insurgency's classes, weapons, gear, movement, damage model, and more. 
 

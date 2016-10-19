@@ -724,7 +724,7 @@
 			
 			"models"
 			{
-				"player"				"models/characters/security_heavy.mdl"
+				"player"				"models/characters/security_marine.mdl"
 				"viewmodel_hands"			"models/weapons/v_hands_sec_l.mdl"
 			}
 			
@@ -755,7 +755,7 @@
 			
 			"models"
 			{
-				"player"				"models/characters/security_heavy.mdl"
+				"player"				"models/characters/security_marine.mdl"
 				"viewmodel_hands"			"models/weapons/v_hands_sec_l.mdl"
 			}
 			
@@ -782,7 +782,7 @@
 			
 			"models"
 			{
-				"player"				"models/characters/security_medium_light_spec.mdl"
+				"player"				"models/characters/security_medium_spec.mdl"
 				"viewmodel_hands"			"models/weapons/v_hands_sec_l.mdl"
 			}
 			
