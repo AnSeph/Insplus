@@ -40,7 +40,7 @@
 			"speed_crouch_run"			"85"
 			"speed_walk"				"95"
 			"speed_run"					"150"
-			"speed_sprint"				"225"
+			"speed_sprint"				"220"
 			"AccelerationByWeight"
 			{
 				"60"					"4.20"
@@ -62,7 +62,7 @@
 			{
 				"0"						"1.000"
 				"100"					"1.125"
-				"225"					"1.200"
+				"200"					"1.200"
 			}
 		}
 		"turning"
@@ -78,11 +78,11 @@
 		{
 			"StaminaMaxByWeight"
 			{
-				"60"					"200"
+				"60"					"190"
 				"640"					"225"
 			}
-			"stamina_regain"			"8.75"
-			"stamina_sprint_take"		"8.75"
+			"stamina_regain"			"12.00"
+			"stamina_sprint_take"		"15.00"
 			"stamina_jump_take"			"40"
 			"stamina_dmg_take"			"200.00"
 			

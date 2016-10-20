@@ -8,14 +8,13 @@ The intended result of this mod is to make Insuegency into a much slower paced, 
 - Reworked classes/weapons for more faction asymmetry
 - Whole new coop checkpoint enemy squads (stealth silencer sqauds and flashbang shock troopers)
 - Intensified suppression system
-- Intensified and harsh Recoil
-- Weapons now have tangible mechanic differences regarding freeaim radius, barrel length, ironsight in and out time, overall recoil, and attachment availability
+- Expanded freeaim system into ironsights
+- Weapons now have tangible mechanic differences regarding freeaim, barrel length, focus zoom, rate of file, and attachment availability
 - Sprint speed scaling with stamina (sprint speed decreases the more tired you get)
-- Reworked some attachment benefits to feel slightly less like straight upgrades and more like quality of life upgrades
-- Slightly reworked AP and HP ammo mechanics for balance and realism
-- Revamped damage model for almost all ammo types to be closer to real life performance 
+- Reworked HP an AP ammo availiblity for more meaningful balance between weapon choices
 - Significantly increased stamina drain and sway when taking hits
-- Reworked armor effectiveness to be more protective while still maintaining the lethality of combat
+- Increased armor effectiveness against most bullets while still retaining the lethality of combat
+
 
 ## Disclaimer
 I do not own the custom models and sounds used in this mod, nor did I originally create them.

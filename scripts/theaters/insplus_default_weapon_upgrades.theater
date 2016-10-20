@@ -4285,7 +4285,6 @@
 			"class_restricted"			"1"
 			"recoil"
 			{
-				"recoil_lateral_frac"			"0.95"
 				"recoil_vertical_frac"			"0.95"
 			}
 		}
