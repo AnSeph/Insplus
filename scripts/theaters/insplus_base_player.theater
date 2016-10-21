@@ -61,8 +61,7 @@
 			"SprintSpeedFactorByStamina"
 			{
 				"0"						"1.000"
-				"100"					"1.125"
-				"200"					"1.200"
+				"200"					"1.275"
 			}
 		}
 		"turning"
@@ -78,11 +77,9 @@
 		{
 			"StaminaMaxByWeight"
 			{
-				"60"					"190"
-				"640"					"225"
 			}
-			"stamina_regain"			"12.00"
-			"stamina_sprint_take"		"15.00"
+			"stamina_regain"			"15.00"
+			"stamina_sprint_take"		"20.00"
 			"stamina_jump_take"			"40"
 			"stamina_dmg_take"			"200.00"
 			
@@ -156,7 +153,7 @@
 		"suppression"
 		{
 			"suppression_resistance"			"0"
-			"suppression_recovery_rate"			"15"
+			"suppression_recovery_rate"			"10"
 		}
 		"damage"
 		{

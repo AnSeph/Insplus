@@ -119,7 +119,7 @@
 				"recoil_shot_reset_time"			"0.30"
 				"recoil_focus_frac"					"0.90"
 				"recoil_freeaim_frac"				"1.00"
-				"recoil_ironsight_frac"				"0.625"
+				"recoil_ironsight_frac"				"0.70"
 				
 				"recoil_controller_frac"			"0.75"
 				"recoil_return_controller_only"		"1"
@@ -164,7 +164,7 @@
 				}
 				"RecoilLowStaminaFracByWeight"
 				{
-					"60"					"1.75"
+					"60"					"1.50"
 				}
 				"RecoilMaxFracByWeight"
 				{
@@ -425,7 +425,6 @@
 			}
 			"recoil"
 			{
-				"recoil_ironsight_frac"		"1.00"
 				
 				"RecoilBipodFracByWeight"
 				{
