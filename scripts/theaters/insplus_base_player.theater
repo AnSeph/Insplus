@@ -77,6 +77,8 @@
 		{
 			"StaminaMaxByWeight"
 			{
+				"60"					"260"
+				"640"					"200"
 			}
 			"stamina_regain"			"15.00"
 			"stamina_sprint_take"		"20.00"
