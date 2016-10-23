@@ -9,7 +9,8 @@
       		"carry"						"12"
 			"magsize"					"30"
      		"tracer_type"				"none"
-			// 50 -> 1.25m ingame
+			// 50 -> 0.25m ingame
+			// 200 -> 1m ingame
 			"PhysicsImpulse"
 			{
 				"50"					"550"
@@ -27,7 +28,7 @@
 			}
 			"PenetrationPower"
 			{
-				"50"					"200"
+				"200"					"200"
 				"8000"					"135"
 			}
 			"DamageHitgroups"
@@ -117,12 +118,12 @@
 			"brass_model" 				"models/weapons/shells/9x19.mdl"
 			"Damage"					
 			{
-				"1200"      "65"
-				"3000"    	"40"
+				"5000"      "65"
+				"10000"    	"40"
 			}
 			"PenetrationPower"
 			{
-				"50"					"275"
+				"200"					"275"
 				"8000"					"100"
 			}
 			"DamageHitgroups"
@@ -150,7 +151,7 @@
 			}
 			"PenetrationPower"
 			{
-				"50"					"150"
+				"200"					"150"
 				"8000"					"75"
 			}
 			"PenetrationDamage"
@@ -166,7 +167,7 @@
 			"import"    "9x19"
 			"PenetrationPower"
 			{
-				"50"					"500"
+				"200"					"500"
 				"8000"					"150"
 			}
 			"PenetrationDamage"
@@ -193,12 +194,12 @@
 			"brass_model" 				"models/weapons/shells/45apc.mdl"
 			"Damage"					
 			{
-				"1200"      "80"
-				"3000"    	"45"
+				"5000"      "80"
+				"10000"    	"45"
 			}
 			"PenetrationPower"
 			{
-				"50"      			"250" 
+				"200"      			"250" 
 				"8000"    			"80" 
 			}
 			"DamageHitgroups"
@@ -226,7 +227,7 @@
 			"import"    "45acp"
 			"PenetrationPower"
 			{
-				"50"					"125"
+				"200"					"125"
 				"8000"					"75"
 			}
 			"PenetrationDamage"
@@ -251,7 +252,7 @@
 			}
 			"PenetrationPower"
 			{
-				"50"					"500"
+				"200"					"500"
 				"8000"					"150"
 			}
 			"PenetrationDamage"
@@ -283,9 +284,9 @@
 			"brass_model"				"models/weapons/shells/545x39.mdl"
 			"Damage"					
 			{
-				"80"      "105"
-				"1600"    "105" 
-				"12000"   "85"
+				"200"      	"105"
+				"8000"    	"105" 
+				"60000"   	"85"
 			}
 			"PenetrationPower"
 			{
@@ -348,13 +349,13 @@
 			"brass_model"				"models/weapons/shells/545x39.mdl"
 			"Damage"					
 			{
-				"80"      	"105"
-				"1600"		"105" 
+				"200"      	"105"
+				"7000"		"105" 
 				"10000"   	"70"
 			}
 			"PenetrationPower"
 			{
-				"50"					"600"
+				"200"					"600"
 				"8000"					"100"
 			}
 			"PenetrationDamage"
@@ -370,7 +371,7 @@
 			"import"    "545x39_car"
 			"PenetrationPower"
 			{
-				"50"      			"300" 
+				"200"      			"300" 
 				"8000"   		 	"100" 
 			}
 			"PenetrationDamage"
@@ -386,7 +387,7 @@
 			"import"    "545x39_car"
 			"PenetrationPower"
 			{
-				"50"					"1200"
+				"200"					"1200"
 				"8000"					"350"
 			}
 			"PenetrationDamage"
@@ -414,9 +415,9 @@
 			"brass_model"				"models/weapons/shells/556x45.mdl"
 			"Damage"					
 			{
-				"80"      "120" // bullets fragment at under 30m dealing more damage. (truly more like 150m but compromise for gameplay)
-				"1600"    "110" 
-				"12000"   "80" 
+				"200"     "120" // bullets fragment at under 30m dealing more damage. (truly more like 150m but compromise for gameplay)
+				"8000"    "110" 
+				"60000"   "80" 
 			}
 			"PenetrationPower" // Maybe offer or imply Mk318 rounds which are like combined HP and AP at high cost?
 			{
@@ -479,13 +480,13 @@
 			"SuppressionIncrement"		"30"
 			"Damage"					
 			{
-				"50"      	"120" // bullets fragment at under 30m dealing more damage. (truly more like 60m but compromise for gameplay)
-				"1200"		"110"
-				"12000"   	"75" 
+				"200"      	"120" // bullets fragment at under 30m dealing more damage. (truly more like 60m but compromise for gameplay)
+				"6000"		"110"
+				"60000"   	"75" 
 			}
 			"PenetrationPower"
 			{
-				"100"      	"750" 
+				"200"      	"750" 
 				"10000"   	"275" 
 			}
 			"PenetrationDamage"
@@ -544,14 +545,14 @@
 			"SuppressionIncrement"		"30"
 			"Damage"					
 			{
-				"50"      	"130" // bullets fragment at under 20m dealing more damage. (truly more like 50m but compromise for gameplay)
-				"800"		"110"
-				"10000"   	"70" 
+				"200"      	"130" // bullets fragment at under 20m dealing more damage. (truly more like 50m but compromise for gameplay)
+				"4000"		"110"
+				"50000"   	"70" 
 			}
 			"PenetrationPower" // Maybe offer or imply Mk318 rounds which are like combined HP and AP at high cost?
 			{
-				"50"      "600" //NATO Ball (M855) can penetrate up to 3 mm (about 1/8 in) of steel at 600 meters
-				"8000"    "100" 
+				"200"      	"600" //NATO Ball (M855) can penetrate up to 3 mm (about 1/8 in) of steel at 600 meters
+				"15000"    	"100" 
 			}
 			"PenetrationDamage"
 			{
@@ -566,7 +567,7 @@
 			"import"    "556x45_cqb"
 			"PenetrationPower"
 			{
-				"50"      "400" 
+				"200"      "400" 
 				"8000"    "75" 
 			}
 			"PenetrationDamage"
@@ -582,8 +583,8 @@
 			"import"    "556x45_cqb"
 			"PenetrationPower"
 			{
-				"50"      "1200" //M995 can penetrate up to 12 mm (nearly 1/2 in) of RHA steel at 100 meters.
-				"8000"    "300" 
+				"200"      	"1200" //M995 can penetrate up to 12 mm (nearly 1/2 in) of RHA steel at 100 meters.
+				"8000"    	"300" 
 			}
 			"PenetrationDamage"
 			{
@@ -610,14 +611,14 @@
 			
 			"Damage"					
 			{
-				"50"      			"100"
-				"1400"    			"100"
-				"12000"   			"75" 
+				"200"      			"100"
+				"7000"    			"100"
+				"60000"   			"75" 
 			}
 			"PenetrationPower"
 			{
 				"100"      "600" 
-				"12000"    "100" 
+				"30000"    "100" 
 			}
 			"PenetrationDamage"
 			{
@@ -632,7 +633,7 @@
 			"import"    "762x39"
 			"PenetrationPower"
 			{
-				"50"      "250" 
+				"200"      "250" 
 				"12000"   "50" 
 			}
 			"PenetrationDamage"
@@ -649,7 +650,7 @@
 			"PenetrationPower"
 			{
 				"150"      	"1600" 
-				"12000"   	"650" 
+				"30000"   	"650" 
 			}
 			"PenetrationDamage"
 			{
@@ -675,14 +676,14 @@
 			"brass_model"				"models/weapons/shells/762x33.mdl"
 			"PenetrationPower"
 			{
-				"50"      	"450"
+				"200"      	"450"
 				"12000"   	"10"
 			}
 			"Damage"					
 			{
-				"50"      	"100"
-				"620"		"100"
-				"6000"   	"70" 
+				"200"      	"100"
+				"3100"		"100"
+				"20000"   	"70" 
 			}
 			"PenetrationDamage"
 			{
@@ -697,7 +698,7 @@
 			"import"    "762x33"
 			"PenetrationPower"
 			{
-				"50"      	"225" 
+				"200"      	"225" 
 				"12000"   	"5" 
 			}
 			"PenetrationDamage"
@@ -713,7 +714,7 @@
 			"import"    "762x33"
 			"PenetrationPower"
 			{
-				"50"      	"800" 
+				"200"      	"800" 
 				"12000"   	"100" 
 			}
 			"PenetrationDamage"
@@ -740,9 +741,9 @@
 			"brass_model"				"models/weapons/shells/762x51.mdl"
 			"Damage"					
 			{
-				"50"        "135"
-				"2700"		"135"
-				"18000"     "90" 
+				"200"       "135"
+				"8000"		"135"
+				"60000"     "90" 
 			}
 			"PenetrationPower"
 			{
@@ -1277,13 +1278,13 @@
 			"brass_model" 				"models/weapons/shells/45apc.mdl"
 			"Damage"					
 			{
-				"1200"		"100"
-				"3000"    	"65"
+				"5000"		"100"
+				"10000"    	"65"
 			}
 			"PenetrationPower"
 			{
-				"50"      "550" 
-				"8000"    "50" 
+				"200"      "550" 
+				"8000"    	"50" 
 			}
 			"DamageHitgroups"
 			{
@@ -1307,12 +1308,12 @@
 			"brass_model" 				"models/weapons/shells/9x19.mdl"
 			"Damage"
 			{
-				"1200"		"65"
-				"3000"		"40"
+				"5000"		"65"
+				"10000"		"40"
 			}
 			"PenetrationPower"
 			{
-				"50"		"450"
+				"200"		"450"
 				"8000"		"100"
 			}
 			"DamageHitgroups"
@@ -1335,7 +1336,7 @@
 			"brass_model" 				"models/weapons/shells/9x19.mdl"
 			"PenetrationPower"
 			{
-				"50"		"250"
+				"200"		"250"
 				"8000"		"50"
 			}
 			"PenetrationDamage"
@@ -1353,7 +1354,7 @@
 			"brass_model" 				"models/weapons/shells/9x19.mdl"
 			"PenetrationPower"
 			{
-				"50"		"650"
+				"200"		"650"
 				"8000"		"150"
 			}
 			"PenetrationDamage"
@@ -1371,13 +1372,13 @@
 			"brass_model" 				"models/weapons/shells/9x19.mdl"
 			"PenetrationPower"
 			{
-				"50"		"450"
+				"200"		"450"
 				"8000"		"100"
 			}
 			"Damage"
 			{
-				"1200"		"65"
-				"3000"		"45"
+				"5000"		"65"
+				"10000"		"45"
 			}
 			"DamageHitgroups"
 			{
@@ -1399,7 +1400,7 @@
 			"brass_model" 				"models/weapons/shells/9x19.mdl"
 			"PenetrationPower"
 			{
-				"50"		"250"
+				"200"		"250"
 				"8000"		"50"
 			}
 			"PenetrationDamage"
@@ -1417,7 +1418,7 @@
 			"brass_model" 				"models/weapons/shells/9x19.mdl"
 			"PenetrationPower"
 			{
-				"50"		"650"
+				"200"		"650"
 				"8000"		"150"
 			}
 			"PenetrationDamage"
@@ -1436,13 +1437,13 @@
 			"PenetrationPower"
 			{
 				"150"        "850" 
-				"12000"      "150"  
+				"30000"      "150"  
 			}
 			"Damage"
 			{
-				"50"							"140"
-				"450"							"140"
-				"12000"							"100"
+				"200"							"140"
+				"8000"							"140"
+				"60000"							"100"
 			}
 			"PenetrationDamage"
 			{
@@ -1458,7 +1459,7 @@
 			"PenetrationPower"
 			{
 				"150"		"2000"
-				"15000"		"850"
+				"30000"		"850"
 			}
 			"PenetrationDamage"
 			{
