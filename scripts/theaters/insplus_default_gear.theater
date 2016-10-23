@@ -13,12 +13,11 @@
 			
 			"DamageHitgroups"
 			{
-				"HITGROUP_CHEST"				"0.65"
-				"HITGROUP_STOMACH"				"0.65"
+				"HITGROUP_CHEST"				"0.80"
+				"HITGROUP_STOMACH"				"0.80"
 			}
 			
-			"penetration_power_required" 	"25"
-			"penetration_power_loss"		"50"
+			"penetration_power_loss"		"100"
 			"explosive_damage_frac"			"0.95"
 			
 			"team_access"	"security"		
@@ -34,12 +33,11 @@
 			
 			"DamageHitgroups"
 			{
-				"HITGROUP_CHEST"				"0.65"
-				"HITGROUP_STOMACH"				"0.65"
+				"HITGROUP_CHEST"				"0.80"
+				"HITGROUP_STOMACH"				"0.80"
 			}
 			
-			"penetration_power_required" 	"25"
-			"penetration_power_loss"		"50"
+			"penetration_power_loss"		"100"
 			"explosive_damage_frac"			"0.95"
 			
 			"team_access"	"insurgent"		
@@ -56,14 +54,13 @@
 			
 			"DamageHitgroups"
 			{
-				"HITGROUP_CHEST"				"0.20"
-				"HITGROUP_STOMACH"				"0.20"
+				"HITGROUP_CHEST"				"0.70"
+				"HITGROUP_STOMACH"				"0.70"
 			}
 			
 			"player_model_override"		"models/characters/security_medium_light.mdl"
 			
-			"penetration_power_required" 	"50"
-			"penetration_power_loss"		"75"
+			"penetration_power_loss"		"200"
 			"explosive_damage_frac"			"0.90"
 			
 			"team_access"	"security"		
@@ -80,14 +77,13 @@
 			
 			"DamageHitgroups"
 			{
-				"HITGROUP_CHEST"				"0.20"
-				"HITGROUP_STOMACH"				"0.20"
+				"HITGROUP_CHEST"				"0.70"
+				"HITGROUP_STOMACH"				"0.70"
 			}
 			
 			"player_model_override"		"models/characters/security_medium_spec.mdl"
 			
-			"penetration_power_required" 	"50"
-			"penetration_power_loss"		"75"
+			"penetration_power_loss"		"200"
 			"explosive_damage_frac"			"0.90"
 			
 			"team_access"	"security"		
@@ -104,15 +100,14 @@
 			
 			"DamageHitgroups"
 			{
-				"HITGROUP_CHEST"				"0.20"
-				"HITGROUP_STOMACH"				"0.20"
+				"HITGROUP_CHEST"				"0.70"
+				"HITGROUP_STOMACH"				"0.70"
 			}
 			
 			"player_model_override"		"models/characters/insurgent_med_fighter.mdl"
 			"viewmodel_hands_override"	"models/weapons/v_hands_ins_l.mdl"
 			
-			"penetration_power_required" 	"50"
-			"penetration_power_loss"		"75"
+			"penetration_power_loss"		"200"
 			"explosive_damage_frac"			"0.90"
 			
 			"team_access"	"insurgent"		
@@ -129,15 +124,14 @@
 			
 			"DamageHitgroups"
 			{
-				"HITGROUP_CHEST"				"0.20"
-				"HITGROUP_STOMACH"				"0.20"
+				"HITGROUP_CHEST"				"0.70"
+				"HITGROUP_STOMACH"				"0.70"
 			}
 			
 			"player_model_override"		"models/characters/insurgent_med_sapper.mdl"
 			"viewmodel_hands_override"	"models/weapons/v_hands_ins_l.mdl"
 			
-			"penetration_power_required" 	"50"
-			"penetration_power_loss"		"75"
+			"penetration_power_loss"		"200"
 			"explosive_damage_frac"			"0.90"
 			
 			"team_access"	"insurgent"		
@@ -154,15 +148,14 @@
 			
 			"DamageHitgroups"
 			{
-				"HITGROUP_CHEST"				"0.20"
-				"HITGROUP_STOMACH"				"0.20"
+				"HITGROUP_CHEST"				"0.70"
+				"HITGROUP_STOMACH"				"0.70"
 			}
 			
 			"player_model_override"		"models/characters/insurgent_med_specialist.mdl"
 			"viewmodel_hands_override"	"models/weapons/v_hands_ins_l.mdl"
 			
-			"penetration_power_required" 	"50"
-			"penetration_power_loss"		"75"
+			"penetration_power_loss"		"200"
 			"explosive_damage_frac"			"0.90"
 			
 			"team_access"	"insurgent"		
@@ -179,15 +172,14 @@
 			
 			"DamageHitgroups"
 			{
-				"HITGROUP_CHEST"				"0.10"
-				"HITGROUP_STOMACH"				"0.10"
+				"HITGROUP_CHEST"				"0.60"
+				"HITGROUP_STOMACH"				"0.60"
 			}
 			
 			"player_model_override"		"models/characters/security_marine.mdl"
 			"viewmodel_hands_override"	"models/weapons/v_hands_sec_h.mdl"
 			
-			"penetration_power_required" 	"100"
-			"penetration_power_loss"		"125"
+			"penetration_power_loss"		"300"
 			"explosive_damage_frac"			"0.80"
 			
 			"team_access"	"security"		
@@ -204,15 +196,14 @@
 			
 			"DamageHitgroups"
 			{
-				"HITGROUP_CHEST"				"0.10"
-				"HITGROUP_STOMACH"				"0.10"
+				"HITGROUP_CHEST"				"0.60"
+				"HITGROUP_STOMACH"				"0.60"
 			}
 			
 			"player_model_override"		"models/characters/insurgent_rebel.mdl"
 			"viewmodel_hands_override"	"models/weapons/v_hands_ins_m.mdl"
 			
-			"penetration_power_required" 	"100"
-			"penetration_power_loss"		"125"
+			"penetration_power_loss"		"300"
 			"explosive_damage_frac"			"0.80"
 			
 			"team_access"	"insurgent"		
@@ -228,15 +219,14 @@
 			
 			"DamageHitgroups"
 			{
-				"HITGROUP_CHEST"				"0.10"
-				"HITGROUP_STOMACH"				"0.10"
+				"HITGROUP_CHEST"				"0.60"
+				"HITGROUP_STOMACH"				"0.60"
 			}
 			
 			"player_model_override"		"models/characters/insurgent_militant.mdl"
 			"viewmodel_hands_override"	"models/weapons/v_hands_ins_m.mdl"
 			
-			"penetration_power_required" 	"100"
-			"penetration_power_loss"		"125"
+			"penetration_power_loss"		"300"
 			"explosive_damage_frac"			"0.80"
 			
 			"team_access"	"insurgent"		

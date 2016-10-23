@@ -1773,8 +1773,8 @@
 			}
 			"recoil"
 			{
-				"recoil_lateral_range"				"-1.05 1.05"
-				"recoil_vertical_range"				"2.25 2.85"
+				"recoil_lateral_range"				"-1.15 1.15"
+				"recoil_vertical_range"				"2.30 2.95"
 				"recoil_aim_punch"					"0.4 0.7"
 				"recoil_rest_rate"					"5"
 				"recoil_rest_delay"					"0.12"
@@ -3122,7 +3122,7 @@
 			"recoil"
 			{
 				"recoil_lateral_range"				"-0.85 0.85"
-				"recoil_vertical_range"				"1.725 1.95"
+				"recoil_vertical_range"				"1.00 2.10"
 				"recoil_aim_punch"					"0.3 0.5"
 				"recoil_rest_rate"					"5"
 				"recoil_rest_delay"					"0.14"
@@ -3161,7 +3161,7 @@
 		
 		"weapon_mp5a4"
 		{
-			"import"						"smg_stock_base"
+			"import"						"smg_base"
 			"weapon_class"					"smg"
 			"print_name"					"#weapon_mp5a4"
 			"print_desc"					"#weapon_mp5a4_desc"
@@ -3208,7 +3208,7 @@
 			"recoil"
 			{
 				"recoil_lateral_range"				"-0.85 0.85"
-				"recoil_vertical_range"				"1.725 1.95"
+				"recoil_vertical_range"				"1.00 1.95"
 				"recoil_aim_punch"					"0.3 0.5"
 				"recoil_rest_rate"					"5"
 				"recoil_rest_delay"					"0.14"
@@ -3290,8 +3290,8 @@
 			}
 			"recoil"
 			{
-				"recoil_lateral_range"				"-1.2 1.2"
-				"recoil_vertical_range"				"1.50 2.0"
+				"recoil_lateral_range"				"-1.25 1.25"
+				"recoil_vertical_range"				"1.00 2.0"
 				"recoil_aim_punch"					"0.8 1.2"
 				"recoil_rest_rate"					"6"
 				"recoil_rest_delay"					"0.14"
@@ -3372,8 +3372,8 @@
 			}
 			"recoil"
 			{
-				"recoil_lateral_range"				"-0.55 0.55"
-				"recoil_vertical_range"				"1.875 2.475"
+				"recoil_lateral_range"				"-0.85 0.85"
+				"recoil_vertical_range"				"1.00 2.475"
 				"recoil_aim_punch"					"0.4 0.6"
 				"recoil_rest_rate"					"6"
 				"recoil_rest_delay"					"0.14"
@@ -3476,7 +3476,7 @@
 			"recoil"
 			{
 				"recoil_lateral_range"				"-0.95 0.95"
-				"recoil_vertical_range"				"1.725 2.175"
+				"recoil_vertical_range"				"1.10 2.175"
 				"recoil_aim_punch"					"0.4 0.7"
 				"recoil_rest_rate"					"5"
 				"recoil_rest_delay"					"0.15"
@@ -3573,8 +3573,8 @@
 			}
 			"recoil"
 			{
-				"recoil_lateral_range"				"-1.05 1.05"
-				"recoil_vertical_range"				"2.25 2.85"
+				"recoil_lateral_range"				"-1.15 1.15"
+				"recoil_vertical_range"				"2.30 2.95"
 				"recoil_aim_punch"					"0.4 0.7"
 				"recoil_rest_rate"					"5"
 				"recoil_rest_delay"					"0.12"

@@ -1645,8 +1645,8 @@
 				
 				"weapon_ump45"
 				{
-					"fov_wpn_ironsight"			"55"
-					"fov_wpn_focus"				"60"
+					"fov_wpn_ironsight"			"52"
+					"fov_wpn_focus"				"57"
 				}
 				
 				"weapon_m14"
@@ -2549,17 +2549,17 @@
 			}
 			"ammo_type_override"			"9x19mm_hp"
 		}
-		//"ammo_ap_m9"
-		//{
-		//	"import"				"base_ammo_ap"
-		//	"upgrade_cost"				"3"
-		//	"allowed_weapons"
-		//	{
-		//		"weapon"				"weapon_m9"
-		//		"weapon"				"weapon_m93r"
-		//	}
-		//	"ammo_type_override"			"9x19mm_ap"
-		//}
+		"ammo_ap_m9"
+		{
+			"import"				"base_ammo_ap"
+			"upgrade_cost"				"3"
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_m9"
+				"weapon"				"weapon_m93r"
+			}
+			"ammo_type_override"			"9x19mm_ap"
+		}
 		
 		// ========================================
 		// P226 SPECIFIC UPGRADES
@@ -2567,24 +2567,22 @@
 		"ammo_hp_p226"
 		{
 			"import"					"base_ammo_hp"
-			"upgrade_cost"				"3"
+			"upgrade_cost"				"2"
 			"allowed_weapons"
 			{
-				//"weapon"				"weapon_p226"
+				"weapon"				"weapon_p226"
 			}
-			"ammo_type_override"			"9mm_20rnd_hp"
+			"ammo_type_override"			"357_13rnd_hp"
 		}
 		"ammo_ap_p226"
 		{
 			"import"					"base_ammo_ap"
-			"print_name"				"#weapon_upgrade_ap_sig"
-			"print_desc"				"Decreases magazine size to 13 rounds. Effective against armored targets."
-			"upgrade_cost"				"1"
+			"upgrade_cost"				"3"
 			"allowed_weapons"
 			{
-				//"weapon"				"weapon_p226"
+				"weapon"				"weapon_p226"
 			}
-			"ammo_type_override"			"357_13rnd"
+			"ammo_type_override"			"357_13rnd_ap"
 		}
 		
 		// ========================================
@@ -2600,6 +2598,16 @@
 			}
 			"ammo_type_override"			"9mm_13rnd_hp"
 		}
+		"ammo_ap_bhp"
+		{
+			"import"					"base_ammo_hp"
+			"upgrade_cost"				"3"
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_bhp"
+			}
+			"ammo_type_override"			"9mm_13rnd_ap"
+		}
 		
 		// ========================================
 		// MAKAROV SPECIFIC UPGRADES
@@ -2614,16 +2622,16 @@
 			}
 			"ammo_type_override"			"9x18mm_hp"
 		}
-		//"ammo_ap_makarov"
-		//{
-		//	"import"				"base_ammo_ap"
-		//	"upgrade_cost"				"2"
-		//	"allowed_weapons"
-		//	{
-		//		"weapon"				"weapon_makarov"
-		//	}
-		//	"ammo_type_override"			"9x18mm_ap"
-		//}
+		"ammo_ap_makarov"
+		{
+			"import"				"base_ammo_ap"
+			"upgrade_cost"				"3"
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_makarov"
+			}
+			"ammo_type_override"			"9x18mm_ap"
+		}
 		
 		
 		//========================================
@@ -2632,23 +2640,23 @@
 		"ammo_hp_tokarev"
 		{
 			"import"						"base_ammo_hp"
-			"upgrade_cost"					"1"
+			"upgrade_cost"					"2"
 			"allowed_weapons"
 			{
-				//"weapon"					"weapon_tokarev"
+				"weapon"					"weapon_tokarev"
 			}
 			"ammo_type_override"			"308_Tokarev_hp"
 		}
-		//"ammo_ap_tokarev"
-		//{
-		//	"import"						"base_ammo_ap"	
-		//	"upgrade_cost"					"2"
-		//	"allowed_weapons"
-		//	{
-		//		"weapon"					"weapon_tokarev"
-		//	}
-		//	"ammo_type_override"			"308_Tokarev_ap"
-		//}
+		"ammo_ap_tokarev"
+		{
+			"import"						"base_ammo_ap"	
+			"upgrade_cost"					"3"
+			"allowed_weapons"
+			{
+				"weapon"					"weapon_tokarev"
+			}
+			"ammo_type_override"			"308_Tokarev_ap"
+		}
 		
 		// ========================================
 		// M45 SPECIFIC UPGRADES
@@ -2663,16 +2671,16 @@
 			}
 			"ammo_type_override"			"45acp_hp_pistol"
 		}
-		//"ammo_ap_m45"
-		//{
-		//	"import"				"base_ammo_ap"
-		//	"upgrade_cost"				"2"
-		//	"allowed_weapons"
-		//	{
-		//		"weapon"				"weapon_m45"
-		//	}
-		//	"ammo_type_override"			"45acp_ap_pistol"
-		//}
+		"ammo_ap_m45"
+		{
+			"import"				"base_ammo_ap"
+			"upgrade_cost"				"3"
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_m45"
+			}
+			"ammo_type_override"			"45acp_ap_pistol"
+		}
 		
 		// ========================================
 		// M1911 SPECIFIC UPGRADES
@@ -2687,16 +2695,16 @@
 			}
 			"ammo_type_override"			"45acp_hp_pistol"
 		}
-		//"ammo_ap_m1911"
-		//{
-		//	"import"				"base_ammo_ap"
-		//	"upgrade_cost"				"2"
-		//	"allowed_weapons"
-		//	{
-		//		"weapon"				"weapon_m1911"
-		//	}
-		//	"ammo_type_override"			"45acp_ap_pistol"
-		//}
+		"ammo_ap_m1911"
+		{
+			"import"				"base_ammo_ap"
+			"upgrade_cost"				"3"
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_m1911"
+			}
+			"ammo_type_override"			"45acp_ap_pistol"
+		}
 		
 		// ========================================
 		// AKM/AK103 SPECIFIC UPGRADES
@@ -2708,20 +2716,19 @@
 			"allowed_weapons"
 			{
 				"weapon"				"weapon_akm"
-				"weapon"				"weapon_ak103"
 			}
 			"ammo_type_override"			"762x38_tracer_box"
 		}
-		//"ammo_hp_akm"
-		//{
-		//	"import"				"base_ammo_hp"
-		//	"upgrade_cost"				"1"
-		//	"allowed_weapons"
-		//	{
-		//		"weapon"				"weapon_akm"
-		//	}
-		//	"ammo_type_override"			"762x38_hp_box"
-		//}
+		"ammo_hp_akm"
+		{
+			"import"				"base_ammo_hp"
+			"upgrade_cost"				"2"
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_akm"
+			}
+			"ammo_type_override"			"762x38_hp_box"
+		}
 		"ammo_ap_akm"
 		{
 			"import"				"base_ammo_ap"
@@ -2729,7 +2736,6 @@
 			"allowed_weapons"
 			{
 				"weapon"				"weapon_akm"
-				"weapon"				"weapon_ak103"
 			}
 			"ammo_type_override"			"762x38_ap_box"
 		}
@@ -2747,16 +2753,16 @@
 			}
 			"ammo_type_override"			"545x39_tracer"
 		}
-		//"ammo_hp_ak74"
-		//{
-		//	"import"				"base_ammo_hp"
-		//	"upgrade_cost"				"1"
-		//	"allowed_weapons"
-		//	{
-		//		"weapon"				"weapon_ak74"
-		//	}
-		//	"ammo_type_override"			"545x39_hp"
-		//}
+		"ammo_hp_ak74"
+		{
+			"import"				"base_ammo_hp"
+			"upgrade_cost"				"2"
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_ak74"
+			}
+			"ammo_type_override"			"545x39_hp"
+		}
 		"ammo_ap_ak74"
 		{
 			"import"				"base_ammo_ap"
@@ -2822,10 +2828,10 @@
 		"ammo_hp_galil"
 		{
 			"import"					"base_ammo_hp"
-			"upgrade_cost"				"1"
+			"upgrade_cost"				"2"
 			"allowed_weapons"
 			{
-				//"weapon"				"weapon_galil"
+				"weapon"				"weapon_galil"
 			}
 			"ammo_type_override"		"556_hp_35box"
 		}
@@ -2859,7 +2865,7 @@
 			"upgrade_cost"				"2"
 			"allowed_weapons"
 			{
-				//"weapon"				"weapon_galil_sar"
+				"weapon"				"weapon_galil_sar"
 			}
 			"ammo_type_override"		"556_hp_35box_sar"
 		}
@@ -2889,7 +2895,7 @@
 		"ammo_hp_aks74u"
 		{
 			"import"				"base_ammo_hp"
-			"upgrade_cost"				"3"
+			"upgrade_cost"				"2"
 			"allowed_weapons"
 			{
 				"weapon"				"weapon_aks74u"
@@ -2916,21 +2922,19 @@
 			"allowed_weapons"
 			{
 				"weapon"				"weapon_m16a4"
-				"weapon"				"weapon_m27iar"
 			}
 			"ammo_type_override"			"556_tracer_stanag"
 		}
-		//"ammo_hp_m16a4"
-		//{
-		//	"import"				"base_ammo_hp"
-		//	"upgrade_cost"				"2"
-		//	"allowed_weapons"
-		//	{
-		//		"weapon"				"weapon_m16a4"
-		//		"weapon"				"weapon_m27iar"
-		//	}
-		//	"ammo_type_override"			"556_hp_stanag"
-		//}
+		"ammo_hp_m16a4"
+		{
+			"import"				"base_ammo_hp"
+			"upgrade_cost"				"2"
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_m16a4"
+			}
+			"ammo_type_override"			"556_hp_stanag"
+		}
 		"ammo_ap_m16a4"
 		{
 			"import"				"base_ammo_ap"
@@ -2938,7 +2942,6 @@
 			"allowed_weapons"
 			{
 				"weapon"				"weapon_m16a4"
-				"weapon"				"weapon_m27iar"
 			}
 			"ammo_type_override"			"556_ap_stanag"
 		}
@@ -2958,7 +2961,7 @@
 			"upgrade_cost"				"2"
 			"allowed_weapons"
 			{
-				//"weapon"				"weapon_m4a1"
+				"weapon"				"weapon_m4a1"
 			}
 			"ammo_type_override"			"556_hp_stanag_m4"
 		}
@@ -2985,7 +2988,7 @@
 		"ammo_hp_m4cqb"
 		{
 			"import"				"base_ammo_hp"
-			"upgrade_cost"				"3"
+			"upgrade_cost"				"2"
 			"allowed_weapons"
 			{
 				"weapon"				"weapon_mk18"
@@ -3027,16 +3030,16 @@
 			}
 			"ammo_type_override"			"9x19mm_hp_mp5"
 		}
-		//"ammo_ap_mp5"
-		//{
-		//	"import"				"base_ammo_ap"
-		//	"upgrade_cost"				"3"
-		//	"allowed_weapons"
-		//	{
-		//		"weapon"				"weapon_mp5"
-		//	}
-		//	"ammo_type_override"			"9x19mm_ap_mp5"
-		//}
+		"ammo_ap_mp5"
+		{
+			"import"				"base_ammo_ap"
+			"upgrade_cost"				"3"
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_mp5"
+			}
+			"ammo_type_override"			"9x19mm_ap_mp5"
+		}
 		
 		// ========================================
 		// MP40 SPECIFIC UPGRADES
@@ -3061,16 +3064,16 @@
 			}
 			"ammo_type_override"			"9x19mm_hp_32rd"
 		}
-		//"ammo_ap_mp40"
-		//{
-		//	"import"				"base_ammo_ap"
-		//	"upgrade_cost"				"3"
-		//	"allowed_weapons"
-		//	{
-		//		"weapon"				"weapon_mp40"
-		//	}
-		//	"ammo_type_override"			"9x19mm_ap_32rd"
-		//}
+		"ammo_ap_mp40"
+		{
+			"import"				"base_ammo_ap"
+			"upgrade_cost"				"3"
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_mp40"
+			}
+			"ammo_type_override"			"9x19mm_ap_32rd"
+		}
 		
 		// ========================================
 		// STERLING SPECIFIC UPGRADES
@@ -3095,16 +3098,16 @@
 			}
 			"ammo_type_override"			"9x19mm_hp_34rd"
 		}
-		//"ammo_ap_sterling"
-		//{
-		//	"import"				"base_ammo_ap"
-		//	"upgrade_cost"				"3"
-		//	"allowed_weapons"
-		//	{
-		//		"weapon"				"weapon_sterling"
-		//	}
-		//	"ammo_type_override"			"9x19mm_ap_34rd"
-		//}
+		"ammo_ap_sterling"
+		{
+			"import"				"base_ammo_ap"
+			"upgrade_cost"				"3"
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_sterling"
+			}
+			"ammo_type_override"			"9x19mm_ap_34rd"
+		}
 		
 		// ========================================
 		// UMP45 SPECIFIC UPGRADES
@@ -3122,23 +3125,23 @@
 		"ammo_hp_ump45"
 		{
 			"import"				"base_ammo_hp"
-			"upgrade_cost"				"2"
+			"upgrade_cost"				"3"
 			"allowed_weapons"
 			{
 				"weapon"				"weapon_ump45"
 			}
 			"ammo_type_override"			"45acp_hp"
 		}
-		//"ammo_ap_ump45"
-		//{
-		//	"import"				"base_ammo_ap"
-		//	"upgrade_cost"				"3"
-		//	"allowed_weapons"
-		//	{
-		//		"weapon"				"weapon_ump45"
-		//	}
-		//	"ammo_type_override"			"45acp_ap"
-		//}
+		"ammo_ap_ump45"
+		{
+			"import"				"base_ammo_ap"
+			"upgrade_cost"				"3"
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_ump45"
+			}
+			"ammo_type_override"			"45acp_ap"
+		}
 		
 		// ========================================
 		// MINI-14 SPECIFIC UPGRADES
@@ -3156,10 +3159,10 @@
 		"ammo_hp_mini14"
 		{
 			"import"				"base_ammo_hp"
-			"upgrade_cost"			"3"
+			"upgrade_cost"			"2"
 			"allowed_weapons"
 			{
-				//"weapon"				"weapon_mini14"
+				"weapon"				"weapon_mini14"
 			}
 			"ammo_type_override"			"556_hp_box"
 		}
@@ -3221,16 +3224,16 @@
 			}
 			"ammo_type_override"			"762x38mm_tracer_clip"
 		}
-		//"ammo_hp_sks"
-		//{
-		//	"import"				"base_ammo_hp"
-		//	"upgrade_cost"				"1"
-		//	"allowed_weapons"
-		//	{
-		//		"weapon"				"weapon_sks"
-		//	}
-		//	"ammo_type_override"			"762x38mm_hp_clip"
-		//}
+		"ammo_hp_sks"
+		{
+			"import"				"base_ammo_hp"
+			"upgrade_cost"				"1"
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_sks"
+			}
+			"ammo_type_override"			"762x38mm_hp_clip"
+		}
 		"ammo_ap_sks"
 		{
 			"import"				"base_ammo_ap"
@@ -3258,16 +3261,16 @@
 		// ========================================
 		// M14 SPECIFIC UPGRADES
 		// ========================================
-		//"ammo_hp_m14"
-		//{
-			//"import"				"base_ammo_hp"
-			//"upgrade_cost"				"2"
-			//"allowed_weapons"
-			//{
+		"ammo_hp_m14"
+		{
+			"import"				"base_ammo_hp"
+			"upgrade_cost"				"2"
+			"allowed_weapons"
+			{
 			//	"weapon"				"weapon_m14"
-			//}
-			//"ammo_type_override"			"762x51_mag_hp"
-		//}
+			}
+			"ammo_type_override"			"762x51_mag_hp"
+		}
 		
 		"ammo_ap_m14"
 		{
@@ -3303,7 +3306,7 @@
 			"upgrade_cost"				"3"
 			"allowed_weapons"
 			{
-				//"weapon"				"weapon_m249"
+				"weapon"				"weapon_m249"
 			}
 			"ammo_type_override"			"556_m27_hp"
 		}
@@ -3320,10 +3323,10 @@
 		"ammo_hp_rpk"
 		{
 			"import"				"base_ammo_hp"
-			"upgrade_cost"				"1"
+			"upgrade_cost"				"2"
 			"allowed_weapons"
 			{
-				//"weapon"				"weapon_rpk"
+				"weapon"				"weapon_rpk"
 			}
 			"ammo_type_override"			"762x38_hp_drum"
 		}

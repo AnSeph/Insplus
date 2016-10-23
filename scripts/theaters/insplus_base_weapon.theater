@@ -55,10 +55,10 @@
 				"sway_amount_focus_penalty"		"1.0"
 				"sway_speed_focus_penalty"		"1.0"
 				"sway_screen_ratio"				"1.00"
-				"sway_viewmodel_ratio"			"0.70"
-				"sway_screen_ads_ratio"			"0.80"
+				"sway_viewmodel_ratio"			"0.75"
+				"sway_screen_ads_ratio"			"1.00"
 				"sway_viewmodel_ads_ratio"		"1.00"
-				"sway_radius_interp_speed"		"6.50"
+				"sway_radius_interp_speed"		"6.00"
 				
 				"SwayRadiusFracBySpeed"
 				{
@@ -298,40 +298,14 @@
 						"60"					"1.10"
 						"640"					"1.10"
 					}
-			}
-			"freeaim"
-			{
-				"freeaim_frac"			"0.75"
-			}		
-		}
-		"smg_stock_base"
-		{
-			"IsBase"					"1"
-			"import"					"ballistic_base"
-			"barrel_length"				"12"
-			
-			"player_restrictions"
-			{
-				"allow_reload_sprint"	"1"
-			}
-			"ironsights"
-			{
-				"in_time"					"0.30"
-				"out_time"					"0.30"
-			}
-			"recoil"
-			{
-					"recoil_freeaim_frac"	"0.50"
-					"RecoilMoveFracByWeight"
+					"RecoilBaseFracByWeight"
 					{
-						"60"					"1.10"
-						"640"					"1.10"
+						"60"					"0.90"
 					}
 			}
 			"freeaim"
 			{
-					"freeaim_frac"			"0.75"
-					"freeaim_distance_ads"	"4.50"
+				"freeaim_frac"			"0.75"
 			}		
 		}
 		"assault_rifle_base"

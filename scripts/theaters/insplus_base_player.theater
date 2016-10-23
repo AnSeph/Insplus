@@ -60,8 +60,8 @@
 			}
 			"SprintSpeedFactorByStamina"
 			{
-				"0"						"1.000"
-				"200"					"1.275"
+				"0"						"0.95"
+				"200"					"1.200"
 			}
 		}
 		"turning"
@@ -77,8 +77,8 @@
 		{
 			"StaminaMaxByWeight"
 			{
-				"60"					"260"
-				"640"					"200"
+				"60"					"325"
+				"640"					"265"
 			}
 			"stamina_regain"			"15.00"
 			"stamina_sprint_take"		"20.00"
@@ -167,12 +167,12 @@
 			"DamageHitgroups"
 			{
 				"HITGROUP_HEAD"				"5.00"	// death
-				"HITGROUP_CHEST"			"1.00"
-				"HITGROUP_STOMACH"			"1.00"
+				"HITGROUP_CHEST"			"1.50"
+				"HITGROUP_STOMACH"			"1.25"
 				"HITGROUP_LEFTARM"			"1.00"
 				"HITGROUP_RIGHTARM"			"1.00"
-				"HITGROUP_LEFTLEG"			"1.00"
-				"HITGROUP_RIGHTLEG"			"1.00"
+				"HITGROUP_LEFTLEG"			"0.75"
+				"HITGROUP_RIGHTLEG"			"0.75"
 			}
 			"VelocityHitgroups"
 			{
