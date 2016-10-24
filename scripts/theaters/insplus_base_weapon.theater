@@ -96,12 +96,12 @@
 			{
 				"freeaim_distance"				"15.00"
 				"freeaim_distance_bipod"		"15.00"
-				"freeaim_screenratio"			"1.00"
-				"freeaim_screenratio_bipod"		"1.00"
+				"freeaim_screenratio"			"0.91"
+				"freeaim_screenratio_bipod"		"0.91"
 				
 				"freeaim_ads"					"1"
 				"freeaim_distance_ads"			"6.75"
-				"freeaim_screenratio_ads"		"0.75"
+				"freeaim_screenratio_ads"		"1.00"
 				
 				"freeaim_frac"					"1.00"
 				"freeaim_frac_ads"				"0.30"
@@ -300,7 +300,7 @@
 					}
 					"RecoilBaseFracByWeight"
 					{
-						"60"					"0.90"
+						"60"					"0.95"
 					}
 			}
 			"freeaim"
@@ -415,25 +415,6 @@
 				"freeaim_frac"					"1.00"
 			}
 		}
-		"shotgun_stock_base"
-		{
-			"IsBase"	"1"
-			"import"	"ballistic_base"
-			
-			"ironsights"
-			{
-				"in_time"					"0.25"
-				"out_time"					"0.30"
-			}
-			"recoil"
-			{
-				"recoil_freeaim_frac"		"0.60"
-			}
-			"freeaim"
-			{
-					"freeaim_frac"			"0.75"
-			}
-		}
 		"shotgun_base"
 		{
 			"IsBase"	"1"
@@ -444,18 +425,16 @@
 				"in_time"					"0.25"
 				"out_time"					"0.30"
 			}
-			"recoil"
-			{
-				"recoil_freeaim_frac"		"0.60"
-				
-				"RecoilBaseFracByWeight"
-				{
-					"60"					"1.15"
-				}
-			}
 			"freeaim"
 			{
 					"freeaim_frac"			"0.75"
+			}
+			"recoil"
+			{
+				"RecoilLowStaminaFracByWeight"
+				{
+					"60"					"1.00"
+				}
 			}
 		}
 		"launcher_base"

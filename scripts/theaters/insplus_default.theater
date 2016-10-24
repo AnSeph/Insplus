@@ -262,6 +262,11 @@
 				"weapon"			"weapon_m18"
 				// Upgrades
 				"weapon_upgrade"	"magazine_drum_75rd"
+				"weapon_upgrade"	"underbarrel_bipod"
+				// Gear
+				"gear"				"sec_light_armor"
+				"gear"				"sec_medium_armor"
+				"gear"				"sec_heavy_armor"
 				"?nightmap"
 				{
 					"weapon_upgrade"	"barrel_silencer_integrated"
@@ -271,11 +276,6 @@
 					"weapon_upgrade"	"barrel_silencer_ins1"
 					"weapon"			"weapon_p2a1"
 				}
-				"weapon_upgrade"	"underbarrel_bipod"
-				// Gear
-				"gear"				"sec_light_armor"
-				"gear"				"sec_medium_armor"
-				"gear"				"sec_heavy_armor"
 			}
 			"cost_modifiers"
 			{
@@ -1014,7 +1014,6 @@
 				"weapon"			"weapon_galil"
 				"weapon"			"weapon_fal"
 				// Personal Weapons
-				"weapon"			"weapon_makarov"
 				// Grenades
 				"weapon"			"weapon_m18"
 				"weapon"			"weapon_f1"

@@ -1637,16 +1637,16 @@
 					"fov_wpn_focus"				"60"
 				}
 				
-				"weapon_mp5"
+				"weapon_mp5a4"
 				{
-					"fov_wpn_ironsight"			"55"
-					"fov_wpn_focus"				"60"
+					"fov_wpn_ironsight"			"53"
+					"fov_wpn_focus"				"58"
 				}
 				
 				"weapon_ump45"
 				{
-					"fov_wpn_ironsight"			"52"
-					"fov_wpn_focus"				"57"
+					"fov_wpn_ironsight"			"55"
+					"fov_wpn_focus"				"60"
 				}
 				
 				"weapon_m14"
@@ -2510,30 +2510,6 @@
 				}
 			}
 		}
-
-		// ========================================
-		// .38 REVOLVER SPECIFIC UPGRADES
-		// ========================================
-		"ammo_hp_model10"
-		{
-			"import"					"base_ammo_hp"
-			"upgrade_cost"				"2"
-			"allowed_weapons"
-			{
-				"weapon"				"weapon_model10"
-			}
-			"ammo_type_override"		"38special_hp"
-		}
-		//"ammo_ap_model10"
-		//{
-		//	"import"					"base_ammo_ap"
-		//	"upgrade_cost"				"2"
-		//	"allowed_weapons"
-		//	{
-		//		"weapon"				"weapon_model10"
-		//	}
-		//	"ammo_type_override"		"38special_ap"
-		//}
 		
 		// ========================================
 		// M9 SPECIFIC UPGRADES
@@ -2789,17 +2765,17 @@
 			}
 			"ammo_type_override"			"762x51_tracer_box_20rnd"
 		}
-		//"ammo_hp_fal"
-		//{
-		//	"import"				"base_ammo_hp"
-		//	"upgrade_cost"				"1"
-		//	"allowed_weapons"
-		//	{
+		"ammo_hp_fal"
+		{
+			"import"				"base_ammo_hp"
+			"upgrade_cost"				"1"
+			"allowed_weapons"
+			{
 		//		"weapon"				"weapon_fal"
 		//		"weapon"				"weapon_l1a1"
-		//	}
-		//	"ammo_type_override"			"762x51_hp_box_20rnd"
-		//}
+			}
+			"ammo_type_override"			"762x51_hp_box_20rnd"
+		}
 		"ammo_ap_fal"
 		{
 			"import"				"base_ammo_ap"
@@ -3037,6 +3013,7 @@
 			"allowed_weapons"
 			{
 				"weapon"				"weapon_mp5"
+				"weapon"				"weapon_mp5a4"
 			}
 			"ammo_type_override"			"9x19mm_ap_mp5"
 		}

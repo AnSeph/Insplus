@@ -118,7 +118,7 @@
 			"brass_model" 				"models/weapons/shells/9x19.mdl"
 			"Damage"					
 			{
-				"5000"      "65"
+				"2000"      "65"
 				"10000"    	"40"
 			}
 			"PenetrationPower"
@@ -128,8 +128,8 @@
 			}
 			"DamageHitgroups"
 			{
-				"HITGROUP_CHEST"      "1.2"
-				"HITGROUP_STOMACH"    "1.2"
+				"HITGROUP_CHEST"      "1.35"
+				"HITGROUP_STOMACH"    "1.20"
 			}
 			"PenetrationDamage"
 			{
@@ -194,20 +194,13 @@
 			"brass_model" 				"models/weapons/shells/45apc.mdl"
 			"Damage"					
 			{
-				"5000"      "80"
+				"2000"      "80"
 				"10000"    	"45"
 			}
 			"PenetrationPower"
 			{
 				"200"      			"250" 
 				"8000"    			"80" 
-			}
-			"DamageHitgroups"
-			{
-				"HITGROUP_LEFTARM"    "1.35"
-				"HITGROUP_RIGHTARM"   "1.35"
-				"HITGROUP_LEFTLEG"    "1.35"
-				"HITGROUP_RIGHTLEG"   "1.35"
 			}
 			"PenetrationDamage"
 			{
@@ -229,6 +222,13 @@
 			{
 				"200"					"125"
 				"8000"					"75"
+			}
+			"DamageHitgroups"
+			{
+				"HITGROUP_LEFTARM"    "1.35"
+				"HITGROUP_RIGHTARM"   "1.35"
+				"HITGROUP_LEFTLEG"    "1.35"
+				"HITGROUP_RIGHTLEG"   "1.35"
 			}
 			"PenetrationDamage"
 			{
@@ -1278,7 +1278,7 @@
 			"brass_model" 				"models/weapons/shells/45apc.mdl"
 			"Damage"					
 			{
-				"5000"		"100"
+				"2000"		"100"
 				"10000"    	"65"
 			}
 			"PenetrationPower"
@@ -1308,7 +1308,7 @@
 			"brass_model" 				"models/weapons/shells/9x19.mdl"
 			"Damage"
 			{
-				"5000"		"65"
+				"2000"		"65"
 				"10000"		"40"
 			}
 			"PenetrationPower"
@@ -1377,7 +1377,7 @@
 			}
 			"Damage"
 			{
-				"5000"		"65"
+				"2000"		"65"
 				"10000"		"45"
 			}
 			"DamageHitgroups"
