@@ -261,8 +261,8 @@
 				"recoil_freeaim_frac"		"0.50"
 				"RecoilMoveFracByWeight"
 				{
-					"60"					"1.10"
-					"640"					"1.10"
+					"60"					"1.25"
+					"640"					"1.25"
 				}
 			}
 			"kitui_offset"
@@ -293,14 +293,14 @@
 			"recoil"
 			{
 					"recoil_freeaim_frac"	"0.50"
-					"RecoilMoveFracByWeight"
-					{
-						"60"					"1.10"
-						"640"					"1.10"
-					}
 					"RecoilBaseFracByWeight"
 					{
 						"60"					"0.95"
+					}
+					"RecoilMoveFracByWeight"
+					{
+					"60"					"1.25"
+					"640"					"1.25"
 					}
 			}
 			"freeaim"
