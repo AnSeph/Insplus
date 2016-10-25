@@ -568,9 +568,8 @@
 				"gear"					"sec_medium_armor"
 				"gear"					"sec_rig_02"
 				"weapon"				"weapon_kabar"
-				"weapon"				"weapon_m9"
+				"weapon"				"weapon_mk18"
 				"weapon"				"weapon_m590"
-				"weapon_upgrade"			"sec_lasersight"
 				"weapon"				"weapon_m84"
 			}
 			"allowed_items"

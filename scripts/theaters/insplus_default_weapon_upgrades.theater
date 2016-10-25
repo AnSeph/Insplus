@@ -2517,7 +2517,7 @@
 		"ammo_hp_m9"
 		{
 			"import"				"base_ammo_hp"
-			"upgrade_cost"				"3"
+			"upgrade_cost"				"2"
 			"allowed_weapons"
 			{
 				"weapon"				"weapon_m9"
@@ -2528,7 +2528,7 @@
 		"ammo_ap_m9"
 		{
 			"import"				"base_ammo_ap"
-			"upgrade_cost"				"3"
+			"upgrade_cost"				"2"
 			"allowed_weapons"
 			{
 				"weapon"				"weapon_m9"
@@ -2553,7 +2553,7 @@
 		"ammo_ap_p226"
 		{
 			"import"					"base_ammo_ap"
-			"upgrade_cost"				"3"
+			"upgrade_cost"				"2"
 			"allowed_weapons"
 			{
 				"weapon"				"weapon_p226"
@@ -2567,7 +2567,7 @@
 		"ammo_hp_bhp"
 		{
 			"import"					"base_ammo_hp"
-			"upgrade_cost"				"3"
+			"upgrade_cost"				"2"
 			"allowed_weapons"
 			{
 				"weapon"				"weapon_bhp"
@@ -2577,7 +2577,7 @@
 		"ammo_ap_bhp"
 		{
 			"import"					"base_ammo_hp"
-			"upgrade_cost"				"3"
+			"upgrade_cost"				"2"
 			"allowed_weapons"
 			{
 				"weapon"				"weapon_bhp"
@@ -2591,7 +2591,7 @@
 		"ammo_hp_makarov"
 		{
 			"import"				"base_ammo_hp"
-			"upgrade_cost"				"3"
+			"upgrade_cost"				"2"
 			"allowed_weapons"
 			{
 				"weapon"				"weapon_makarov"
@@ -2601,7 +2601,7 @@
 		"ammo_ap_makarov"
 		{
 			"import"				"base_ammo_ap"
-			"upgrade_cost"				"3"
+			"upgrade_cost"				"2"
 			"allowed_weapons"
 			{
 				"weapon"				"weapon_makarov"
@@ -2626,7 +2626,7 @@
 		"ammo_ap_tokarev"
 		{
 			"import"						"base_ammo_ap"	
-			"upgrade_cost"					"3"
+			"upgrade_cost"					"2"
 			"allowed_weapons"
 			{
 				"weapon"					"weapon_tokarev"
@@ -2650,7 +2650,7 @@
 		"ammo_ap_m45"
 		{
 			"import"				"base_ammo_ap"
-			"upgrade_cost"				"3"
+			"upgrade_cost"				"2"
 			"allowed_weapons"
 			{
 				"weapon"				"weapon_m45"
@@ -2674,7 +2674,7 @@
 		"ammo_ap_m1911"
 		{
 			"import"				"base_ammo_ap"
-			"upgrade_cost"				"3"
+			"upgrade_cost"				"2"
 			"allowed_weapons"
 			{
 				"weapon"				"weapon_m1911"
@@ -2698,7 +2698,7 @@
 		"ammo_hp_akm"
 		{
 			"import"				"base_ammo_hp"
-			"upgrade_cost"				"2"
+			"upgrade_cost"				"3"
 			"allowed_weapons"
 			{
 				"weapon"				"weapon_akm"
@@ -2732,7 +2732,7 @@
 		"ammo_hp_ak74"
 		{
 			"import"				"base_ammo_hp"
-			"upgrade_cost"				"2"
+			"upgrade_cost"				"3"
 			"allowed_weapons"
 			{
 				"weapon"				"weapon_ak74"
@@ -2804,7 +2804,7 @@
 		"ammo_hp_galil"
 		{
 			"import"					"base_ammo_hp"
-			"upgrade_cost"				"2"
+			"upgrade_cost"				"3"
 			"allowed_weapons"
 			{
 				"weapon"				"weapon_galil"
@@ -2838,7 +2838,7 @@
 		"ammo_hp_galil_sar"
 		{
 			"import"					"base_ammo_hp"
-			"upgrade_cost"				"2"
+			"upgrade_cost"				"3"
 			"allowed_weapons"
 			{
 				"weapon"				"weapon_galil_sar"
@@ -2871,7 +2871,7 @@
 		"ammo_hp_aks74u"
 		{
 			"import"				"base_ammo_hp"
-			"upgrade_cost"				"2"
+			"upgrade_cost"				"3"
 			"allowed_weapons"
 			{
 				"weapon"				"weapon_aks74u"
@@ -2904,7 +2904,7 @@
 		"ammo_hp_m16a4"
 		{
 			"import"				"base_ammo_hp"
-			"upgrade_cost"				"2"
+			"upgrade_cost"				"3"
 			"allowed_weapons"
 			{
 				"weapon"				"weapon_m16a4"
@@ -2934,7 +2934,7 @@
 		"ammo_hp_m4"
 		{
 			"import"				"base_ammo_hp"
-			"upgrade_cost"				"2"
+			"upgrade_cost"				"3"
 			"allowed_weapons"
 			{
 				"weapon"				"weapon_m4a1"
@@ -2964,7 +2964,7 @@
 		"ammo_hp_m4cqb"
 		{
 			"import"				"base_ammo_hp"
-			"upgrade_cost"				"2"
+			"upgrade_cost"				"3"
 			"allowed_weapons"
 			{
 				"weapon"				"weapon_mk18"
@@ -3136,7 +3136,7 @@
 		"ammo_hp_mini14"
 		{
 			"import"				"base_ammo_hp"
-			"upgrade_cost"			"2"
+			"upgrade_cost"			"3"
 			"allowed_weapons"
 			{
 				"weapon"				"weapon_mini14"
@@ -3204,7 +3204,7 @@
 		"ammo_hp_sks"
 		{
 			"import"				"base_ammo_hp"
-			"upgrade_cost"				"1"
+			"upgrade_cost"				"2"
 			"allowed_weapons"
 			{
 				"weapon"				"weapon_sks"

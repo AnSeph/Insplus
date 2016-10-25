@@ -77,12 +77,12 @@
 		{
 			"StaminaMaxByWeight"
 			{
-				"60"					"325"
-				"640"					"265"
+				"60"					"275"
+				"640"					"200"
 			}
 			"stamina_regain"			"20.00"
 			"stamina_sprint_take"		"15.00"
-			"stamina_jump_take"			"40"
+			"stamina_jump_take"			"60"
 			"stamina_dmg_take"			"200.00"
 			
 			"land_viewpunch_minvel"		"150"

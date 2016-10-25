@@ -1,6 +1,6 @@
 [h1][b][url=http://steamcommunity.com/groups/Insplus]CLICK ME TO JOIN THE OFFICAL STEAM GROUP[/url][/b][/h1] 
 
-[h1][b]Insurgency+ Tactical Rebalance Theater Mod[/b][/h1] 
+[h1][b]Insurgency+ Tactical Realism Theater Mod[/b][/h1] 
 
 [h1][b]If you would like to run this on a local bot game:[/b][/h1]
 You can run this locally however by first opening console and typing "mp_theater_override insplus_default". Then you can load up any map, coop or regular pvp with bots to try it out. 
