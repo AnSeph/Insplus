@@ -19,11 +19,11 @@ You can run this locally however by first opening console and typing "mp_theater
 [h1][b]Attachment benefits:[/b][/h1]
 Note: modifiers to freeaim radius affect both hipfire and ironsight radius. Decreasing radius constricts the boudaries of your freeaim, meaning your weapon barrel will fall more towards the center of your screen. Increasing the radius has the opposite effect. 
 [b]Suppressors/Silencers:[/b]
-- Increases freeaim radius by 5%
 - Increases weapon spread by 20%
+- Decreases ads in an out speed by 5%
+- Decreases draw speed by 5%
 [b]Lasersights:[/b]
-- Decreases freeaim radius by 25%
-- Increases ads in and ads out speed by 10%
+- Increases ads in and ads out speed by 15%
 [b]Foregrips:[/b]
 - Decreases vertical recoil by 25%
 - Decreases lateral recoil by 10%
@@ -33,8 +33,10 @@ Note: modifiers to freeaim radius affect both hipfire and ironsight radius. Decr
 [b]Heavy Barrel:[/b]
 - Increases freeaim radius by 10%
 - Reduces vertical recoil by 20%
-- Increased sway radius by 5%
-- Reduces sway speed by 5%
+- Increased sway radius by 20%
+- Decreases weapon spread by 40%
+- Decreases ads in an out speed by 5%
+- Decreases draw speed by 5%
 [b]Grenade Launchers:[/b]
 - Decreases vertical recoil by 5%
 

@@ -82,7 +82,7 @@
 			
 			"freeaim"
 			{
-				"freeaim_distance_frac"			"1.15"
+				"freeaim_distance_frac"			"1.10"
 			}
 			"recoil"
 			{
@@ -107,11 +107,6 @@
 			"draw_speed"					"0.95"
 			"ads_in_speed"					"0.95"
 			"ads_out_speed"					"0.95"
-			
-			"freeaim"
-			{
-				"freeaim_distance_frac"			"1.05"
-			}
 		}
 		"base_flashlight"
 		{
@@ -143,13 +138,9 @@
 			"print_desc"					"#weapon_upgrade_lasersight_desc"
 			"weapon_abilities"				"lasersights"
 			"particle_attach"				"Laser"
-			"ads_in_speed"					"1.10"
-			"ads_out_speed"					"1.10"
+			"ads_in_speed"					"1.15"
+			"ads_out_speed"					"1.15"
 			
-			"freeaim"
-			{
-				"freeaim_distance_frac"			"0.75"
-			}
 			"world_attachments"
 			{
 				"Laser"
@@ -164,10 +155,6 @@
 			"print_name"					"#weapon_upgrade_lasersight"
 			"print_desc"					"#weapon_upgrade_lasersight_desc"
 			
-			"freeaim"
-			{
-				"freeaim_distance_frac"			"0.75"
-			}
 		}
 		"base_bipod"
 		{

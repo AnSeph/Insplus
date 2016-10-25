@@ -829,120 +829,120 @@
 				
 				"weapon_m16a4"
 				{
-					"fov_wpn_ironsight"			"70"
-					"fov_wpn_focus"				"75"
+					"fov_wpn_ironsight"			"60"
+					"fov_wpn_focus"				"65"
 				}
 				"weapon_m4a1"
 				{
-					"fov_wpn_ironsight"			"70"
-					"fov_wpn_focus"				"75"
+					"fov_wpn_ironsight"			"60"
+					"fov_wpn_focus"				"65"
 				}
 				"weapon_m249"
 				{
-					"fov_wpn_ironsight"			"50"
-					"fov_wpn_focus"				"55"
+					"fov_wpn_ironsight"			"40"
+					"fov_wpn_focus"				"45"
 				}
 				
 				"weapon_m40a1"
 				{
-					"fov_wpn_ironsight"			"50"
-					"fov_wpn_focus"				"55"
+					"fov_wpn_ironsight"			"40"
+					"fov_wpn_focus"				"45"
 				}
 				
 				"weapon_mk18"
 				{
-					"fov_wpn_ironsight"			"65"
-					"fov_wpn_focus"				"70"
+					"fov_wpn_ironsight"			"55"
+					"fov_wpn_focus"				"60"
 				}
 				
 				"weapon_m14"
 				{
-					"fov_wpn_ironsight"			"40"
-					"fov_wpn_focus"				"45"
+					"fov_wpn_ironsight"			"30"
+					"fov_wpn_focus"				"35"
 				}
 				
 				"weapon_m590"
 				{
-					"fov_wpn_ironsight"			"65"
-					"fov_wpn_focus"				"70"
+					"fov_wpn_ironsight"			"55"
+					"fov_wpn_focus"				"60"
 				}
 				
 				"weapon_mini14"
-				{
-					"fov_wpn_ironsight"			"50"
-					"fov_wpn_focus"				"55"
-				}
-				
-				"weapon_mp5"
-				{
-					"fov_wpn_ironsight"			"50"
-					"fov_wpn_focus"				"55"
-				}
-				
-				"weapon_mp5a4"
 				{
 					"fov_wpn_ironsight"			"40"
 					"fov_wpn_focus"				"45"
 				}
 				
+				"weapon_mp5"
+				{
+					"fov_wpn_ironsight"			"40"
+					"fov_wpn_focus"				"45"
+				}
+				
+				"weapon_mp5a4"
+				{
+					"fov_wpn_ironsight"			"30"
+					"fov_wpn_focus"				"35"
+				}
+				
 				"weapon_ump45"
 				{
-					"fov_wpn_ironsight"			"50"
-					"fov_wpn_focus"				"55"
+					"fov_wpn_ironsight"			"40"
+					"fov_wpn_focus"				"45"
 				}
 				
 				"weapon_l1a1"
 				{
-					"fov_wpn_ironsight"			"60"
-					"fov_wpn_focus"				"65"
+					"fov_wpn_ironsight"			"50"
+					"fov_wpn_focus"				"55"
 				}
 
 				"weapon_akm"
 				{
-					"fov_wpn_ironsight"			"65"
-					"fov_wpn_focus"				"70"
+					"fov_wpn_ironsight"			"55"
+					"fov_wpn_focus"				"60"
 				}
 				
 				"weapon_ak74"
 				{
-					"fov_wpn_ironsight"			"65"
-					"fov_wpn_focus"				"70"
+					"fov_wpn_ironsight"			"55"
+					"fov_wpn_focus"				"60"
 				}
 				
 				"weapon_fal"
 				{
-					"fov_wpn_ironsight"			"60"
-					"fov_wpn_focus"				"65"
+					"fov_wpn_ironsight"			"50"
+					"fov_wpn_focus"				"55"
 				}
 				
 				"weapon_g3"
 				{
-					"fov_wpn_ironsight"			"50"
-					"fov_wpn_focus"				"55"
+					"fov_wpn_ironsight"			"40"
+					"fov_wpn_focus"				"45"
 				}
 				
 				"weapon_galil"
 				{
-					"fov_wpn_ironsight"			"65"
-					"fov_wpn_focus"				"70"
+					"fov_wpn_ironsight"			"55"
+					"fov_wpn_focus"				"60"
 				}
 
 				"weapon_galil_sar"
 				{
-					"fov_wpn_ironsight"			"65"
-					"fov_wpn_focus"				"70"
+					"fov_wpn_ironsight"			"55"
+					"fov_wpn_focus"				"60"
 				}
 
 				"weapon_aks74u"
 				{
-					"fov_wpn_ironsight"			"65"
-					"fov_wpn_focus"				"70"
+					"fov_wpn_ironsight"			"55"
+					"fov_wpn_focus"				"60"
 				}
 				
 				"weapon_m1a1"
 				{
-					"fov_wpn_ironsight"			"50"
-					"fov_wpn_focus"				"55"
+					"fov_wpn_ironsight"			"40"
+					"fov_wpn_focus"				"45"
 				}
 				
 				"weapon_zastava"
@@ -959,32 +959,32 @@
 				
 				"weapon_mp40"
 				{
-					"fov_wpn_ironsight"			"50"
-					"fov_wpn_focus"				"55"
+					"fov_wpn_ironsight"			"40"
+					"fov_wpn_focus"				"45"
 				}
 				
 				"weapon_rpk"
 				{
-					"fov_wpn_ironsight"			"65"
-					"fov_wpn_focus"				"70"
+					"fov_wpn_ironsight"			"55"
+					"fov_wpn_focus"				"60"
 				}
 				
 				"weapon_sks"
 				{
-					"fov_wpn_ironsight"			"70"
-					"fov_wpn_focus"				"75"
+					"fov_wpn_ironsight"			"60"
+					"fov_wpn_focus"				"65"
 				}
 				
 				"weapon_sterling"
 				{
-					"fov_wpn_ironsight"			"50"
-					"fov_wpn_focus"				"55"
+					"fov_wpn_ironsight"			"40"
+					"fov_wpn_focus"				"45"
 				}
 
 				"weapon_toz"
 				{
-					"fov_wpn_ironsight"			"55"
-					"fov_wpn_focus"				"60"
+					"fov_wpn_ironsight"			"45"
+					"fov_wpn_focus"				"50"
 				}
 			}
 		}
@@ -1325,158 +1325,158 @@
 			
 			"optics_fov_override"
 			{
-				"fov_wpn_scope"				"14"
+				"fov_wpn_scope"				"13"
 				"fov_wpn_ironsight"			"56"
 				"fov_wpn_focus"				"64"
 				
 				"weapon_m16a4"
 				{
-					"fov_wpn_ironsight"			"65"
-					"fov_wpn_focus"				"70"
+					"fov_wpn_ironsight"			"55"
+					"fov_wpn_focus"				"60"
 				}
 				
 				"weapon_m4a1"
 				{
-					"fov_wpn_ironsight"			"65"
-					"fov_wpn_focus"				"70"
+					"fov_wpn_ironsight"			"55"
+					"fov_wpn_focus"				"60"
 				}
 				
 				"weapon_mk18"
 				{
-					"fov_wpn_ironsight"			"70"
-					"fov_wpn_focus"				"75"
+					"fov_wpn_ironsight"			"60"
+					"fov_wpn_focus"				"65"
 				}
 				
 				"weapon_m14"
 				{
-					"fov_wpn_ironsight"			"38"
-					"fov_wpn_focus"				"43"
+					"fov_wpn_ironsight"			"28"
+					"fov_wpn_focus"				"33"
 				}
 				
 				"weapon_mini14"
 				{
-					"fov_wpn_ironsight"			"50"
-					"fov_wpn_focus"				"55"
+					"fov_wpn_ironsight"			"40"
+					"fov_wpn_focus"				"45"
 				}
 				
 				"weapon_m249"
 				{
-					"fov_wpn_ironsight"			"45"
-					"fov_wpn_focus"				"50"
+					"fov_wpn_ironsight"			"35"
+					"fov_wpn_focus"				"40"
 				}
 				
 				"weapon_m40a1"
 				{
-					"fov_wpn_ironsight"			"45"
-					"fov_wpn_focus"				"50"
+					"fov_wpn_ironsight"			"35"
+					"fov_wpn_focus"				"40"
 				}
 				
 				"weapon_mp5"
 				{
-					"fov_wpn_ironsight"			"45"
-					"fov_wpn_focus"				"50"
+					"fov_wpn_ironsight"			"35"
+					"fov_wpn_focus"				"40"
 				}
 				
 				"weapon_mp5a4"
 				{
-					"fov_wpn_ironsight"			"40"
-					"fov_wpn_focus"				"45"
+					"fov_wpn_ironsight"			"30"
+					"fov_wpn_focus"				"35"
 				}
 				
 				"weapon_ump45"
 				{
-					"fov_wpn_ironsight"			"50"
-					"fov_wpn_focus"				"55"
+					"fov_wpn_ironsight"			"40"
+					"fov_wpn_focus"				"45"
 				}
 				
 				"weapon_l1a1"
-				{
-					"fov_wpn_ironsight"			"50"
-					"fov_wpn_focus"				"55"
-				}
-				
-				"weapon_g3"
-				{
-					"fov_wpn_ironsight"			"50"
-					"fov_wpn_focus"				"55"
-				}
-
-				"weapon_akm"
-				{
-					"fov_wpn_ironsight"			"60"
-					"fov_wpn_focus"				"65"
-				}
-				
-				"weapon_ak74"
-				{
-					"fov_wpn_ironsight"			"60"
-					"fov_wpn_focus"				"65"
-				}
-				
-				"weapon_fal"
-				{
-					"fov_wpn_ironsight"			"50"
-					"fov_wpn_focus"				"55"
-				}
-				
-				"weapon_aks74u"
-				{
-					"fov_wpn_ironsight"			"60"
-					"fov_wpn_focus"				"65"
-				}
-				
-				"weapon_m1a1"
-				{
-					"fov_wpn_ironsight"			"55"
-					"fov_wpn_focus"				"60"
-				}
-				
-				"weapon_zastava"
-				{
-					"fov_wpn_ironsight"			"55"
-					"fov_wpn_focus"				"60"
-				}
-				
-				"weapon_mosin"
 				{
 					"fov_wpn_ironsight"			"40"
 					"fov_wpn_focus"				"45"
 				}
 				
+				"weapon_g3"
+				{
+					"fov_wpn_ironsight"			"40"
+					"fov_wpn_focus"				"45"
+				}
+
+				"weapon_akm"
+				{
+					"fov_wpn_ironsight"			"50"
+					"fov_wpn_focus"				"55"
+				}
+				
+				"weapon_ak74"
+				{
+					"fov_wpn_ironsight"			"50"
+					"fov_wpn_focus"				"55"
+				}
+				
+				"weapon_fal"
+				{
+					"fov_wpn_ironsight"			"40"
+					"fov_wpn_focus"				"45"
+				}
+				
+				"weapon_aks74u"
+				{
+					"fov_wpn_ironsight"			"50"
+					"fov_wpn_focus"				"55"
+				}
+				
+				"weapon_m1a1"
+				{
+					"fov_wpn_ironsight"			"45"
+					"fov_wpn_focus"				"50"
+				}
+				
+				"weapon_zastava"
+				{
+					"fov_wpn_ironsight"			"45"
+					"fov_wpn_focus"				"50"
+				}
+				
+				"weapon_mosin"
+				{
+					"fov_wpn_ironsight"			"30"
+					"fov_wpn_focus"				"35"
+				}
+				
 				"weapon_mp40"
 				{
-					"fov_wpn_ironsight"			"55"
-					"fov_wpn_focus"				"60"
+					"fov_wpn_ironsight"			"45"
+					"fov_wpn_focus"				"50"
 				}
 				
 				"weapon_rpk"
 				{
-					"fov_wpn_ironsight"			"60"
-					"fov_wpn_focus"				"65"
+					"fov_wpn_ironsight"			"50"
+					"fov_wpn_focus"				"55"
 				}
 				
 				"weapon_sks"
 				{
-					"fov_wpn_ironsight"			"60"
-					"fov_wpn_focus"				"65"
+					"fov_wpn_ironsight"			"50"
+					"fov_wpn_focus"				"55"
 				}
 
 				"weapon_sterling"
 				{
-					"fov_wpn_ironsight"			"55"
-					"fov_wpn_focus"				"60"
+					"fov_wpn_ironsight"			"45"
+					"fov_wpn_focus"				"50"
 				}
 
 				"weapon_galil"
 				{
-					"fov_wpn_ironsight"			"60"
-					"fov_wpn_focus"				"65"
+					"fov_wpn_ironsight"			"50"
+					"fov_wpn_focus"				"55"
 				}
 
 				"weapon_galil_sar"
 				{
-					"fov_wpn_ironsight"			"60"
-					"fov_wpn_focus"				"65"
+					"fov_wpn_ironsight"			"50"
+					"fov_wpn_focus"				"55"
 				}
 			}
 		}
@@ -2170,50 +2170,50 @@
 				
 				"weapon_akm"
 				{
-					"fov_wpn_ironsight"			"60"
-					"fov_wpn_focus"				"65"
+					"fov_wpn_ironsight"			"50"
+					"fov_wpn_focus"				"55"
 				}
 				
 				"weapon_ak74"
 				{
-					"fov_wpn_ironsight"			"50"
-					"fov_wpn_focus"				"55"
+					"fov_wpn_ironsight"			"40"
+					"fov_wpn_focus"				"45"
 				}
 				
 				"weapon_fal"
 				{
-					"fov_wpn_ironsight"			"50"
-					"fov_wpn_focus"				"55"
+					"fov_wpn_ironsight"			"40"
+					"fov_wpn_focus"				"45"
 				}
 				
 				"weapon_galil"
 				{
-					"fov_wpn_ironsight"			"59"
-					"fov_wpn_focus"				"61"
+					"fov_wpn_ironsight"			"49"
+					"fov_wpn_focus"				"51"
 				}
 
 				"weapon_galil_sar"
 				{
-					"fov_wpn_ironsight"			"59"
-					"fov_wpn_focus"				"61"
+					"fov_wpn_ironsight"			"49"
+					"fov_wpn_focus"				"51"
 				}
 
 				"weapon_l1a1"
 				{
-					"fov_wpn_ironsight"			"48"
-					"fov_wpn_focus"				"51"
+					"fov_wpn_ironsight"			"38"
+					"fov_wpn_focus"				"41"
 				}
 				
 				"weapon_g3"
 				{
-					"fov_wpn_ironsight"			"45"
-					"fov_wpn_focus"				"50"
+					"fov_wpn_ironsight"			"35"
+					"fov_wpn_focus"				"40"
 				}
 				
 				"weapon_aks74u"
 				{
-					"fov_wpn_ironsight"			"67"
-					"fov_wpn_focus"				"69"
+					"fov_wpn_ironsight"			"57"
+					"fov_wpn_focus"				"59"
 				}
 				
 				"weapon_m1a1"
@@ -2224,14 +2224,14 @@
 				
 				"weapon_zastava"
 				{
-					"fov_wpn_ironsight"			"32"
-					"fov_wpn_focus"				"38"
+					"fov_wpn_ironsight"			"22"
+					"fov_wpn_focus"				"28"
 				}
 				
 				"weapon_mosin"
 				{
-					"fov_wpn_ironsight"			"39"
-					"fov_wpn_focus"				"43"
+					"fov_wpn_ironsight"			"29"
+					"fov_wpn_focus"				"33"
 				}
 				
 				"weapon_mp40"
@@ -2242,8 +2242,8 @@
 				
 				"weapon_rpk"
 				{
-					"fov_wpn_ironsight"			"67"
-					"fov_wpn_focus"				"70"
+					"fov_wpn_ironsight"			"57"
+					"fov_wpn_focus"				"60"
 				}
 				
 				"weapon_sks"
@@ -2260,50 +2260,50 @@
 
 				"weapon_m16a4"
 				{
-					"fov_wpn_ironsight"			"50"
-					"fov_wpn_focus"				"56"
+					"fov_wpn_ironsight"			"40"
+					"fov_wpn_focus"				"46"
 				}
 				
 				"weapon_mk18"
 				{
-					"fov_wpn_ironsight"			"64"
-					"fov_wpn_focus"				"68"
+					"fov_wpn_ironsight"			"54"
+					"fov_wpn_focus"				"58"
 				}
 				
 				"weapon_mini14"
 				{
-					"fov_wpn_ironsight"			"45"
-					"fov_wpn_focus"				"52"
+					"fov_wpn_ironsight"			"35"
+					"fov_wpn_focus"				"42"
 				}
 				
 				"weapon_m249"
 				{
-					"fov_wpn_ironsight"			"40"
-					"fov_wpn_focus"				"48"
+					"fov_wpn_ironsight"			"30"
+					"fov_wpn_focus"				"38"
 				}
 				
 				"weapon_m40a1"
 				{
-					"fov_wpn_ironsight"			"40"
-					"fov_wpn_focus"				"45"
+					"fov_wpn_ironsight"			"30"
+					"fov_wpn_focus"				"35"
 				}
 				
 				"weapon_mp5"
 				{
-					"fov_wpn_ironsight"			"45"
-					"fov_wpn_focus"				"52"
+					"fov_wpn_ironsight"			"35"
+					"fov_wpn_focus"				"42"
 				}
 				
 				"weapon_mp5a4"
 				{
-					"fov_wpn_ironsight"			"45"
-					"fov_wpn_focus"				"52"
+					"fov_wpn_ironsight"			"35"
+					"fov_wpn_focus"				"42"
 				}
 				
 				"weapon_ump45"
 				{
-					"fov_wpn_ironsight"			"42"
-					"fov_wpn_focus"				"51"
+					"fov_wpn_ironsight"			"32"
+					"fov_wpn_focus"				"41"
 				}
 			}
 		}
@@ -2389,8 +2389,8 @@
 			"optics_fov_override"
 			{
 				"fov_wpn_scope"				"10"
-				"fov_wpn_ironsight"			"37"
-				"fov_wpn_focus"				"43"
+				"fov_wpn_ironsight"			"34"
+				"fov_wpn_focus"				"40"
 				
 				"weapon_mosin"
 				{
@@ -2402,22 +2402,22 @@
 				"weapon_fal"
 				{
 					"fov_wpn_scope"				"10"
-					"fov_wpn_ironsight"			"54"
-					"fov_wpn_focus"				"59"
+					"fov_wpn_ironsight"			"44"
+					"fov_wpn_focus"				"49"
 				}
 				
 				"weapon_l1a1"
 				{
 					"fov_wpn_scope"				"10"
-					"fov_wpn_ironsight"			"54"
-					"fov_wpn_focus"				"59"
+					"fov_wpn_ironsight"			"44"
+					"fov_wpn_focus"				"49"
 				}
 				
 				"weapon_g3"
 				{
 					"fov_wpn_scope"				"10"
-					"fov_wpn_ironsight"			"54"
-					"fov_wpn_focus"				"59"
+					"fov_wpn_ironsight"			"44"
+					"fov_wpn_focus"				"49"
 				}
 				
 				"weapon_sks"
@@ -2491,15 +2491,15 @@
 				"weapon_m14"
 				{
 					"fov_wpn_scope"				"10"
-					"fov_wpn_ironsight"			"43"
-					"fov_wpn_focus"				"50"
+					"fov_wpn_ironsight"			"33"
+					"fov_wpn_focus"				"40"
 				}
 
 				"weapon_m16a4"
 				{
 					"fov_wpn_scope"				"10"
-					"fov_wpn_ironsight"			"56"
-					"fov_wpn_focus"				"58"
+					"fov_wpn_ironsight"			"46"
+					"fov_wpn_focus"				"48"
 				}
 			}
 			"world_attachments"

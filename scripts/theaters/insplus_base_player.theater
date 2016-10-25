@@ -81,7 +81,7 @@
 				"640"					"200"
 			}
 			"stamina_regain"			"20.00"
-			"stamina_sprint_take"		"15.00"
+			"stamina_sprint_take"		"20.00"
 			"stamina_jump_take"			"60"
 			"stamina_dmg_take"			"200.00"
 			
@@ -162,7 +162,7 @@
 			"damage_decay_rate"					"10"
 			"explosion_deafen_radius_factor"	"0.25"
 			"default_penetration_power"			"15"
-			"max_penetration_distance"			"1500"
+			"max_penetration_distance"			"300"
 			
 			"DamageHitgroups"
 			{
