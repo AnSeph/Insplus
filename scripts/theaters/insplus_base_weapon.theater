@@ -288,6 +288,11 @@
 			"recoil"
 			{
 					"recoil_freeaim_frac"	"0.50"
+					
+					"RecoilBaseFracByWeight"
+					{
+						"60"					"0.90"
+					}
 			}
 			"freeaim"
 			{
