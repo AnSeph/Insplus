@@ -1,0 +1,159 @@
+"#base" "insplus_tactical.theater"
+
+"theater"
+{
+	"teams"
+	{
+		"security"
+		{				
+			"?push_security_attack"
+			{
+				"squads"
+				{
+					// Assault squad
+					"[A] Assault Squad"	// small arms
+					{
+						"#Squad_Fireteam_Leader_Specialist"				"template_specialist_security"
+						"#Squad_Fireteam_Rifleman"						"template_rifleman_security"
+						"#Squad_Fireteam_Rifleman"						"template_rifleman_security"
+						"#Squad_Fireteam_Rifleman"						"template_rifleman_security"
+						"#Squad_Fireteam_Grenadier"						"template_grenadier_security"
+						"#Squad_Fireteam_Breacher"						"template_breacher_security"
+					}
+					
+					// Support squad
+					"[B] Support Squad"
+					{
+						"#Squad_Fireteam_Leader_Specialist"				"template_specialist_security"
+						"#Squad_Fireteam_Rifleman"						"template_rifleman_security"
+						"#Squad_Fireteam_Rifleman"						"template_rifleman_security"
+						"#Squad_Fireteam_Demolitions"					"template_demolitions_security"
+						"#Squad_Fireteam_Engineer"						"template_engineer_security"
+						"#Squad_Fireteam_Support"						"template_support_security"
+					}
+					
+					// Recon team
+					"[C] Recon Team"
+					{
+						"#Squad_Fireteam_Leader_Recon"					"template_recon_security"
+						"#Squad_Fireteam_Recon"							"template_recon_security"
+						"#Squad_Fireteam_Rifleman"						"template_rifleman_security"
+						"#Squad_Fireteam_Designated_Marksman"			"template_designated_marksman_security"
+					}
+				}
+			}
+			
+			"?push_security_defend"
+			{
+				"squads"
+				{
+					// Assault squad
+					"[A] Assault Squad"	// small arms
+					{
+						"#Squad_Fireteam_Leader_Specialist"				"template_specialist_security"
+						"#Squad_Fireteam_Rifleman"						"template_rifleman_security"
+						"#Squad_Fireteam_Rifleman"						"template_rifleman_security"
+						"#Squad_Fireteam_Rifleman"						"template_rifleman_security"
+						"#Squad_Fireteam_Grenadier"						"template_grenadier_security"
+						"#Squad_Fireteam_Support"						"template_support_security"
+					}
+					
+					// Support squad
+					"[B] Support Squad"
+					{
+						"#Squad_Fireteam_Leader_Specialist"				"template_specialist_security"
+						"#Squad_Fireteam_Rifleman"						"template_rifleman_security"
+						"#Squad_Fireteam_Rifleman"						"template_rifleman_security"
+						"#Squad_Fireteam_Rifleman"						"template_rifleman_security"
+						"#Squad_Fireteam_Engineer"						"template_engineer_security"
+						"#Squad_Fireteam_Support"						"template_support_security"
+					}
+					
+					// Recon team
+					"[C] Recon Team"
+					{
+						"#Squad_Fireteam_Leader_Recon"					"template_recon_security"
+						"#Squad_Fireteam_Recon"							"template_recon_security"
+						"#Squad_Fireteam_Rifleman"						"template_rifleman_security"
+						"#Squad_Fireteam_Designated_Marksman"			"template_designated_marksman_security"
+					}
+				}			
+			}
+		}
+		
+		"insurgents"
+		{
+			"?push_insurgents_attack"
+			{
+				"squads"
+				{
+					// Assault Cell
+					"[A] Assault Cell"
+					{
+						"#Squad_Cell_Leader_Warlord"				"template_warlord_insurgent"
+						"#Squad_Cell_Fighter"						"template_fighter_insurgent"
+						"#Squad_Cell_Fighter"						"template_fighter_insurgent"
+						"#Squad_Cell_Fighter"						"template_fighter_insurgent"
+						"#Squad_Cell_Militant"						"template_militant_insurgent"
+						"#Squad_Cell_Striker"						"template_striker_insurgent"
+					}
+					
+					// Support Cell
+					"[B] Support Cell"
+					{
+						"#Squad_Cell_Leader_Warlord"				"template_warlord_insurgent"
+						"#Squad_Cell_Fighter"						"template_fighter_insurgent"
+						"#Squad_Cell_Fighter"						"template_fighter_insurgent"
+						"#Squad_Cell_Sapper"						"template_sapper_insurgent"
+						"#Squad_Cell_Bomber"						"template_bomber_insurgent"
+						"#Squad_Cell_Machinegunner"					"template_machinegunner_insurgent"
+					}
+					// Scout Cell
+					"[C] Scout Cell"
+					{
+						"#Squad_Cell_Leader_Specialist"				"template_specialist_insurgent"
+						"#Squad_Cell_Scout"							"template_scout_insurgent"
+						"#Squad_Cell_Scout"							"template_scout_insurgent"
+						"#Squad_Cell_Sharpshooter"					"template_sharpshooter_insurgent"
+					}
+				}
+			}
+			
+			"?push_insurgents_defend"
+			{
+				"squads"
+				{
+					// Assault Cell
+					"[A] Assault Cell"
+					{
+						"#Squad_Cell_Leader_Warlord"				"template_warlord_insurgent"
+						"#Squad_Cell_Fighter"						"template_fighter_insurgent"
+						"#Squad_Cell_Fighter"						"template_fighter_insurgent"
+						"#Squad_Cell_Fighter"						"template_fighter_insurgent"
+						"#Squad_Cell_Militant"						"template_militant_insurgent"
+						"#Squad_Cell_Machinegunner"					"template_machinegunner_insurgent"
+					}
+					
+					// Support Cell
+					"[B] Support Cell"
+					{
+						"#Squad_Cell_Leader_Warlord"				"template_warlord_insurgent"
+						"#Squad_Cell_Fighter"						"template_fighter_insurgent"
+						"#Squad_Cell_Fighter"						"template_fighter_insurgent"
+						"#Squad_Cell_Sapper"						"template_sapper_insurgent"
+						"#Squad_Cell_Striker"						"template_striker_insurgent"
+						"#Squad_Cell_Machinegunner"					"template_machinegunner_insurgent"
+					}
+					// Scout Cell
+					"[C] Scout Cell"
+					{
+						"#Squad_Cell_Leader_Specialist"				"template_specialist_insurgent"
+						"#Squad_Cell_Scout"							"template_scout_insurgent"
+						"#Squad_Cell_Scout"							"template_scout_insurgent"
+						"#Squad_Cell_Sharpshooter"					"template_sharpshooter_insurgent"
+					}
+				}			
+			}
+		}
+	}
+}

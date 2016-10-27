@@ -18,7 +18,7 @@
 			}
 			
 			"penetration_power_loss"		"100"
-			"explosive_damage_frac"			"0.95"
+			"explosive_damage_frac"			"0.9"
 			
 			"team_access"	"security"		
  		}
@@ -38,7 +38,7 @@
 			}
 			
 			"penetration_power_loss"		"100"
-			"explosive_damage_frac"			"0.95"
+			"explosive_damage_frac"			"0.9"
 			
 			"team_access"	"insurgent"		
  		}
@@ -61,7 +61,7 @@
 			"player_model_override"		"models/characters/security_medium_light.mdl"
 			
 			"penetration_power_loss"		"200"
-			"explosive_damage_frac"			"0.90"
+			"explosive_damage_frac"			"0.80"
 			
 			"team_access"	"security"		
  		}
@@ -84,7 +84,7 @@
 			"player_model_override"		"models/characters/security_medium_spec.mdl"
 			
 			"penetration_power_loss"		"200"
-			"explosive_damage_frac"			"0.90"
+			"explosive_damage_frac"			"0.80"
 			
 			"team_access"	"security"		
  		}
@@ -108,7 +108,7 @@
 			"viewmodel_hands_override"	"models/weapons/v_hands_ins_l.mdl"
 			
 			"penetration_power_loss"		"200"
-			"explosive_damage_frac"			"0.90"
+			"explosive_damage_frac"			"0.80"
 			
 			"team_access"	"insurgent"		
  		}
@@ -132,7 +132,7 @@
 			"viewmodel_hands_override"	"models/weapons/v_hands_ins_l.mdl"
 			
 			"penetration_power_loss"		"200"
-			"explosive_damage_frac"			"0.90"
+			"explosive_damage_frac"			"0.80"
 			
 			"team_access"	"insurgent"		
  		}
@@ -156,7 +156,7 @@
 			"viewmodel_hands_override"	"models/weapons/v_hands_ins_l.mdl"
 			
 			"penetration_power_loss"		"200"
-			"explosive_damage_frac"			"0.90"
+			"explosive_damage_frac"			"0.80"
 			
 			"team_access"	"insurgent"		
  		}
@@ -180,7 +180,7 @@
 			"viewmodel_hands_override"	"models/weapons/v_hands_sec_h.mdl"
 			
 			"penetration_power_loss"		"300"
-			"explosive_damage_frac"			"0.80"
+			"explosive_damage_frac"			"0.75"
 			
 			"team_access"	"security"		
 		}
@@ -204,7 +204,7 @@
 			"viewmodel_hands_override"	"models/weapons/v_hands_ins_m.mdl"
 			
 			"penetration_power_loss"		"300"
-			"explosive_damage_frac"			"0.80"
+			"explosive_damage_frac"			"0.75"
 			
 			"team_access"	"insurgent"		
 		}
@@ -227,7 +227,7 @@
 			"viewmodel_hands_override"	"models/weapons/v_hands_ins_m.mdl"
 			
 			"penetration_power_loss"		"300"
-			"explosive_damage_frac"			"0.80"
+			"explosive_damage_frac"			"0.75"
 			
 			"team_access"	"insurgent"		
 		}

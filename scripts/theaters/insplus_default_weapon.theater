@@ -25,6 +25,7 @@
 			"weapon_weight"					"308"
 			"weapon_cost"					"5"
 			"weapon_abilities"				"ironsight"
+			"trigger_delay"					"0.25"
 			"barrel_length"					"65"
 			
 			"sounds"
@@ -98,6 +99,7 @@
 			"weapon_weight"					"268"
 			"weapon_cost"					"5"
 			"weapon_abilities"				"ironsight"
+			"trigger_delay"					"0.25"
 			"barrel_length"					"55"
 			
 			"sounds"
@@ -798,7 +800,7 @@
 			{
 				"recoil_lateral_range"			"-1.15 1.15"
 				"recoil_vertical_range"			"2.00 2.80"
-				"recoil_aim_punch"				"0.45 0.55"
+				"recoil_aim_punch"				"0.1 0.2"
 				"recoil_rest_rate"				"4"
 				"recoil_rest_delay"				"0.18"
 				"recoil_roll_range"				"-1.35 -1.35"
@@ -881,7 +883,7 @@
 			{
 				"recoil_lateral_range"			"-1.20 1.20"
 				"recoil_vertical_range"			"2.25 2.80"
-				"recoil_aim_punch"				"0.45 0.55"
+				"recoil_aim_punch"				"0.1 0.2"
 				"recoil_rest_rate"				"4"
 				"recoil_rest_delay"				"0.18"
 				"recoil_roll_range"				"-1.35 -1.35"
@@ -971,7 +973,7 @@
 			{
 				"recoil_lateral_range"			"-1.15 1.15"
 				"recoil_vertical_range"			"2.00 2.80"
-				"recoil_aim_punch"				"0.45 0.55"
+				"recoil_aim_punch"				"0.1 0.2"
 				"recoil_rest_rate"				"4"
 				"recoil_rest_delay"				"0.18"
 				"recoil_roll_range"				"-1.35 -1.35"
@@ -1071,7 +1073,7 @@
 			{
 				"recoil_lateral_range"				"-1.5 1.5"
 				"recoil_vertical_range"				"2.55 3.6"
-				"recoil_aim_punch"					"0.45 0.55"
+				"recoil_aim_punch"					"0.1 0.2"
 				"recoil_rest_rate"					"4"
 				"recoil_rest_delay"					"0.18"
 				"recoil_roll_range"					"-1.35 -1.35"
@@ -1171,7 +1173,7 @@
 			{
 				"recoil_lateral_range"				"-1.15 1.15"
 				"recoil_vertical_range"				"2.55 2.75"
-				"recoil_aim_punch"					"0.45 0.55"
+				"recoil_aim_punch"					"0.1 0.2"
 				"recoil_rest_rate"					"4"
 				"recoil_rest_delay"					"0.18"
 				"recoil_roll_range"					"-1.35 -1.35"
@@ -1270,7 +1272,7 @@
 			{
 				"recoil_lateral_range"				"-1.5 1.5"
 				"recoil_vertical_range"				"2.55 3.6"
-				"recoil_aim_punch"					"0.45 0.55"
+				"recoil_aim_punch"					"0.1 0.2"
 				"recoil_rest_rate"					"4"
 				"recoil_rest_delay"					"0.18"
 				"recoil_roll_range"					"-1.35 -1.35"
@@ -1448,7 +1450,7 @@
 			{
 				"recoil_lateral_range"				"-0.90 0.90"
 				"recoil_vertical_range"				"2.55 3.10"
-				"recoil_aim_punch"					"0.45 0.55"
+				"recoil_aim_punch"					"0.1 0.2"
 				"recoil_rest_rate"					"4"
 				"recoil_rest_delay"					"0.18"
 				"recoil_roll_range"					"-1.35 -1.35"
@@ -1548,7 +1550,7 @@
 			{
 				"recoil_lateral_range"				"-1.25 1.25"
 				"recoil_vertical_range"				"3.00 3.25"
-				"recoil_aim_punch"					"0.45 0.55"
+				"recoil_aim_punch"					"0.1 0.2"
 				"recoil_rest_rate"					"4"
 				"recoil_rest_delay"					"0.2"
 				"recoil_roll_range"					"-2.2 -1.6"
@@ -2090,7 +2092,7 @@
 			{
 				"recoil_lateral_range"				"-1.55 1.55"
 				"recoil_vertical_range"				"2.775 3.225"
-				"recoil_aim_punch"					"0.3 0.4"
+				"recoil_aim_punch"					"0.2 0.4"
 				"recoil_rest_rate"					"7"
 				"recoil_rest_delay"					"0.12"
 				"recoil_roll_range"					"-1.8 -1.8"
@@ -2189,7 +2191,7 @@
 			{
 				"recoil_lateral_range"				"-1.05 1.05"
 				"recoil_vertical_range"				"2.25 2.85"
-				"recoil_aim_punch"					"0.3 0.4"
+				"recoil_aim_punch"					"0.2 0.4"
 				"recoil_rest_rate"					"5"
 				"recoil_rest_delay"					"0.12"
 				"recoil_roll_range"					"-1.5 -1.5"
@@ -2286,7 +2288,7 @@
 			{
 				"recoil_lateral_range"				"-1.75 1.75"
 				"recoil_vertical_range"				"3.55 4.25"
-				"recoil_aim_punch"					"0.3 0.4"
+				"recoil_aim_punch"					"0.2 0.4"
 				"recoil_rest_rate"					"7"
 				"recoil_rest_delay"					"0.12"
 				"recoil_roll_range"					"-1.8 -1.8"
@@ -2383,7 +2385,7 @@
 			{
 				"recoil_lateral_range"				"-1.75 1.75"
 				"recoil_vertical_range"				"3.55 4.25"
-				"recoil_aim_punch"					"0.3 0.4"
+				"recoil_aim_punch"					"0.2 0.4"
 				"recoil_rest_rate"					"7"
 				"recoil_rest_delay"					"0.12"
 				"recoil_roll_range"					"-1.8 -1.8"
@@ -2481,7 +2483,7 @@
 			{
 				"recoil_lateral_range"				"-1.75 1.75"
 				"recoil_vertical_range"				"3.55 4.25"
-				"recoil_aim_punch"					"0.3 0.4"
+				"recoil_aim_punch"					"0.2 0.4"
 				"recoil_rest_rate"					"7"
 				"recoil_rest_delay"					"0.12"
 				"recoil_roll_range"					"-1.8 -1.8"
@@ -2565,7 +2567,7 @@
 			{
 				"recoil_lateral_range"				"-1.75 1.75"
 				"recoil_vertical_range"				"3.55 4.25"
-				"recoil_aim_punch"					"0.3 0.4"
+				"recoil_aim_punch"					"0.2 0.4"
 				"recoil_rest_rate"					"7"
 				"recoil_rest_delay"					"0.12"
 				"recoil_roll_range"					"-1.8 -1.8"
@@ -2650,7 +2652,7 @@
 			{
 				"recoil_lateral_range"				"-1.15 1.15"
 				"recoil_vertical_range"				"2.30 2.95"
-				"recoil_aim_punch"					"0.2 0.3"
+				"recoil_aim_punch"					"0.1 0.3"
 				"recoil_rest_rate"					"5"
 				"recoil_rest_delay"					"0.12"
 				"recoil_roll_range"					"-1.5 -1.5"
@@ -2891,7 +2893,7 @@
 			{
 				"recoil_lateral_range"				"-1.00 1.00"
 				"recoil_vertical_range"				"2.400 2.625"
-				"recoil_aim_punch"					"0.2 0.4"
+				"recoil_aim_punch"					"0.1 0.3"
 				"recoil_rest_rate"					"5"
 				"recoil_rest_delay"					"0.12"
 				"recoil_roll_range"					"-1.5 -1.5"
@@ -3009,7 +3011,7 @@
 			{
 				"recoil_lateral_range"			"-1.00 1.00"
 				"recoil_vertical_range"			"1.9 2.50"
-				"recoil_aim_punch"				"0.45 0.55"
+				"recoil_aim_punch"				"0.1 0.3"
 				"recoil_rest_rate"				"2"
 				"recoil_rest_delay"				"0.18"
 				"recoil_roll_range"				"-1.35 -1.35"
@@ -3089,7 +3091,7 @@
 			{
 				"recoil_lateral_range"			"-1.15 1.15"
 				"recoil_vertical_range"			"2.00 2.80"
-				"recoil_aim_punch"				"0.45 0.55"
+				"recoil_aim_punch"				"0.1 0.3"
 				"recoil_rest_rate"				"4"
 				"recoil_rest_delay"				"0.18"
 				"recoil_roll_range"				"-1.35 -1.35"
@@ -3170,7 +3172,7 @@
 			{
 				"recoil_lateral_range"				"-1.035 1.035"
 				"recoil_vertical_range"				"1.9175 2.065"
-				"recoil_aim_punch"					"0.45 0.55"
+				"recoil_aim_punch"					"0.1 0.3"
 				"recoil_rest_rate"					"4"
 				"recoil_rest_delay"					"0.18"
 				"recoil_roll_range"					"-1.35 -1.35"
@@ -3250,7 +3252,7 @@
 			{
 				"recoil_lateral_range"				"-1.15 1.15"
 				"recoil_vertical_range"				"2.55 2.75"
-				"recoil_aim_punch"					"0.45 0.55"
+				"recoil_aim_punch"					"0.1 0.3"
 				"recoil_rest_rate"					"4"
 				"recoil_rest_delay"					"0.18"
 				"recoil_roll_range"					"-1.35 -1.35"
@@ -3347,7 +3349,7 @@
 			{
 				"recoil_lateral_range"				"-1.35 1.35"
 				"recoil_vertical_range"				"1.9125 2.7"
-				"recoil_aim_punch"					"0.45 0.55"
+				"recoil_aim_punch"					"0.1 0.3"
 				"recoil_rest_rate"					"4"
 				"recoil_rest_delay"					"0.18"
 				"recoil_roll_range"					"-1.35 -1.35"
@@ -3451,8 +3453,8 @@
 			"recoil"
 			{
 				"recoil_lateral_range"				"-1.15 1.15"
-				"recoil_vertical_range"				"2.30 2.95"
-				"recoil_aim_punch"					"0.2 0.4"
+				"recoil_vertical_range"				"2.35 2.85"
+				"recoil_aim_punch"					"0.1 0.3"
 				"recoil_rest_rate"					"5"
 				"recoil_rest_delay"					"0.12"
 				"recoil_roll_range"					"-1.5 -1.5"
@@ -3550,7 +3552,7 @@
 			{
 				"recoil_lateral_range"				"-1.15 1.15"
 				"recoil_vertical_range"				"2.30 2.95"
-				"recoil_aim_punch"					"0.3 0.4"
+				"recoil_aim_punch"					"0.1 0.3"
 				"recoil_rest_rate"					"5"
 				"recoil_rest_delay"					"0.12"
 				"recoil_roll_range"					"-1.5 -1.5"
@@ -3848,7 +3850,7 @@
 			{
 				"recoil_lateral_range"				"-1.75 1.75"
 				"recoil_vertical_range"				"2.25 2.85"
-				"recoil_aim_punch"					"0.2 0.3"
+				"recoil_aim_punch"					"0.1 0.3"
 				"recoil_rest_rate"					"5"
 				"recoil_rest_delay"					"0.12"
 				"recoil_roll_range"					"-1.5 -1.5"
@@ -3921,7 +3923,7 @@
 			{
 				"recoil_lateral_range"				"-2.00 2.00"
 				"recoil_vertical_range"				"2.775 3.225"
-				"recoil_aim_punch"					"0.2 0.3"
+				"recoil_aim_punch"					"0.1 0.3"
 				"recoil_rest_rate"					"7"
 				"recoil_rest_delay"					"0.12"
 				"recoil_roll_range"					"-1.8 -1.8"
@@ -4398,12 +4400,12 @@
 			"entity_class"				"grenade_frag"
 			"Model"						"models/weapons/upgrades/a_projectile_m203.mdl"
 			
-			"DetonateDamage"			"180"
+			"DetonateDamage"			"175"
 			"DetonatePenetrationRadius" "200"
 			"DetonateDamageRadius"		"750"
 			"FuseTime"					"0"
 			"ImpactDetonation"			"1"
-			"ArmDelay"					"0.36"
+			"ArmDelay"					"0.20"
 			"RocketStartSpeed"			"3250"
 			
 			"Health"						"50"
@@ -4434,7 +4436,7 @@
 			"FuseTime"					"0"
 			"ImpactDetonation"			"1"
 			"RocketStartSpeed"			"3250"
-			"ArmDelay"					"0.36"
+			"ArmDelay"					"0.20"
 			
 			"Health"						"50"
 			"ReactExplosions"				"1"
@@ -4461,9 +4463,9 @@
 		{
 			"entity_class"				"rocket"
 			"Model"						"models/weapons/w_at4_projectile.mdl"
-			"DetonateDamage"			"150"
+			"DetonateDamage"			"225"
 			"DetonatePenetrationRadius" "100"
-			"DetonateDamageRadius"		"1000"
+			"DetonateDamageRadius"		"750"
 			"RocketTopSpeed"			"3500" // you cannot go faster than 3500
 			"RocketStartSpeed"			"400"
 			"RocketAcceleration"		"400"
@@ -4486,9 +4488,9 @@
 		{
 			"entity_class"				"rocket"
 			"Model"						"models/weapons/w_rpg7_projectile.mdl"
-			"DetonateDamage"			"150"
+			"DetonateDamage"			"225"
 			"DetonatePenetrationRadius" "100"
-			"DetonateDamageRadius"		"1000"
+			"DetonateDamageRadius"		"750"
 			"RocketTopSpeed"			"3500" // you cannot go faster than 3500
 			"RocketStartSpeed"			"400"
 			"RocketAcceleration"		"400"
