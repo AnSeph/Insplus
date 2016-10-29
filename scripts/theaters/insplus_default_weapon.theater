@@ -3100,7 +3100,6 @@
 				"recoil_shot_reset_time"			"0.75"	// Time delay for resetting the shots fired counter for the above (default = 0.3)
 				"recoil_punch_additive_factor"		"0.85"	// How much of the view punch from the previous shot(s) get added to any additional shot fired (default 1.0)
 			}
-			"ballistic
 			"ballistics"
 			{
 				"spread"					"0.25 0.25 0.25"
