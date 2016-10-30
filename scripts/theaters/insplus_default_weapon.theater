@@ -865,14 +865,14 @@
 			{
 				"shot_single"				"Weapon_BHP.Single"
 				"shot_single_local"			"Weapon_BHP.SingleLocal"
-				"shot_silent"				"Weapon_M45.SingleSilenced"
-				"shot_silent_local"			"Weapon_M45.SingleSilencedLocal"
-				"empty"						"Weapon_M9.Empty"
-				"magin"						"Weapon_M9.Clipin"
-				"magout"					"Weapon_M9.Clipout"
-				"slide_back"				"Weapon_M9.slideback"
-				"slide_forward"				"Weapon_M9.slideforward"
-				"safety"					"Weapon_M9.safety"
+				"shot_silent"				"Weapon_M9.SingleSilenced"
+				"shot_silent_local"			"Weapon_M9.SingleSilencedLocal"
+				"empty"						"Weapon_BHP.Empty"
+				"magin"						"Weapon_BHP.Clipin"
+				"magout"					"Weapon_BHP.Clipout"
+				"slide_back"				"Weapon_BHP.slideback"
+				"slide_forward"				"Weapon_BHP.slideforward"
+				"safety"					"Weapon_BHP.safety"
 			}
 			"particles"
 			{

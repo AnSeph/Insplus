@@ -267,6 +267,76 @@
 	"wave"		    "weapons/bhp/bhp_FP.wav"	
 }
 
+// Browning Hi-Power HANDLING
+
+"Weapon_BHP.Magrelease"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"0.2"
+    "pitch"			"PITCH_NORM"
+	"wave"			"weapons/bhp/handling/bhp_safety.wav" 
+}
+
+"Weapon_BHP.Magin"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"0.2"
+    "pitch"			"PITCH_NORM"
+	"wave"			"weapons/bhp/handling/bhp_magin.wav" 
+}
+
+"Weapon_BHP.Magout"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"0.2"
+    "pitch"			"PITCH_NORM"
+	"wave"			"weapons/bhp/handling/bhp_magout.wav" 
+
+}
+
+"Weapon_BHP.MagHit"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"0.2"
+    "pitch"			"PITCH_NORM"
+	"wave"			"weapons/bhp/handling/bhp_maghit.wav" 
+}
+
+"Weapon_BHP.Boltback"
+{
+	"channel"			"CHAN_ITEM"
+	"volume"		    "0.4"
+	"pitch"			    "PITCH_NORM"
+	"soundlevel"  		"SNDLVL_65dB"
+	"wave"			"weapons/bhp/handling/bhp_boltback.wav" 
+}
+
+"Weapon_BHP.Boltrelease"
+{
+	"channel"			"CHAN_ITEM"
+	"volume"		    "0.4"
+	"pitch"			    "PITCH_NORM"
+	"soundlevel"  		"SNDLVL_65dB"
+	"wave"			"weapons/bhp/handling/bhp_boltrelease.wav" 
+}
+
+"Weapon_BHP.safety"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"0.2"
+    "pitch"			"PITCH_NORM"
+	"wave"			"weapons/bhp/handling/bhp_safety.wav" 
+}
+
+"Weapon_BHP.Empty"
+{
+	"channel"			"CHAN_ITEM"
+	"volume"		    "0.2"
+	"pitch"			    "PITCH_NORM"
+	"soundlevel"  		"SNDLVL_65dB"
+	"wave"			"weapons/bhp/handling/bhp_empty.wav"  
+}
+
 // --------------------------
 // TT-33
 // --------------------------
