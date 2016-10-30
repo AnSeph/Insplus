@@ -101,7 +101,7 @@
 				
 				"freeaim_ads"					"1"
 				"freeaim_distance_ads"			"3.00"
-				"freeaim_screenratio_ads"		"0.91"
+				"freeaim_screenratio_ads"		"0.50"
 				
 				"freeaim_frac"					"1.00"
 				"freeaim_frac_ads"				"0.30"
@@ -134,8 +134,8 @@
 				}
 				"RecoilIronSightFracByWeight"
 				{
-					"60"					"0.80"
-					"640"					"0.75"
+					"60"					"0.75"
+					"640"					"0.70"
 				}
 				"RecoilBipodFracByWeight"
 				{
@@ -258,6 +258,11 @@
 			"recoil"
 			{
 				"recoil_freeaim_frac"		"0.50"
+				
+				"RecoilBaseFracByWeight"
+				{
+					"60"					"1.10"
+				}
 			}
 			"kitui_offset"
 			{
@@ -312,7 +317,14 @@
 			"freeaim"
 			{
 					"freeaim_frac"			"1.00"
-			}		
+			}
+			"recoil"
+			{
+					"RecoilBaseFracByWeight"
+					{
+						"60"					"0.90"
+					}
+			}			
 		}
 		"assault_carbine_base"
 		{
@@ -326,7 +338,12 @@
 			}
 			"recoil"
 			{
-				"recoil_freeaim_frac"		"0.80"
+					"recoil_freeaim_frac"		"0.80"
+					
+					"RecoilBaseFracByWeight"
+					{
+						"60"					"0.90"
+					}
 			}
 			"freeaim"
 			{
@@ -345,7 +362,12 @@
 			}
 			"recoil"
 			{
-				"recoil_freeaim_frac"		"0.60"
+					"recoil_freeaim_frac"		"0.60"
+					
+					"RecoilBaseFracByWeight"
+					{
+						"60"					"0.90"
+					}
 			}
 			"freeaim"
 			{
