@@ -302,6 +302,7 @@
 						"60"					"0.90"
 					}
 					
+					"recoil_roll_rest_rate"			"100"
 			}
 			"freeaim"
 			{
