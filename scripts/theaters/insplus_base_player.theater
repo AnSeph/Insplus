@@ -80,8 +80,8 @@
 				"60"					"300"
 				"640"					"200"
 			}
-			"stamina_regain"			"20.00"
-			"stamina_sprint_take"		"20.00"
+			"stamina_regain"			"15.00"
+			"stamina_sprint_take"		"12.00"
 			"stamina_jump_take"			"60"
 			"stamina_dmg_take"			"200.00"
 			
@@ -98,15 +98,14 @@
 		{
 			"FocusTimeStamina"
 			{
-				"0"						"6.0"
-				"200"					"6.0"
+				"0"						"8.0"
+				"200"					"8.0"
 			}
 			
 			"FocusCooldownStamina"
 			{
-				"0"						"5.0"
-				"100"					"3.0"
-				"200"					"1.0"
+				"0"						"6.0"
+				"200"					"3.0"
 			}
 			
 			"FocusEffectivenessStamina"
@@ -117,13 +116,13 @@
 		}
 		"slide"
 		{
-			"min_sprint_time"			"8.00"
+			"min_sprint_time"			"10.00"
 			"post_sprint_grace"			"0.08"
 			
 			"DistanceByWeight"
 			{
 				"60"					"0.5"
-				"640"					"0.5"
+				"640"					"0.4"
 			}
 			
 			"SpeedByWeight"
@@ -154,7 +153,7 @@
 		}
 		"suppression"
 		{
-			"suppression_resistance"			"0"
+			"suppression_resistance"			"-0.10"
 			"suppression_recovery_rate"			"10"
 		}
 		"damage"

@@ -130,7 +130,7 @@
 						"#Squad_Cell_Fighter"						"template_fighter_insurgent"
 						"#Squad_Cell_Fighter"						"template_fighter_insurgent"
 						"#Squad_Cell_Fighter"						"template_fighter_insurgent"
-						"#Squad_Cell_Fighter"						"template_fighter_insurgent"
+						"#Squad_Cell_Striker"						"template_striker_insurgent"
 						"#Squad_Cell_Machinegunner"					"template_machinegunner_insurgent"
 					}
 					
@@ -150,7 +150,7 @@
 						"#Squad_Cell_Leader_Specialist"				"template_specialist_insurgent"
 						"#Squad_Cell_Sapper"						"template_sapper_insurgent"
 						"#Squad_Cell_Sapper"						"template_sapper_insurgent"
-						"#Squad_Cell_Striker"						"template_striker_insurgent"
+						"#Squad_Cell_Fighter"						"template_fighter_insurgent"
 					}
 				}			
 			}
