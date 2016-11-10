@@ -134,6 +134,9 @@
 		"mp_timer_postround"					"6"				// timer for the post-round (after the round starts)
 		"mp_timer_postgame"						"15"			// timer for the post-game (at the end of a game / map rotation)
 		"mp_voice_use_3d_voip"					"1"				// disabling this will turn off the 3d voip system and allow all players to hear one another
+		"sv_suppress_steam_score"				"1"
+		"sv_hud_deathmessages"					"0"				// death messages
+		"sv_hud_deathmessages_spectator"		"1"				// death messages while spectating?
 		
 		"occupy"
 		{
@@ -142,11 +145,13 @@
 			"mp_wave_dpr_perteam"				"0.2"
 			"mp_respawnwavetime_min"			"20"
 			"mp_respawnwavetime_max"			"30"
-			"mp_cp_capture_time"				"10"
+			"mp_cp_capture_time"				"20"
 			"mp_supply_rate_winning_team_high"	"2"
 			"mp_supply_rate_losing_team_high"	"2"
 			"mp_supply_rate_winning_team_low"	"1"
 			"mp_supply_rate_losing_team_low"	"1"
+			"mp_roundtime"						"360"
+			"mp_cp_speedup_rate"				".33"
 		}
 		
 		"push"
@@ -159,24 +164,39 @@
 			"mp_wave_dpr_defenders"				"0.25"
 			"mp_respawnwavetime_min"			"20"
 			"mp_respawnwavetime_max"			"35"
-			"mp_cp_capture_time"				"10"
+			"mp_cp_capture_time"				"20"
 			"mp_supply_rate_winning_team_high"	"2"
 			"mp_supply_rate_losing_team_high"	"2"
 			"mp_supply_rate_winning_team_low"	"1"
 			"mp_supply_rate_losing_team_low"	"1"
+			"mp_roundtime"						"120"
+			"mp_push_capture_time_extension"	"120"
+			"mp_cp_speedup_rate"				".33"
 		}
 		
 		"strike"
 		{
 			"mp_wave_count_attackers"			"1"
-			"mp_wave_count_defenders"			"2"
+			"mp_wave_count_defenders"			"3"
 			"mp_strike_capture_wave_decrement"	"1"
 			"mp_wave_capture_increment"			"1"
-			"mp_strike_capture_time_extention"	"150"
+			"mp_strike_capture_time_extention"	"120"
 			"mp_supply_rate_winning_team_high"	"2"
 			"mp_supply_rate_losing_team_high"	"2"
 			"mp_supply_rate_winning_team_low"	"1"
 			"mp_supply_rate_losing_team_low"	"1"
+			"mp_roundtime"						"120"
+		}
+		
+		"firefight"
+		{
+			"mp_roundtime"						"240"
+			"mp_cp_speedup_rate"				".33"
+		}
+		
+		"ambush"
+		{
+			"mp_roundtime"						"240"
 		}
 	}
 	
