@@ -77,11 +77,11 @@
 		{
 			"StaminaMaxByWeight"
 			{
-				"60"					"300"
+				"60"					"275"
 				"640"					"200"
 			}
-			"stamina_regain"			"15.00"
-			"stamina_sprint_take"		"12.00"
+			"stamina_regain"			"15.75"
+			"stamina_sprint_take"		"15.75"
 			"stamina_jump_take"			"60"
 			"stamina_dmg_take"			"200.00"
 			
@@ -153,8 +153,8 @@
 		}
 		"suppression"
 		{
-			"suppression_resistance"			"-0.10"
-			"suppression_recovery_rate"			"10"
+			"suppression_resistance"			"0.15"
+			"suppression_recovery_rate"			"15"
 		}
 		"damage"
 		{
@@ -168,10 +168,10 @@
 				"HITGROUP_HEAD"				"5.00"	// death
 				"HITGROUP_CHEST"			"1.50"
 				"HITGROUP_STOMACH"			"1.25"
-				"HITGROUP_LEFTARM"			"1.00"
-				"HITGROUP_RIGHTARM"			"1.00"
-				"HITGROUP_LEFTLEG"			"0.75"
-				"HITGROUP_RIGHTLEG"			"0.75"
+				"HITGROUP_LEFTARM"			"0.75"
+				"HITGROUP_RIGHTARM"			"0.75"
+				"HITGROUP_LEFTLEG"			"0.50"
+				"HITGROUP_RIGHTLEG"			"0.50"
 			}
 			"VelocityHitgroups"
 			{

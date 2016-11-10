@@ -9,7 +9,7 @@
 			"print_name"					"#weapon_upgrade_hp"
 			"print_desc"					"#weapon_upgrade_hp_desc"
 		}
-		"base_ammo_ap"
+		"base_ammo_ap"                                              
 		{
 			"IsBase"						"1"
 			"upgrade_slot"					"ammo"

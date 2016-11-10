@@ -1507,14 +1507,13 @@
 			"models"
 			{
 				"player"				"models/characters/civilian_vip_security.mdl"
-				"viewmodel_hands"			"models/weapons/v_hands_vip.mdl"
-				
-				"attachments"
+				"viewmodel_hands"		"models/weapons/v_hands_vip.mdl"
+			
+				"bodygroups"
 				{
-					"cap"
-					{
-						"model"			"models/characters/us_cap_vip.mdl"
-					}
+					"kit"					"0"
+					"backpack"				"0"
+					"glasses"				"1"
 				}
 			}
 			
@@ -1543,6 +1542,13 @@
 			{
 				"player"				"models/characters/civilian_vip_security.mdl"
 				"viewmodel_hands"		"models/weapons/v_hands_vip.mdl"
+			
+				"bodygroups"
+				{
+					"kit"					"0"
+					"backpack"				"0"
+					"glasses"				"1"
+				}
 			}
 			
 			"buy_order"
@@ -1563,6 +1569,13 @@
 			{
 				"player"				"models/characters/civilian_vip_insurgent.mdl"
 				"viewmodel_hands"			"models/weapons/v_hands_vip.mdl"
+			
+				"bodygroups"
+				{
+					"kit"					"0"
+					"backpack"				"0"
+					"glasses"				"1"
+				}
 			}
 			
 			"buy_order"
@@ -1593,7 +1606,14 @@
 			"models"
 			{
 				"player"				"models/characters/civilian_vip_insurgent.mdl"
-				"viewmodel_hands"		"models/weapons/v_hands_vip.mdl"
+				"viewmodel_hands"			"models/weapons/v_hands_vip.mdl"
+			
+				"bodygroups"
+				{
+					"kit"					"0"
+					"backpack"				"0"
+					"glasses"				"1"
+				}
 			}
 			
 			"buy_order"

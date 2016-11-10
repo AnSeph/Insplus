@@ -34,12 +34,12 @@
 				"sway_speed"				"1.00"
 				"SwayRadiusByStamina"
 				{
-					"0"						"2.50"
+					"0"						"3.50"
 					"100"					"1.00"
 				}
 				"SwaySpeedByStamina"
 				{
-					"0"						"1.25"
+					"0"						"0.75"
 					"100"					"1.00"
 				}
 				"sway_radius_stand_frac"		"1.00"
@@ -50,22 +50,22 @@
 				"sway_radius_lean_frac"			"1.00"
 				"sway_speed_ironsight_frac"		"1.00"
 				"sway_speed_bipod_frac"			"0.25"
-				"sway_amount_focus_frac"		"0.15"
-				"sway_speed_focus_frac"			"0.15"
+				"sway_amount_focus_frac"		"0.20"
+				"sway_speed_focus_frac"			"15.00"
 				"sway_amount_focus_penalty"		"1.0"
 				"sway_speed_focus_penalty"		"1.0"
 				"sway_screen_ratio"				"1.00"
 				"sway_viewmodel_ratio"			"0.75"
 				"sway_screen_ads_ratio"			"1.00"
 				"sway_viewmodel_ads_ratio"		"1.00"
-				"sway_radius_interp_speed"		"6.00"
+				"sway_radius_interp_speed"		"12.00"
 				
 				"SwayRadiusFracBySpeed"
 				{
 					"0"						"0.10"
 					"80"					"4.00"
 					"145"					"9.50"
-					"220"					"50.00"
+					"220"					"150.00"
 				}
 				"SwaySpeedFracBySpeed"
 				{
@@ -76,12 +76,12 @@
 				"SwayRadiusBySuppression"
 				{
 					"0"						"1.00"
-					"100"					"15.00"
+					"100"					"20.00"
 				}
 				"SwaySpeedBySuppression"
 				{
 					"0"						"1.00"
-					"75"					"1.00"
+					"75"					"0.50"
 				}
 				
 			}
@@ -101,7 +101,7 @@
 				
 				"freeaim_ads"					"1"
 				"freeaim_distance_ads"			"5.50"
-				"freeaim_screenratio_ads"		"0.50"
+				"freeaim_screenratio_ads"		"0.91"
 				
 				"freeaim_frac"					"1.00"
 				"freeaim_frac_ads"				"0.30"
@@ -117,38 +117,38 @@
 				"recoil_additional_rest_per_shot"	"2.50"
 				"recoil_rest_max_shots"				"5.00"
 				"recoil_shot_reset_time"			"0.30"
-				"recoil_focus_frac"					"0.90"
-				"recoil_freeaim_frac"				"0.90"
+				"recoil_focus_frac"					"1.00"
+				"recoil_freeaim_frac"				"1.00"
 				"recoil_ironsight_frac"				"1.00"
 				
 				"recoil_controller_frac"			"0.75"
 				"recoil_return_controller_only"		"1"
-				"recoil_return_frac"				"0.5"
-				"recoil_return_delay"				"0.06"
+				"recoil_return_frac"				"0.50"
+				"recoil_return_delay"				"0.12"
 				"recoil_return_speed"				"6"
-				"recoil_return_speed_per_shot"		"0.1"
+				"recoil_return_speed_per_shot"		"1.0"
 				
 				
 				"RecoilBaseFracByWeight"
 				{
-					"60"					"1.00"
+					"60"					"0.70"
+					"640"					"0.65"
 				}
 				"RecoilIronSightFracByWeight"
 				{
-					"60"					"0.68"
-					"640"					"0.65"
+					"60"					"1.00"
 				}
 				"RecoilBipodFracByWeight"
 				{
-					"0"						"0.70"
+					"0"						"0.65"
 				}
 				"RecoilLeanFracByWeight"
 				{
-					"60"					"1.25"
+					"0"						"2.50"
 				}
 				"RecoilMoveFracByWeight"
 				{
-					"60"					"1.75"
+					"60"					"1.10"
 				}
 				"RecoilStandFracByWeight"
 				{
@@ -164,12 +164,12 @@
 				}
 				"RecoilLowStaminaFracByWeight"
 				{
-					"60"					"1.75"
+					"60"					"1.30"
 				}
 				"RecoilMaxFracByWeight"
 				{
-					"60"					"20.00"
-					"640"					"20.00"
+					"60"					"3.50"
+					"640"					"3.50"
 				}
 			}
 			
@@ -257,15 +257,15 @@
 				"out_time"					"0.30"
 			}
 			"recoil"
-			{
-				"recoil_freeaim_frac"		"0.50"
+			{	
 				
-				"RecoilBaseFracByWeight"
+				"RecoilIronSightFracByWeight"
 				{
-					"60"					"1.10"
+					"60"					"1.05"
 				}
 				
-				"recoil_roll_rest_rate"			"75"
+				"recoil_roll_rest_rate"		"150"
+				"recoil_focus_frac"			"0.80"
 			}
 			"kitui_offset"
 			{
@@ -295,18 +295,16 @@
 			}
 			"recoil"
 			{
-					"recoil_freeaim_frac"	"0.50"
-					
-					"RecoilBaseFracByWeight"
+					"RecoilIronSightFracByWeight"
 					{
 						"60"					"0.90"
 					}
 					
-					"recoil_roll_rest_rate"			"100"
+					"recoil_roll_rest_rate"		"100"
 			}
 			"freeaim"
 			{
-				"freeaim_frac"			"0.75"
+				"freeaim_frac"			"0.50"
 			}		
 		}
 		"assault_rifle_base"
@@ -325,12 +323,8 @@
 			}
 			"recoil"
 			{
-					"RecoilBaseFracByWeight"
-					{
-						"60"					"0.90"
-					}
-					
 					"recoil_roll_rest_rate"			"100"
+					"recoil_focus_frac"				"0.90"
 			}			
 		}
 		"assault_carbine_base"
@@ -345,14 +339,7 @@
 			}
 			"recoil"
 			{
-					"recoil_freeaim_frac"		"0.80"
-					
-					"RecoilBaseFracByWeight"
-					{
-						"60"					"0.90"
-					}
-					
-					"recoil_roll_rest_rate"			"75"
+					"recoil_roll_rest_rate"			"100"
 			}
 			"freeaim"
 			{
@@ -371,14 +358,7 @@
 			}
 			"recoil"
 			{
-					"recoil_freeaim_frac"		"0.60"
-					
-					"RecoilBaseFracByWeight"
-					{
-						"60"					"0.90"
-					}
-					
-					"recoil_roll_rest_rate"			"75"
+					"recoil_roll_rest_rate"			"100"
 			}
 			"freeaim"
 			{
@@ -393,20 +373,22 @@
 			"ironsights"
 			{
 				"in_time"					"0.40"
-				"out_time"					"0.40"
+				"out_time"					"0.45"
 			}
 			"recoil"
 			{
-				"RecoilBaseFracByWeight"
+				"RecoilBipodFracByWeight"
+				{
+					"0"						"0.30"
+				}
+				
+				"RecoilIronSightFracByWeight"
 				{
 					"60"					"1.05"
 				}
-				"RecoilBipodFracByWeight"
-				{
-					"0"						"0.55"
-				}
 				
-				"recoil_roll_rest_rate"			"75"
+				"recoil_roll_rest_rate"			"150"
+				"recoil_focus_frac"				"0.80"
 			}
 		}
 		"lmg_base"
@@ -421,9 +403,11 @@
 			}
 			"recoil"
 			{
+				"recoil_freeaim_frac"				"1.25"
+				
 				"RecoilBipodFracByWeight"
 				{
-					"0"						"0.45"
+					"0"						"0.30"
 				}
 				
 				"recoil_roll_rest_rate"			"75"
@@ -441,6 +425,8 @@
 			}
 			"recoil"
 			{
+				"recoil_freeaim_frac"				"0.75"
+				
 				"RecoilLowStaminaFracByWeight"
 				{
 					"60"					"1.00"

@@ -831,11 +831,20 @@
 			{
 				"1000"						"60" 
 				"8000"						"10" 
+			}
+			"PenetrationDamage"
+			{
+				"0"					  "1.00"	// No Armor 
+				"100"				  "0.60"	// Lgt Armor
+				"200"				  "0.50"	// Med Armor
+				"300"				  "0.30"	// Hvy Armor
 			}			
 			"DamageHitgroups"
 			{
-				"HITGROUP_LEFTLEG"				"0.75"
-				"HITGROUP_RIGHTLEG"				"0.75"
+				"HITGROUP_LEFTARM"    			"0.75"
+				"HITGROUP_RIGHTARM"   			"0.75"
+				"HITGROUP_LEFTLEG"				"0.50"
+				"HITGROUP_RIGHTLEG"				"0.50"
 			}
 		}
 		"slug"
@@ -849,11 +858,18 @@
 			{
 				"400"				"285"
 				"4500"            	"150"
-				"9000"				"40"
-			}				
+				"9000"				"100"
+			}
+			"PenetrationDamage"
+			{
+				"0"					  "0.60"	// No Armor 
+				"100"				  "0.80"	// Lgt Armor
+				"200"				  "0.50"	// Med Armor
+				"300"				  "0.25"	// Hvy Armor
+			}					
 			"PenetrationPower"
 			{
-				"1000"						  	"650" 
+				"1000"						  	"750" 
 				"8000"							"100" 
 			}
 		}

@@ -2576,7 +2576,7 @@
 		}
 		"ammo_ap_bhp"
 		{
-			"import"					"base_ammo_hp"
+			"import"					"base_ammo_ap"
 			"upgrade_cost"				"2"
 			"allowed_weapons"
 			{
