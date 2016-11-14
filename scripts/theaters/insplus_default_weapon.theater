@@ -2227,9 +2227,6 @@
 			"weapon_weight"					"152" // (3.5kg[weapon] + (0.8kg[ammo] * (1+4)[mags]) )*10[kg->hg for int]  +24[encumbrance]
 			"weapon_cost"					"3"
 		    "barrel_length"					"40"
-			"draw_speed"					"0.90"
-			"holster_speed"					"0.90"
-			"reload_speed"					"0.90"
 			
 			"viewmodel_attachments"
 			{
@@ -2323,9 +2320,6 @@
 			"weapon_weight"					"152" // (3.5kg[weapon] + (0.8kg[ammo] * (1+4)[mags]) )*10[kg->hg for int]  +24[encumbrance]
 			"weapon_cost"					"3"
 		    "barrel_length"					"40"
-			"draw_speed"					"0.90"
-			"holster_speed"					"0.90"
-			"reload_speed"					"0.90"
 			
 			"viewmodel_attachments"
 			{
@@ -2420,9 +2414,6 @@
 			"weapon_weight"					"140" // 4.1 kg
 			"weapon_cost"					"3"
 		    "barrel_length"					"40"
-			"draw_speed"					"1.00"
-			"holster_speed"					"1.00"
-			"reload_speed"					"1.00"
 			
 			"viewmodel_attachments"
 			{
@@ -2516,9 +2507,6 @@
 			"weapon_weight"					"192" // (3.5kg[weapon] + (0.8kg[ammo] * (1+4)[mags]) )*10[kg->hg for int]  +24[encumbrance]
 			"weapon_cost"					"3"
 		    "barrel_length"					"45"
-			"draw_speed"					"0.85"
-			"holster_speed"					"0.70"
-			"reload_speed"					"0.85"
             
 			"fov"
 			{
@@ -2682,8 +2670,6 @@
 			"weapon_weight"					"174"
 			"weapon_cost"					"3"
 			"barrel_length"					"40"
-			"draw_speed"					"0.90"
-			"holster_speed"					"0.90"
 			
 			"fov"
 			{
@@ -3788,9 +3774,6 @@
 			"weapon_abilities"				"ironsight, bipod"
 			"weapon_weight"					"210" // (7.5kg[weapon] + (2.5kg[ammo] * (1+1)[mags]) )*10[kg->hg for int]  +150[encumbrance]
 			"closed_bolt"					"0"
-			"draw_speed"					"0.80"
-			"holster_speed"					"0.70"
-			"reload_speed"					"0.90"
 			"barrel_length"					"35"	
 			
 			"fov"
@@ -3871,8 +3854,6 @@
 			"weapon_cost"					"2"
 			"print_name"					"#weapon_rpk"
 			"print_desc"					"#weapon_rpk_desc"
-			"draw_speed"					"0.75"
-			"holster_speed"					"0.70"
 			"rounds_per_minute"				"600"
 			"weapon_slot"					"primary"
 			"act_table"						"rifle_ak"
@@ -3970,8 +3951,6 @@
 			"weapon_abilities"				"ironsight"
 			"weapon_weight"					"264" // (6.6kg[weapon] + (0.2kg[ammo] * (1+16)[mags]) )*10[kg->hg for int]  +32[encumbrance]
 			"barrel_length"					"45"
-			"draw_speed"					"0.90"
-			"holster_speed"					"0.90"
 			
 			"viewmodel_attachments"
 			{
@@ -4056,8 +4035,6 @@
 			"weapon_abilities"				"ironsight"
 			"weapon_weight"					"180" // (4.0kg[weapon] + (0.2kg[ammo] * (1+16)[mags]) )*10[kg->hg for int]  +32[encumbrance]
 			"barrel_length"					"45"
-			"draw_speed"					"0.90"
-			"holster_speed"					"0.90"
 			
 			"fov"
 			{

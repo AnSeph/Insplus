@@ -750,6 +750,13 @@
 				"150"					"800"
 				"15000"					"150"
 			}
+			"DamageHitgroups"
+			{
+				"HITGROUP_LEFTARM"    "1.25"
+				"HITGROUP_RIGHTARM"   "1.25"
+				"HITGROUP_LEFTLEG"    "1.25"
+				"HITGROUP_RIGHTLEG"   "1.25"
+			}
 			"PenetrationDamage"
 			{
 				"0"					  "1.00"	// No Armor 
@@ -1460,6 +1467,13 @@
 				"200"							"140"
 				"8000"							"140"
 				"60000"							"100"
+			}
+			"DamageHitgroups"
+			{
+				"HITGROUP_LEFTARM"    "1.25"
+				"HITGROUP_RIGHTARM"   "1.25"
+				"HITGROUP_LEFTLEG"    "1.25"
+				"HITGROUP_RIGHTLEG"   "1.25"
 			}
 			"PenetrationDamage"
 			{

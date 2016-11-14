@@ -132,7 +132,6 @@
 				"RecoilBaseFracByWeight"
 				{
 					"60"					"0.70"
-					"640"					"0.65"
 				}
 				"RecoilIronSightFracByWeight"
 				{
@@ -246,6 +245,9 @@
 			"import"					"ballistic_base"
 			"barrel_length"				"12"
 			
+			"draw_speed"				"1.15"
+			"holster_speed"				"1.00"
+			
 			"player_restrictions"
 			{
 				"allow_reload_sprint"	"1"
@@ -284,6 +286,9 @@
 			"import"					"ballistic_base"
 			"barrel_length"				"12"
 			
+			"draw_speed"				"1.00"
+			"holster_speed"				"1.00"
+			
 			"player_restrictions"
 			{
 				"allow_reload_sprint"	"1"
@@ -297,7 +302,7 @@
 			{
 					"RecoilIronSightFracByWeight"
 					{
-						"60"					"0.90"
+						"60"					"0.95"
 					}
 					
 					"recoil_roll_rest_rate"		"100"
@@ -311,6 +316,10 @@
 		{
 			"IsBase"	"1"
 			"import"	"ballistic_base"
+			
+			"draw_speed"				"0.80"
+			"holster_speed"				"0.80"
+			"reload_speed"				"0.95"
 			
 			"ironsights"
 			{
@@ -332,6 +341,9 @@
 			"IsBase"	"1"
 			"import"	"ballistic_base"
 			
+			"draw_speed"				"0.80"
+			"holster_speed"				"0.80"
+			
 			"ironsights"
 			{
 				"in_time"					"0.30"
@@ -351,6 +363,9 @@
 			"IsBase"	"1"
 			"import"	"ballistic_base"
 			
+			"draw_speed"				"0.80"
+			"holster_speed"				"0.80"
+			
 			"ironsights"
 			{
 				"in_time"					"0.30"
@@ -369,6 +384,10 @@
 		{
 			"IsBase"	"1"
 			"import"	"ballistic_base"
+			
+			"draw_speed"				"0.70"
+			"holster_speed"				"0.70"
+			"reload_speed"				"0.90"
 			
 			"ironsights"
 			{
@@ -396,6 +415,13 @@
 			"IsBase"	"1"
 			"import"	"ballistic_base"
 			
+			"draw_speed"				"0.70"
+			"holster_speed"				"0.70"
+			"reload_speed"				"0.90"
+			
+			"draw_speed_next_weapon"	"0.80"
+			"holster_speed_prev_weapon"	"1.00"
+			
 			"ironsights"
 			{
 				"in_time"					"0.55"
@@ -417,6 +443,9 @@
 		{
 			"IsBase"	"1"
 			"import"	"ballistic_base"
+			
+			"draw_speed"				"1.00"
+			"holster_speed"				"1.00"
 			
 			"ironsights"
 			{
@@ -446,6 +475,9 @@
 			"barrel_length"				"12"
 			"weapon_requirements"		"ironsights_stationary"
 			
+			"draw_speed"				"0.70"
+			"holster_speed"				"0.70"
+			
 			"ironsights"
 			{
 				"in_time"					"0.40"
@@ -464,6 +496,8 @@
 			"weapon_type"			"grenade"
 			"weapon_slot"			"explosive"
 			"act_table"				"grenade"
+			"draw_speed"			"1.10"
+			"holster_speed"			"1.00"
 			
 			"explosives"
 			{
