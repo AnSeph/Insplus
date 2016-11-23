@@ -56,7 +56,7 @@
 			"FrictionByWeight"
 			{
 				"60"					"4.20"
-				"640"					"2.75"
+				"640"					"2.80"
 			}
 			"SprintSpeedFactorByStamina"
 			{
@@ -153,8 +153,8 @@
 		}
 		"suppression"
 		{
-			"suppression_resistance"			"0.15"
-			"suppression_recovery_rate"			"15"
+			"suppression_resistance"			"0.25"
+			"suppression_recovery_rate"			"30"
 		}
 		"damage"
 		{
@@ -166,8 +166,8 @@
 			"DamageHitgroups"
 			{
 				"HITGROUP_HEAD"				"5.00"	// death
-				"HITGROUP_CHEST"			"1.50"
-				"HITGROUP_STOMACH"			"1.25"
+				"HITGROUP_CHEST"			"2.00"
+				"HITGROUP_STOMACH"			"1.75"
 				"HITGROUP_LEFTARM"			"0.75"
 				"HITGROUP_RIGHTARM"			"0.75"
 				"HITGROUP_LEFTLEG"			"0.50"

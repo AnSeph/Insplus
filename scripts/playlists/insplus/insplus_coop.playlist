@@ -183,12 +183,29 @@
 		"mp_coop_max_bots"						"18"	// number of bots when there are 8 players on the server
 		"bot_damage"							"1.0"	// the amount of damage bots give off compared to normal players
 		"mp_voice_use_3d_voip"					"1"		// disabling this will turn off the 3d voip system and allow all players to hear one another
-		"sv_vote_issue_changegamemode_allowed"	"0"		// no changegamemode
 		
 		"checkpoint"
 		{
 			"ins_bot_count_checkpoint_min" 	"8"
 			"ins_bot_count_checkpoint_max" 	"24" // adjusts maximum number of bots in Checkpoint to 24 from 16
+		}
+		"survival"
+		{
+			"ins_bot_count_survival" 					"0"			// A forced bot count for Survival (if 0 it will be set per-level depending on player count)
+			"ins_bot_count_survival_start_min" 			"2"			// The min bot count at the start of Survival (1 player in lobby)
+			"ins_bot_count_survival_start_max" 			"6"			// The max bot count at the start of Survival (full lobby)
+			"ins_bot_count_survival_max"				"22"		// The max bot count at the end of Survival.
+			"ins_bot_count_survival_level_multiplier" 	"1.01"		// Multiplier applied to bot count each round that passes
+			"ins_survival_bot_spawn_distance"			"2800"		// Min distance between players and bot spawn zones
+			"ins_survival_next_cache_min_distance"		"3600"		// Distance the next cache must be in order to qualify as the next possible objective
+			"ins_survival_coordinated_attack_time_min"	"30"		// Min seconds that bots will attack the most recently captured point
+			"ins_survival_coordinated_attack_time_max"	"60"		// Max seconds that bots will attack the most recently captured point
+			"ins_survival_cache_secure_team_ratio"		"0.5"		// Percentage of team required to secure a cache
+			"ins_survival_cache_secure_cooldown_time"	"10"		// Time before you can secure another safehouse
+			"ins_survival_safehouse_tip_delay_min"		"10"		// Min time before the attacking team is tipped off about your safehouse
+			"ins_survival_safehouse_tip_delay_max"		"20"		// Max time before the attacking team is tipped off about your safehouse
+			"ins_bot_survival_cache_notify_radius_max"	"5200"		// Notify radius of cache capture in survival mode (in early game)
+			"ins_bot_survival_cache_notify_radius_min"	"3000"		// Notify radius of cache capture in survival mode (in later game)
 		}
 	}
 	

@@ -76,7 +76,6 @@
 			"print_name"					"#weapon_upgrade_insplus_heavybarrel"
 			"print_desc"					"#weapon_upgrade_insplus_heavybarrel_desc"
 			"spread_frac"					"0.60"
-			"draw_speed"					"0.95"
 			"ads_in_speed"					"0.90"
 			"ads_out_speed"					"0.90"
 			

@@ -36,7 +36,6 @@ Note: modifiers to freeaim radius affect both hipfire and ironsight radius. Decr
 - Increased sway radius by 20%
 - Decreases weapon spread by 40%
 - Decreases ads in an out speed by 5%
-- Decreases draw speed by 5%
 [b]Grenade Launchers:[/b]
 - Decreases vertical recoil by 5%
 

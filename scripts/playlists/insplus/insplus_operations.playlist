@@ -119,7 +119,6 @@
 		"sv_deadtalk"							"1"				// enabling this will allow the dead and living to chat text each other
 		"sv_deadtalk_team"						"1"				// is deadchat limited to just your team?
 		"sv_deadvoice"							"1"				// enabling this will allow the dead and living to VOIP each other
-		"sv_vote_issue_changegamemode_allowed"	"0"				// no changegamemode
 		"sv_nwi_banlist"						"1"				// global ban list
 		"mp_supply_token_base"					"10"			// force to 10 starting supply, too many are changing this
 		"host_timescale"						"1.0"
