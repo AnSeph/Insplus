@@ -154,7 +154,7 @@
 		"suppression"
 		{
 			"suppression_resistance"			"0.25"
-			"suppression_recovery_rate"			"30"
+			"suppression_recovery_rate"			"35"
 		}
 		"damage"
 		{

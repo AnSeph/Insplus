@@ -263,7 +263,7 @@
 			{
 				"200"      	"105"
 				"8000"    	"105" 
-				"60000"   	"85"
+				"40000"   	"80"
 			}
 			"PenetrationPower"
 			{
@@ -328,7 +328,7 @@
 			{
 				"200"      	"105"
 				"7000"		"105" 
-				"10000"   	"70"
+				"20000"   	"80"
 			}
 			"PenetrationPower"
 			{
@@ -394,7 +394,7 @@
 			{
 				"200"     "120" // bullets fragment at under 30m dealing more damage. (truly more like 150m but compromise for gameplay)
 				"8000"    "110" 
-				"60000"   "80" 
+				"40000"   "85" 
 			}
 			"PenetrationPower" // Maybe offer or imply Mk318 rounds which are like combined HP and AP at high cost?
 			{
@@ -459,7 +459,7 @@
 			{
 				"200"      	"120" // bullets fragment at under 30m dealing more damage. (truly more like 60m but compromise for gameplay)
 				"6000"		"110"
-				"60000"   	"75" 
+				"30000"   	"85" 
 			}
 			"PenetrationPower"
 			{
@@ -524,7 +524,7 @@
 			{
 				"200"      	"130" // bullets fragment at under 20m dealing more damage. (truly more like 50m but compromise for gameplay)
 				"4000"		"110"
-				"50000"   	"70" 
+				"20000"   	"85" 
 			}
 			"PenetrationPower" // Maybe offer or imply Mk318 rounds which are like combined HP and AP at high cost?
 			{
@@ -590,7 +590,7 @@
 			{
 				"200"      			"100"
 				"7000"    			"100"
-				"60000"   			"75" 
+				"40000"   			"80" 
 			}
 			"PenetrationPower"
 			{
@@ -651,16 +651,16 @@
 			"import"    "default"
 			"SuppressionIncrement"		"30"
 			"brass_model"				"models/weapons/shells/762x33.mdl"
-			"PenetrationPower"
-			{
-				"200"      	"450"
-				"12000"   	"100"
-			}
 			"Damage"					
 			{
 				"200"      	"100"
 				"3100"		"100"
 				"20000"   	"70" 
+			}
+			"PenetrationPower"
+			{
+				"200"      	"450"
+				"12000"   	"100"
 			}
 			"PenetrationDamage"
 			{
