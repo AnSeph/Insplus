@@ -665,7 +665,7 @@
 			"PenetrationDamage"
 			{
 				"0"					  "1.00"	// No Armor 
-				"100"				  "1.00"	// Lgt Armor
+				"100"				  "0.75"	// Lgt Armor
 				"200"				  "0.50"	// Med Armor
 				"300"				  "0.30"	// Hvy Armor
 			}
@@ -681,8 +681,8 @@
 			"PenetrationDamage"
 			{
 				"0"					  "1.75"	// No Armor 
-				"100"				  "0.80"	// Lgt Armor
-				"200"				  "0.40"	// Med Armor
+				"100"				  "0.55"	// Lgt Armor
+				"200"				  "0.35"	// Med Armor
 				"300"				  "0.25"	// Hvy Armor
 			}
 		}
@@ -1319,7 +1319,7 @@
 			"PenetrationDamage"
 			{
 				"0"					  "1.00"	// No Armor 
-				"100"				  "1.00"	// Lgt Armor
+				"100"				  "0.90"	// Lgt Armor
 				"200"				  "0.50"	// Med Armor
 				"300"				  "0.30"	// Hvy Armor
 			}
@@ -1378,7 +1378,7 @@
 			"PenetrationDamage"
 			{
 				"0"					  "1.00"	// No Armor 
-				"100"				  "1.00"	// Lgt Armor
+				"100"				  "0.90"	// Lgt Armor
 				"200"				  "0.50"	// Med Armor
 				"300"				  "0.30"	// Hvy Armor
 			}
