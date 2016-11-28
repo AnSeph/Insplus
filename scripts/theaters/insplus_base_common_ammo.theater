@@ -118,7 +118,7 @@
 			"brass_model" 				"models/weapons/shells/9x19.mdl"
 			"Damage"					
 			{
-				"2000"      "60"
+				"1500"      "60"
 				"12000"    	"25"
 			}
 			"PenetrationPower"
@@ -182,7 +182,7 @@
 			"brass_model" 				"models/weapons/shells/45apc.mdl"
 			"Damage"					
 			{
-				"2000"      "65"
+				"1500"      "65"
 				"12000"    	"20"
 			}
 			"PenetrationPower"
@@ -1308,7 +1308,7 @@
 			"brass_model" 				"models/weapons/shells/9x19.mdl"
 			"Damage"
 			{
-				"2000"		"75"
+				"1500"		"75"
 				"12000"		"20"
 			}
 			"PenetrationPower"
@@ -1372,7 +1372,7 @@
 			}
 			"Damage"
 			{
-				"2000"		"75"
+				"1500"		"75"
 				"12000"		"20"
 			}
 			"PenetrationDamage"
