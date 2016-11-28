@@ -118,8 +118,8 @@
 			"brass_model" 				"models/weapons/shells/9x19.mdl"
 			"Damage"					
 			{
-				"2000"      "65"
-				"12000"    	"40"
+				"2000"      "60"
+				"12000"    	"25"
 			}
 			"PenetrationPower"
 			{
@@ -144,7 +144,7 @@
 			}
 			"PenetrationDamage"
 			{
-				"0"					  "2.00"	// No Armor 
+				"0"					  "1.75"	// No Armor 
 				"100"				  "0.50"	// Lgt Armor
 				"200"				  "0.30"	// Med Armor
 				"300"				  "0.20"	// Hvy Armor
@@ -182,8 +182,8 @@
 			"brass_model" 				"models/weapons/shells/45apc.mdl"
 			"Damage"					
 			{
-				"2000"      "80"
-				"12000"    	"45"
+				"2000"      "65"
+				"12000"    	"20"
 			}
 			"PenetrationPower"
 			{
@@ -192,7 +192,7 @@
 			}
 			"PenetrationDamage"
 			{
-				"0"					  "1.10"	// No Armor 
+				"0"					  "1.20"	// No Armor 
 				"100"				  "0.60"	// Lgt Armor
 				"200"				  "0.30"	// Med Armor
 				"300"				  "0.15"	// Hvy Armor
@@ -234,7 +234,7 @@
 			}
 			"PenetrationDamage"
 			{
-				"0"					  "0.80"	// No Armor 
+				"0"					  "0.85"	// No Armor 
 				"100"				  "1.50"	// Lgt Armor
 				"200"				  "0.40"	// Med Armor
 				"300"				  "0.30"	// Hvy Armor
@@ -1308,8 +1308,8 @@
 			"brass_model" 				"models/weapons/shells/9x19.mdl"
 			"Damage"
 			{
-				"2000"		"80"
-				"10000"		"45"
+				"2000"		"75"
+				"12000"		"20"
 			}
 			"PenetrationPower"
 			{
@@ -1372,8 +1372,8 @@
 			}
 			"Damage"
 			{
-				"2000"		"80"
-				"10000"		"45"
+				"2000"		"75"
+				"12000"		"20"
 			}
 			"PenetrationDamage"
 			{

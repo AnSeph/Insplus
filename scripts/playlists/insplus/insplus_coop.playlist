@@ -162,6 +162,8 @@
 		"drycanal_night" "conquer"
 		"drycanal_night" "outpost"
 		"drycanal_night" "survival"
+		"estates" "checkpoint"
+		"estates" "hunt"
 	}
 	
 	"cvars"
