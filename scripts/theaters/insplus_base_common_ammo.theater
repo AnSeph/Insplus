@@ -118,8 +118,8 @@
 			"brass_model" 				"models/weapons/shells/9x19.mdl"
 			"Damage"					
 			{
-				"1500"      "60"
-				"12000"    	"25"
+				"400"      	"60"
+				"12000"    	"30"
 			}
 			"PenetrationPower"
 			{
@@ -144,7 +144,7 @@
 			}
 			"PenetrationDamage"
 			{
-				"0"					  "1.75"	// No Armor 
+				"0"					  "1.50"	// No Armor 
 				"100"				  "0.50"	// Lgt Armor
 				"200"				  "0.30"	// Med Armor
 				"300"				  "0.20"	// Hvy Armor
@@ -182,8 +182,8 @@
 			"brass_model" 				"models/weapons/shells/45apc.mdl"
 			"Damage"					
 			{
-				"1500"      "65"
-				"12000"    	"20"
+				"400"      	"75"
+				"12000"    	"37"
 			}
 			"PenetrationPower"
 			{
@@ -192,7 +192,7 @@
 			}
 			"PenetrationDamage"
 			{
-				"0"					  "1.20"	// No Armor 
+				"0"					  "1.00"	// No Armor 
 				"100"				  "0.60"	// Lgt Armor
 				"200"				  "0.30"	// Med Armor
 				"300"				  "0.15"	// Hvy Armor
@@ -1278,7 +1278,7 @@
 			"brass_model" 				"models/weapons/shells/45apc.mdl"
 			"Damage"					
 			{
-				"2000"		"100"
+				"400"		"100"
 				"10000"    	"65"
 			}
 			"PenetrationPower"
@@ -1308,8 +1308,8 @@
 			"brass_model" 				"models/weapons/shells/9x19.mdl"
 			"Damage"
 			{
-				"1500"		"75"
-				"12000"		"20"
+				"400"		"65"
+				"12000"		"30"
 			}
 			"PenetrationPower"
 			{
@@ -1319,7 +1319,7 @@
 			"PenetrationDamage"
 			{
 				"0"					  "1.00"	// No Armor 
-				"100"				  "0.90"	// Lgt Armor
+				"100"				  "1.00"	// Lgt Armor
 				"200"				  "0.50"	// Med Armor
 				"300"				  "0.30"	// Hvy Armor
 			}
@@ -1336,7 +1336,7 @@
 			}
 			"PenetrationDamage"
 			{
-				"0"					  "2.00"	// No Armor 
+				"0"					  "1.75"	// No Armor 
 				"100"				  "0.50"	// Lgt Armor
 				"200"				  "0.30"	// Med Armor
 				"300"				  "0.20"	// Hvy Armor
@@ -1354,7 +1354,7 @@
 			}
 			"PenetrationDamage"
 			{
-				"0"					  "0.80"	// No Armor 
+				"0"					  "0.90"	// No Armor 
 				"100"				  "1.25"	// Lgt Armor
 				"200"				  "0.60"	// Med Armor
 				"300"				  "0.35"	// Hvy Armor
@@ -1372,13 +1372,13 @@
 			}
 			"Damage"
 			{
-				"1500"		"75"
-				"12000"		"20"
+				"400"		"65"
+				"12000"		"30"
 			}
 			"PenetrationDamage"
 			{
 				"0"					  "1.00"	// No Armor 
-				"100"				  "0.90"	// Lgt Armor
+				"100"				  "1.00"	// Lgt Armor
 				"200"				  "0.50"	// Med Armor
 				"300"				  "0.30"	// Hvy Armor
 			}
@@ -1413,7 +1413,7 @@
 			}
 			"PenetrationDamage"
 			{
-				"0"					  "0.95"	// No Armor 
+				"0"					  "0.90"	// No Armor 
 				"100"				  "1.50"	// Lgt Armor
 				"200"				  "0.50"	// Med Armor
 				"300"				  "0.30"	// Hvy Armor
