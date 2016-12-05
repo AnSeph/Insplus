@@ -35,11 +35,13 @@
 				"SwayRadiusByStamina"
 				{
 					"0"						"3.50"
+					"25"					"1.00"
 					"100"					"1.00"
 				}
 				"SwaySpeedByStamina"
 				{
 					"0"						"0.75"
+					"25"					"1.00"
 					"100"					"1.00"
 				}
 				"sway_radius_stand_frac"		"1.00"
@@ -75,13 +77,15 @@
 				}
 				"SwayRadiusBySuppression"
 				{
-					"75"					"1.00"
+					"0"						"1.00"
+					"85"					"1.00"
 					"100"					"25.00"
 				}
 				"SwaySpeedBySuppression"
 				{
-					"75"					"1.00"
-					"100"					"0.75"
+					"0"						"1.00"
+					"85"					"1.00"
+					"150"					"0.75"
 				}
 				
 			}
